@@ -4,7 +4,7 @@
   "source_files": [
     {
       "path": "data/questions-official.json",
-      "sha256": "7cff60247c156b54936255544affe83b1a3ec6722acc9155daf01a83043aa23e",
+      "sha256": "ce2e5b8d84c4b38ac8577bf9e55137212aaaa8fc86e6dc926df0769ec6f24c56",
       "data_version": "2.2.0",
       "updated_at": "2026-11-20"
     },

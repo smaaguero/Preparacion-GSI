@@ -41,6 +41,15 @@ Ficheros afectados: `content/enhancements/b2-visuals.json`, `content/enhancement
 - `tests/phase7b2-tests.js` espera ahora 38 documentos de fuente: los 37 anteriores más la plantilla provisional 2025, que queda como documento sustituido.
 - `scripts/run_gsi_suite.py` acepta `GSI_STAGE_TIMEOUT` para ampliar el límite de cada etapa, que sigue siendo de 240 s por defecto. En WSL, el recorrido de navegador, que ahora también hace el examen de 2025, dura unos 250 s.
 
+### 5. Explicaciones razonadas de las preguntas oficiales
+
+El INAP solo publica la letra correcta. El fork añade a cada pregunta oficial activa una explicación breve: por qué es correcta la clave, qué hace falsos los distractores más tentadores y una referencia (artículo, norma o documentación).
+
+- Las explicaciones están en `content/official-explanations.json`, separadas de los registros oficiales, que no cambian (enunciado, opciones y clave).
+- `scripts/import_gsi_official.py` las añade al feedback con la etiqueta «Explicación del fork (no oficial; referencia: …)».
+- Se redactaron con ayuda de IA. Los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si una clave oficial ha quedado desfasada, por ejemplo por una fecha de soporte ya vencida, se indica.
+- Cobertura: convocatoria 2025 (102 preguntas).
+
 ### 4. Identificación del fork
 
 Se añaden avisos de versión modificada en el pie de `index.html` y `review.html`, en `licencia.html` y al principio del README. El crédito y los enlaces al creador original se mantienen.

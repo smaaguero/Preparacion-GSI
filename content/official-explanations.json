@@ -1,0 +1,416 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-20",
+  "scope": "Fork smaaguero/Preparacion-GSI. Explicaciones razonadas de las preguntas oficiales INAP; no forman parte de la plantilla oficial.",
+  "method": "Redacción asistida por IA. Cada explicación justifica la clave oficial y cita la norma o documentación de referencia; los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si la clave oficial ha quedado desfasada, se indica expresamente.",
+  "explanations": {
+    "OFF-GSI-INAP-2025-Q001": {
+      "ref": "CE, arts. 62 y 94.1",
+      "text": "El art. 62 CE atribuye al Rey, entre otras funciones, expedir los decretos acordados en Consejo de Ministros, convocar a referéndum y nombrar y separar a los miembros del Gobierno a propuesta de su Presidente. Autorizar tratados que impliquen obligaciones financieras para la Hacienda Pública no es función del Rey: según el art. 94.1.d) CE, requiere autorización previa de las Cortes Generales."
+    },
+    "OFF-GSI-INAP-2025-Q002": {
+      "ref": "CE, arts. 28 y 53.2",
+      "text": "El art. 53.2 CE reserva el procedimiento preferente y sumario y el recurso de amparo a los derechos del art. 14 y de la Sección 1.ª del Capítulo II (arts. 15 a 29), además de la objeción de conciencia del art. 30. La libertad sindical es el art. 28. La propiedad y la herencia (art. 33) están en la Sección 2.ª, y la salud (art. 43) y la vivienda (art. 47) son principios rectores sin amparo."
+    },
+    "OFF-GSI-INAP-2025-Q003": {
+      "ref": "CE, art. 68.4",
+      "text": "Literal del art. 68.4 CE: «El Congreso es elegido por cuatro años. El mandato de los Diputados termina cuatro años después de su elección o el día de la disolución de la Cámara». No son cinco años ni un mandato indefinido, y no termina «el día de las siguientes elecciones»."
+    },
+    "OFF-GSI-INAP-2025-Q004": {
+      "ref": "CE, art. 155.1",
+      "text": "El art. 155.1 CE exige requerir antes al Presidente de la Comunidad Autónoma y, si no atiende el requerimiento, obtener la aprobación por mayoría absoluta del Senado, la cámara de representación territorial. No interviene el Congreso, ni las Cortes en sesión conjunta, ni el Tribunal Constitucional."
+    },
+    "OFF-GSI-INAP-2025-Q005": {
+      "ref": "CE, art. 97",
+      "text": "El art. 97 CE dice que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y que «ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes». Es la expresión del principio de legalidad."
+    },
+    "OFF-GSI-INAP-2025-Q006": {
+      "ref": "CE, art. 111",
+      "text": "El art. 111.2 CE establece que «toda interpelación podrá dar lugar a una moción en la que la Cámara manifieste su posición». La interpelación es un instrumento de control que no provoca por sí misma ceses, cuestiones de confianza ni comisiones de investigación."
+    },
+    "OFF-GSI-INAP-2025-Q007": {
+      "ref": "Ley 19/2013, art. 20.4",
+      "text": "Según el art. 20.4 de la Ley 19/2013, si transcurre el plazo máximo sin resolución expresa notificada, «se entenderá que la solicitud ha sido desestimada»: silencio negativo. El plazo general es de un mes y puede ampliarse otro mes por volumen o complejidad (art. 20.1), pero la ampliación no es automática."
+    },
+    "OFF-GSI-INAP-2025-Q008": {
+      "ref": "Ley 19/2013, arts. 12 y 17.3",
+      "text": "El art. 17.3 de la Ley 19/2013 dispone que el solicitante no está obligado a motivar su solicitud, aunque puede exponer sus motivos. El derecho corresponde a todas las personas (art. 12), sin requisito de nacionalidad ni de interés legítimo."
+    },
+    "OFF-GSI-INAP-2025-Q009": {
+      "ref": "LO 3/2007, art. 45.2",
+      "text": "Desde la reforma del Real Decreto-ley 6/2019, el art. 45.2 de la LO 3/2007 obliga a elaborar y aplicar un plan de igualdad a las empresas de 50 o más personas trabajadoras. Antes el umbral era de 250."
+    },
+    "OFF-GSI-INAP-2025-Q010": {
+      "ref": "Ley 4/2023, art. 44",
+      "text": "La Ley 4/2023 regula la rectificación registral de la mención del sexo basada en la libre autodeterminación de la identidad de género: no exige informes médicos o psicológicos ni haber modificado la apariencia o la corporalidad mediante tratamientos (art. 44.3). Las personas mayores de 16 años pueden solicitarla por sí mismas."
+    },
+    "OFF-GSI-INAP-2025-Q011": {
+      "ref": "Reglamento (UE) 910/2014 (eIDAS), art. 25.2",
+      "text": "Literal del art. 25.2 eIDAS: «una firma electrónica cualificada tendrá un efecto jurídico equivalente al de una firma manuscrita». La cualificada es una firma avanzada creada con un dispositivo cualificado y basada en un certificado cualificado."
+    },
+    "OFF-GSI-INAP-2025-Q012": {
+      "ref": "Carta de Derechos Digitales (2021), derecho al pseudonimato",
+      "text": "La Carta admite el uso de pseudónimos, pero su diseño debe asegurar la posibilidad de reidentificar a las personas previa resolución judicial, en los casos y con las garantías del ordenamiento. No garantiza un anonimato absoluto ni permite la reidentificación sin juez. La Carta no es una norma con rango de ley."
+    },
+    "OFF-GSI-INAP-2025-Q013": {
+      "ref": "RGPD, art. 33.1",
+      "text": "El art. 33.1 RGPD obliga al responsable a notificar la violación de seguridad a la autoridad de control sin dilación indebida y, de ser posible, en las 72 horas siguientes a tener constancia de ella, salvo que sea improbable que constituya un riesgo. Si notifica más tarde, debe justificar el retraso."
+    },
+    "OFF-GSI-INAP-2025-Q014": {
+      "ref": "Ley 39/2015, art. 21.2 y 21.3",
+      "text": "Si la norma reguladora no fija el plazo, el art. 21.3 lo fija en tres meses. Según el art. 21.2, el plazo máximo no puede exceder de seis meses salvo que una norma con rango de ley establezca uno mayor o lo prevea el Derecho de la UE. El cómputo empieza en el acuerdo de iniciación (de oficio) o en la entrada en el registro electrónico (a solicitud)."
+    },
+    "OFF-GSI-INAP-2025-Q015": {
+      "ref": "Ley 39/2015, art. 85.3",
+      "text": "En los procedimientos sancionadores con sanción solo pecuniaria, el art. 85.3 obliga a aplicar reducciones de, al menos, el 20 % sobre el importe propuesto por reconocimiento de responsabilidad y otro 20 % por pago voluntario antes de la resolución. Son acumulables, su efectividad exige renunciar a recursos en vía administrativa y el porcentaje puede incrementarse reglamentariamente."
+    },
+    "OFF-GSI-INAP-2025-Q016": {
+      "ref": "Guía CCN-STIC 804, medida ORG.3",
+      "text": "La guía de implantación del ENS (CCN-STIC 804) indica para ORG.3 (procedimientos de seguridad) que los procedimientos operativos deben cubrir, al menos, el 80 % de las actividades rutinarias, además de las tareas poco frecuentes que exigen pasos muy precisos. Es un dato literal de la guía: memorízalo tal cual."
+    },
+    "OFF-GSI-INAP-2025-Q017": {
+      "ref": "Guía CCN-STIC 807 (criptología de empleo en el ENS)",
+      "text": "Los modos AE/AEAD cifran y autentican a la vez. Con AES, la CCN-STIC 807 recoge como recomendados EAX, GCM y CCM. CBC, CTR, CFB y OFB solo cifran y necesitan un MAC aparte para garantizar la integridad, así que las opciones que los incluyen no son esquemas de cifrado autenticado."
+    },
+    "OFF-GSI-INAP-2025-Q018": {
+      "ref": "Real Decreto 1125/2024, art. 9.2",
+      "text": "El RD 1125/2024 regula la Administración Digital de la AGE. Según su art. 9.2, la utilización de los medios y servicios declarados transversales es obligatoria y sustitutiva respecto a los medios y servicios particulares de las distintas unidades. Así se impulsa la consolidación y se evitan soluciones duplicadas."
+    },
+    "OFF-GSI-INAP-2025-Q019": {
+      "ref": "Catálogo de Servicios de Administración Digital (PAe), ficha FIRe",
+      "text": "FIRe es la solución de firma centralizada de la AGE: integra la firma con certificado local (Autofirma) y en la nube (Cl@ve Firma) desde un único punto. Tiene un componente central y el API FIRe, formado por librerías que las aplicaciones integran para usar el servicio. SCSP es intermediación de datos y Moses es un motor de traducción, no componentes de FIRe."
+    },
+    "OFF-GSI-INAP-2025-Q020": {
+      "ref": "Arquitectura de discos magnéticos: Zoned Bit Recording",
+      "text": "Con ZBR las pistas se agrupan en zonas: las exteriores, más largas, tienen más sectores que las interiores, y así se aprovecha mejor la superficie. A igual velocidad de giro, la zona exterior lee más datos por vuelta y es la más rápida, por eso B es falsa. La densidad de grabación sí mide la información por unidad de superficie (C falsa)."
+    },
+    "OFF-GSI-INAP-2025-Q021": {
+      "ref": "Gestión de dispositivos móviles: BYOD y MDM/UEM",
+      "text": "Los dispositivos móviles y el BYOD (uso de dispositivos personales) son un reto creciente de seguridad y gestión: mezclan datos personales y corporativos, multiplican los puntos de acceso y obligan a usar MDM/EMM/UEM, contenedores y políticas de acceso condicional. Las demás opciones son tecnologías maduras y controladas."
+    },
+    "OFF-GSI-INAP-2025-Q022": {
+      "ref": "Fundamentos de sistemas operativos",
+      "text": "El sistema operativo gestiona recursos (CPU, memoria, E/S, ficheros), ejecuta programas y ofrece la interfaz con el usuario. Gestionar y mantener bases de datos corresponde al SGBD, un software de base que funciona sobre el sistema operativo pero no es una de sus funciones."
+    },
+    "OFF-GSI-INAP-2025-Q023": {
+      "ref": "Estructura de sistemas operativos: microkernel",
+      "text": "Un microkernel deja en el núcleo lo mínimo (planificación básica, gestión de memoria e IPC). Los demás servicios, como sistemas de ficheros, drivers o red, se ejecutan fuera del núcleo como procesos servidores que se comunican mediante mensajes con un modelo cliente-servidor. Lo opuesto es el núcleo monolítico. No es exclusivo del tiempo real y depende precisamente de la IPC."
+    },
+    "OFF-GSI-INAP-2025-Q024": {
+      "ref": "Paradigmas de programación: sistemas de tipos",
+      "text": "En el tipado dinámico los tipos se comprueban en tiempo de ejecución y van asociados a los valores, de modo que una misma variable puede contener valores de tipos distintos a lo largo de la ejecución (Python, JavaScript). Determinar el tipo en compilación (D) es tipado estático. La declaración explícita (A) tampoco es obligatoria en todos los lenguajes estáticos."
+    },
+    "OFF-GSI-INAP-2025-Q025": {
+      "ref": "Tipos algebraicos de datos (ADT)",
+      "text": "Los tipos algebraicos combinan tipos suma (variantes, como enum de Rust o los tipos de datos de Haskell) y tipos producto (registros o tuplas). Con la coincidencia de patrones, el compilador obliga a tratar todos los casos posibles, lo que permite modelar estados de forma exhaustiva y segura. No eliminan las interfaces ni resuelven la herencia múltiple."
+    },
+    "OFF-GSI-INAP-2025-Q026": {
+      "ref": "Data warehouse según Inmon",
+      "text": "Inmon define el almacén de datos como orientado a temas, integrado, variable en el tiempo y no volátil: los datos se cargan y se consultan, pero no se modifican ni se borran de forma continua. Las actualizaciones constantes son propias de los sistemas OLTP, no del data warehouse."
+    },
+    "OFF-GSI-INAP-2025-Q027": {
+      "ref": "SQL: sublenguajes DDL y DML",
+      "text": "CREATE, ALTER y DROP son DDL, porque definen estructuras. INSERT, UPDATE, DELETE y SELECT son DML (a veces SELECT se clasifica como DQL). Por eso solo «Create - DDL» es una asociación correcta: DROP no es DML e INSERT no es DDL."
+    },
+    "OFF-GSI-INAP-2025-Q028": {
+      "ref": "Tipos de SGBD: relacionales y NoSQL",
+      "text": "Apache Cassandra es una base de datos NoSQL distribuida de columna ancha (wide-column), inspirada en Dynamo y BigTable. MySQL, Oracle Database y MariaDB son SGBD relacionales."
+    },
+    "OFF-GSI-INAP-2025-Q029": {
+      "ref": "Arquitecturas distribuidas: middleware",
+      "text": "El middleware es la capa intermedia entre el sistema operativo o la red y las aplicaciones. Ofrece una interfaz uniforme y oculta la heterogeneidad de los nodos (plataformas, lenguajes, ubicación). Se apoya en protocolos de comunicación, no los elimina, y no sustituye a la capa de datos."
+    },
+    "OFF-GSI-INAP-2025-Q030": {
+      "ref": "Arquitecturas multicapa (n-tier)",
+      "text": "Separar presentación, lógica de negocio y datos reduce el acoplamiento: cada capa evoluciona, se escala y se mantiene por separado, y sobre la misma lógica caben varias interfaces de usuario. Las capas se comunican mediante interfaces bien definidas y pueden estar en equipos distintos."
+    },
+    "OFF-GSI-INAP-2025-Q031": {
+      "ref": "Kubernetes: Pod spec (hostPID)",
+      "text": "hostPID: true hace que el Pod comparta el espacio de nombres de procesos del nodo, de modo que ps o /proc muestran los procesos del anfitrión. privileged: true concede capacidades y acceso a dispositivos, pero no cambia por sí solo el namespace de PID. allowPrivilegeEscalation afecta a la escalada dentro del contenedor, y un hostPath de solo lectura expone ficheros, no procesos."
+    },
+    "OFF-GSI-INAP-2025-Q034": {
+      "ref": "Direccionamiento IPv4 y CIDR",
+      "text": "Con /17 hay 17 bits de red: 255.255.128.0 (8 + 8 + 1 bit del tercer octeto). La wildcard es su complemento, 0.0.127.255. El primer octeto, 171, está entre 128 y 191, así que en el direccionamiento con clases es de clase B. La máscara 255.255.126.0 no es válida porque sus bits a 1 no son contiguos."
+    },
+    "OFF-GSI-INAP-2025-Q035": {
+      "ref": "W3C XML 1.0, documento bien formado",
+      "text": "Un documento XML bien formado tiene exactamente un elemento raíz que contiene a todos los demás. Además, todas las etiquetas se cierran, el anidamiento es correcto, distingue mayúsculas y minúsculas y los valores de los atributos van entre comillas. A diferencia de HTML, no admite omitir cierres ni atributos sin comillas."
+    },
+    "OFF-GSI-INAP-2025-Q036": {
+      "ref": "Documentación de Python: módulo importlib",
+      "text": "importlib.import_module() importa un módulo cuyo nombre se conoce en ejecución. Para un fichero arbitrario se usan importlib.util.spec_from_file_location o importlib.machinery.SourceFileLoader (disponibles desde Python 3.4). compile() solo genera bytecode, os.system() ejecuta comandos del sistema y pickle deserializa objetos: no cargan módulos .py."
+    },
+    "OFF-GSI-INAP-2025-Q037": {
+      "ref": "NIST SP 800-30: análisis cualitativo de riesgos",
+      "text": "El mapa de calor es una matriz que cruza la probabilidad (eje) con el impacto (otro eje) y colorea cada celda según el nivel de riesgo. Sirve para visualizar y priorizar riesgos en el análisis cualitativo y lo usan las herramientas GRC. No mide temperaturas, no calcula el MTBF y no inventaría activos."
+    },
+    "OFF-GSI-INAP-2025-Q038": {
+      "ref": "Metodologías de gestión de riesgos: MAGERIT, ISO/IEC 27005, NIST SP 800-30",
+      "text": "MAGERIT (metodología española), ISO/IEC 27005:2022 y NIST SP 800-30 son referencias de análisis y gestión de riesgos de seguridad de la información. UNE-EN 12464-1:2022 es la norma de iluminación de lugares de trabajo en interior: no tiene nada que ver con la gestión de riesgos TIC."
+    },
+    "OFF-GSI-INAP-2025-Q039": {
+      "ref": "Guía CCN-STIC 817 (gestión de ciberincidentes)",
+      "text": "La CCN-STIC 817, en línea con NIST SP 800-61, divide el ciclo de vida de un ciberincidente en cuatro fases: preparación; detección, análisis e identificación; contención, mitigación y recuperación; y actividad post-incidente. Auditoría, certificación, evaluación de la conformidad y revisión contractual no son fases de ese ciclo."
+    },
+    "OFF-GSI-INAP-2025-Q040": {
+      "ref": "Guía CCN-STIC 817 y NIST SP 800-61",
+      "text": "Un precursor es un indicio de que un incidente puede ocurrir en el futuro, por ejemplo un anuncio de ataque o un escaneo previo. Un indicador señala que el incidente puede haber ocurrido o estar ocurriendo, como en la opción A. Los niveles de peligrosidad son otro concepto distinto."
+    },
+    "OFF-GSI-INAP-2025-Q041": {
+      "ref": "Licencia Pública de la Unión Europea (EUPL v1.2), art. 2",
+      "text": "El art. 2 de la EUPL concede una licencia mundial, gratuita, no exclusiva y perpetua para usar la obra en cualquier circunstancia y para cualquier uso, reproducirla, modificarla, comunicarla al público, distribuirla, prestarla y alquilarla, y sublicenciar. Es una licencia libre con copyleft, compatible con otras licencias mediante su apéndice."
+    },
+    "OFF-GSI-INAP-2025-Q042": {
+      "ref": "CMMI (ISACA), niveles de madurez",
+      "text": "En CMMI, el nivel 3 (Definido) es aquel en que los estándares de toda la organización guían los proyectos, programas y carteras. La opción B describe el nivel 1 (Inicial), la D el nivel 2 (Gestionado: proyectos planificados, ejecutados, medidos y controlados) y la C el nivel 4 (Gestionado cuantitativamente, guiado por datos)."
+    },
+    "OFF-GSI-INAP-2025-Q043": {
+      "ref": "Técnicas de planificación de proyectos",
+      "text": "PERT (Program Evaluation and Review Technique) es una técnica de planificación y control de proyectos: red de actividades, tres estimaciones de duración y camino crítico. SADT es una técnica de análisis y diseño estructurado, y JAD y JRP son técnicas de obtención de requisitos mediante sesiones conjuntas."
+    },
+    "OFF-GSI-INAP-2025-Q044": {
+      "ref": "Dublin Core, elemento format (DCMI)",
+      "text": "El elemento format de Dublin Core describe el formato del recurso, normalmente con un tipo MIME como text/html. Integrado en un feed como dc:format, indica el tipo de medio del contenido de cada ítem. Las demás opciones (criptomonedas, cadenas de bloques, clústeres temáticos) no tienen relación con Dublin Core."
+    },
+    "OFF-GSI-INAP-2025-Q045": {
+      "ref": "Documentación de Microsoft 365: almacenamiento de archivos en Teams",
+      "text": "Los archivos de los canales estándar de Teams se guardan en la biblioteca de documentos del sitio de SharePoint Online del equipo, en una carpeta por canal. Los de los chats privados se guardan en el OneDrive del usuario que los comparte, no en Exchange. Fabric y Foundry son plataformas de datos e IA."
+    },
+    "OFF-GSI-INAP-2025-Q046": {
+      "ref": "Manifiesto Ágil (2001)",
+      "text": "Los enfoques ágiles valoran a las personas y sus interacciones, la colaboración con el cliente y la respuesta al cambio, con equipos colaborativos y autoorganizados. Son iterativos e incrementales (B falsa), no fijan una arquitectura cerrada al inicio (C) y no separan el mantenimiento del desarrollo (D)."
+    },
+    "OFF-GSI-INAP-2025-Q047": {
+      "ref": "Rational Unified Process (RUP)",
+      "text": "RUP es un proceso iterativo e incremental, dirigido por casos de uso y centrado en la arquitectura, con cuatro fases: inicio, elaboración, construcción y transición. No es lineal como la cascada, no es un método ágil para equipos pequeños y no se limita a requisitos y documentación."
+    },
+    "OFF-GSI-INAP-2025-Q048": {
+      "ref": "Guía de Scrum (2020)",
+      "text": "Según la Guía de Scrum, durante el Sprint no se hacen cambios que pongan en peligro el Objetivo del Sprint, pero el alcance puede aclararse y renegociarse con el Product Owner a medida que se aprende. Solo el Product Owner puede cancelar el Sprint, y solo si el objetivo queda obsoleto. El Sprint nunca se alarga."
+    },
+    "OFF-GSI-INAP-2025-Q049": {
+      "ref": "Planificación de proyectos: diagrama de Gantt",
+      "text": "La barra de un Gantt representa la duración en el calendario, no el esfuerzo. Si 10 horas de trabajo se reparten a lo largo de 5 días por disponibilidad de recursos, la barra ocupa esos 5 días. El esfuerzo (horas-persona) sirve para costes y asignación, y un hito tiene duración cero."
+    },
+    "OFF-GSI-INAP-2025-Q050": {
+      "ref": "ISO/IEC/IEEE 29148, características de los requisitos",
+      "text": "Un buen requisito debe ser, entre otras cosas, inequívoco y verificable. «Rápido» y «amigable» son términos subjetivos que no permiten diseñar una prueba objetiva: habría que fijar métricas, como generar un informe en menos de X segundos o superar un umbral en una prueba de usabilidad. Es además un requisito no funcional, que sí pertenece a la ERS."
+    },
+    "OFF-GSI-INAP-2025-Q051": {
+      "ref": "Modelo relacional y SQL: PRIMARY KEY y UNIQUE",
+      "text": "La clave primaria implica NOT NULL y unicidad, y solo puede haber una por tabla. Una restricción UNIQUE admite valores NULL según el gestor: Oracle y PostgreSQL permiten varios y SQL Server solo uno. Ambas pueden ser compuestas y ambas suelen crear un índice."
+    },
+    "OFF-GSI-INAP-2025-Q052": {
+      "ref": "SQL: acciones referenciales de las claves foráneas",
+      "text": "ON DELETE RESTRICT (o NO ACTION) impide borrar la fila padre mientras existan filas hijas que la referencien, y el SGBD devuelve un error. La opción A describe ON DELETE SET NULL y la B, ON DELETE CASCADE."
+    },
+    "OFF-GSI-INAP-2025-Q053": {
+      "ref": "Concurrencia: anomalías de lectura (ANSI SQL)",
+      "text": "La lectura sucia (dirty read) consiste en leer datos modificados por otra transacción que aún no ha hecho COMMIT. La evita el nivel READ COMMITTED. La lectura no repetible es releer una fila y encontrarla cambiada, y la lectura fantasma es repetir una consulta y que aparezcan filas nuevas."
+    },
+    "OFF-GSI-INAP-2025-Q054": {
+      "ref": "Ecosistemas de IA y ciencia de datos",
+      "text": "Python (PyTorch, TensorFlow), R (Tidyverse, caret) y C++ (Eigen, Caffe) son habituales en IA, aprendizaje automático y cálculo numérico. PHP con Symfony (framework web) y Composer (gestor de dependencias) está orientado al desarrollo web en servidor y tiene poca relación con la IA."
+    },
+    "OFF-GSI-INAP-2025-Q055": {
+      "ref": "Estructuras de datos: recorridos de árboles",
+      "text": "Preorden: raíz, subárbol izquierdo, subárbol derecho. Inorden: izquierdo, raíz, derecho. Postorden: izquierdo, derecho, raíz. La opción C describe el postorden."
+    },
+    "OFF-GSI-INAP-2025-Q056": {
+      "ref": "MLOps: monitorización y deriva de datos",
+      "text": "Elegir cada día el modelo con mejor métrica offline sin monitorizar producción ignora la deriva de datos o de concepto: el modelo puede funcionar bien con datos históricos y degradarse con los reales. MLOps exige monitorizar el rendimiento en producción y la deriva, y reentrenar con esa realimentación. Reentrenar o automatizar no es inevitablemente malo."
+    },
+    "OFF-GSI-INAP-2025-Q057": {
+      "ref": "Docs as Code",
+      "text": "Docs as Code trata la documentación como el código: en texto ligero (Markdown, AsciiDoc), versionada en el mismo repositorio, revisada mediante pull requests y generada y publicada automáticamente en el pipeline de CI/CD. Así la documentación evoluciona con el producto. Separarla, externalizarla o usar copias manuales va contra ese principio."
+    },
+    "OFF-GSI-INAP-2025-Q058": {
+      "ref": "Microsoft Presidio (proyecto de código abierto)",
+      "text": "Presidio es un SDK de código abierto de Microsoft para detectar información personal identificable (PII) en texto e imágenes y anonimizarla mediante enmascaramiento, sustitución, hash o cifrado. Se usa, por ejemplo, para preparar datos de prueba o de análisis cumpliendo el RGPD. No hace copias de seguridad ni responde a incidentes."
+    },
+    "OFF-GSI-INAP-2025-Q059": {
+      "ref": "Política de ciclo de vida de .NET (Microsoft Learn)",
+      "text": ".NET 8, publicado en noviembre de 2023, es una versión LTS con tres años de soporte, que terminó el 10 de noviembre de 2026. Las versiones LTS salen en años pares y tienen tres años de soporte. Ojo: a 20/11/2026 .NET 8 ya está fuera de soporte; la LTS vigente es .NET 10."
+    },
+    "OFF-GSI-INAP-2025-Q060": {
+      "ref": "Programación orientada a objetos en Java",
+      "text": "Una clase es la plantilla que define los atributos (estado) y los métodos (comportamiento) de los objetos. Un objeto es una instancia de una clase, por lo que la opción A invierte los términos. El mensaje es la invocación de un método y el heap es la zona de memoria donde se crean los objetos."
+    },
+    "OFF-GSI-INAP-2025-Q061": {
+      "ref": "Programación orientada a objetos: polimorfismo",
+      "text": "El polimorfismo permite que una misma operación (mensaje o método) se comporte de forma distinta según el tipo real del objeto que la recibe, por ejemplo mediante la sobrescritura y la vinculación dinámica. Tener varios padres directos es herencia múltiple, y acceder a atributos privados viola la encapsulación."
+    },
+    "OFF-GSI-INAP-2025-Q062": {
+      "ref": "Herramientas del JDK",
+      "text": "javac compila los ficheros .java a bytecode (.class). java lanza la JVM para ejecutar, javadoc genera documentación HTML a partir de los comentarios y jar empaqueta clases y recursos en un archivo JAR."
+    },
+    "OFF-GSI-INAP-2025-Q063": {
+      "ref": "Java SE 17 API: javax.security.auth.spi.LoginModule",
+      "text": "La interfaz LoginModule de JAAS declara cinco métodos: initialize, login, commit, abort y logout. La autenticación tiene dos fases: login() autentica y commit() o abort() confirma o descarta el resultado según el éxito global del LoginContext."
+    },
+    "OFF-GSI-INAP-2025-Q064": {
+      "ref": "Documentación de .NET: NuGet",
+      "text": "NuGet es el gestor de paquetes de .NET: publica, descarga, instala y actualiza bibliotecas y sus dependencias (dotnet add package, PackageReference). La compilación la hacen MSBuild o dotnet build, y las plantillas de proyecto, dotnet new."
+    },
+    "OFF-GSI-INAP-2025-Q065": {
+      "ref": "Documentación de Microsoft: LINQ to Entities",
+      "text": "LINQ to Entities permite escribir consultas LINQ en C# o Visual Basic contra el modelo conceptual de Entity Framework, que las traduce a SQL del proveedor. La opción A describe LINQ to SQL (directamente sobre el esquema de base de datos) y la C, LINQ to DataSet."
+    },
+    "OFF-GSI-INAP-2025-Q066": {
+      "ref": "W3C WSDL",
+      "text": "WSDL (Web Services Description Language) es el lenguaje XML que describe un servicio web: operaciones, mensajes, tipos, enlaces y puntos de acceso. SOAP es el protocolo de mensajería, CSRF es un tipo de ataque web y GraphQL es un lenguaje de consulta para APIs."
+    },
+    "OFF-GSI-INAP-2025-Q067": {
+      "ref": "Arquitectura de aplicaciones web",
+      "text": "El back-end se ejecuta en el servidor: implementa la lógica de negocio, la seguridad y el acceso a datos, y expone servicios al front-end. La opción A describe el front-end, la D se refiere a HTTP y la B mezcla funciones de proxy y red."
+    },
+    "OFF-GSI-INAP-2025-Q068": {
+      "ref": "Técnicas de prueba de software",
+      "text": "Las pruebas de caja negra (funcionales) verifican el comportamiento a partir de entradas y salidas esperadas sin conocer el código, por ejemplo con particiones de equivalencia o valores límite. Las de caja blanca sí usan la estructura interna. Regresión y unitaria son tipos o niveles de prueba que pueden usar cualquiera de las dos técnicas."
+    },
+    "OFF-GSI-INAP-2025-Q069": {
+      "ref": "ISO/IEC 25010, modelo de calidad del producto",
+      "text": "La tolerancia a fallos es una subcaracterística de la fiabilidad, junto con la madurez (o ausencia de fallos), la disponibilidad y la capacidad de recuperación. Mantenibilidad, seguridad y usabilidad son otras características del modelo."
+    },
+    "OFF-GSI-INAP-2025-Q070": {
+      "ref": "Real Decreto 1112/2018, art. 15",
+      "text": "Los organismos del sector público deben publicar y mantener actualizada una declaración de accesibilidad de cada sitio web y aplicación. En ella informan del grado de cumplimiento, del contenido no accesible y sus alternativas, y de los mecanismos de comunicación y reclamación. Es obligatoria y pública; no es un certificado de un tercero."
+    },
+    "OFF-GSI-INAP-2025-Q071": {
+      "ref": "Tecnologías de apoyo y accesibilidad",
+      "text": "El lector de pantalla (JAWS, NVDA, VoiceOver) convierte en voz o braille el contenido y la estructura de la interfaz, y es la ayuda principal para personas ciegas o con baja visión. Los audífonos son para discapacidad auditiva, el teclado en pantalla para discapacidad motora y los pictogramas para discapacidad cognitiva o del lenguaje."
+    },
+    "OFF-GSI-INAP-2025-Q072": {
+      "ref": "W3C WAI / WCAG",
+      "text": "Un sitio es accesible cuando cualquier persona, incluidas las personas con discapacidad, puede percibirlo, entenderlo, navegarlo e interactuar con él. Responde a los principios WCAG: perceptible, operable, comprensible y robusto. La rapidez, el SEO, la estética o la gratuidad no definen la accesibilidad."
+    },
+    "OFF-GSI-INAP-2025-Q073": {
+      "ref": "Tipos de bases de datos NoSQL",
+      "text": "Neo4j es una base de datos orientada a grafos (nodos, relaciones y propiedades; consultas en Cypher). HBase, BigTable y Cassandra son almacenes de columna ancha (wide-column)."
+    },
+    "OFF-GSI-INAP-2025-Q074": {
+      "ref": "Gestión de memoria virtual: tabla de páginas",
+      "text": "El bit de modificación (dirty bit) se activa cuando se escribe en la página. Al sustituirla, el sistema operativo solo tiene que escribirla en disco si está modificada; si no, basta con descartarla. Los usos recientes los marca el bit de referencia y los permisos de escritura se indican con bits de protección."
+    },
+    "OFF-GSI-INAP-2025-Q075": {
+      "ref": "Núcleo Linux: función panic()",
+      "text": "Un kernel panic se produce cuando el núcleo invoca panic() al detectar un error interno grave del que no puede recuperarse con seguridad, como un fallo de hardware o de software del propio kernel. El sistema se detiene o se reinicia según la configuración (kernel.panic). Si una aplicación se cierra y el sistema sigue funcionando, no es un kernel panic."
+    },
+    "OFF-GSI-INAP-2025-Q076": {
+      "ref": "Bases de datos multimedia: CBIR",
+      "text": "CBIR (Content-Based Image Retrieval) recupera imágenes por su contenido visual (color, textura, forma, descriptores) en lugar de por anotaciones de texto. Permite, por ejemplo, buscar imágenes parecidas a una dada."
+    },
+    "OFF-GSI-INAP-2025-Q077": {
+      "ref": "Oracle Database: LOB internos y BFILE",
+      "text": "En Oracle, un BLOB es un LOB interno: los datos binarios se guardan en la base de datos y participan en las transacciones. Un BFILE es un LOB externo: la base de datos solo guarda un localizador hacia un fichero del sistema operativo, de solo lectura y no transaccional. La opción C invierte los papeles."
+    },
+    "OFF-GSI-INAP-2025-Q078": {
+      "ref": "Mantenimiento centrado en la fiabilidad (RCM): curva P-F",
+      "text": "El mantenimiento predictivo (por condición) solo tiene sentido si el modo de fallo presenta un intervalo P-F: el tiempo entre que el fallo potencial es detectable (temperatura, vibración, errores SMART) y el fallo funcional. Ese intervalo debe poder monitorizarse con suficiente antelación para actuar."
+    },
+    "OFF-GSI-INAP-2025-Q079": {
+      "ref": "Copias de seguridad: deduplicación",
+      "text": "La deduplicación detecta bloques o ficheros idénticos, normalmente por su hash, guarda una sola copia física y sustituye las repeticiones por referencias. Reduce mucho el almacenamiento y el tráfico de las copias. No es compresión de espacios en blanco, fragmentación por seguridad ni replicación."
+    },
+    "OFF-GSI-INAP-2025-Q080": {
+      "ref": "Documentación de Ansible",
+      "text": "El playbook es el fichero YAML que define, en plays y tareas, el estado deseado de los nodos gestionados. El inventario lista los hosts, un rol es una estructura reutilizable de tareas, variables y plantillas, y un módulo es la unidad de código que ejecuta cada acción."
+    },
+    "OFF-GSI-INAP-2025-Q081": {
+      "ref": "Servicios de almacenamiento de AWS",
+      "text": "Amazon S3 (Simple Storage Service) es el almacenamiento de objetos de AWS: buckets, objetos y acceso por API o HTTP. EBS es almacenamiento de bloques para instancias EC2, EFS es un sistema de ficheros compartido (NFS) y el Instance Store es disco efímero ligado a la instancia."
+    },
+    "OFF-GSI-INAP-2025-Q082": {
+      "ref": "Balanceo de carga: Weighted Least Connections",
+      "text": "WLC envía la petición al servidor con menor cociente entre conexiones activas y peso. A: 50/10 = 5. B: 35/7 = 5. C: 20/5 = 4. D: 2/1 = 2. El menor es D, aunque tenga el peso más bajo."
+    },
+    "OFF-GSI-INAP-2025-Q083": {
+      "ref": "Balanceadores de carga: modo passthrough (capa 4)",
+      "text": "En modo passthrough el balanceador reenvía el tráfico decidiendo solo con información de red y transporte (IP y puertos), sin terminar TLS ni inspeccionar la carga útil. El cifrado es extremo a extremo hasta el backend. Las reglas por URL, cookies o cabeceras y la terminación TLS son propias del balanceo de capa 7."
+    },
+    "OFF-GSI-INAP-2025-Q084": {
+      "ref": "IEEE 802.11be (Wi-Fi 7)",
+      "text": "La perforación del preámbulo (preamble puncturing) permite anular la subbanda de 20 MHz con interferencias y seguir usando el resto del canal ancho. Las MRU (Multiple Resource Units) permiten asignar a una estación varias unidades de recurso no contiguas. Juntas aprovechan un canal de 320 MHz aunque tenga huecos. BSS Coloring y TWT son de Wi-Fi 6, y MLO combina varios enlaces o bandas."
+    },
+    "OFF-GSI-INAP-2025-Q085": {
+      "ref": "SNMPv3 (RFC 3414 y RFC 3415)",
+      "text": "La gran novedad de SNMPv3 es la seguridad: el modelo USM (User-based Security Model) ofrece autenticación e integridad (HMAC) y privacidad (cifrado), y el VACM controla el acceso a las vistas de la MIB. GetBulk y los contadores de 64 bits ya llegaron con SNMPv2c, y el transporte TLS existe como opción (RFC 6353), no de forma exclusiva."
+    },
+    "OFF-GSI-INAP-2025-Q086": {
+      "ref": "IEEE 802.3x (control de flujo full-duplex)",
+      "text": "IEEE 802.3x define el control de flujo en Ethernet full-duplex mediante tramas MAC Control PAUSE: el receptor saturado pide al emisor que pare durante un tiempo. Es un estándar IEEE, no propietario. Las bandas de 2,4 y 5 GHz son de 802.11, y 2.346 bytes es un umbral típico de Wi-Fi."
+    },
+    "OFF-GSI-INAP-2025-Q087": {
+      "ref": "RFC 2849 (LDIF)",
+      "text": "LDIF (LDAP Data Interchange Format) es el formato de texto estándar para representar entradas de un directorio LDAP y cambios sobre ellas: altas, modificaciones y bajas. Se usa para importar y exportar datos con herramientas como ldapadd, ldapmodify o ldifde. No es exclusivo de Active Directory."
+    },
+    "OFF-GSI-INAP-2025-Q088": {
+      "ref": "Seguridad en LAN: DHCP snooping",
+      "text": "DHCP snooping, configurado en los conmutadores, solo acepta respuestas DHCP en los puertos de confianza y mantiene una tabla de asociaciones que también usan DAI e IP Source Guard. Así bloquea los servidores DHCP falsos. DHCP spoofing es el ataque, no la defensa, y LLDP-MED y SONMP son protocolos de descubrimiento."
+    },
+    "OFF-GSI-INAP-2025-Q090": {
+      "ref": "Protocolos de encaminamiento: IS-IS y OSPF",
+      "text": "IS-IS se encapsula directamente sobre la capa de enlace (protocolo de OSI) y no sobre IP, lo que reduce su exposición a ataques sobre la pila IP. Además, admite IPv4 e IPv6 con TLV y escala bien. Ambos protocolos usan el algoritmo de Dijkstra (SPF) y OSPF sí admite varias áreas, por eso A y B son falsas."
+    },
+    "OFF-GSI-INAP-2025-Q091": {
+      "ref": "IEEE 802.11: DCF y CSMA/CA",
+      "text": "La función de coordinación distribuida (DCF) de 802.11 usa CSMA/CA: escucha del medio, tiempos de espera (DIFS), retroceso aleatorio, confirmaciones ACK y, opcionalmente, RTS/CTS. Evita las colisiones porque en radio no pueden detectarse de forma fiable. CSMA/CD es de Ethernet clásica y TDMA y CDMA son técnicas de acceso de redes móviles."
+    },
+    "OFF-GSI-INAP-2025-Q092": {
+      "ref": "IEEE 802.11n/ac/ax: channel bonding",
+      "text": "La agregación de canales (channel bonding) une canales adyacentes de 20 MHz en canales de 40, 80, 160 o 320 MHz para aumentar el ancho de banda. MIMO multiplica los flujos espaciales con varias antenas, el salto de frecuencia es FHSS y carrier aggregation es el término de LTE/5G."
+    },
+    "OFF-GSI-INAP-2025-Q093": {
+      "ref": "IPsec: IKEv2 (RFC 7296)",
+      "text": "IKE (Internet Key Exchange) negocia los algoritmos, autentica a los extremos y establece las asociaciones de seguridad (SA) y las claves. ESP (confidencialidad e integridad) y AH (solo integridad y autenticación) son los protocolos que protegen después los datos con esas SA."
+    },
+    "OFF-GSI-INAP-2025-Q094": {
+      "ref": "CIDR (RFC 4632)",
+      "text": "CIDR elimina las clases y permite prefijos de longitud variable, de modo que se pueden agregar redes contiguas en un solo prefijo (superredes o sumarización). Así se contiene el crecimiento de las tablas de rutas de Internet. NAT traduce direcciones, ARP resuelve direcciones MAC y DHCP asigna configuración."
+    },
+    "OFF-GSI-INAP-2025-Q095": {
+      "ref": "IETF 6LoWPAN (RFC 4944 y RFC 6282)",
+      "text": "6LoWPAN es la capa de adaptación del IETF para transmitir IPv6 sobre IEEE 802.15.4 y otros enlaces de bajo consumo: comprime cabeceras y fragmenta paquetes. Mantiene la arquitectura IP extremo a extremo. MQTT, CoAP y AMQP son protocolos de aplicación que funcionan por encima."
+    },
+    "OFF-GSI-INAP-2025-Q096": {
+      "ref": "3GPP IMS",
+      "text": "IMS usa SIP (Session Initiation Protocol), con extensiones 3GPP, como protocolo de señalización y control de sesiones multimedia entre las funciones CSCF y los terminales. H.323 es la familia de la ITU-T, MGCP controla pasarelas de medios y SCCP pertenece a SS7."
+    },
+    "OFF-GSI-INAP-2025-Q097": {
+      "ref": "Diameter (RFC 6733) en IMS",
+      "text": "Diameter es el protocolo AAA (autenticación, autorización y contabilidad) sucesor de RADIUS. En IMS se usa, por ejemplo, en las interfaces Cx y Sh con el HSS y en la tarificación (Rf/Ro). El audio y el vídeo viajan por RTP/SRTP y los túneles VPN se cifran con IPsec o TLS."
+    },
+    "OFF-GSI-INAP-2025-Q098": {
+      "ref": "Servicios basados en localización: geofencing",
+      "text": "El geofencing define perímetros virtuales sobre un área geográfica y lanza acciones (notificaciones, políticas MDM, registros) cuando un dispositivo entra, sale o permanece en ellos. Se basa en la geolocalización por GPS, Wi-Fi o red móvil."
+    },
+    "OFF-GSI-INAP-2025-Q099": {
+      "ref": "QoS en tiempo real (RFC 3393, variación del retardo IP)",
+      "text": "El jitter es la variación del retardo entre paquetes consecutivos de un flujo y se compensa con búferes de reproducción (jitter buffer). El retardo extremo a extremo es la latencia, el porcentaje perdido es la tasa de pérdida y la capacidad máxima es el ancho de banda."
+    },
+    "OFF-GSI-INAP-2025-Q100": {
+      "ref": "QoS en WAN: modelo DiffServ",
+      "text": "Para mezclar vídeo y datos en un enlace WAN se clasifica y marca el tráfico (DSCP), se aplican colas con prioridad (LLQ, CBWFQ) y se usan shaping y policing donde convenga. Así el tráfico sensible al retardo no se degrada con la congestión. Un FIFO trata todo igual, los hubs empeoran las colisiones y desactivar SRTP no aporta QoS."
+    },
+    "OFF-GSI-INAP-2025-R001": {
+      "ref": "Decisión (UE) 2022/2481 (Década Digital 2030), art. 2",
+      "text": "La Decisión define el unicornio como una empresa fundada después de 1990 que ha salido a bolsa o se ha vendido por más de 1.000 millones de dólares estadounidenses, o que está valorada en más de esa cifra en su última ronda de financiación privada. El objetivo de la Década Digital es duplicar el número de unicornios en la UE para 2030."
+    },
+    "OFF-GSI-INAP-2025-R002": {
+      "ref": "ENS: ITS de Auditoría y de Conformidad; ISO/IEC 17065",
+      "text": "Los órganos de auditoría técnica deben garantizar su imparcialidad e independencia y evitar conflictos de intereses, según las ITS y la norma ISO/IEC 17065, que regula los organismos de certificación de productos, procesos y servicios y es la usada para la certificación del ENS. La opción B cita una norma distinta y los requisitos de años de experiencia de A y C no son los que recoge la clave."
+    },
+    "OFF-GSI-INAP-2025-R003": {
+      "ref": "Corpus de reconocimiento de voz: TED-LIUM",
+      "text": "TED-LIUM 3 es un corpus de grabaciones de charlas TED con sus transcripciones, muy usado para entrenar y evaluar el reconocimiento automático del habla (ASR). UNBIS (tesauro de la ONU), AAT (tesauro de arte y arquitectura del Getty) y MeSH (encabezados médicos) son vocabularios controlados, no corpus de audio."
+    },
+    "OFF-GSI-INAP-2025-R004": {
+      "ref": "Guía CCN-STIC 887G; documentación de AWS",
+      "text": "AWS CloudTrail registra la actividad de la cuenta y las llamadas a la API (auditoría). Amazon GuardDuty detecta amenazas analizando registros con aprendizaje automático e inteligencia de amenazas. AWS Security Hub agrega y prioriza en un panel único los hallazgos de seguridad. CloudWatch se ocupa de métricas, registros y alarmas operativas."
+    },
+    "OFF-GSI-INAP-2025-R005": {
+      "ref": "Guía CCN-STIC 140 (taxonomía de productos STIC)",
+      "text": "La CCN-STIC 140 clasifica los productos de seguridad TIC por familias en anexos, y es la referencia del Catálogo de Productos y Servicios STIC (CPSTIC). Según la clave oficial, el anexo A.1 trata los dispositivos de control de acceso a red (NAC), que verifican la identidad y el estado de los equipos antes de permitirles conectarse."
+    }
+  }
+}

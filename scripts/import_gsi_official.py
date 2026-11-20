@@ -15,6 +15,7 @@ RIGHTS={
     'attributionRequired':True,
     'sourceType':'official_exam',
 }
+EXPLANATIONS='content/official-explanations.json'
 def load(path):return json.loads((ROOT/path).read_text('utf-8'))
 def save(path,data):
     p=ROOT/path;p.parent.mkdir(parents=True,exist_ok=True)
@@ -29,6 +30,8 @@ def main():
     sources['sources']=[s for s in sources['sources'] if not s['id'].startswith('SRC-INAP-GSI-')]
     # Keep dates of unchanged records so re-running the importer only touches new or changed items.
     previous={q['id']:q for q in load('data/questions-official.json')['questions']}
+    # Fork: reasoned explanations kept apart from the official records and always labelled as non-official.
+    explanations=load(EXPLANATIONS)['explanations'] if (ROOT/EXPLANATIONS).is_file() else {}
     bank=[];catalog=[]
     for exam in extracted['exams']:
         year=exam['year'];sid=f'SRC-INAP-GSI-{year}';eid=f'GSI-INAP-{year}'
@@ -56,19 +59,23 @@ def main():
             number=('reserva ' if q['reserve'] else 'pregunta ')+str(q['number'])
             locator=f"Primer ejercicio, {number}; página {q['page']} del cuestionario; plantilla definitiva."
             key_name='R'+str(q['number']) if q['reserve'] else str(q['number'])
+            extra=explanations.get(ident)
             feedback=(f"La plantilla definitiva del INAP para la convocatoria {year} señala la opción "
-                      f"{q['answer']} («{q['options'][q['answer']]}»). Esta es la clave oficial de esa convocatoria; "
-                      "el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.")
+                      f"{q['answer']} («{q['options'][q['answer']]}»). Esta es la clave oficial de esa convocatoria"
+                      + ("." if extra else "; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla."))
             if year==2024 and q['number']==12 and not q['reserve']:
                 feedback+=' La plantilla definitiva modificó esta respuesta: se utiliza D.'
             if year==2024 and q['number']==87 and not q['reserve']:
                 feedback+=' Atención editorial: la descripción de la licencia de Nessus en la opción D requiere contraste de vigencia; se conserva literalmente la clave oficial, sin presentarla como información tecnológica actual.'
+            if extra:
+                feedback+=f" Explicación del fork (no oficial; referencia: {extra['ref']}): {extra['text']}"
             old=previous.get(ident)
-            unchanged=bool(old) and old['source']['record_sha256']==fingerprint(q)
+            same_record=bool(old) and old['source']['record_sha256']==fingerprint(q)
+            unchanged=same_record and old['feedback']['correct']==feedback
             provenance={'type':'official','source_id':sid,'document_id':f'DOC-INAP-GSI-{year}-QUESTIONNAIRE',
                         'drive_id':None,'url':docs['questionnaire']['url'],'locator':locator,
                         'version':f'Convocatoria {year}; plantilla definitiva',
-                        'reviewed_at':old['provenance']['reviewed_at'] if unchanged else DATE}
+                        'reviewed_at':old['provenance']['reviewed_at'] if same_record else DATE}
             bank.append({'id':ident,'opposition_id':'OPP-GSI','origin':'official','official_status':'official',
                 'validation_status':'validated','block_id':tid[:2],'topic_id':tid,'subtopic':'Examen oficial INAP',
                 'exam':{'id':eid,'year':year,'number':q['number'],'is_reserve':q['reserve'],
@@ -108,6 +115,9 @@ def main():
                     if records else 'El INAP solo publica una plantilla provisional en la página consultada. Documentos disponibles para lectura; no se incorporan claves provisionales al banco activo.')})
     expected=sum(not q['annulled'] for exam in extracted['exams'] for q in exam.get('questions') or [])
     assert len(bank)==expected and len({q['id'] for q in bank})==expected
+    unknown=set(explanations)-{q['id'] for q in bank}
+    assert not unknown, f'Explicaciones sin pregunta oficial activa: {sorted(unknown)}'
+    assert all(e.get('ref','').strip() and len(e.get('text','').strip())>=40 for e in explanations.values()), 'Explicación sin referencia o demasiado breve'
     save('data/questions-official.json',{'metadata':{'dataset_type':'official','schema_version':'1.0.0',
         'data_version':'2.2.0','updated_at':DATE,'rights':RIGHTS},'questions':bank})
     save('data/gsi-official-exams.json',{'version':1,'updated_at':DATE,'exams':catalog})
