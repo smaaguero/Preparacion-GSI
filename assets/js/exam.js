@@ -1,5 +1,5 @@
 import { describeQuestionSource } from "./data-service.js?gsi2";
-import { describeOfficialQuestion, renderOfficialExamLibrary } from "./official-exams.js?gsi2";
+import { describeOfficialQuestion, renderOfficialExamLibrary } from "./official-exams.js?gsi3";
 import { feedbackFor } from "./question-feedback.js";
 import { appendProvisionalReviewNotice } from "./question-review-status.js";
 import {

@@ -409,7 +409,7 @@ try {
     const before=await page.evaluate(()=>JSON.stringify(Object.entries(localStorage)));
     const quality=JSON.parse(await fs.readFile(path.join(root,'logs/gsi-question-quality.json'),'utf8'));
     await page.goto(base.replace('index.html','review.html'));
-    await page.waitForFunction((expected)=>document.querySelector('#review-question').options.length===expected,quality.summary.manual_primary_queue);
+    await page.waitForFunction((expected)=>document.querySelector('#review-question').options.length===expected&&document.querySelector('#review-content')?.innerText.trim().length>0,quality.summary.manual_primary_queue);
     const initialReview = await page.locator('#review-content').innerText();
     if (quality.summary.manual_primary_queue === 0) {
       assert.match(initialReview, /No hay preguntas que coincidan con estos filtros/);

@@ -317,7 +317,7 @@ async function renderDetail(routeState) {
   list.setAttribute("hidden", "");
   detail.removeAttribute("hidden");
   detail.replaceChildren();
-  const back = element("a", "button button--secondary", "Volver al listado");
+  const back = element("a", "button button--secondary topic-back", "Volver al listado");
   back.href = "#temario";
   const eyebrow = document.querySelector("#syllabus-eyebrow");
   const heading = document.querySelector("#syllabus-title");

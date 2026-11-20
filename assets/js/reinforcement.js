@@ -552,4 +552,4 @@ export function initReinforcement(data) {
   });
   renderAll();
 }
-import { describeOfficialQuestion } from "./official-exams.js?gsi2";
+import { describeOfficialQuestion } from "./official-exams.js?gsi3";

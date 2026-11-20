@@ -14,12 +14,21 @@ export async function renderOfficialExamLibrary(container, onChoose) {
     const catalog = await response.json();
     container.replaceChildren();
     for (const exam of catalog.exams) {
-      const card = createElement("details", "source-card");
+      const definitive = exam.key_status === "definitive";
+      const playable = definitive && exam.question_ids.length === 100;
+      // Tarjeta con lo esencial a la vista; los PDF y el detalle, plegados.
+      const card = createElement("article", "official-exam-card");
       card.dataset.examId = exam.id;
-      card.append(createElement("summary", "", `${exam.title} · plantilla ${exam.key_status === "definitive" ? "definitiva" : "provisional"}`));
-      card.append(createElement("p", "form-help", exam.note));
+      card.append(
+        createElement("h3", "official-exam-card__title", `Convocatoria ${exam.year}`),
+        createElement("p", "official-exam-card__meta", `GSI ingreso libre · plantilla ${definitive ? "definitiva" : "provisional"}`),
+      );
+      if (playable) card.append(createElement("p", "form-help", "100 preguntas evaluables · 90 minutos · error −1/3"));
+      const docs = createElement("details", "official-exam-card__docs");
+      docs.append(createElement("summary", "", `Documentos oficiales (${exam.documents.length} PDF)`));
+      docs.append(createElement("p", "form-help", exam.note));
       const links = createElement("ul");
-      const labels = { questionnaire: "Primer ejercicio (PDF)", answer_key: `Plantilla ${exam.key_status === "definitive" ? "definitiva" : "provisional"} (PDF)`, written: "Segundo ejercicio: supuestos oficiales (PDF)", criteria: "Criterios de corrección (PDF)" };
+      const labels = { questionnaire: "Primer ejercicio (PDF)", answer_key: `Plantilla ${definitive ? "definitiva" : "provisional"} (PDF)`, written: "Segundo ejercicio: supuestos oficiales (PDF)", criteria: "Criterios de corrección (PDF)" };
       for (const document of exam.documents) {
         const url = new URL(document.url);
         if (url.protocol !== "https:" || url.hostname !== "sede.inap.gob.es") throw new Error("Fuente oficial no reconocida");
@@ -27,11 +36,17 @@ export async function renderOfficialExamLibrary(container, onChoose) {
         link.href = url.href; link.target = "_blank"; link.rel = "noopener noreferrer";
         const item = createElement("li"); item.append(link); links.append(item);
       }
-      card.append(links);
-      if (exam.key_status === "definitive" && exam.question_ids.length === 100) {
-        card.append(createElement("p", "form-help", `100 preguntas evaluables · 90 minutos · error −1/3. Anuladas: ${exam.annulled_numbers.join(", ")}; sustituidas por las reservas ${exam.used_reserve_numbers.join(", ")}. Se mantienen las letras originales.`));
-        const button = createElement("button", "button button--secondary", "Preparar este examen");
-        button.type = "button"; button.addEventListener("click", () => onChoose(exam.id)); card.append(button);
+      docs.append(links);
+      if (playable) {
+        docs.append(createElement("p", "form-help", `Anuladas: ${exam.annulled_numbers.join(", ")}; sustituidas por las reservas ${exam.used_reserve_numbers.join(", ")}. Se mantienen las letras originales.`));
+      }
+      card.append(docs);
+      if (playable) {
+        const button = createElement("button", "button", "Preparar este examen");
+        button.type = "button"; button.addEventListener("click", () => onChoose(exam.id));
+        const actions = createElement("div", "official-exam-card__actions");
+        actions.append(button);
+        card.append(actions);
       }
       container.append(card);
     }

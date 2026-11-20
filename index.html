@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Estudia Gestión de Sistemas e Informática de la Administración del Estado, ingreso libre A2: 57 temas, entrenamiento y práctica escrita.">
     <title>Preparación GSI · Temario y entrenamiento A2</title>
-    <link rel="stylesheet" href="assets/css/styles.css?gsi8"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css?gsi9"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
@@ -446,7 +446,7 @@
         <section aria-labelledby="official-exams-title">
           <h2 id="official-exams-title">Exámenes oficiales INAP</h2>
           <p>Abre una convocatoria para consultar los PDF de ambos ejercicios y su plantilla. Las convocatorias con plantilla definitiva también se pueden realizar aquí.</p>
-          <div id="official-exam-library" aria-live="polite"></div>
+          <div id="official-exam-library" class="official-exam-library" aria-live="polite"></div>
         </section>
         <form id="exam-config-form" class="training-form" novalidate>
           <fieldset>
@@ -559,70 +559,9 @@
           <p id="reinforcement-demo-summary" class="muted"></p>
         </section>
 
-        <form id="reinforcement-filters" class="training-form" novalidate>
-          <fieldset>
-            <legend>Consultar cola</legend>
-            <div class="form-grid">
-              <div class="field">
-                <label for="reinforcement-store">Datos</label>
-                <select id="reinforcement-store" name="store">
-                  <option value="real">Refuerzo real</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="reinforcement-block">Bloque</label>
-                <select id="reinforcement-block" name="block"><option value="">Todos los bloques</option></select>
-              </div>
-              <div class="field">
-                <label for="reinforcement-topic">Tema</label>
-                <select id="reinforcement-topic" name="topic" disabled><option value="">Todos los temas</option></select>
-              </div>
-              <div class="field">
-                <label for="reinforcement-origin">Origen</label>
-                <select id="reinforcement-origin" name="origin">
-                  <option value="">Todos los orígenes</option>
-                  <option value="official">Oficial</option>
-                  <option value="ai">Generadas</option>
-                  <option value="manual">Manual</option>
-                  <option value="adapted">Adaptada</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="reinforcement-priority">Prioridad</label>
-                <select id="reinforcement-priority" name="priority">
-                  <option value="">Todas</option>
-                  <option value="critical">Crítica</option>
-                  <option value="high">Alta</option>
-                  <option value="medium">Media</option>
-                  <option value="low">Baja</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="reinforcement-status">Estado</label>
-                <select id="reinforcement-status" name="status">
-                  <option value="">Todos</option>
-                  <option value="scheduled">Programada</option>
-                  <option value="paused">Pausada</option>
-                  <option value="completed">Completada</option>
-                  <option value="defective">Incidencia</option>
-                </select>
-              </div>
-            </div>
-            <div class="checkbox-grid checkbox-grid--options">
-              <label><input id="reinforcement-only-due" type="checkbox"> Solo pendientes hoy</label>
-              <label><input id="reinforcement-only-defective" type="checkbox"> Solo incidencias</label>
-            </div>
-          </fieldset>
-        </form>
-
-        <section aria-labelledby="reinforcement-list-title">
-          <h2 id="reinforcement-list-title">Cola de refuerzo</h2>
-          <div id="reinforcement-list" class="reinforcement-list" aria-live="polite"></div>
-        </section>
-
         <form id="reinforcement-session-form" class="training-form" novalidate>
           <fieldset>
-            <legend>Iniciar sesión</legend>
+            <legend>Nueva sesión de repaso</legend>
             <div class="form-grid">
               <div class="field">
                 <label for="reinforcement-session-block">Bloque</label>
@@ -674,6 +613,66 @@
         <section id="reinforcement-active" class="training-session" aria-labelledby="reinforcement-active-title" hidden>
           <h2 id="reinforcement-active-title">Pregunta de refuerzo</h2>
           <div id="reinforcement-question"></div>
+        </section>
+
+        <section aria-labelledby="reinforcement-list-title">
+          <h2 id="reinforcement-list-title">Cola de refuerzo</h2>
+          <form id="reinforcement-filters" class="training-form" novalidate>
+            <fieldset>
+              <legend>Filtrar la cola</legend>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="reinforcement-store">Datos</label>
+                  <select id="reinforcement-store" name="store">
+                    <option value="real">Refuerzo real</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="reinforcement-block">Bloque</label>
+                  <select id="reinforcement-block" name="block"><option value="">Todos los bloques</option></select>
+                </div>
+                <div class="field">
+                  <label for="reinforcement-topic">Tema</label>
+                  <select id="reinforcement-topic" name="topic" disabled><option value="">Todos los temas</option></select>
+                </div>
+                <div class="field">
+                  <label for="reinforcement-origin">Origen</label>
+                  <select id="reinforcement-origin" name="origin">
+                    <option value="">Todos los orígenes</option>
+                    <option value="official">Oficial</option>
+                    <option value="ai">Generadas</option>
+                    <option value="manual">Manual</option>
+                    <option value="adapted">Adaptada</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="reinforcement-priority">Prioridad</label>
+                  <select id="reinforcement-priority" name="priority">
+                    <option value="">Todas</option>
+                    <option value="critical">Crítica</option>
+                    <option value="high">Alta</option>
+                    <option value="medium">Media</option>
+                    <option value="low">Baja</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="reinforcement-status">Estado</label>
+                  <select id="reinforcement-status" name="status">
+                    <option value="">Todos</option>
+                    <option value="scheduled">Programada</option>
+                    <option value="paused">Pausada</option>
+                    <option value="completed">Completada</option>
+                    <option value="defective">Incidencia</option>
+                  </select>
+                </div>
+              </div>
+              <div class="checkbox-grid checkbox-grid--options">
+                <label><input id="reinforcement-only-due" type="checkbox"> Solo pendientes hoy</label>
+                <label><input id="reinforcement-only-defective" type="checkbox"> Solo incidencias</label>
+              </div>
+            </fieldset>
+          </form>
+          <div id="reinforcement-list" class="reinforcement-list" aria-live="polite"></div>
         </section>
 
         <section id="reinforcement-incidents" aria-labelledby="reinforcement-incidents-title">
@@ -797,6 +796,6 @@
     <noscript>
       <p class="noscript-message">Esta aplicación necesita JavaScript para cargar los datos y mostrar el entrenamiento.</p>
     </noscript>
-    <script type="module" src="assets/js/app.js?gsi8"></script>
+    <script type="module" src="assets/js/app.js?gsi9"></script>
   </body>
 </html>

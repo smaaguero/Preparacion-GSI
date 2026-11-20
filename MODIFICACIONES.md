@@ -106,6 +106,16 @@ En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerz
 - **Acciones de borrado.** Los botones que borran respuestas, refuerzo o estadísticas, o reinician todo el progreso, pasan a desplegables discretos: «Borrar respuestas», «Borrar datos del refuerzo», «Detalles técnicos y mantenimiento» y «Reiniciar progreso». Su funcionamiento no cambia.
 - Ficheros afectados: `index.html`, `assets/css/styles.css`, `assets/js/router.js`, `assets/js/statistics.js`, `assets/js/syllabus-view.js`, los sufijos de caché de `app.js`, `home.js` y `training.js` (la hoja de estilos estrena sufijo, `?gsi8`), la guía de estudio y `tests/gsi-smoke.mjs`, que ahora abre «Reiniciar progreso» antes de pulsar el botón.
 
+### 11. Pantallas concretas: Examen, Refuerzo y ficha del tema en móvil
+
+- **Examen.** Las tres convocatorias oficiales pasan de líneas desplegables a tarjetas con el año, el estado de la plantilla, el formato (100 preguntas evaluables, 90 minutos, error −1/3) y el botón «Preparar este examen» a la vista. Los PDF, la nota y las preguntas anuladas quedan en «Documentos oficiales».
+- **Refuerzo.**
+  - «Nueva sesión de repaso» aparece justo después del resumen; antes estaba debajo de la cola.
+  - La cola lleva su título antes de sus filtros («Filtrar la cola»).
+  - La leyenda «Iniciar sesión» pasa a «Nueva sesión de repaso», porque se confundía con entrar con una cuenta.
+- **Ficha del tema en móvil.** «Volver al listado» se oculta, porque la miga «Temario» que tiene justo encima hace lo mismo. Los botones son más compactos para que «Practicar este tema» y «Fuente oficial» quepan en una fila.
+- Ficheros afectados: `assets/js/official-exams.js`, `assets/js/syllabus-view.js`, `index.html`, `assets/css/styles.css`, los sufijos de caché (`app.js?gsi9`, `styles.css?gsi9`, `exam.js`, `training.js`, `reinforcement.js`) y la guía de estudio.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

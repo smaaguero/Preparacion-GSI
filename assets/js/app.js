@@ -1,7 +1,7 @@
 import { isDemoMode, loadAppData, loadQuestionData } from "./data-service.js?gsi3";
 import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi5";
 import { loadTopicContentIndex } from "./topic-content-service.js?gsi2";
-import { initSyllabusView } from "./syllabus-view.js?gsi4";
+import { initSyllabusView } from "./syllabus-view.js?gsi5";
 import { initStudyPlan } from "./study-plan.js?gsi2";
 import { initStudyProgress } from "./study-progress.js?gsi3";
 import { configurePersistenceV2 } from "./persistence-v2.js?gsi2";
@@ -56,10 +56,10 @@ async function initQuestionFeatures() {
   questionFeaturesPromise = (async () => {
     const [data, trainingModule, examModule, reinforcementMigrationModule, reinforcementModule, analyticsMigrationModule] = await Promise.all([
       getFullData(),
-      import("./training.js?gsi7"),
-      import("./exam.js?gsi5"),
+      import("./training.js?gsi8"),
+      import("./exam.js?gsi6"),
       import("./reinforcement-migration.js?gsi2"),
-      import("./reinforcement.js?gsi5"),
+      import("./reinforcement.js?gsi6"),
       import("./analytics-migration.js?gsi2"),
     ]);
     const realMigration = reinforcementMigrationModule.migratePhase3Training(data, false);

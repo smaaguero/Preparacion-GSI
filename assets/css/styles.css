@@ -848,3 +848,20 @@ dialog::backdrop { background: rgb(23 32 51 / 55%); }
   .site-brand .eyebrow { display: none; }
   .lead { font-size: 1rem; }
 }
+
+/* Examen: convocatorias oficiales como tarjetas, con la acción a la vista. */
+.official-exam-library { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); align-items: start; gap: var(--space-3); margin-block: var(--space-3) var(--space-4); }
+.official-exam-card { min-width: 0; padding: var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); box-shadow: var(--shadow-card); }
+.official-exam-card__title { margin: 0; font-size: 1.2rem; }
+.official-exam-card__meta { margin: var(--space-1) 0 0; color: var(--color-success); font-size: 0.95rem; font-weight: 700; }
+.official-exam-card .form-help { margin: var(--space-1) 0 0; }
+.official-exam-card__docs { margin-top: var(--space-2); }
+.official-exam-card__docs > summary { width: fit-content; cursor: pointer; color: var(--color-primary); font-weight: 700; }
+.official-exam-card__docs ul { margin-block: var(--space-1); padding-left: 1.25rem; }
+.official-exam-card__actions { margin-top: var(--space-3); }
+
+@media (max-width: 42rem) {
+  /* En la ficha del tema, la miga «Temario» ya lleva al listado. */
+  .topic-actions .topic-back { display: none; }
+  .topic-actions .button { min-height: 2.5rem; padding: 0.5rem 0.8rem; font-size: 0.95rem; }
+}

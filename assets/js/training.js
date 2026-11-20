@@ -614,4 +614,4 @@ export function initTraining(data) {
   window.addEventListener("gsi:routechange", (event) => presetTopicFromRoute(event.detail));
   presetTopicFromRoute(parseRoute());
 }
-import { describeOfficialQuestion } from "./official-exams.js?gsi2";
+import { describeOfficialQuestion } from "./official-exams.js?gsi3";

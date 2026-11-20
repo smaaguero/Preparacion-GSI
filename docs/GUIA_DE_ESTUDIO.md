@@ -114,7 +114,7 @@ Refuerzo reúne preguntas para volver a practicarlas y programa próximas revisi
 
 1. Entra en **Refuerzo**.
 2. Mira el resumen y la **Cola de refuerzo** para conocer qué tienes pendiente.
-3. Baja al formulario **Iniciar sesión**. Sus filtros son distintos de los que usas arriba para consultar la cola.
+3. Usa el formulario **Nueva sesión de repaso**, justo debajo del resumen. Sus filtros son distintos de los de **Filtrar la cola**, más abajo.
 4. Para empezar, deja todos los bloques y temas, elige **5** preguntas y conserva **Por prioridad**.
 5. Deja **Solo vencidas** marcado para repasar las preguntas cuya fecha de revisión ya ha llegado. Pulsa **Iniciar refuerzo**.
 6. Responde y lee la explicación. Después debes valorar la pregunta: **La sabía**, **Dudé** o **No la sabía**. **La sabía** solo está disponible si has acertado.
@@ -247,7 +247,7 @@ Si todavía no tienes preguntas del tema, dedica esos 10 minutos a explicarlo po
 | Aparece un error al abrir `index.html` | Utiliza la dirección HTTP del paso 1. |
 | No encuentro un tema | Vacía la búsqueda, deja todos los bloques y todos los estados de estudio, y comprueba que **Filtros editoriales** no tenga nada seleccionado. |
 | No hay preguntas para el entrenamiento | Revisa tema, origen y selección. Puede faltar banco activo o no quedar preguntas nuevas/falladas con esos filtros. |
-| Hay preguntas en Refuerzo pero no puedo empezar | Comprueba si tienen una revisión futura y revisa los filtros del formulario **Iniciar sesión**. |
+| Hay preguntas en Refuerzo pero no puedo empezar | Comprueba si tienen una revisión futura y revisa los filtros del formulario **Nueva sesión de repaso**. |
 | Mi progreso parece vacío | Comprueba navegador, perfil y dirección exacta. Si los cambiaste, vuelve al anterior para exportar la copia e impórtala en el nuevo. |
 | Un documento de Drive pide acceso | Ese enlace abre la fuente original y puede requerir tu cuenta autorizada. Los apuntes ya incorporados se leen dentro del Temario. |
 | No aparece «python» o falta el archivo indicado | Estas instrucciones usan el entorno preparado en este ordenador. No borres ni reinstales el proyecto; conserva el mensaje exacto para revisar el arranque. |
