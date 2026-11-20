@@ -150,6 +150,12 @@ def main():
             check('Multicloud designa' in section and 'no es uno de los cuatro modelos de despliegue de NIST SP 800-145' in section,tid+': multicloud diferenciado de la taxonomía NIST')
             recap=text.split('## Resumen de repaso',1)[-1]
             check('nube privada, comunitaria, pública e híbrida' in recap and 'multicloud no sustituye a comunitaria' in recap,tid+': resumen y claves de test coherentes con NIST')
+        if tid=='B2-T02' and tid in overrides:
+            inap=re.search(r'(?ms)^## 14\. Lo que ha preguntado el INAP\s*\n(.*?)(?=^## 15\. )',text)
+            rows=re.findall(r'(?m)^\| 20(?:22|24|25) · \d+ \|',inap.group(1) if inap else '')
+            check(len(rows)==11,tid+': las 11 preguntas INAP del tema, con respuesta y apartado')
+            check('*Portable Operating System Interface*' in text and '**no contiene código de MINIX**' in text,tid+': POSIX y origen de Linux sin los errores de la fuente')
+            check('Windows NT tiene un **núcleo híbrido**' in text and '**El kernel de Windows no tiene un hilo central de planificación (INAP 2022).**' in text,tid+': Windows como núcleo híbrido y sin hilo central de planificación')
         check(digest(m['html_path'])==imap[tid]['checksum'],tid+': HTML íntegro')
         check(m['drive_id'] in known and m['url']==source['url'] and m['version']=='V2.1',tid+': fuente canónica inventariada')
         check(not frag.unsafe and len(frag.ids)==len(set(frag.ids)),tid+': HTML seguro, anclas únicas')

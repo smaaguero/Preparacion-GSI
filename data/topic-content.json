@@ -3800,9 +3800,9 @@
       "topicId": "B2-T02",
       "contentPath": "content/generated/B2-T02.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "19e36a883bd2c4b98896b056349bd57be15eb6f9f50857627a8a5ba54d5cd635",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-20",
+      "checksum": "cb870952b3319352b62a85230bdc09f4a7af721b4b7babe542ea7b8d19817529",
       "sections": [
         {
           "sectionId": "estudio",
@@ -3811,175 +3811,199 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance y fuente",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 1. Alcance y fuente",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Funciones de un sistema operativo",
+          "title": "1. Qué es un sistema operativo",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 2. Funciones de un sistema operativo",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 1. Qué es un sistema operativo",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Procesos, hilos y planificación",
+          "title": "2. Procesos e hilos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 3. Procesos, hilos y planificación",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 2. Procesos e hilos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Memoria",
+          "title": "3. Planificación de la CPU",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 4. Memoria",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 3. Planificación de la CPU",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Entrada/salida y dispositivos",
+          "title": "4. Concurrencia y sincronización",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 5. Entrada/salida y dispositivos",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 4. Concurrencia y sincronización",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Sistemas de archivos",
+          "title": "5. Gestión de memoria",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 6. Sistemas de archivos",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 5. Gestión de memoria",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. Estructuras de SO",
+          "title": "6. Entrada/salida",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 7. Estructuras de SO",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 6. Entrada/salida",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. Windows",
+          "title": "7. Sistemas de ficheros",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 8. Windows",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 7. Sistemas de ficheros",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. Unix y Linux",
+          "title": "8. Protección y seguridad del sistema operativo",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 9. Unix y Linux",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 8. Protección y seguridad del sistema operativo",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. Sistemas móviles",
+          "title": "9. Windows",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 10. Sistemas móviles",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 9. Windows",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Administración y operación",
+          "title": "10. Unix y Linux",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 11. Administración y operación",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 10. Unix y Linux",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "12. Test",
+          "title": "11. Otros sistemas operativos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 12. Test",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 11. Otros sistemas operativos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-13",
-          "title": "13. Aplicación al supuesto",
+          "title": "12. Sistemas operativos para dispositivos móviles",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 13. Aplicación al supuesto",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 12. Sistemas operativos para dispositivos móviles",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-14",
-          "title": "14. Resumen II.02",
+          "title": "13. Administración y operación",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.02 / 14. Resumen II.02",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 13. Administración y operación",
+              "officialFragmentUrl": null
+            }
+          ]
+        },
+        {
+          "sectionId": "estudio-15",
+          "title": "14. Lo que ha preguntado el INAP",
+          "level": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-GSI-B2-REV20260923",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 14. Lo que ha preguntado el INAP",
+              "officialFragmentUrl": null
+            }
+          ]
+        },
+        {
+          "sectionId": "estudio-16",
+          "title": "15. Aplicación al supuesto práctico",
+          "level": 3,
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-GSI-B2-REV20260923",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / 15. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -3991,7 +4015,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.02",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -4003,7 +4027,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.02 / Núcleo de estudio",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -4015,31 +4039,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.02 / Claves de test",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.02 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.02 / Fuentes base del material",
+              "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

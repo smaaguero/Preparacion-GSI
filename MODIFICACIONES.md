@@ -154,6 +154,18 @@ El tema 1 del Bloque II no era incorrecto, pero explicaba poco y dejaba fuera la
   - `tests/phase7-tests.js` y `tests/phase7b2-tests.js` exigían que todos los temas estuvieran revisados y fechados el 23/09/2026 (o el 05/10/2026 en tres temas). Ahora aceptan, solo para los temas del manifiesto de sustituciones, el estado y la fecha declarados en él. Para los demás siguen igual de estrictas.
   - En `tests/gsi-smoke.mjs`, la prueba del examen iniciado antes de cargar los bancos ya no lee el mensaje de estado justo después del clic. Era una carrera: el arranque de la aplicación podía limpiarlo. Ahora comprueba lo esencial: que la página no se recarga con los campos en la URL y que el examen arranca.
 
+### 14. Tema B2-T02 reescrito por el fork
+
+El tema 2 del Bloque II era una lista de términos, sin errores graves pero sin explicaciones. Con él no se podían responder 5 de las 11 preguntas que el INAP ha puesto del tema, y una sexta solo a medias: el kernel de Windows sin hilo central de planificación, la planificación no apropiativa, la carga de páginas por demanda, los sistemas distribuidos y el bit de modificado, más Round Robin con HRN como distractor. El diagnóstico completo está en `docs/propuestas/B2-T02-diagnostico.md`, con 32 errores o datos caducados de las fuentes PreparaTIC 059–062 que no se trasladan.
+
+- **Nuevo texto** (`content/fork-topics/B2-T02.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado: fundamentos (procesos, planificación, concurrencia, memoria, E/S, ficheros y protección), Windows, Unix y Linux, otros sistemas (macOS y z/OS), sistemas móviles, administración y supuesto práctico.
+  - Explica las 11 preguntas INAP del tema donde corresponde y las resume al final con su respuesta.
+  - Conserva el diagrama de proceso e hilos, ahora tras el apartado «2. Procesos e hilos».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade tres comprobaciones del contenido de B2-T02: las 11 preguntas INAP en el apartado 14, POSIX y el origen de Linux sin los errores de la fuente, y Windows como núcleo híbrido sin hilo central de planificación.
+- Los apuntes V2.1 originales (II.02) siguen intactos en el corpus. Las preguntas del banco no cambian. El diagnóstico anota cuatro preguntas del banco que convendría reclasificar en otro tema.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

@@ -50,6 +50,69 @@
           "title": "Preguntas oficiales INAP de 2022, 2024 y 2025 clasificadas en el tema"
         }
       ]
+    },
+    "B2-T02": {
+      "markdown": "content/fork-topics/B2-T02.md",
+      "sha256": "9098aac7dd67a3ced33d8fa9b70e80517de11f9f57e8cd44264922a9ae493fbe",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-20",
+      "notice": "Revisión del fork del 20/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.02), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.02",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.02 · sustituido por la revisión del fork del 20/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "2. Procesos e hilos",
+          "src": "assets/diagrams/b2/b2-t02-proceso-hilo.svg",
+          "title": "Proceso, hilos y estados de ejecución",
+          "alt": "Diagrama de un proceso con memoria y recursos propios que contiene varios hilos, junto a los estados preparado, ejecución y bloqueado y las transiciones controladas por el planificador.",
+          "description": "Separa el contenedor de recursos —proceso— de las unidades de ejecución —hilos— y lo relaciona con planificación.",
+          "takeaway": "Los hilos comparten recursos del proceso; el planificador asigna CPU a unidades ejecutables y un bloqueo no equivale a terminación."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 059, 060, 061 y 062 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "IEEE Std 1003.1-2024 (POSIX.1-2024)",
+          "url": "https://standards.ieee.org/standard/1003_1-2024.html"
+        },
+        {
+          "title": "Filesystem Hierarchy Standard 3.0 (Linux Foundation)",
+          "url": "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html"
+        },
+        {
+          "title": "Microsoft Learn, ciclo de vida de Windows Server 2025",
+          "url": "https://learn.microsoft.com/lifecycle/products/windows-server-2025"
+        },
+        {
+          "title": "Android Developers, arquitectura de la plataforma",
+          "url": "https://developer.android.com/guide/platform"
+        },
+        {
+          "title": "Apple, Guía de seguridad de las plataformas",
+          "url": "https://support.apple.com/guide/security/welcome/web"
+        },
+        {
+          "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad (medidas op.exp y mp.eq.3)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+        },
+        {
+          "title": "Real Decreto 1112/2018, accesibilidad de sitios web y aplicaciones móviles del sector público",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2022, 2024 y 2025 clasificadas en el tema"
+        }
+      ]
     }
   }
 }
