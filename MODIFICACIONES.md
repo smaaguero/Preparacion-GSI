@@ -55,6 +55,14 @@ El INAP solo publica la letra correcta. El fork añade a cada pregunta oficial a
 - Cobertura: las 304 preguntas oficiales activas (2022: 101; 2024: 101; 2025: 102).
 - Claves matizadas en la explicación: 2024 Q87 (Nessus ya no es de código abierto), 2024 Q62 (SAR no es formato estándar de Java EE), 2025 Q59 (.NET 8 ya sin soporte), 2022 Q98 (redes 3G en apagado) y 2022 Q99 (H.265 es de la ITU-T, no de la ITU-R).
 
+### 6. Fichas de datos para el test del Bloque I
+
+Los apuntes del Bloque I son esquemáticos y el INAP pregunta datos concretos: plazos, mayorías, cifras y órganos, con su artículo. Se añade a cada tema del Bloque I (B1-T01 a B1-T10) un suplemento «Ficha de datos (fork)» con una tabla «dato, valor y referencia», 125 datos en total. Usa el mismo mecanismo de suplementos que el proyecto (`content/enhancements/b1-visuals.json`).
+
+- Cada uno de los 120 datos con referencia al BOE se verificó automáticamente con una cita literal en el código BOE consolidado incluido en el repositorio (`documents/markdown/02_NORMATIVA/`, actualizado a 03/06/2026). Además, se comprobó que la cita pertenece a la norma y al artículo indicados.
+- Los 5 datos restantes (Agenda 2030, eIDAS art. 25.2, Plan de Digitalización 2021-2025 y Década Digital 2030) citan su documento oficial, que no forma parte de ese código.
+- Los apuntes originales no cambian, y los validadores de integridad y de encabezados del proyecto siguen pasando.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

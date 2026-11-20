@@ -4,6 +4,108 @@
     "B1-T01": {
       "classification": "CONSERVAR ESTRUCTURA",
       "replacements": [],
+      "supplements": [
+        {
+          "afterHeading": "8. Datos de test",
+          "title": "Ficha de datos (fork): Constitución, derechos y Corona",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Mayoría de edad",
+                "18 años",
+                "CE art. 12"
+              ],
+              [
+                "Detención preventiva: plazo máximo",
+                "72 horas; después, libertad o disposición judicial",
+                "CE art. 17.2"
+              ],
+              [
+                "Procedimiento para la puesta a disposición judicial inmediata",
+                "Habeas corpus",
+                "CE art. 17.4"
+              ],
+              [
+                "Derechos con procedimiento preferente y sumario y amparo",
+                "Art. 14, Sección 1.ª del Cap. II (arts. 15-29) y objeción de conciencia (art. 30)",
+                "CE art. 53.2"
+              ],
+              [
+                "Principios rectores (Cap. III)",
+                "Solo alegables ante la jurisdicción ordinaria según las leyes que los desarrollen",
+                "CE art. 53.3"
+              ],
+              [
+                "Suspensión general (excepción o sitio)",
+                "Arts. 17, 18.2 y 18.3, 19, 20.1 a) y d) y 20.5, 21, 28.2 y 37.2; el 17.3 no se suspende en el estado de excepción",
+                "CE art. 55.1"
+              ],
+              [
+                "Suspensión individual (bandas armadas o elementos terroristas)",
+                "Arts. 17.2, 18.2 y 18.3, por ley orgánica y con intervención judicial",
+                "CE art. 55.2"
+              ],
+              [
+                "Estado de alarma",
+                "Gobierno por decreto; máximo 15 días; prórroga con autorización del Congreso",
+                "CE art. 116.2"
+              ],
+              [
+                "Estado de excepción",
+                "Gobierno con autorización previa del Congreso; máximo 30 días, prorrogable por otro plazo igual",
+                "CE art. 116.3"
+              ],
+              [
+                "Estado de sitio",
+                "Mayoría absoluta del Congreso, a propuesta exclusiva del Gobierno",
+                "CE art. 116.4"
+              ],
+              [
+                "Persona del Rey",
+                "Inviolable y no sujeta a responsabilidad; sus actos requieren refrendo",
+                "CE art. 56.3"
+              ],
+              [
+                "Orden de sucesión: mismo grado",
+                "El varón a la mujer; en el mismo sexo, la persona de más edad",
+                "CE art. 57.1"
+              ],
+              [
+                "Abdicaciones, renuncias y dudas de sucesión",
+                "Se resuelven por ley orgánica",
+                "CE art. 57.5"
+              ],
+              [
+                "Refrendo de la propuesta y nombramiento del Presidente y de la disolución del art. 99",
+                "Presidente del Congreso",
+                "CE art. 64.1"
+              ],
+              [
+                "Casa del Rey",
+                "Cantidad global de los Presupuestos que el Rey distribuye libremente",
+                "CE art. 65.1"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Constitución Española (texto consolidado)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
+      ],
       "visuals": [
         {
           "afterHeading": "4. Título I: esquema esencial",
@@ -31,6 +133,143 @@
           "to": "El Congreso otorga la investidura, exige la responsabilidad política mediante la moción de censura, decide sobre la cuestión de confianza y puede superar el veto o las enmiendas del Senado conforme al artículo 90 de la Constitución."
         }
       ],
+      "supplements": [
+        {
+          "afterHeading": "8. Test",
+          "title": "Ficha de datos (fork): Cortes, Tribunal Constitucional y Defensor del Pueblo",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Número de diputados",
+                "Mínimo 300 y máximo 400 (la LOREG fija 350)",
+                "CE art. 68.1"
+              ],
+              [
+                "Ceuta y Melilla en el Congreso",
+                "Un diputado cada una",
+                "CE art. 68.2"
+              ],
+              [
+                "Senadores por provincia",
+                "Cuatro",
+                "CE art. 69.2"
+              ],
+              [
+                "Ceuta y Melilla en el Senado",
+                "Dos senadores cada una",
+                "CE art. 69.4"
+              ],
+              [
+                "Senadores autonómicos",
+                "Uno por comunidad y otro más por cada millón de habitantes",
+                "CE art. 69.5"
+              ],
+              [
+                "Periodos ordinarios de sesiones",
+                "Septiembre a diciembre y febrero a junio",
+                "CE art. 73.1"
+              ],
+              [
+                "Diputación Permanente",
+                "Mínimo 21 miembros",
+                "CE art. 78.1"
+              ],
+              [
+                "Aprobación de leyes orgánicas",
+                "Mayoría absoluta del Congreso en una votación final sobre el conjunto",
+                "CE art. 81.2"
+              ],
+              [
+                "Convalidación o derogación de un decreto-ley",
+                "Congreso, en los 30 días siguientes a su promulgación",
+                "CE art. 86.2"
+              ],
+              [
+                "Iniciativa legislativa popular",
+                "No menos de 500.000 firmas (no cabe en materias de ley orgánica, tributarias, internacionales ni de gracia)",
+                "CE art. 87.3"
+              ],
+              [
+                "Veto o enmiendas del Senado",
+                "Dos meses; en proyectos urgentes, 20 días naturales",
+                "CE art. 90"
+              ],
+              [
+                "Tribunal Constitucional: composición",
+                "12 miembros: 4 Congreso y 4 Senado (3/5), 2 Gobierno y 2 CGPJ",
+                "CE art. 159.1"
+              ],
+              [
+                "Tribunal Constitucional: mandato y renovación",
+                "9 años; renovación por terceras partes cada 3 años",
+                "CE art. 159.3"
+              ],
+              [
+                "Magistrados del TC: experiencia",
+                "Juristas de reconocida competencia con más de 15 años de ejercicio",
+                "CE art. 159.2"
+              ],
+              [
+                "Presidente del TC",
+                "Nombrado por el Rey a propuesta del Pleno, por 3 años",
+                "CE art. 160"
+              ],
+              [
+                "Legitimados para el recurso de inconstitucionalidad",
+                "Presidente del Gobierno, Defensor del Pueblo, 50 diputados, 50 senadores y ejecutivos y asambleas autonómicos",
+                "CE art. 162.1.a"
+              ],
+              [
+                "Plazo del recurso de inconstitucionalidad",
+                "3 meses desde la publicación de la norma",
+                "LOTC art. 33.1"
+              ],
+              [
+                "Amparo frente a actos del Gobierno o la Administración",
+                "20 días tras agotar la vía judicial",
+                "LOTC art. 43.2"
+              ],
+              [
+                "Defensor del Pueblo: mandato",
+                "5 años, elegido por las Cortes Generales",
+                "LO 3/1981 art. 2.1"
+              ],
+              [
+                "Defensor del Pueblo: elección",
+                "3/5 del Congreso y ratificación por 3/5 del Senado en 20 días; si no se alcanzan, 3/5 del Congreso y mayoría absoluta del Senado",
+                "LO 3/1981 art. 2.4 y 2.5"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Constitución Española",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "LO 2/1979, del Tribunal Constitucional",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "LO 3/1981, del Defensor del Pueblo",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
+      ],
       "visuals": [
         {
           "afterHeading": "1. Cortes Generales",
@@ -45,6 +284,108 @@
     "B1-T03": {
       "classification": "CONSERVAR ESTRUCTURA",
       "replacements": [],
+      "supplements": [
+        {
+          "afterHeading": "7. Test",
+          "title": "Ficha de datos (fork): Gobierno y relaciones con las Cortes",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Composición del Gobierno",
+                "Presidente, vicepresidentes (en su caso), ministros y demás miembros que establezca la ley",
+                "CE art. 98.1"
+              ],
+              [
+                "Investidura",
+                "Mayoría absoluta del Congreso; si no, mayoría simple 48 horas después",
+                "CE art. 99.3"
+              ],
+              [
+                "Sin investidura",
+                "Disolución de ambas Cámaras pasados 2 meses desde la primera votación",
+                "CE art. 99.5"
+              ],
+              [
+                "Nombramiento de los ministros",
+                "Por el Rey, a propuesta del Presidente",
+                "CE art. 100"
+              ],
+              [
+                "Cese del Gobierno",
+                "Elecciones generales, pérdida de la confianza o dimisión o fallecimiento del Presidente; continúa en funciones",
+                "CE art. 101"
+              ],
+              [
+                "Responsabilidad criminal del Presidente y los ministros",
+                "Sala de lo Penal del Tribunal Supremo",
+                "CE art. 102.1"
+              ],
+              [
+                "Acusación por traición o contra la seguridad del Estado",
+                "Iniciativa de 1/4 del Congreso y aprobación por mayoría absoluta",
+                "CE art. 102.2"
+              ],
+              [
+                "Cuestión de confianza",
+                "Se otorga por mayoría simple",
+                "CE art. 112"
+              ],
+              [
+                "Moción de censura: iniciativa",
+                "1/10 de los diputados, con candidato",
+                "CE art. 113.2"
+              ],
+              [
+                "Moción de censura: votación",
+                "No antes de 5 días desde su presentación; alternativas en los 2 primeros días; aprobación por mayoría absoluta",
+                "CE art. 113.3"
+              ],
+              [
+                "Moción rechazada",
+                "Sus firmantes no pueden presentar otra en el mismo periodo de sesiones",
+                "CE art. 113.4"
+              ],
+              [
+                "Límite a la disolución",
+                "No antes de un año desde la anterior (salvo el art. 99.5) ni con una moción de censura en trámite",
+                "CE art. 115.2 y 115.3"
+              ],
+              [
+                "Requisitos para ser miembro del Gobierno",
+                "Español, mayor de edad, con sufragio activo y pasivo y sin inhabilitación",
+                "Ley 50/1997 art. 11"
+              ],
+              [
+                "Gobierno en funciones: no puede",
+                "Aprobar el proyecto de Presupuestos ni presentar proyectos de ley",
+                "Ley 50/1997 art. 21.5"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Constitución Española",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 50/1997, del Gobierno",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
+      ],
       "visuals": [
         {
           "afterHeading": "3. Investidura",
@@ -62,6 +403,93 @@
         {
           "from": "El A1 025 de marzo de 2026 es una fuente especialmente aprovechable, pero se elimina la teoría extensa de gobernanza que no aporte al epígrafe GSI.",
           "to": "En el ámbito digital, estas tres piezas se traducen en publicación proactiva, tramitación individual de solicitudes y responsabilidad institucional, sin confundir transparencia con administración electrónica."
+        }
+      ],
+      "supplements": [
+        {
+          "afterHeading": "9. Test",
+          "title": "Ficha de datos (fork): Transparencia y Agenda 2030",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Titulares del derecho de acceso",
+                "Todas las personas (art. 105.b CE)",
+                "Ley 19/2013 art. 12"
+              ],
+              [
+                "Límites del derecho de acceso",
+                "12 límites tasados: seguridad nacional, defensa, relaciones exteriores, medio ambiente, etc.",
+                "Ley 19/2013 art. 14"
+              ],
+              [
+                "Acceso parcial",
+                "Se concede omitiendo la parte afectada por un límite, salvo que resulte distorsionado o sin sentido",
+                "Ley 19/2013 art. 16"
+              ],
+              [
+                "Motivación de la solicitud",
+                "No es obligatoria",
+                "Ley 19/2013 art. 17.3"
+              ],
+              [
+                "Plazo para resolver",
+                "1 mes, ampliable otro mes por volumen o complejidad",
+                "Ley 19/2013 art. 20.1"
+              ],
+              [
+                "Silencio",
+                "Negativo (desestimación)",
+                "Ley 19/2013 art. 20.4"
+              ],
+              [
+                "Reclamación ante el CTBG",
+                "Potestativa y previa al contencioso; plazo de 1 mes",
+                "Ley 19/2013 art. 24.2"
+              ],
+              [
+                "Resolución de la reclamación",
+                "Plazo de 3 meses; silencio desestimatorio",
+                "Ley 19/2013 art. 24.4"
+              ],
+              [
+                "Presidente del CTBG",
+                "Mandato no renovable de 5 años",
+                "Ley 19/2013 art. 37.2"
+              ],
+              [
+                "Sanciones de buen gobierno",
+                "El CTBG no sanciona: su Presidente puede instar el procedimiento sancionador",
+                "Ley 19/2013 art. 38.2.e"
+              ],
+              [
+                "Publicidad activa en la AGE",
+                "Portal de la Transparencia",
+                "Ley 19/2013 art. 10"
+              ],
+              [
+                "Agenda 2030",
+                "17 Objetivos de Desarrollo Sostenible y 169 metas, adoptada por la Asamblea General de la ONU el 25/09/2015",
+                "Resolución A/RES/70/1 de Naciones Unidas"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Ley 19/2013, de transparencia",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
         }
       ],
       "visuals": [
@@ -89,6 +517,118 @@
         },
         {"from": "datos Rectificación registral", "to": "datos. Rectificación registral"},
         {"from": "procedimientos médicos, quirúrgicos o de otra índole..", "to": "procedimientos médicos, quirúrgicos o de otra índole."}
+      ],
+      "supplements": [
+        {
+          "afterHeading": "8. Test",
+          "title": "Ficha de datos (fork): Igualdad, LGTBI, discapacidad y dependencia",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Plan de igualdad obligatorio",
+                "Empresas de 50 o más personas trabajadoras",
+                "LO 3/2007 art. 45.2"
+              ],
+              [
+                "Composición equilibrada",
+                "Cada sexo entre el 40 % y el 60 %",
+                "LO 3/2007 disp. adicional 1.ª"
+              ],
+              [
+                "Ámbito de la LO 1/2004",
+                "Violencia sobre las mujeres por quienes sean o hayan sido sus cónyuges o parejas",
+                "LO 1/2004 art. 1"
+              ],
+              [
+                "Órganos judiciales especializados",
+                "Juzgados de Violencia sobre la Mujer",
+                "LO 1/2004 título V"
+              ],
+              [
+                "Autoridad de la Ley 15/2022",
+                "Autoridad Independiente para la Igualdad de Trato y la No Discriminación",
+                "Ley 15/2022 título III"
+              ],
+              [
+                "Causas de discriminación protegidas",
+                "Incluyen, entre otras, el estado serológico, la predisposición genética y la situación socioeconómica",
+                "Ley 15/2022 art. 2.1"
+              ],
+              [
+                "Rectificación registral del sexo: edad",
+                "Desde 16 años, por sí misma; entre 14 y 16, asistida por sus representantes legales",
+                "Ley 4/2023 art. 43"
+              ],
+              [
+                "Rectificación registral: requisitos médicos",
+                "Ninguno: no exige informes médicos ni psicológicos ni tratamientos",
+                "Ley 4/2023 art. 44.3"
+              ],
+              [
+                "Persona con discapacidad (efectos legales)",
+                "Grado reconocido igual o superior al 33 %",
+                "RDL 1/2013 art. 4.2"
+              ],
+              [
+                "Cuota de reserva en empresas privadas",
+                "Empresas de 50 o más trabajadores: al menos el 2 % con discapacidad",
+                "RDL 1/2013 art. 42.1"
+              ],
+              [
+                "Reserva en las ofertas de empleo público",
+                "No inferior al 7 % de las vacantes (al menos el 2 % para discapacidad intelectual)",
+                "TREBEP art. 59.1"
+              ],
+              [
+                "Grados de dependencia",
+                "Grado I moderada, grado II severa, grado III gran dependencia",
+                "Ley 39/2006 art. 26"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "LO 3/2007, para la igualdad efectiva",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "LO 1/2004, de violencia de género",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 15/2022, de igualdad de trato",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-11589",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 4/2023, trans y LGTBI",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "RDL 1/2013, derechos de las personas con discapacidad",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 39/2006, de dependencia",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
       ],
       "visuals": [
         {
@@ -207,6 +747,76 @@
             }
           ],
           "note": "Para GSI A2 interesa dominar conceptos, relaciones y trampas. No es necesario memorizar el detalle de los actos de ejecución, números de artículo, mecanismos criptográficos internos ni procedimientos técnicos de certificación."
+        },
+        {
+          "afterHeading": "10. Test",
+          "title": "Ficha de datos (fork): Firma e identidad electrónica",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Vigencia máxima de un certificado cualificado",
+                "5 años",
+                "Ley 6/2020 art. 4.2"
+              ],
+              [
+                "Seguro de los prestadores cualificados",
+                "Responsabilidad civil de al menos 1.500.000 €, más 500.000 € por cada servicio cualificado adicional (no se exige a los del sector público)",
+                "Ley 6/2020 art. 9"
+              ],
+              [
+                "Firma electrónica cualificada",
+                "Efecto jurídico equivalente a la firma manuscrita",
+                "Reglamento (UE) 910/2014 art. 25.2"
+              ],
+              [
+                "Identificación electrónica ante las AAPP",
+                "Certificados cualificados de firma o sello, clave concertada y otros sistemas que se consideren válidos",
+                "Ley 39/2015 art. 9.2"
+              ],
+              [
+                "Firma de los interesados",
+                "Cualquier medio que acredite la autenticidad de la voluntad y la integridad del documento",
+                "Ley 39/2015 art. 10.1"
+              ],
+              [
+                "Plan de Digitalización de las AAPP 2021-2025",
+                "3 ejes: transformación digital de la AGE, proyectos de alto impacto y transformación territorial (comunidades autónomas y entidades locales)",
+                "Plan de Digitalización de las AAPP 2021-2025"
+              ],
+              [
+                "Década Digital 2030: servicios públicos",
+                "100 % de los servicios públicos clave accesibles en línea",
+                "Decisión (UE) 2022/2481 art. 4"
+              ],
+              [
+                "Década Digital 2030: competencias",
+                "80 % de adultos con competencias digitales básicas y 20 millones de especialistas TIC",
+                "Decisión (UE) 2022/2481 art. 4"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Ley 6/2020, de servicios electrónicos de confianza",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 39/2015, del Procedimiento Administrativo Común",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
         }
       ],
       "visuals": [
@@ -239,6 +849,83 @@
     "B1-T07": {
       "classification": "CONSERVAR ESTRUCTURA",
       "replacements": [],
+      "supplements": [
+        {
+          "afterHeading": "15. Test",
+          "title": "Ficha de datos (fork): Protección de datos",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Consentimiento del menor",
+                "Válido por sí solo a partir de 14 años",
+                "LOPDGDD art. 7.1"
+              ],
+              [
+                "Notificación de una brecha a la autoridad",
+                "Sin dilación y, si es posible, en 72 horas",
+                "RGPD art. 33.1"
+              ],
+              [
+                "Plazo para atender los derechos",
+                "1 mes, prorrogable otros 2 meses si es necesario",
+                "RGPD art. 12.3"
+              ],
+              [
+                "Multas máximas del RGPD",
+                "Hasta 20 M€ o el 4 % del volumen de negocio mundial (art. 83.5); hasta 10 M€ o el 2 % (art. 83.4)",
+                "RGPD art. 83"
+              ],
+              [
+                "Prescripción de las infracciones (LOPDGDD)",
+                "Muy graves 3 años; graves 2; leves 1",
+                "LOPDGDD arts. 72-74"
+              ],
+              [
+                "Videovigilancia: conservación",
+                "Supresión en el plazo máximo de 1 mes desde la captación, salvo que acrediten actos ilícitos",
+                "LOPDGDD art. 22.3"
+              ],
+              [
+                "Derechos de los arts. 13-18 LOPDGDD",
+                "Acceso, rectificación, supresión, limitación, portabilidad y oposición",
+                "LOPDGDD título III, cap. II"
+              ],
+              [
+                "Bloqueo de los datos",
+                "Obligatorio al rectificar o suprimir",
+                "LOPDGDD art. 32"
+              ],
+              [
+                "Derechos digitales",
+                "Título X (arts. 79-97): neutralidad, desconexión, testamento digital, etc.",
+                "LOPDGDD título X"
+              ],
+              [
+                "Derechos y libertades en Internet",
+                "Los de la Constitución y los tratados son plenamente aplicables en Internet",
+                "LOPDGDD art. 79"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "LO 3/2018 (LOPDGDD)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
+      ],
       "visuals": [
         {
           "afterHeading": "7. Responsable, encargado y corresponsable",
@@ -256,6 +943,138 @@
         {
           "from": "Los A1 009/010 son apoyo, pero la V2.1 no incorpora cuestiones procesales A1 ajenas al epígrafe.",
           "to": "Para este epígrafe basta dominar la finalidad, procedencia, plazos y efectos de los recursos administrativos, sin extenderse a cuestiones procesales ajenas al programa."
+        }
+      ],
+      "supplements": [
+        {
+          "afterHeading": "28. Test I.08",
+          "title": "Ficha de datos (fork): Leyes 39/2015 y 40/2015 y TREBEP",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Días hábiles",
+                "Excluyen sábados, domingos y festivos",
+                "Ley 39/2015 art. 30.2"
+              ],
+              [
+                "Plazo máximo para resolver",
+                "El de la norma, con máximo de 6 meses salvo ley o Derecho de la UE; si no se fija, 3 meses",
+                "Ley 39/2015 art. 21"
+              ],
+              [
+                "Silencio en procedimientos a solicitud",
+                "Regla general: estimatorio, con excepciones",
+                "Ley 39/2015 art. 24.1"
+              ],
+              [
+                "Notificación electrónica no abierta",
+                "Se entiende rechazada a los 10 días naturales",
+                "Ley 39/2015 art. 43.2"
+              ],
+              [
+                "Notificación en papel: segundo intento",
+                "Una sola vez más, en otra hora, dentro de los 3 días siguientes",
+                "Ley 39/2015 art. 42.2"
+              ],
+              [
+                "Subsanación de la solicitud",
+                "10 días",
+                "Ley 39/2015 art. 68.1"
+              ],
+              [
+                "Trámite de audiencia",
+                "Entre 10 y 15 días",
+                "Ley 39/2015 art. 82.2"
+              ],
+              [
+                "Información pública",
+                "Alegaciones durante al menos 20 días",
+                "Ley 39/2015 art. 83.2"
+              ],
+              [
+                "Tramitación de urgencia",
+                "Plazos a la mitad, salvo los de solicitudes y recursos",
+                "Ley 39/2015 art. 33.1"
+              ],
+              [
+                "Recurso de alzada",
+                "1 mes para interponerlo (acto expreso); 3 meses para resolver",
+                "Ley 39/2015 art. 122"
+              ],
+              [
+                "Recurso de reposición",
+                "1 mes para interponerlo (acto expreso); 1 mes para resolver",
+                "Ley 39/2015 art. 124"
+              ],
+              [
+                "Recurso extraordinario de revisión",
+                "4 años (error de hecho) o 3 meses (resto de causas)",
+                "Ley 39/2015 art. 125.2"
+              ],
+              [
+                "Responsabilidad patrimonial",
+                "Derecho a reclamar en 1 año desde el hecho o la manifestación del daño",
+                "Ley 39/2015 art. 67.1"
+              ],
+              [
+                "Quórum de un órgano colegiado",
+                "Presidente, secretario y al menos la mitad de los miembros",
+                "Ley 40/2015 art. 17.2"
+              ],
+              [
+                "Abstención por parentesco",
+                "Consanguinidad hasta el 4.º grado y afinidad hasta el 2.º",
+                "Ley 40/2015 art. 23.2.b"
+              ],
+              [
+                "Prescripción de infracciones administrativas",
+                "Muy graves 3 años, graves 2, leves 6 meses (si la ley no dice otra cosa)",
+                "Ley 40/2015 art. 30.1"
+              ],
+              [
+                "Grupos de clasificación",
+                "A (subgrupos A1 y A2), B y C (subgrupos C1 y C2)",
+                "TREBEP art. 76"
+              ],
+              [
+                "Funcionario interino en plaza vacante",
+                "Máximo 3 años",
+                "TREBEP art. 10.1.a"
+              ],
+              [
+                "Prescripción de faltas disciplinarias",
+                "Muy graves 3 años, graves 2, leves 6 meses; sanciones: muy graves 3, graves 2, leves 1",
+                "TREBEP art. 97"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "RDL 5/2015 (TREBEP)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
         }
       ],
       "visuals": [
@@ -285,6 +1104,93 @@
           "to": "El tema debe estudiarse como un sistema completo: acceso y tramitación electrónica, reutilización de información, seguridad e interoperabilidad. Cada marco resuelve un problema distinto y todos convergen en el expediente."
         }
       ],
+      "supplements": [
+        {
+          "afterHeading": "20. Datos de test I.09",
+          "title": "Ficha de datos (fork): ENS, ENI y reutilización",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Categorías de seguridad del ENS",
+                "BÁSICA, MEDIA y ALTA",
+                "RD 311/2022 anexo I"
+              ],
+              [
+                "Conformidad de los sistemas de categoría BÁSICA",
+                "Basta una autoevaluación; MEDIA y ALTA requieren certificación",
+                "RD 311/2022 art. 38"
+              ],
+              [
+                "Roles diferenciados del ENS",
+                "Responsable de la información, del servicio, de la seguridad y del sistema",
+                "RD 311/2022 art. 11.1"
+              ],
+              [
+                "Auditoría ordinaria del ENS",
+                "Al menos cada 2 años, ampliable 3 meses por fuerza mayor; extraordinaria si hay cambios sustanciales",
+                "RD 311/2022 art. 31.1"
+              ],
+              [
+                "Adecuación de sistemas preexistentes",
+                "24 meses, incluidos los contratistas privados",
+                "RD 311/2022 disp. transitoria única"
+              ],
+              [
+                "Carpeta Ciudadana",
+                "Área personalizada en la sede del PAGe de la AGE",
+                "RD 203/2021 art. 8"
+              ],
+              [
+                "Reutilización: tarifas",
+                "Gratuita como regla general; puede cobrarse el coste marginal del suministro",
+                "Ley 37/2007 art. 7.1"
+              ],
+              [
+                "Conjuntos de datos de alto valor",
+                "Gratuitos, legibles por máquina, mediante API y, cuando proceda, como descarga masiva",
+                "Ley 37/2007 art. 3 ter"
+              ],
+              [
+                "Esquema Nacional de Interoperabilidad",
+                "Real Decreto 4/2010, desarrollado por las Normas Técnicas de Interoperabilidad (NTI)",
+                "RD 4/2010 disp. adicional 1.ª"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "RD 4/2010 (ENI)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 37/2007, de reutilización",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
+        }
+      ],
       "visuals": [
         {
           "afterHeading": "8. Procedimiento electrónico de extremo a extremo",
@@ -310,6 +1216,73 @@
         {
           "from": "A 24/08/2026 la información oficial del Punto de Acceso General mantiene tres usos de Cl@ve: Cl@ve Móvil, Cl@ve Permanente y Cl@ve PIN. La documentación oficial de Cl@ve presenta Móvil como el nuevo sistema de acceso y mantiene expresamente la alternativa de PIN por SMS. Por ello se descarta la previsión A1 049 de 2024 de que Cl@ve PIN «desaparecería» a finales de 2024/inicios de 2025.",
           "to": "A 24/08/2026 la información oficial del Punto de Acceso General mantiene tres usos de Cl@ve: Cl@ve Móvil, Cl@ve Permanente y Cl@ve PIN. La documentación oficial presenta Cl@ve Móvil como el nuevo sistema de acceso y mantiene la alternativa de PIN por SMS; por tanto, las tres opciones deben reconocerse en el estudio."
+        }
+      ],
+      "supplements": [
+        {
+          "afterHeading": "20. Resumen I.10",
+          "title": "Ficha de datos (fork): Cooperación y servicios comunes",
+          "paragraphs": [
+            "Datos concretos de los que suele preguntar el INAP (plazos, mayorías, cifras y órganos), con el artículo exacto. Repásalos antes de hacer test del tema."
+          ],
+          "table": {
+            "caption": "Datos para memorizar",
+            "headers": [
+              "Dato",
+              "Valor",
+              "Referencia"
+            ],
+            "rows": [
+              [
+                "Principios de las relaciones interadministrativas",
+                "Lealtad institucional, colaboración, cooperación, coordinación, eficiencia, etc.",
+                "Ley 40/2015 art. 140"
+              ],
+              [
+                "Reutilización de aplicaciones de las AAPP",
+                "Las AAPP ponen sus aplicaciones a disposición de las demás que lo soliciten",
+                "Ley 40/2015 art. 157.1"
+              ],
+              [
+                "Transferencia de tecnología",
+                "Directorio general de aplicaciones de la AGE (Centro de Transferencia de Tecnología)",
+                "Ley 40/2015 arts. 157.3 y 158"
+              ],
+              [
+                "Documentos que ya tiene la Administración",
+                "Derecho a no aportarlos; la Administración los consulta, por ejemplo mediante la Plataforma de Intermediación de Datos",
+                "Ley 39/2015 art. 28.2"
+              ],
+              [
+                "Medios y servicios transversales de la AGE",
+                "Uso obligatorio y sustitutivo de los medios propios de cada unidad",
+                "RD 1125/2024 art. 9.2"
+              ],
+              [
+                "Interconexión de registros",
+                "Los registros electrónicos de las AAPP deben ser plenamente interoperables (Sistema de Interconexión de Registros, SIR)",
+                "Ley 39/2015 art. 16.4"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "locator": "texto consolidado"
+            },
+            {
+              "title": "RD 1125/2024",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22935",
+              "locator": "texto consolidado"
+            }
+          ],
+          "note": "Memoriza el dato junto con su artículo: el examen suele preguntar «según el artículo X…». Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI; no forma parte del material original. Cada dato con referencia al BOE se cotejó automáticamente con una cita literal del texto consolidado (código BOE del repositorio, actualizado a 03/06/2026); los que citan otra fuente proceden del documento oficial indicado."
         }
       ],
       "visuals": [
