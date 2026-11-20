@@ -53,6 +53,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 - Guardado local, exportación e importación del progreso.
 - Avisos de vigencia separados de los apuntes originales.
 - Diseño adaptable y navegación mediante teclado.
+- *(Fork)* Modo oscuro automático según la preferencia del sistema.
 
 ## Cómo está construido
 

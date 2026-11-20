@@ -116,6 +116,17 @@ En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerz
 - **Ficha del tema en móvil.** «Volver al listado» se oculta, porque la miga «Temario» que tiene justo encima hace lo mismo. Los botones son más compactos para que «Practicar este tema» y «Fuente oficial» quepan en una fila.
 - Ficheros afectados: `assets/js/official-exams.js`, `assets/js/syllabus-view.js`, `index.html`, `assets/css/styles.css`, los sufijos de caché (`app.js?gsi9`, `styles.css?gsi9`, `exam.js`, `training.js`, `reinforcement.js`) y la guía de estudio.
 
+### 12. Modo oscuro automático
+
+- La aplicación sigue la preferencia de color del sistema (`prefers-color-scheme`). No hay selector manual.
+- Para hacerlo posible, 86 colores fijos de `assets/css/styles.css` pasan a variables: superficies, tintes, textos, bordes, avisos, éxito, error y morado. Los botones usan una variable de acción propia, para que el texto blanco conserve el contraste en los dos modos. El enlace «Saltar al contenido», el cronómetro del examen y el marcador del tema actual usan colores invertibles.
+- En modo claro, las variables reproducen los colores anteriores. Solo unos pocos fondos casi blancos se unifican con tonos prácticamente indistinguibles.
+- Se mantienen fijos el blanco del texto de los botones, las parejas de color del mapa de progreso (fondo y texto definidos juntos, legibles en ambos modos) y el fondo blanco de los diagramas de los apuntes, que son imágenes claras.
+- Contraste comprobado con la fórmula WCAG en los pares principales: todos superan 4,5:1. Por ejemplo, texto sobre superficie oscura 13,7:1, texto secundario 7,6:1, enlaces 8,5:1 y botón 5,3:1.
+- Ficheros afectados: `assets/css/styles.css`, `index.html` (`styles.css?gsi10`) y el README.
+
+La sección 11 incluye además un ajuste de `tests/gsi-smoke.mjs`: la prueba de revisión editorial espera a que haya contenido. Con la cola manual vacía, la espera anterior se cumplía antes de que `review.html` cargara, y la prueba podía fallar por tiempos.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -126,4 +137,5 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras los cambios 7 y 8 se repitió la suite completa en el mismo entorno. Pasan JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad y circuito editorial, pruebas unitarias (104/104), regresión en navegador y el recorrido funcional HTTP completo (84/84, con la prueba nueva del cambio 8). La etapa de integridad (20.111 controles, 0 errores) se ejecutó aparte con un entorno que incluye `markitdown` y `rg`, porque el Python del sistema no los tiene instalados.
 - Antes del cambio 8, «complete GSI exam / correction» fallaba también con el recorrido aislado: es el fallo que corrige ese cambio. Se reprodujo sobre el código anterior a los cambios 7 y 8 (falló 1 de 2 ejecuciones).
 - Tras el cambio 9, la suite completa pasa en una sola ejecución (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.117 controles), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85).
+- Tras los cambios 11 y 12, la suite completa vuelve a pasar (código 0): integridad (20.117 controles), pruebas unitarias (108/108) y recorrido funcional HTTP (85/85), incluida la prueba de revisión editorial ya ajustada.
 - Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.
