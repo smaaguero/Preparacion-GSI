@@ -154,6 +154,24 @@ try {
     await page.locator("#exam-results").waitFor({ state: "visible" });
     assert.match(await page.locator("#exam-result-summary").innerText(), /99/);
   });
+  await check("exam started before the banks load waits instead of reloading", async () => {
+    // Retrasa los bancos para pulsar «Iniciar examen» antes de que exista su manejador.
+    const banks = /questions-(official|manual|ai)\.json$/;
+    await page.route(banks, async (route) => { await new Promise((resolve) => setTimeout(resolve, 2000)); await route.continue(); });
+    try {
+      await page.goto(`${base}#examen`); await page.reload();
+      await page.locator("#exam-mode").selectOption("gsi");
+      await page.locator('#exam-config-form button[type="submit"]').click();
+      assert.match(await page.locator("#app-status").innerText(), /La sesión empezará en cuanto estén listas/);
+      await page.locator("#exam-active").waitFor({ state: "visible", timeout: 60000 });
+      assert.doesNotMatch(page.url(), /\?/, "El envío nativo recargó la página con los campos en la URL.");
+      await page.getByRole("button", { name: "Finalizar examen", exact: true }).click();
+      await page.locator("#exam-confirm-finish").click();
+      await page.locator("#exam-results").waitFor({ state: "visible" });
+    } finally {
+      await page.unroute(banks);
+    }
+  });
   await check("written selection / five answers / persistence", async () => {
     await page.goto(`${base}#practica`);
     await page.getByRole("button", { name: "Elegir opción A · iniciar 180 minutos", exact: true }).click();

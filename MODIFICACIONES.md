@@ -73,6 +73,13 @@ El menú tenía nueve entradas y la portada abría con cifras del catálogo. Se 
 - Ficheros afectados: `index.html`, `assets/css/styles.css`, `assets/js/router.js`, `assets/js/app.js`, `assets/js/home.js` (nuevo), `assets/js/statistics.js` (la portada ya no calcula el tema prioritario), `assets/js/study-progress.js` (exporta `planWithOfficialTitles`) y la guía de estudio (`docs/GUIA_DE_ESTUDIO.md` y `docs/guia-de-estudio.html`).
 - Se suben los sufijos de caché (`?gsi3`, `app.js?gsi6`) de los módulos modificados para que el navegador no combine versiones antiguas y nuevas.
 
+### 8. Iniciar una sesión mientras cargan los bancos
+
+En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerzo solo reciben su manejador cuando terminan de cargar y validar los bancos de preguntas (unos 5,5 MB). Si se pulsaba «Iniciar examen» o «Iniciar entrenamiento» antes, el navegador enviaba el formulario de forma nativa: recargaba la página con los campos en la URL (`index.html?mode=gsi&…`), volvía a Inicio y la sesión no empezaba.
+
+- `assets/js/app.js` retiene ese envío (escucha en fase de captura), muestra «Cargando las preguntas… La sesión empezará en cuanto estén listas» y lo repite al terminar la carga. Si mientras tanto se cambia de vista, no inicia nada.
+- `tests/gsi-smoke.mjs` añade una prueba determinista: retrasa los bancos, pulsa «Iniciar examen» antes de tiempo y comprueba el aviso, que el examen empieza y que la página no se recarga. Este fallo era también la causa de que «complete GSI exam / correction» fallara de forma intermitente.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -80,3 +87,5 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Integridad GSI (20.075 controles), JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad editorial, circuito editorial, pruebas unitarias (104/104) y regresión en navegador: todo correcto.
 - El recorrido funcional HTTP, `tests/gsi-smoke.mjs`, pasa completo (83/83) cuando se ejecuta aislado. Dentro de la suite completa, en WSL, falla de forma intermitente una prueba distinta en cada ejecución por tiempos de espera. Lo mismo ocurría con el repositorio original sin modificar.
 - Los registros `logs/gsi-suite.json`, `logs/gsi-regression.json` y `logs/gsi-browser-smoke.json` se conservan tal como los dejó el proyecto original. No se sustituyen por ejecuciones con fallos intermitentes del entorno.
+- Tras los cambios 7 y 8 se repitió la suite completa en el mismo entorno. Pasan JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad y circuito editorial, pruebas unitarias (104/104), regresión en navegador y el recorrido funcional HTTP completo (84/84, con la prueba nueva del cambio 8). La etapa de integridad (20.111 controles, 0 errores) se ejecutó aparte con un entorno que incluye `markitdown` y `rg`, porque el Python del sistema no los tiene instalados.
+- Antes del cambio 8, «complete GSI exam / correction» fallaba también con el recorrido aislado: es el fallo que corrige ese cambio. Se reprodujo sobre el código anterior a los cambios 7 y 8 (falló 1 de 2 ejecuciones).

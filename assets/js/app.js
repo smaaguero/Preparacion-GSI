@@ -13,9 +13,32 @@ import { renderHome } from "./home.js?gsi3";
 import { clearStatus, setStatus } from "./ui.js?gsi2";
 
 const QUESTION_ROUTES = new Set(["entrenamiento", "examen", "refuerzo", "estadisticas"]);
+// Formularios que inician una sesión. Su manejador se registra al terminar de
+// cargar los bancos de preguntas.
+const SESSION_FORM_IDS = new Set(["training-form", "exam-config-form", "reinforcement-session-form"]);
 let coreData = null;
 let fullDataPromise = null;
 let questionFeaturesPromise = null;
+let questionFeaturesReady = false;
+let pendingSessionSubmit = null;
+
+// Un envío anterior a la carga sería nativo: recargaría la página con los
+// campos en la URL y perdería la vista. Se retiene y se repite al terminar.
+function holdEarlySessionSubmit(event) {
+  if (questionFeaturesReady || !SESSION_FORM_IDS.has(event.target.id)) return;
+  event.preventDefault();
+  pendingSessionSubmit = { form: event.target, submitter: event.submitter ?? null };
+  setStatus("Cargando las preguntas… La sesión empezará en cuanto estén listas.");
+}
+
+function replayPendingSessionSubmit() {
+  const pending = pendingSessionSubmit;
+  pendingSessionSubmit = null;
+  // Si la persona ya ha cambiado de vista, no se inicia nada a sus espaldas.
+  if (!pending || pending.form.closest("[data-view]")?.hidden) return;
+  if (pending.submitter) pending.form.requestSubmit(pending.submitter);
+  else pending.form.requestSubmit();
+}
 
 function getFullData() {
   if (!fullDataPromise) {
@@ -50,10 +73,13 @@ async function initQuestionFeatures() {
     examModule.initExam(data);
     reinforcementModule.initReinforcement(data);
     initStatistics(data);
+    questionFeaturesReady = true;
     clearStatus();
+    replayPendingSessionSubmit();
     return data;
   })().catch((error) => {
     questionFeaturesPromise = null;
+    pendingSessionSubmit = null;
     setStatus(error instanceof Error ? error.message : "No se pudieron cargar los bancos de preguntas.", "error");
     throw error;
   });
@@ -65,6 +91,8 @@ function loadQuestionsForRoute(route) {
 }
 
 async function start() {
+  // En fase de captura: se ejecuta antes que el manejador propio del formulario.
+  document.addEventListener("submit", holdEarlySessionSubmit, true);
   initRouter();
   const demoEnabled = isDemoMode();
   if (demoEnabled) {
