@@ -340,6 +340,89 @@
             }
           ],
           "note": "Para GSI interesa distinguir la obligación operativa de notificación y sus fechas de aplicación; no se pretende memorizar todo el régimen de conformidad del CRA."
+        },
+        {
+          "afterHeading": "11. CSIRT/SOC y ámbito público",
+          "title": "Actualización normativa: Directiva NIS2 y su transposición en España",
+          "paragraphs": [
+            "La Directiva (UE) 2022/2555 —NIS2—, de 14 de diciembre de 2022, establece medidas para alcanzar un elevado nivel común de ciberseguridad en la Unión. Entró en vigor el 16/01/2023, debía transponerse antes del 17/10/2024 y sus medidas nacionales se aplican desde el 18/10/2024, fecha en que quedó derogada la Directiva (UE) 2016/1148 (NIS1).",
+            "En España sigue vigente el Real Decreto-ley 12/2018, de seguridad de las redes y sistemas de información (transposición de NIS1), desarrollado por el Real Decreto 43/2021. El 14/01/2025 el Consejo de Ministros aprobó el Anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad, que transpone NIS2, con tramitación administrativa urgente. Según la información pública consultada el 20/11/2026, la ley aún no se había publicado en el BOE: comprueba su estado antes del examen."
+          ],
+          "subsections": [
+            {
+              "title": "Claves de la Directiva NIS2",
+              "bullets": [
+                "Ámbito por tamaño: con carácter general se aplica a medianas y grandes entidades de los sectores de los anexos I (alta criticidad) y II (otros sectores críticos). Algunas entidades quedan incluidas con independencia de su tamaño, como los proveedores de servicios DNS, los registros de nombres de dominio de primer nivel, los prestadores de servicios de confianza y las entidades de la Administración pública central.",
+                "Dos categorías (art. 3): entidades esenciales y entidades importantes. La diferencia práctica está en la supervisión: ex ante y ex post para las esenciales; solo ex post para las importantes. Los Estados debían elaborar su lista de entidades antes del 17/04/2025.",
+                "Medidas de gestión de riesgos (art. 21), con enfoque de todos los peligros y diez medidas mínimas: análisis de riesgos y políticas, gestión de incidentes, continuidad y gestión de crisis, seguridad de la cadena de suministro, seguridad en adquisición y desarrollo (incluida la gestión de vulnerabilidades), evaluación de eficacia, ciberhigiene y formación, criptografía y cifrado, seguridad de recursos humanos y control de acceso, y autenticación multifactor.",
+                "Órganos de dirección (art. 20): aprueban las medidas, supervisan su aplicación, pueden ser considerados responsables del incumplimiento y deben recibir formación.",
+                "Notificación de incidentes significativos (art. 23) al CSIRT o a la autoridad competente: alerta temprana en 24 horas, notificación del incidente en 72 horas e informe final en un mes.",
+                "Sanciones (art. 34): para entidades esenciales, multas máximas de al menos 10 millones de euros o el 2 % del volumen de negocios anual mundial, si esta cifra es superior; para entidades importantes, al menos 7 millones o el 1,4 %.",
+                "Cooperación europea: Grupo de Cooperación, red de CSIRT y red EU-CyCLONe para crisis a gran escala; ENISA mantiene una base de datos europea de vulnerabilidades."
+              ]
+            },
+            {
+              "title": "España: anteproyecto de 14/01/2025 y marco vigente",
+              "bullets": [
+                "El anteproyecto crea el Centro Nacional de Ciberseguridad, adscrito a la Secretaría General de Presidencia del Gobierno, como punto de contacto único con la Unión Europea, órgano de dirección y coordinación y autoridad de gestión de las crisis de ciberseguridad.",
+                "Autoridades de control previstas: Ministerio del Interior (Oficina de Coordinación de Ciberseguridad), Ministerio de Defensa (Centro Criptológico Nacional) y Ministerio para la Transformación Digital y de la Función Pública.",
+                "Las entidades deberán contar con un responsable de la seguridad de la información y notificar los incidentes significativos.",
+                "Mientras tanto, los CSIRT de referencia del Real Decreto-ley 12/2018 (art. 11) son el CCN-CERT, el INCIBE-CERT y el ESPDEF-CERT del Mando Conjunto del Ciberespacio.",
+                "En el sector público, el ENS (Real Decreto 311/2022) sigue siendo el marco de seguridad aplicable y el CCN-CERT el CSIRT de referencia. NIS2 no sustituye al ENS: ambos se coordinan."
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Calendario de NIS2",
+            "headers": [
+              "Fecha",
+              "Hito"
+            ],
+            "rows": [
+              [
+                "14/12/2022",
+                "Adopción de la Directiva (UE) 2022/2555"
+              ],
+              [
+                "16/01/2023",
+                "Entrada en vigor"
+              ],
+              [
+                "17/10/2024",
+                "Fin del plazo de transposición"
+              ],
+              [
+                "18/10/2024",
+                "Aplicación de las medidas nacionales y derogación de NIS1"
+              ],
+              [
+                "14/01/2025",
+                "España: anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad"
+              ],
+              [
+                "17/04/2025",
+                "Fin del plazo para la lista nacional de entidades esenciales e importantes"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Directiva (UE) 2022/2555 (NIS2)",
+              "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=es",
+              "locator": "arts. 2, 3, 20, 21, 23, 34, 41 y 44"
+            },
+            {
+              "title": "Real Decreto-ley 12/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12257",
+              "locator": "art. 11"
+            },
+            {
+              "title": "Referencia del Consejo de Ministros de 14/01/2025",
+              "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2025/20250114-referencia-rueda-de-prensa-ministros.aspx",
+              "locator": "Anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad"
+            }
+          ],
+          "note": "Para GSI interesa el ámbito, las dos categorías de entidades, las medidas del artículo 21, los plazos de notificación (24 h, 72 h y un mes) y la situación de la transposición española. Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI a partir de las fuentes oficiales citadas; no forma parte del material original de Preparación GSI. Redacción asistida por IA y cotejada con los textos oficiales: revísala con el BOE y el DOUE antes del examen."
         }
       ],
       "visuals": [

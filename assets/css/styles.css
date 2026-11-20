@@ -746,6 +746,7 @@ dialog::backdrop { background: rgb(23 32 51 / 55%); }
 .topic-study-supplement__table { max-width: 100%; overflow-x: auto; }
 .topic-study-supplement table { display: table; min-width: 42rem; background: #fff; }
 .topic-study-supplement caption { padding: .75rem; color: #173a63; font-weight: 800; text-align: left; }
+.topic-study-supplement__table td:first-child { white-space: nowrap; }
 .topic-study-supplement__note { margin-bottom: 0; padding: .8rem 1rem; border-left: .3rem solid #8a5b00; background: #fff6dc; }
 @media (max-width: 42rem) {
   .study-progress-map-section { margin-inline: calc(var(--space-2) * -1); padding: var(--space-3); }

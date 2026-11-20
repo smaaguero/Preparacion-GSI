@@ -48,8 +48,9 @@ await test("el adaptador conserva fuentes BOE y canónicas GSI", () => {
   assert(getSourceDisplayData(historical).documents.length === historical.documents.length, "Documentos históricos perdidos");
   assert(getSourceDisplayData(technicalPublic).documents.length === 1 && getSourceDisplayData(technicalPublic).url?.startsWith("https://"), "Fuente pública no normalizada");
   assert(getSourceDisplayData(technicalPrivate).documents.length === 1 && getSourceDisplayData(technicalPrivate).url?.startsWith("https://"), "Fuente privada no segura");
-  assert(sourceIndexes.documentsById.size === 37, "Los 21 documentos previos, 4 revisados y 12 oficiales deben indexarse exactamente una vez");
+  assert(sourceIndexes.documentsById.size === 38, "Los 21 documentos previos, 4 revisados, 12 oficiales y la plantilla provisional 2025 sustituida deben indexarse exactamente una vez");
   assert(sourceIndexes.documentsById.has("DOC-INAP-GSI-2024-ANSWER-KEY"), "Falta la plantilla definitiva oficial");
+  assert(sourceIndexes.documentsById.has("DOC-INAP-GSI-2025-ANSWER-KEY") && sourceIndexes.documentsById.has("DOC-INAP-GSI-2025-ANSWER-KEY-PROVISIONAL"), "Falta la plantilla definitiva 2025 o su provisional sustituida");
 });
 await test("el adaptador tolera fuentes técnicas inválidas sin bloquear índices", () => {
   const invalid = getSourceDisplayData({ sourceKind: "technical-primary-source", id: "bad", title: "Bad", canonicalUrl: "file:///private" });

@@ -48,6 +48,98 @@
         "fromMarkdown": "**Base A1:** 070 + 071 + 076. **Hueco GSI completado:** el BOE pide expresamente estrategias de diseño, no solo complejidad y ejemplos de ordenación.",
         "to": "Las estrategias de diseño explican cómo abordar el problema; la estructura de datos y la complejidad determinan el coste de las operaciones que la solución necesita."
       }],
+      "supplements": [
+        {
+          "afterHeading": "6.4 IA: tecnologías y áreas",
+          "title": "Actualización normativa: Reglamento Europeo de Inteligencia Artificial (RIA)",
+          "paragraphs": [
+            "El Reglamento (UE) 2024/1689 —Reglamento de Inteligencia Artificial, RIA o AI Act—, de 13 de junio de 2024, establece normas armonizadas sobre IA con un enfoque basado en el riesgo. Se publicó en el DOUE el 12/07/2024, entró en vigor el 01/08/2024 y se aplica de forma escalonada.",
+            "El Reglamento (UE) 2026/1744 (Ómnibus Digital sobre IA), de 8 de julio de 2026, publicado en el DOUE el 24/07/2026 y en vigor desde el 27/07/2026, modificó el RIA: aplaza las obligaciones de los sistemas de alto riesgo, añade dos prácticas prohibidas y suaviza la obligación de alfabetización en IA. Muchos temarios anteriores tienen las fechas desfasadas."
+          ],
+          "subsections": [
+            {
+              "title": "Niveles de riesgo",
+              "bullets": [
+                "Riesgo inaceptable, prácticas prohibidas (art. 5): por ejemplo, técnicas subliminales o manipuladoras, explotación de vulnerabilidades, puntuación social, extracción no selectiva de imágenes faciales de internet o de CCTV, reconocimiento de emociones en el trabajo y la educación y, con excepciones tasadas, identificación biométrica remota en tiempo real en espacios públicos con fines policiales. Desde el Reglamento 2026/1744 también se prohíben los sistemas que generan o manipulan imágenes íntimas realistas de personas identificables sin su consentimiento y material de abuso sexual infantil.",
+                "Alto riesgo (art. 6): componentes de seguridad de productos regulados por la legislación del anexo I y los usos del anexo III, como biometría, infraestructuras críticas, educación, empleo, acceso a servicios públicos y privados esenciales y prestaciones, aplicación de la ley, migración y asilo, y administración de justicia y procesos democráticos. Exigen gestión de riesgos, gobernanza de datos, documentación técnica, registros, transparencia, supervisión humana y precisión, solidez y ciberseguridad.",
+                "Obligaciones de transparencia (art. 50): informar de que se interactúa con un sistema de IA, marcar el contenido sintético en un formato legible por máquina y advertir de las ultrasuplantaciones (deepfakes).",
+                "Riesgo mínimo: sin obligaciones específicas; códigos de conducta voluntarios.",
+                "Modelos de IA de uso general (capítulo V): documentación técnica y política de respeto de los derechos de autor. Se presume riesgo sistémico si el cómputo de entrenamiento supera 10²⁵ operaciones de coma flotante (FLOP), lo que añade obligaciones de evaluación, mitigación, notificación de incidentes y ciberseguridad.",
+                "Alfabetización en IA (art. 4, tras el Reglamento 2026/1744): proveedores y responsables del despliegue deben adoptar medidas para apoyar la alfabetización de su personal, sin obligación de garantizar un nivel concreto."
+              ]
+            },
+            {
+              "title": "Sector público, gobernanza y sanciones",
+              "bullets": [
+                "Los organismos de Derecho público que desplieguen sistemas de alto riesgo deben realizar antes una evaluación de impacto relativa a los derechos fundamentales (art. 27).",
+                "Los sistemas de alto riesgo ya comercializados que vayan a usar autoridades públicas deben adaptarse antes del 02/08/2030 (art. 111.2).",
+                "Gobernanza europea: Oficina Europea de IA (Comisión Europea) y Comité Europeo de IA. En España, la Agencia Española de Supervisión de la Inteligencia Artificial (AESIA), con sede en A Coruña y Estatuto aprobado por el Real Decreto 729/2023. El Real Decreto 817/2023 creó un entorno controlado de pruebas (sandbox) para ensayar el cumplimiento.",
+                "Sanciones (art. 99): hasta 35 millones de euros o el 7 % del volumen de negocios mundial por prácticas prohibidas; hasta 15 millones o el 3 % por otros incumplimientos; hasta 7,5 millones o el 1 % por información incorrecta. En cada caso se aplica el importe más alto, salvo para pymes, a las que se aplica el más bajo.",
+                "En 2026 se tramita en las Cortes la ley española para el buen uso y la gobernanza de la IA, que desarrollará el régimen sancionador y el papel de la AESIA: comprueba su estado antes del examen."
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Calendario de aplicación del RIA tras el Reglamento (UE) 2026/1744",
+            "headers": [
+              "Fecha",
+              "Ámbito aplicable"
+            ],
+            "rows": [
+              [
+                "01/08/2024",
+                "Entrada en vigor del RIA"
+              ],
+              [
+                "02/02/2025",
+                "Capítulos I y II: disposiciones generales, alfabetización en IA y prácticas prohibidas"
+              ],
+              [
+                "02/08/2025",
+                "Modelos de IA de uso general, gobernanza, autoridades notificantes y sanciones"
+              ],
+              [
+                "02/08/2026",
+                "Aplicación general, incluidas las obligaciones de transparencia del artículo 50"
+              ],
+              [
+                "02/12/2026",
+                "Nuevas prohibiciones del Reglamento 2026/1744 y marcado del artículo 50.2 para sistemas generativos comercializados antes del 02/08/2026"
+              ],
+              [
+                "02/12/2027",
+                "Alto riesgo del anexo III (art. 6.2)"
+              ],
+              [
+                "02/08/2028",
+                "Alto riesgo del anexo I (art. 6.1): productos regulados"
+              ],
+              [
+                "02/08/2030",
+                "Adaptación de sistemas de alto riesgo existentes usados por autoridades públicas"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "title": "Reglamento (UE) 2024/1689 (RIA)",
+              "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=es",
+              "locator": "arts. 4, 5, 6, 27, 50, 51, 99, 111 y 113"
+            },
+            {
+              "title": "Reglamento (UE) 2026/1744 (Ómnibus Digital sobre IA)",
+              "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=es",
+              "locator": "art. 1, apartados 5, 7, 39 y 40"
+            },
+            {
+              "title": "Real Decreto 729/2023 (Estatuto de la AESIA)",
+              "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18911",
+              "locator": "texto completo"
+            }
+          ],
+          "note": "Para GSI interesa el enfoque por niveles de riesgo con ejemplos, las obligaciones del sector público, las autoridades y el calendario actualizado en 2026. Ampliación añadida el 20/11/2026 en el fork smaaguero/Preparacion-GSI a partir de las fuentes oficiales citadas; no forma parte del material original de Preparación GSI. Redacción asistida por IA y cotejada con los textos oficiales: revísala con el BOE y el DOUE antes del examen."
+        }
+      ],
       "visuals": [{"afterHeading":"6.1 Estrategias de diseño de algoritmos","src":"assets/diagrams/b3/b3-t05-algoritmos-ia.svg","title":"Del problema al algoritmo y al modelo de IA","alt":"Mapa de decisión que conecta operaciones y restricciones con estructuras de datos, estrategias como divide y vencerás, voraz, programación dinámica y backtracking, y el ciclo de datos, entrenamiento, evaluación e inferencia de IA.","description":"Evita mezclar abstracción de datos, técnica algorítmica y aprendizaje automático.","takeaway":"Primero define problema, operaciones y métricas; después elige estructura, algoritmo o modelo, y valida su coste y generalización."}]
     },
     "B3-T06": {

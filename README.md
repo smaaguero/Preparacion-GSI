@@ -1,5 +1,7 @@
 # Preparación GSI
 
+> **Fork modificado.** Este repositorio es una versión modificada de [Preparación GSI](https://github.com/AngeldelaCalleFernandez/Preparacion-GSI), creado por [AngeldelaCalleFernandez](https://github.com/AngeldelaCalleFernandez), y lo mantiene [smaaguero](https://github.com/smaaguero) para estudio personal. No está respaldado por el creador original. Añade el examen INAP 2025 con su plantilla definitiva y suplementos sobre NIS2 y el Reglamento europeo de IA. Consulta [MODIFICACIONES.md](MODIFICACIONES.md). Versión publicada del fork: **[smaaguero.github.io/Preparacion-GSI](https://smaaguero.github.io/Preparacion-GSI/)**. Los enlaces de este README a la web y al repositorio originales se conservan.
+
 Aplicación web estática y repositorio de contenidos para preparar el **Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado, ingreso libre, subgrupo A2**.
 
 El proyecto está dedicado exclusivamente a GSI A2. Incluye los **57 temas** del Anexo IX de BOE-A-2025-26262, distribuidos en **10 / 16 / 15 / 16**.
@@ -147,6 +149,8 @@ Remove-Item Env:PLAYWRIGHT_CHANNEL
 ```
 
 El canal empleado queda registrado en `logs/gsi-suite.json`, `logs/gsi-regression.json` y `logs/gsi-browser-smoke.json`. La automatización de GitHub Actions mantiene Chrome como referencia principal.
+
+*(Fork)* Cada etapa tiene un límite de 240 segundos. En equipos lentos, como WSL, el recorrido de navegador puede superarlo. Amplíalo con `GSI_STAGE_TIMEOUT` (en segundos), por ejemplo `GSI_STAGE_TIMEOUT=600 python scripts/run_gsi_suite.py`.
 
 El recorrido HTTP lee del historial el último lote editorial aplicado. Para cada pregunta activa del lote comprueba el texto y la corrección de las cuatro alternativas con barajado. También verifica la reanudación, el número de intentos guardados y la aparición de los fallos en Refuerzo. El nombre del control registra el ID del lote probado.
 

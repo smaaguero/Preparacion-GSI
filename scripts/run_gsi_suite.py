@@ -20,6 +20,8 @@ def main():
     if not env.get('PLAYWRIGHT_MODULE') and bundled.is_file():
         env['PLAYWRIGHT_MODULE'] = str(bundled)
     browser_channel = env.get('PLAYWRIGHT_CHANNEL', 'chrome')
+    # Slow hosts (e.g. WSL) can exceed the default per-stage limit in the browser walkthrough.
+    stage_timeout = int(env.get('GSI_STAGE_TIMEOUT', '240'))
     stages = [
         ('Integridad y cobertura GSI', [sys.executable, 'scripts/validate_gsi_final.py']),
         ('JSON y esquemas', [sys.executable, 'scripts/validate_json.py']),
@@ -48,7 +50,7 @@ def main():
     for name, command in stages:
         started = time.monotonic()
         try:
-            result = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=240)
+            result = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=stage_timeout)
             code, output = result.returncode, (result.stdout + result.stderr).strip()
         except (OSError, subprocess.TimeoutExpired) as error:
             code, output = 1, str(error)
