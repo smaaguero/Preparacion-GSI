@@ -1,15 +1,15 @@
 import { isDemoMode, loadAppData, loadQuestionData } from "./data-service.js?gsi3";
-import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi4";
+import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi5";
 import { loadTopicContentIndex } from "./topic-content-service.js?gsi2";
-import { initSyllabusView } from "./syllabus-view.js?gsi3";
+import { initSyllabusView } from "./syllabus-view.js?gsi4";
 import { initStudyPlan } from "./study-plan.js?gsi2";
 import { initStudyProgress } from "./study-progress.js?gsi3";
 import { configurePersistenceV2 } from "./persistence-v2.js?gsi2";
 import { migrateV1ToV2 } from "./persistence-migration-v2.js?gsi2";
 import { initWrittenPractice } from "./written-practice.js?gsi2";
 import { initProgressBackup } from "./progress-backup.js?gsi4";
-import { initStatistics } from "./statistics.js?gsi3";
-import { renderHome } from "./home.js?gsi3";
+import { initStatistics } from "./statistics.js?gsi4";
+import { renderHome } from "./home.js?gsi4";
 import { clearStatus, setStatus } from "./ui.js?gsi2";
 
 const QUESTION_ROUTES = new Set(["entrenamiento", "examen", "refuerzo", "estadisticas"]);
@@ -56,7 +56,7 @@ async function initQuestionFeatures() {
   questionFeaturesPromise = (async () => {
     const [data, trainingModule, examModule, reinforcementMigrationModule, reinforcementModule, analyticsMigrationModule] = await Promise.all([
       getFullData(),
-      import("./training.js?gsi6"),
+      import("./training.js?gsi7"),
       import("./exam.js?gsi5"),
       import("./reinforcement-migration.js?gsi2"),
       import("./reinforcement.js?gsi5"),

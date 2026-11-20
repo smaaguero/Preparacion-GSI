@@ -220,7 +220,7 @@ Si antes estudiabas en `http://127.0.0.1:8765/`, exporta allí tu progreso e imp
 
 Haz una copia al terminar la semana y antes de borrar datos del navegador, cambiar de ordenador o sustituir una práctica escrita. Usa siempre el mismo favorito, navegador y perfil para encontrar tus datos.
 
-Utiliza **Reiniciar todo el progreso GSI** únicamente si quieres empezar desde cero. Exporta antes si quieres poder recuperar lo que tenías.
+Utiliza **Reiniciar todo el progreso GSI**, dentro del desplegable **Reiniciar progreso**, únicamente si quieres empezar desde cero. Exporta antes si quieres poder recuperar lo que tenías.
 
 ## 11. Una sesión sencilla de 45 minutos
 

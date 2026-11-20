@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Estudia Gestión de Sistemas e Informática de la Administración del Estado, ingreso libre A2: 57 temas, entrenamiento y práctica escrita.">
     <title>Preparación GSI · Temario y entrenamiento A2</title>
-    <link rel="stylesheet" href="assets/css/styles.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css?gsi8"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
 
     <header class="site-header">
       <div class="shell header-content">
-        <div>
-          <p class="eyebrow">Gestión de Sistemas e Informática · A2</p>
-          <p class="site-title">Preparación GSI</p>
-        </div>
+        <a class="site-brand" href="#inicio">
+          <span class="eyebrow">Gestión de Sistemas e Informática · A2</span>
+          <span class="site-title">Preparación GSI</span>
+        </a>
         <nav aria-label="Navegación principal">
           <ul class="primary-nav">
             <li><a href="#inicio" data-route="inicio">Inicio</a></li>
@@ -428,10 +428,13 @@
         <section class="local-progress" aria-labelledby="progress-title">
           <h2 id="progress-title">Respuestas guardadas en este navegador</h2>
           <p id="storage-summary">Aún no hay respuestas guardadas.</p>
-          <div class="action-row">
-            <button id="clear-demo-progress" class="button button--secondary" type="button" hidden>Borrar solo respuestas demo</button>
-            <button id="clear-all-progress" class="button button--danger" type="button">Borrar todas las respuestas locales</button>
-          </div>
+          <details class="danger-zone">
+            <summary>Borrar respuestas</summary>
+            <div class="action-row">
+              <button id="clear-demo-progress" class="button button--secondary" type="button" hidden>Borrar solo respuestas demo</button>
+              <button id="clear-all-progress" class="button button--danger" type="button">Borrar todas las respuestas locales</button>
+            </div>
+          </details>
         </section>
       </section>
 
@@ -678,13 +681,13 @@
           <div id="reinforcement-incidents-list" class="reinforcement-list"></div>
         </section>
 
-        <section class="local-progress" aria-labelledby="reinforcement-storage-title">
-          <h2 id="reinforcement-storage-title">Controles locales</h2>
+        <details class="danger-zone danger-zone--standalone">
+          <summary>Borrar datos del refuerzo</summary>
           <div class="action-row">
             <button id="clear-demo-reinforcement" class="button button--secondary" type="button" hidden>Borrar refuerzo demo</button>
             <button id="clear-all-reinforcement" class="button button--danger" type="button">Borrar todo el refuerzo</button>
           </div>
-        </section>
+        </details>
       </section>
 
       <section id="statistics-view" data-view="estadisticas" aria-labelledby="statistics-title" hidden>
@@ -692,6 +695,16 @@
         <h1 id="statistics-title">Estadísticas y progreso</h1>
         <p class="lead">Los cálculos se realizan en este navegador. No se guardan enunciados ni opciones completas en las estadísticas.</p>
 
+        <p id="analytics-storage-status" class="analytics-storage-status" role="status" aria-live="polite"></p>
+        <section id="analytics-empty" class="empty-state" aria-labelledby="analytics-empty-title" hidden>
+          <h2 id="analytics-empty-title">Aún no hay estadísticas</h2>
+          <p>Se calculan con tus respuestas en Entrenamiento, Examen y Refuerzo. Haz un test y vuelve aquí: verás tus aciertos, cómo evolucionas y los temas que más fallas.</p>
+          <div class="action-row">
+            <a class="button" href="#entrenamiento">Hacer un test</a>
+            <a class="button button--secondary" href="#examen">Hacer un simulacro</a>
+          </div>
+        </section>
+        <div id="analytics-results">
         <form class="training-form" aria-label="Filtros de estadísticas">
           <fieldset>
             <legend>Filtrar resultados</legend>
@@ -732,7 +745,6 @@
         </form>
 
         <p id="analytics-active-period" class="form-help" aria-live="polite">Últimos 30 días</p>
-        <p id="analytics-storage-status" class="analytics-storage-status" role="status" aria-live="polite"></p>
         <section aria-labelledby="analytics-summary-title"><h2 id="analytics-summary-title">Resumen general</h2><div id="analytics-summary" class="analytics-summary-grid" aria-live="polite"></div><div id="analytics-insights" class="analytics-summary-grid" aria-live="polite"></div></section>
         <section id="analytics-timeline" class="analytics-section" aria-live="polite"></section>
         <section id="analytics-block-table" class="analytics-section" aria-live="polite"></section>
@@ -742,16 +754,20 @@
         <section id="analytics-weaknesses" class="analytics-section" aria-live="polite"></section>
         <section id="analytics-recurrent" class="analytics-section" aria-live="polite"></section>
         <section id="analytics-sessions" class="analytics-section" aria-live="polite"></section>
-        <section id="analytics-storage" class="analytics-section" aria-live="polite"></section>
-        <section class="local-progress" aria-labelledby="analytics-controls-title">
-          <h2 id="analytics-controls-title">Controles de estadísticas</h2>
-          <p>La reconstrucción usa los intentos guardados de este programa GSI.</p>
-          <div class="action-row">
-            <button id="analytics-rebuild" class="button button--secondary" type="button">Reconstruir estadísticas</button>
-            <button id="analytics-clear-demo" class="button button--secondary" type="button" hidden>Borrar estadísticas demo</button>
-            <button id="analytics-clear-all" class="button button--danger" type="button">Borrar todas las estadísticas</button>
-          </div>
-        </section>
+        </div>
+        <details class="technical-details">
+          <summary>Detalles técnicos y mantenimiento</summary>
+          <section id="analytics-storage" class="analytics-section" aria-live="polite"></section>
+          <section class="local-progress" aria-labelledby="analytics-controls-title">
+            <h2 id="analytics-controls-title">Controles de estadísticas</h2>
+            <p>La reconstrucción usa los intentos guardados de este programa GSI.</p>
+            <div class="action-row">
+              <button id="analytics-rebuild" class="button button--secondary" type="button">Reconstruir estadísticas</button>
+              <button id="analytics-clear-demo" class="button button--secondary" type="button" hidden>Borrar estadísticas demo</button>
+              <button id="analytics-clear-all" class="button button--danger" type="button">Borrar todas las estadísticas</button>
+            </div>
+          </section>
+        </details>
       </section>
     <section data-view="practica" aria-labelledby="practice-title" hidden>
 <p class="eyebrow">Segundo ejercicio · respuesta escrita</p>
@@ -765,8 +781,13 @@
 <button id="progress-export" class="button button--secondary" type="button">Exportar progreso</button>
 <label class="button button--secondary" for="progress-import">Importar copia GSI</label>
 <input id="progress-import" type="file" accept="application/json,.json" class="visually-hidden">
-<button id="progress-reset" class="button button--danger" type="button">Reiniciar todo el progreso GSI</button>
-</div><p id="backup-status" role="status" aria-live="polite"></p></section></main>
+</div>
+<details id="backup-danger" class="danger-zone">
+<summary>Reiniciar progreso</summary>
+<p class="form-help">Borra todo el progreso GSI guardado en este navegador. Si quieres conservarlo, exporta antes una copia.</p>
+<div class="action-row"><button id="progress-reset" class="button button--danger" type="button">Reiniciar todo el progreso GSI</button></div>
+</details>
+<p id="backup-status" role="status" aria-live="polite"></p></section></main>
 
     <footer class="site-footer shell">
       <p>Preparación GSI · Creado por <a href="https://github.com/AngeldelaCalleFernandez">AngeldelaCalleFernandez</a>.</p>
@@ -776,6 +797,6 @@
     <noscript>
       <p class="noscript-message">Esta aplicación necesita JavaScript para cargar los datos y mostrar el entrenamiento.</p>
     </noscript>
-    <script type="module" src="assets/js/app.js?gsi7"></script>
+    <script type="module" src="assets/js/app.js?gsi8"></script>
   </body>
 </html>

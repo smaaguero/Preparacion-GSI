@@ -23,7 +23,7 @@ import {
   saveActiveTrainingSession,
 } from "./analytics-storage.js?gsi4";
 import { appendEditorialReferences, createElement, setStatus } from "./ui.js?gsi4";
-import { parseRoute } from "./router.js?gsi4";
+import { parseRoute } from "./router.js?gsi5";
 
 function originLabel(question) {
   if (question.isDemo) {

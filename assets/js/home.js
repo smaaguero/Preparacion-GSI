@@ -5,7 +5,7 @@ import { loadStudyProgress } from "./study-progress-storage.js?gsi2";
 import { planWithOfficialTitles } from "./study-progress.js?gsi3";
 import { loadActiveExamState } from "./exam-storage.js?gsi2";
 import { getReinforcementSummary } from "./reinforcement-storage.js?gsi2";
-import { renderAnalyticsHome } from "./statistics.js?gsi3";
+import { renderAnalyticsHome } from "./statistics.js?gsi4";
 import { setText } from "./ui.js?gsi2";
 
 function element(id) {

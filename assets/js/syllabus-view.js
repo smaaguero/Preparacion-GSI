@@ -1,6 +1,6 @@
 import { loadTopicFragment } from "./topic-content-service.js?gsi2";
 import { resolveTopicReference } from "./catalog-service.js?gsi2";
-import { parseRoute } from "./router.js?gsi4";
+import { parseRoute } from "./router.js?gsi5";
 import { STUDY_STATUSES, topicNeedsReview, topicProgress } from "./study-progress-engine.js?gsi2";
 import { loadStudyProgress } from "./study-progress-storage.js?gsi2";
 import { describeTopicWeight, loadInapWeights, topicWeight } from "./inap-weight.js?gsi3";
@@ -250,7 +250,10 @@ function showList() {
   const eyebrow = document.querySelector("#syllabus-eyebrow");
   const heading = document.querySelector("#syllabus-title");
   if (eyebrow) eyebrow.textContent = "Programa catalogado";
-  if (heading) heading.textContent = "Temario";
+  if (heading) {
+    heading.textContent = "Temario";
+    heading.classList.remove("is-topic-title");
+  }
   document.querySelector("#syllabus-list")?.removeAttribute("hidden");
   document.querySelector("#topic-detail")?.setAttribute("hidden", "");
   renderList();
@@ -270,6 +273,7 @@ function showDetailError(message) {
   if (eyebrow) eyebrow.textContent = "Temario";
   if (heading) {
     heading.textContent = "Contenido de temario no disponible";
+    heading.classList.remove("is-topic-title");
     heading.tabIndex = -1;
   }
   detail.append(back, element("p", "notice", message));
@@ -319,10 +323,11 @@ async function renderDetail(routeState) {
   const heading = document.querySelector("#syllabus-title");
   if (eyebrow) eyebrow.textContent = `${topic.blockId} · Tema ${topic.number}`;
   if (heading) {
+    // El H1 ya es el título oficial del programa: no se repite en un párrafo aparte.
     heading.textContent = `Tema ${topic.number}. ${topic.title}`;
+    heading.classList.add("is-topic-title");
     heading.tabIndex = -1;
   }
-  const official = element("p", "lead", `Texto oficial del programa: ${topic.title}`);
   const meta = element("div", "topic-meta");
   const topicUpdates = viewState.data.updates.updates.filter((update) => update.topic_ids.includes(operationalTopicId));
   const studyBadge = studyPill(studyRecord(loadStudyStore(), operationalTopicId));
@@ -357,7 +362,7 @@ async function renderDetail(routeState) {
   practice.href = `#entrenamiento/${operationalTopicId}`;
   actions.append(back, practice);
   if (officialSource) actions.append(officialSource);
-  detail.append(createBreadcrumbs(topic), actions, official, meta, message, content);
+  detail.append(createBreadcrumbs(topic), actions, meta, message, content);
   document.title = `Tema ${topic.number} · Preparación GSI`;
   try {
     const fragment = await loadTopicFragment(viewState.index, operationalTopicId);

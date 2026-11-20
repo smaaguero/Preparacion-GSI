@@ -257,7 +257,7 @@ try {
     const backupPath=path.join(artifacts, "smoke-progress.json");await download.saveAs(backupPath);
     const backup=JSON.parse(await fs.readFile(backupPath,"utf8"));assert.equal(backup.oppositionId,"OPP-GSI");
     const studyEntry=Object.entries(backup.entries).find(([key])=>key.endsWith('.study-progress.v2'))?.[1];assert.equal(studyEntry.payload.topics['III.12'].notes,'Repasar esquemas y preguntas falladas.');
-    await Promise.all([page.waitForNavigation(),page.locator("#progress-reset").click()]);await page.waitForFunction(()=>document.querySelector("#home-topic-count")?.textContent==="57");
+    await page.locator("#backup-danger > summary").click();await Promise.all([page.waitForNavigation(),page.locator("#progress-reset").click()]);await page.waitForFunction(()=>document.querySelector("#home-topic-count")?.textContent==="57");
     assert.equal(await page.evaluate(()=>localStorage.getItem("tai.phase3.training.v1")),"historical untouched");
     await Promise.all([page.waitForNavigation(),page.locator("#progress-import").setInputFiles(backupPath)]);
     await page.waitForFunction(()=>Boolean(localStorage.getItem("gsi.OPP-GSI.SYL-GSI-2025.written.v1")),null,{timeout:10000});

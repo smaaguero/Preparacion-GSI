@@ -25,6 +25,12 @@ function text(value, empty = "Sin datos suficientes") {
   return value === null || value === undefined || value === "" ? empty : String(value);
 }
 
+// Un valor sin datos se muestra discreto, no con el tamaño de una cifra.
+function cardValue(value) {
+  const content = text(value);
+  return create("p", { className: content === "Sin datos suficientes" ? "analytics-card-value is-empty" : "analytics-card-value" }, content);
+}
+
 function percentage(value) {
   return Number.isFinite(value) ? `${value.toFixed(1)} %` : "Sin datos suficientes";
 }
@@ -174,7 +180,7 @@ function metricCards(summary, reinforcement) {
   ];
   return cards.map(([title, value]) => {
     const article = create("article", { className: "analytics-card" });
-    article.append(create("h3", {}, title), create("p", { className: "analytics-card-value" }, text(value)));
+    article.append(create("h3", {}, title), cardValue(value));
     return article;
   });
 }
@@ -274,7 +280,7 @@ function renderInsights(container, summary, priority, data) {
   ];
   replace(container, cards.map(([title, value]) => {
     const article = create("article", { className: "analytics-card" });
-    article.append(create("h3", {}, title), create("p", { className: "analytics-card-value" }, value));
+    article.append(create("h3", {}, title), cardValue(value));
     return article;
   }));
 }
@@ -463,6 +469,12 @@ export function renderStatistics(data, migrationReport = null) {
   const summary = getAnalyticsSummary(isDemo, filter);
   const reinforcement = reinforcementSummary(isDemo);
   if (!summary.valid || summary.error) setStorageMessage(summary.error || "Se detectaron datos analíticos incompatibles.", "error");
+  // Sin ningún intento guardado, un solo aviso sustituye a las tarjetas y tablas vacías.
+  const archive = summary.store.archive || {};
+  const hasHistory = summary.store.attempts.length > 0 || summary.store.sessions.length > 0 || (archive.attemptBuckets?.length ?? 0) > 0;
+  const showEmpty = !hasHistory && !data.demoEnabled;
+  if (element("analytics-empty")) element("analytics-empty").hidden = !showEmpty;
+  if (element("analytics-results")) element("analytics-results").hidden = showEmpty;
   replace(element("analytics-summary"), metricCards(summary, reinforcement));
   const blocks = blockMap(data);
   const topics = topicMap(data);

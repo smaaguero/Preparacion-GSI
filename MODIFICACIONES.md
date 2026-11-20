@@ -91,6 +91,21 @@ En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerz
 - **Filtros pensados para estudiar.** Junto a Bloque y Buscar, el Temario filtra por estado de estudio (el de Mi progreso de estudio, con la opción «Con repaso pendiente») y ordena por programa o por peso INAP. Cobertura y Revisión pasan a «Filtros editoriales», plegados: ahora los 57 temas tienen cobertura completa y están revisados, así que esos filtros no distinguían nada. Sus etiquetas solo aparecen en un tema que se salga de ese estado.
 - Ficheros afectados: `assets/js/inap-weight.js` (nuevo), `assets/js/syllabus-view.js`, `assets/js/router.js`, `assets/js/training.js`, `assets/js/app.js`, `index.html`, `assets/css/styles.css`, la guía de estudio, `tests/gsi-unit.mjs` (4 pruebas nuevas) y `tests/gsi-smoke.mjs` (1 prueba nueva).
 
+### 10. Pulido del diseño: lectura, jerarquía y acciones de borrado
+
+- **Lectura.**
+  - Los títulos de página son más contenidos: el máximo baja de 2,8 rem a 2,15 rem.
+  - En la ficha de un tema, el título oficial, que llegaba a ocupar cinco líneas en escritorio y siete en móvil, usa un tamaño menor. Se quita el párrafo «Texto oficial del programa», que lo repetía palabra por palabra; el enlace «Fuente oficial» se mantiene.
+  - El texto de los apuntes se limita a unos 75 caracteres por línea. Diagramas y tablas siguen a ancho completo.
+- **Jerarquía.** Las sombras son más suaves. En las tarjetas de Mi progreso, las etiquetas ya no son mayores que las cifras, y los valores «Sin datos suficientes» se muestran en gris y más pequeños.
+- **Navegación.**
+  - Al cambiar de apartado, la página vuelve arriba. Antes bajaba sola hasta el contenido y tapaba las pestañas.
+  - «Preparación GSI» enlaza a Inicio.
+  - En móvil se oculta la línea «Gestión de Sistemas e Informática · A2».
+- **Estadísticas sin datos.** Si no hay ningún intento guardado, un aviso con «Hacer un test» y «Hacer un simulacro» sustituye a las 13 tarjetas y 8 secciones vacías. El estado de almacenamiento y los controles de mantenimiento quedan plegados en «Detalles técnicos y mantenimiento».
+- **Acciones de borrado.** Los botones que borran respuestas, refuerzo o estadísticas, o reinician todo el progreso, pasan a desplegables discretos: «Borrar respuestas», «Borrar datos del refuerzo», «Detalles técnicos y mantenimiento» y «Reiniciar progreso». Su funcionamiento no cambia.
+- Ficheros afectados: `index.html`, `assets/css/styles.css`, `assets/js/router.js`, `assets/js/statistics.js`, `assets/js/syllabus-view.js`, los sufijos de caché de `app.js`, `home.js` y `training.js` (la hoja de estilos estrena sufijo, `?gsi8`), la guía de estudio y `tests/gsi-smoke.mjs`, que ahora abre «Reiniciar progreso» antes de pulsar el botón.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -101,3 +116,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras los cambios 7 y 8 se repitió la suite completa en el mismo entorno. Pasan JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad y circuito editorial, pruebas unitarias (104/104), regresión en navegador y el recorrido funcional HTTP completo (84/84, con la prueba nueva del cambio 8). La etapa de integridad (20.111 controles, 0 errores) se ejecutó aparte con un entorno que incluye `markitdown` y `rg`, porque el Python del sistema no los tiene instalados.
 - Antes del cambio 8, «complete GSI exam / correction» fallaba también con el recorrido aislado: es el fallo que corrige ese cambio. Se reprodujo sobre el código anterior a los cambios 7 y 8 (falló 1 de 2 ejecuciones).
 - Tras el cambio 9, la suite completa pasa en una sola ejecución (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.117 controles), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85).
+- Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.

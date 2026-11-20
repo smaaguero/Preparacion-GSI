@@ -69,7 +69,10 @@ export function renderRoute(route, shouldFocus = false, root = document, routeSt
     window.dispatchEvent(new CustomEvent("gsi:routechange", { detail: routeState || { route: resolvedRoute, topicId: null, sectionId: null, error: null } }));
   }
   if (shouldFocus) {
-    root.querySelector("#main-content")?.focus();
+    // Sin desplazamiento: al cambiar de apartado se vuelve arriba para que se
+    // vean el menú y las pestañas del apartado.
+    root.querySelector("#main-content")?.focus({ preventScroll: true });
+    if (root === document) window.scrollTo({ top: 0, behavior: "instant" });
   }
   return resolvedRoute;
 }
