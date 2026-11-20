@@ -22,11 +22,11 @@ La aplicación funciona y los 57 temas tienen apuntes completos, resumen y proce
 | --- | ---: | ---: |
 | Material curado del corpus | 959 | 0 |
 | Preguntas generadas revisadas | 803 | 0 |
-| Preguntas oficiales INAP | 202 | 0 |
+| Preguntas oficiales INAP | 304 | 0 |
 
-La aplicación contiene **1.964 preguntas activas** y los **57 temas tienen al menos 20 preguntas revisadas**. Las 803 generadas se activaron tras la confirmación del propietario de que los test estaban revisados; conservan su origen IA y la aceptación asociada a sus hashes. La confirmación no se presenta como una revisión humana realizada por el agente.
+La aplicación contiene **2.066 preguntas activas** y los **57 temas tienen al menos 20 preguntas revisadas**. Las 803 generadas se activaron tras la confirmación del propietario de que los test estaban revisados; conservan su origen IA y la aceptación asociada a sus hashes. La confirmación no se presenta como una revisión humana realizada por el agente.
 
-En **Examen → Exámenes oficiales INAP**, abre **2022** o **2024**, pulsa **Preparar este examen** y después **Iniciar examen**. Cada convocatoria ofrece 100 preguntas evaluables en 90 minutos, con plantilla definitiva y sustitución de anuladas por reservas. Hay 12 enlaces oficiales a cuestionarios, plantillas, supuestos escritos y criterios de 2022, 2024 y 2025. La plantilla consultada de **2025 es provisional**: se ofrece para lectura, sin activar su corrección automática. [Detalle de la importación](docs/GSI_EXAMENES_OFICIALES.md).
+En **Examen → Exámenes oficiales INAP**, abre **2022**, **2024** o **2025**, pulsa **Preparar este examen** y después **Iniciar examen**. Cada convocatoria ofrece 100 preguntas evaluables en 90 minutos, con plantilla definitiva y sustitución de anuladas por reservas. Hay 12 enlaces oficiales a cuestionarios, plantillas, supuestos escritos y criterios de 2022, 2024 y 2025. *(Fork)* La convocatoria **2025** se corrige con la plantilla definitiva publicada por el INAP en septiembre de 2026 (anuladas 32, 33 y 89). [Detalle de la importación](docs/GSI_EXAMENES_OFICIALES.md).
 
 La edición inicial se autorizó el 17 de septiembre de 2026. El propietario autorizó el 9 de noviembre de 2026 la publicación provisional del banco mejorado.
 
@@ -173,7 +173,7 @@ consulta en [`logs/gsi-suite.json`](logs/gsi-suite.json), que es la evidencia
 vigente y evita mantener una segunda copia manual de cifras que cambia al
 ampliar la suite.
 
-La validación cubre los 57 temas y sus referencias, las 1.964 preguntas, los
+La validación cubre los 57 temas y sus referencias, las 2.066 preguntas, los
 contratos JSON, la sintaxis JavaScript, las pruebas unitarias y de regresión y
 el recorrido funcional en escritorio, móvil y una subruta de GitHub Pages.
 

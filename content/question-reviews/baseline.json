@@ -5,7 +5,7 @@
   "banks_sha256": {
     "manual": "711309c37abb1dfcb280dcaf03054cb783a81f8f60260be14cc4194ee80cfbdb",
     "ai": "c1c024271a64ed92773351791353daac8df6f8d034104ef24ae4a367ac81d937",
-    "official": "bddf132ba2333d848982263593905206a87e8548179ee7443a8699385c984b9e"
+    "official": "7cff60247c156b54936255544affe83b1a3ec6722acc9155daf01a83043aa23e"
   },
   "original_ai_findings": [
     "AI-GSI-B2-T06-012",
@@ -1922,5 +1922,13 @@
     "MAN-GSI-P19-137",
     "MAN-GSI-P19-159",
     "MAN-GSI-P19-160"
+  ],
+  "official_rebaselines": [
+    {
+      "date": "2026-11-20",
+      "previous_sha256": "bddf132ba2333d848982263593905206a87e8548179ee7443a8699385c984b9e",
+      "sha256": "7cff60247c156b54936255544affe83b1a3ec6722acc9155daf01a83043aa23e",
+      "reason": "Fork smaaguero/Preparacion-GSI: se incorpora la convocatoria 2025 del INAP con su plantilla definitiva (102 preguntas oficiales nuevas). Las 202 preguntas oficiales auditadas de 2022 y 2024 no cambian; las colas editoriales manual e IA no se alteran."
+    }
   ]
 }

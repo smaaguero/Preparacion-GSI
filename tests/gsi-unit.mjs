@@ -178,7 +178,7 @@ for(const exam of officialCatalog.exams.filter(e=>e.key_status==='definitive')) 
   test(`Oficial ${exam.year}: plantilla, orden, reservas y exclusión de anuladas`,()=>{
     const result=selectExamQuestions(questions,cfg);
     assert.deepEqual(result.questions.map(q=>q.id),exam.question_ids);
-    assert.deepEqual(result.questions.filter(q=>q.exam.is_reserve).map(q=>q.exam.number),[1,2,3,4]);
+    assert.deepEqual(result.questions.filter(q=>q.exam.is_reserve).map(q=>q.exam.number),exam.annulled_numbers.map((_,i)=>i+1));
     assert.ok(result.questions.every(q=>q.exam.is_reserve||!exam.annulled_numbers.includes(q.exam.number)));
     assert.ok(Object.values(result.optionOrderByQuestionId).every(order=>order.join('')==='ABCD'));
     assert.equal(calculateExamResults(result.questions,Object.fromEntries(result.questions.map(q=>[q.id,q.correct_option])),1/3).overall.net,100);
@@ -199,11 +199,13 @@ for(const exam of officialCatalog.exams.filter(e=>e.key_status==='definitive')) 
     backup.entries[key].payload.questionRefs.reverse();assert.throws(()=>validateProgressBackup(backup,data));
   });
 }
-test('Plantilla modificada 2024 pregunta 12 y provisional 2025 excluida',()=>{
+test('Plantilla modificada 2024 pregunta 12 y definitiva 2025 con tres anuladas',()=>{
   assert.equal(questions.find(q=>q.id==='OFF-GSI-INAP-2024-Q012').correct_option,'D');
-  assert.equal(questions.filter(q=>q.origin==='official').length,202);
-  assert.equal(questions.some(q=>q.exam?.year===2025),false);
-  assert.ok(selectExamQuestions(questions,{...config,mode:EXAM_MODES.BOE,officialExamId:'GSI-INAP-2025',shuffleQuestions:false,shuffleOptions:false}).errors);
+  assert.equal(questions.filter(q=>q.origin==='official').length,304);
+  assert.equal(questions.filter(q=>q.exam?.year===2025).length,102);
+  assert.deepEqual(officialCatalog.exams.find(e=>e.id==='GSI-INAP-2025').annulled_numbers,[32,33,89]);
+  assert.equal(questions.some(q=>q.exam?.year===2025&&!q.exam.is_reserve&&[32,33,89].includes(q.exam.number)),false);
+  assert.equal(selectExamQuestions(questions,{...config,mode:EXAM_MODES.BOE,officialExamId:'GSI-INAP-2025',shuffleQuestions:false,shuffleOptions:false}).errors,undefined);
 });
 await fs.writeFile(new URL('../logs/gsi-unit.json',import.meta.url),JSON.stringify({date:new Date().toISOString(),passed:results.filter(r=>r.ok).length,failed:results.filter(r=>!r.ok).length,results},null,2)+'\n');
 console.log(`GSI unit: ${results.filter(r=>r.ok).length} passed, ${results.filter(r=>!r.ok).length} failed.`);

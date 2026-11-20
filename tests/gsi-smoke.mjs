@@ -271,14 +271,14 @@ try {
     await page.setViewportSize({width:1365,height:900});
   });
 
-  await check("official library: three convocations, twelve PDFs and provisional excluded", async () => {
+  await check("official library: three convocations, twelve PDFs and definitive 2025", async () => {
     await page.goto(`${base}#examen`);
     await page.locator('#official-exam-library details').first().waitFor({state:'attached'});
     assert.equal(await page.locator('#official-exam-library details').count(),3);
     assert.equal(await page.locator('#official-exam-library a[href^="https://sede.inap.gob.es/"]').count(),12);
-    assert.equal(await page.locator('[data-exam-id="GSI-INAP-2025"] button').count(),0);
+    assert.equal(await page.locator('[data-exam-id="GSI-INAP-2025"] button').count(),1);
     await page.locator('[data-exam-id="GSI-INAP-2025"] summary').click();
-    assert.match(await page.locator('[data-exam-id="GSI-INAP-2025"]').innerText(),/provisional/);
+    assert.match(await page.locator('[data-exam-id="GSI-INAP-2025"]').innerText(),/definitiva/);
     await page.setViewportSize({width:390,height:844});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true);
     await page.screenshot({path:path.join(artifacts, 'official-mobile.png'),fullPage:true});
@@ -367,7 +367,7 @@ try {
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true);
     await page.setViewportSize({width:1365,height:900});
   });
-  for(const year of [2024,2022]) await check(`official ${year}: prepare, answer, resume and correct`, async () => {
+  for(const year of [2025,2024,2022]) await check(`official ${year}: prepare, answer, resume and correct`, async () => {
     await page.goto(`${base}#examen`);
     const card=page.locator(`[data-exam-id="GSI-INAP-${year}"]`);
     await card.locator('summary').click();await card.getByRole('button').click();

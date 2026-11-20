@@ -302,5 +302,19 @@
     "characters": 5654,
     "original_sha256": "5a6f44228bb8bca6fa66eafdd7d2e498e29653e5eff7c23f8159cf4308b67174",
     "sha256": "8cc3be3fb8f910f9e741ce1c9d1121abdbfbf51210d4e5c22e3326a5fb990717"
+  },
+  {
+    "attempted_at": "2026-11-20T10:36:24.893344+00:00",
+    "year": 2025,
+    "kind": "answer_key",
+    "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/Plantilla%20DEFINITIVA%20respuestas%20GSI-L%20OEP2025.pdf",
+    "converter": "MarkItDown",
+    "ocr": false,
+    "status": "converted",
+    "original": "documents/originals/gsi-official/2025/Plantilla DEFINITIVA respuestas GSI-L OEP2025.pdf",
+    "output": "documents/markdown/gsi-official/2025/Plantilla DEFINITIVA respuestas GSI-L OEP2025.md",
+    "characters": 901,
+    "original_sha256": "60c3c1baaa57a2ec803623faafaa0fa9c172f82429501d57a072b745947c9cb4",
+    "sha256": "19c035b59ff9de73be21af27d9e287f072753d2b0ec33f33b5fe82a369fa5984"
   }
 ]

@@ -27,6 +27,8 @@ def main():
     topics={t['id'] for b in load('data/syllabus.json')['blocks'] for t in b['topics']}
     sources=load('data/sources.json')
     sources['sources']=[s for s in sources['sources'] if not s['id'].startswith('SRC-INAP-GSI-')]
+    # Keep dates of unchanged records so re-running the importer only touches new or changed items.
+    previous={q['id']:q for q in load('data/questions-official.json')['questions']}
     bank=[];catalog=[]
     for exam in extracted['exams']:
         year=exam['year'];sid=f'SRC-INAP-GSI-{year}';eid=f'GSI-INAP-{year}'
@@ -61,9 +63,12 @@ def main():
                 feedback+=' La plantilla definitiva modificó esta respuesta: se utiliza D.'
             if year==2024 and q['number']==87 and not q['reserve']:
                 feedback+=' Atención editorial: la descripción de la licencia de Nessus en la opción D requiere contraste de vigencia; se conserva literalmente la clave oficial, sin presentarla como información tecnológica actual.'
+            old=previous.get(ident)
+            unchanged=bool(old) and old['source']['record_sha256']==fingerprint(q)
             provenance={'type':'official','source_id':sid,'document_id':f'DOC-INAP-GSI-{year}-QUESTIONNAIRE',
                         'drive_id':None,'url':docs['questionnaire']['url'],'locator':locator,
-                        'version':f'Convocatoria {year}; plantilla definitiva','reviewed_at':DATE}
+                        'version':f'Convocatoria {year}; plantilla definitiva',
+                        'reviewed_at':old['provenance']['reviewed_at'] if unchanged else DATE}
             bank.append({'id':ident,'opposition_id':'OPP-GSI','origin':'official','official_status':'official',
                 'validation_status':'validated','block_id':tid[:2],'topic_id':tid,'subtopic':'Examen oficial INAP',
                 'exam':{'id':eid,'year':year,'number':q['number'],'is_reserve':q['reserve'],
@@ -74,12 +79,18 @@ def main():
                           'answer_key_url':docs['answer_key']['url'],'answer_key_locator':key_name,
                           'record_sha256':fingerprint(q),'review_method':'Cotejo de extracción y clave con cuestionario y plantilla definitiva del INAP.'},
                 'provenance':provenance,'difficulty':'medium','tags':['oficial','convocatoria-'+str(year),'dificultad-no-calibrada','historico'],
-                'is_active':True,'created_at':DATE,'updated_at':DATE})
+                'is_active':True,'created_at':old['created_at'] if old else DATE,
+                'updated_at':old['updated_at'] if unchanged else DATE})
         kinds={'questionnaire':'exam_questionnaire','answer_key':'answer_key','written':'exam_questionnaire','criteria':'exam_criteria'}
         source_docs=[]
         for d in exam['documents']:
             source_docs.append({'id':f"DOC-INAP-GSI-{year}-{d['kind'].upper().replace('_', '-')}",'path':d['markdown'],
                                 'kind':kinds[d['kind']],'conversion_status':'converted'})
+        # Superseded papers (e.g. a provisional key replaced by the definitive one) stay catalogued
+        # for traceability, but never reach the exam catalogue or the question bank.
+        for d in exam.get('superseded_documents',[]):
+            source_docs.append({'id':f"DOC-INAP-GSI-{year}-{d['kind'].upper().replace('_', '-')}-{d['status'].upper()}",
+                                'path':d['markdown'],'kind':kinds[d['kind']],'conversion_status':'converted'})
         sources['sources'].append({'id':sid,'title':f'INAP · GSI ingreso libre · convocatoria {year}',
              'publisher':'Instituto Nacional de Administración Pública / Comisión Permanente de Selección',
              'official_status':'official' if exam['key_status']=='definitive' else 'official_provisional',
@@ -95,9 +106,10 @@ def main():
             'annulled_questions':annulled,
             'note':('Plantilla definitiva aplicada: las preguntas anuladas se sustituyen por reservas en su orden. Las claves corresponden a esta convocatoria histórica.'
                     if records else 'El INAP solo publica una plantilla provisional en la página consultada. Documentos disponibles para lectura; no se incorporan claves provisionales al banco activo.')})
-    assert len(bank)==202 and len({q['id'] for q in bank})==202
+    expected=sum(not q['annulled'] for exam in extracted['exams'] for q in exam.get('questions') or [])
+    assert len(bank)==expected and len({q['id'] for q in bank})==expected
     save('data/questions-official.json',{'metadata':{'dataset_type':'official','schema_version':'1.0.0',
-        'data_version':'2.1.1','updated_at':DATE,'rights':RIGHTS},'questions':bank})
+        'data_version':'2.2.0','updated_at':DATE,'rights':RIGHTS},'questions':bank})
     save('data/gsi-official-exams.json',{'version':1,'updated_at':DATE,'exams':catalog})
     sources['metadata']['updated_at']=DATE
     save('data/sources.json',sources)
