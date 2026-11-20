@@ -3622,9 +3622,9 @@
       "topicId": "B2-T01",
       "contentPath": "content/generated/B2-T01.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "19e3acf6bfbc6a995ab5405c3be0d735198147050aca87fe99f82f55f2c9885c",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-20",
+      "checksum": "58a8a55ccba9dcbf0828b00efe7147ca24e921b94508d49bfd7bf7788c98bebc",
       "sections": [
         {
           "sectionId": "estudio",
@@ -3633,187 +3633,115 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del BOE",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 1. Alcance del BOE",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Componentes básicos de un sistema de cómputo",
+          "title": "1. Base tecnológica: el computador",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 2. Componentes básicos de un sistema de cómputo",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 1. Base tecnológica: el computador",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Paralelismo y taxonomía de Flynn",
+          "title": "2. Del dispositivo móvil al superordenador",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 3. Paralelismo y taxonomía de Flynn",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 2. Del dispositivo móvil al superordenador",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Mainframe, supercomputación, clúster y grid",
+          "title": "3. Arquitecturas paralelas y escalables",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 4. Mainframe, supercomputación, clúster y grid",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 3. Arquitecturas paralelas y escalables",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Escalabilidad, elasticidad y disponibilidad",
+          "title": "4. Virtualización",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 5. Escalabilidad, elasticidad y disponibilidad",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 4. Virtualización",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Virtualización",
+          "title": "5. Computación en la nube",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 6. Virtualización",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 5. Computación en la nube",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. Computación en la nube",
+          "title": "6. Capacidades y dimensionamiento",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 7. Computación en la nube",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 6. Capacidades y dimensionamiento",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "7.1 Modelos de servicio",
+          "title": "7. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 7.1 Modelos de servicio",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 7. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "7.2 Modelos de despliegue",
+          "title": "8. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 7.2 Modelos de despliegue",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-10",
-          "title": "7.3 Componentes y capacidades",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 7.3 Componentes y capacidades",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-11",
-          "title": "8. Riesgos y criterios de elección",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 8. Riesgos y criterios de elección",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-12",
-          "title": "9. Datos y trampas de test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 9. Datos y trampas de test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "10. Aplicación al supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 10. Aplicación al supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "11. Resumen II.01",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / 11. Resumen II.01",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "Microdatos oficiales añadidos — ZBR y sistemas distribuidos",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.01 / Microdatos oficiales añadidos — ZBR y sistemas distribuidos",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / 8. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -3825,7 +3753,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.01",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -3837,7 +3765,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.01 / Núcleo de estudio",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -3849,31 +3777,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.01 / Claves de test",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.01 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.01 / Fuentes base del material",
+              "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

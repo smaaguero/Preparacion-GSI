@@ -1,7 +1,7 @@
 import { isDemoMode, loadAppData, loadQuestionData } from "./data-service.js?gsi3";
 import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi5";
 import { loadTopicContentIndex } from "./topic-content-service.js?gsi2";
-import { initSyllabusView } from "./syllabus-view.js?gsi5";
+import { initSyllabusView } from "./syllabus-view.js?gsi6";
 import { initStudyPlan } from "./study-plan.js?gsi2";
 import { initStudyProgress } from "./study-progress.js?gsi3";
 import { configurePersistenceV2 } from "./persistence-v2.js?gsi2";

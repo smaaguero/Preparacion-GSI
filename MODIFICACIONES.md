@@ -127,6 +127,33 @@ En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerz
 
 La sección 11 incluye además un ajuste de `tests/gsi-smoke.mjs`: la prueba de revisión editorial espera a que haya contenido. Con la cola manual vacía, la espera anterior se cumplía antes de que `review.html` cargara, y la prueba podía fallar por tiempos.
 
+### 13. Tema B2-T01 reescrito por el fork
+
+El tema 1 del Bloque II no era incorrecto, pero explicaba poco y dejaba fuera la mitad del enunciado del BOE: la base tecnológica (componentes, buses, memoria, almacenamiento y aceleradores) y los equipos concretos, del móvil al superordenador. Tampoco explicaba varias preguntas que ya habían caído en el INAP. El diagnóstico completo está en `docs/propuestas/B2-T01-diagnostico.md`: carencias, explicaciones confusas y errores de las fuentes PreparaTIC 052–055 que no se trasladan.
+
+- **Nuevo texto** (`content/fork-topics/B2-T01.md`).
+  - Sigue el orden del enunciado: base tecnológica, del móvil al superordenador, arquitecturas paralelas y escalables (Flynn, Tanenbaum, Amdahl, clúster y grid), virtualización y nube (NIST, responsabilidad por capas, FaaS y marco español: ENS op.nub.1, CCN-STIC 823, NubeSARA, RGPD y Reglamento de Datos).
+  - Integra donde se explican las seis preguntas INAP del tema y remite a los temas vecinos en vez de duplicarlos.
+  - Es redacción propia del fork con ayuda de IA, a partir de los hechos de las fuentes, sin copiar su texto.
+  - Se publica con el estado **«pendiente de revisión»** y la etiqueta correspondiente en la aplicación.
+- **Mecanismo de sustitución declarada.** El generador del proyecto exige que el texto del corpus siga dentro de cada tema. Para sustituirlo sin tocar las instantáneas del corpus:
+  - `content/topic-overrides.json` declara la sustitución, la huella SHA-256 del texto del fork, el estado editorial, los localizadores y el diagrama.
+  - `scripts/topic_overrides.py` genera a partir de ahí `content/topics/B2-T01.md`, `content/generated/B2-T01.html` y la entrada de `data/topic-content.json`, con la misma estructura que el resto de temas.
+  - `scripts/build_gsi_content.py` aplica las sustituciones al final, para que una regeneración del corpus no las revierta.
+  - `scripts/validate_gsi_final.py`, para los temas sustituidos:
+    - Sigue exigiendo el hash exacto del texto canónico en el corpus.
+    - Comprueba la huella registrada.
+    - Regenera el Markdown y el HTML y exige que coincidan.
+    - Exige que la sustitución esté etiquetada como redacción asistida por IA.
+    - Mantiene, adaptadas, las comprobaciones de B2-T01 sobre los cuatro modelos de despliegue del NIST y multicloud.
+- **Ajustes de interfaz.**
+  - En la ficha de un tema no revisado, la fecha aparece como «Actualizado» en lugar de «Revisado».
+  - Las celdas de las tablas de los apuntes ya no parten palabras por letras en móvil: la tabla se desplaza en horizontal.
+- Los apuntes V2.1 originales (II.01) siguen intactos en `documents/markdown/gsi/revised-2026-09-23/B2/` y en la instantánea del corpus. Las preguntas del banco no cambian.
+- **Pruebas.**
+  - `tests/phase7-tests.js` y `tests/phase7b2-tests.js` exigían que todos los temas estuvieran revisados y fechados el 23/09/2026 (o el 05/10/2026 en tres temas). Ahora aceptan, solo para los temas del manifiesto de sustituciones, el estado y la fecha declarados en él. Para los demás siguen igual de estrictas.
+  - En `tests/gsi-smoke.mjs`, la prueba del examen iniciado antes de cargar los bancos ya no lee el mensaje de estado justo después del clic. Era una carrera: el arranque de la aplicación podía limpiarlo. Ahora comprueba lo esencial: que la página no se recarga con los campos en la URL y que el examen arranca.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -137,5 +164,6 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras los cambios 7 y 8 se repitió la suite completa en el mismo entorno. Pasan JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad y circuito editorial, pruebas unitarias (104/104), regresión en navegador y el recorrido funcional HTTP completo (84/84, con la prueba nueva del cambio 8). La etapa de integridad (20.111 controles, 0 errores) se ejecutó aparte con un entorno que incluye `markitdown` y `rg`, porque el Python del sistema no los tiene instalados.
 - Antes del cambio 8, «complete GSI exam / correction» fallaba también con el recorrido aislado: es el fallo que corrige ese cambio. Se reprodujo sobre el código anterior a los cambios 7 y 8 (falló 1 de 2 ejecuciones).
 - Tras el cambio 9, la suite completa pasa en una sola ejecución (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.117 controles), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85).
+- Tras el cambio 13, la suite completa pasa (código 0): integridad (20.116 controles, con las nuevas comprobaciones de la sustitución), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85). Se comprobó además que el validador detecta un tema sustituido modificado sin registrar.
 - Tras los cambios 11 y 12, la suite completa vuelve a pasar (código 0): integridad (20.117 controles), pruebas unitarias (108/108) y recorrido funcional HTTP (85/85), incluida la prueba de revisión editorial ya ajustada.
 - Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.

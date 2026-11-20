@@ -339,7 +339,7 @@ async function renderDetail(routeState) {
     inapPill,
     createPill("pill--count", bankLabel(operationalTopicId)),
     ...editorialPills(entry),
-    createPill("pill--count", `Revisado: ${formatDate(entry.updatedAt)}`)
+    createPill("pill--count", `${entry.reviewStatus === "reviewed" ? "Revisado" : "Actualizado"}: ${formatDate(entry.updatedAt)}`)
   );
   viewState.weightsPromise.then(() => {
     if (version !== requestVersion || !viewState.weights) return;

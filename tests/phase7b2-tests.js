@@ -114,9 +114,11 @@ await test("el H1 visible de Temario es único", async () => { const app = await
 await test("los fragmentos empiezan en H2", () => assert(html.every((value) => !/<h1\b/i.test(value) && /<h2\b/i.test(value)), "Jerarquía incorrecta"));
 await test("el informe de cobertura coincide", () => { const coverage=JSON.parse(report);assert(coverage.topic_count===57 && coverage.topics.every((t)=>t.has_source), "Informe desactualizado"); });
 
-await test("todos los temas conservan fecha de revisión", () => {
+await test("todos los temas conservan fecha de revisión", async () => {
   const current = new Set(["B2-T07", "B2-T13", "B3-T12"]);
-  assert(index.topics.every((topic) => topic.updatedAt === (current.has(topic.topicId) ? "2026-10-05" : "2026-09-23")), "Revisión sin fecha o incoherente");
+  // Las sustituciones declaradas del fork llevan la fecha registrada en su manifiesto.
+  const forkOverrides = (await fetchJson("../content/topic-overrides.json")).topics;
+  assert(index.topics.every((topic) => topic.updatedAt === (forkOverrides[topic.topicId]?.updatedAt ?? (current.has(topic.topicId) ? "2026-10-05" : "2026-09-23"))), "Revisión sin fecha o incoherente");
 });
 await test("el registro de vigencia enlaza fuentes y temas", () => {
   const expected = new Map([["UPD-2026-001", "current"], ["UPD-2026-002", "transitional"], ["UPD-2026-003", "current"]]);

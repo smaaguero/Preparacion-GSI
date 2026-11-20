@@ -17,6 +17,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from build_gsi_content import markdown_replacement_pair, markdown_topics
 from topic_heading_policy import normalize_markdown_headings
+from topic_overrides import load_overrides, render_override
 
 ROOT=Path(__file__).resolve().parents[1]
 from datetime import date
@@ -86,6 +87,7 @@ def main():
     updates=load('data/updates.json')['updates']
     tracker=load('data/study-tracker-plan.json')
     enhancements=load_enhancements()
+    overrides=load_overrides(ROOT)
     inventory=load('data/gsi-drive-inventory.json'); known={e['id'] for e in inventory['main']}|{e['id'] for e in inventory['auxiliary']['items']}|{e['id'] for e in inventory['auxiliary']['roots']}
     check([len(b['topics']) for b in blocks]==COUNTS and len(topics)==57,'57 temas; distribución 10/16/15/16')
     tracker_topics=tracker['topics'];tracker_codes=[item['code'] for item in tracker_topics];tracker_ids=[item['topic_id'] for item in tracker_topics]
@@ -113,13 +115,34 @@ def main():
                 r'(?m)^(?:#+ (?:I|II|III|IV)\.\d+\s*[—–-]|.*ANEXO [A-Z]\s*[—–-].*(?:Registro de ajustes|Control de cambios|Auditoría|Evidencias))',rest
             )
             study=rest[:boundary.start()].strip() if boundary else rest.strip()
-            preserved=remove_editorial_layer(text,tid,enhancements)
-            normalized_study,_=normalize_markdown_headings(study)
-            normalized_preserved,_=normalize_markdown_headings(preserved)
-            check(sha(study)==m['study_sha256'] and normalized_study in normalized_preserved and len(study)==m['study_characters'],tid+': apuntes completos conservados y hash exacto')
+            if tid in overrides:
+                # Sustitución declarada del fork: el texto canónico sigue íntegro en
+                # el corpus y la aplicación muestra el texto registrado del fork.
+                check(sha(study)==m['study_sha256'] and len(study)==m['study_characters'],tid+': apuntes canónicos conservados en el corpus y hash exacto')
+            else:
+                preserved=remove_editorial_layer(text,tid,enhancements)
+                normalized_study,_=normalize_markdown_headings(study)
+                normalized_preserved,_=normalize_markdown_headings(preserved)
+                check(sha(study)==m['study_sha256'] and normalized_study in normalized_preserved and len(study)==m['study_characters'],tid+': apuntes completos conservados y hash exacto')
+        if tid in overrides:
+            override=overrides[tid]
+            authored=(ROOT/override['markdown']).read_text('utf-8')
+            check(sha(authored)==override['sha256'],tid+': sustitución del fork registrada con hash exacto')
+            expected_md,expected_html,expected_sections=render_override(ROOT,tid,override,t['title'],sources)
+            check(text==expected_md and markup==expected_html,tid+': Markdown y HTML generados desde la sustitución registrada')
+            check(imap[tid]['sections']==expected_sections and imap[tid]['reviewStatus']==override['reviewStatus'] and imap[tid]['updatedAt']==override['updatedAt'],tid+': índice coherente con la sustitución')
+            check(override['studyRef']['sourceId'] in sources and override['reviewRef']['sourceId'] in sources and 'IA' in override['notice'],tid+': sustitución trazada y etiquetada como redacción asistida por IA')
         check(len(' '.join(frag.text))>1500 and len(text)>1500,tid+': contenido sustancial')
         check(text.startswith('# '+t['title']+'\n') and '## Resumen de repaso' in text,tid+': título oficial y repaso')
-        if tid=='B2-T01':
+        if tid=='B2-T01' and tid in overrides:
+            deployment=re.search(r'(?ms)^### 5\.3 Modelos de despliegue\s*\n(.*?)(?=^### 5\.4 )',text)
+            section=deployment.group(1) if deployment else ''
+            models=re.findall(r'(?m)^- \*\*([^*]+?)\.\*\*',section)
+            check(models[:4]==['Privada','Comunitaria','Pública','Híbrida'],tid+': cuatro modelos de despliegue NIST en orden, sin multicloud')
+            check('**no son modelos del NIST**' in section and '**Multicloud.**' in section,tid+': multicloud diferenciado de la taxonomía NIST')
+            recap=text.split('## Resumen de repaso',1)[-1]
+            check('nube privada, comunitaria, pública e híbrida' in recap and 'Multicloud** no es un modelo del NIST ni sustituye a la comunitaria' in recap,tid+': resumen y claves de test coherentes con NIST')
+        elif tid=='B2-T01':
             deployment=re.search(r'(?ms)^### 7\.2 Modelos de despliegue\s*\n(.*?)(?=^### 7\.3 )',text)
             section=deployment.group(1) if deployment else ''
             models=re.findall(r'(?m)^\* \*\*([^*]+)\*\*:',section)

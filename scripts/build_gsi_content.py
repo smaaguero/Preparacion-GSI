@@ -541,7 +541,12 @@ def main():
     aux_inv = previous_inventory['auxiliary']
     save('data/gsi-drive-inventory.json', {'root': DRIVE_ROOT, 'reviewed_root': REVIEWED_ROOT,
                                           'inspected_at': DATE, 'main': main_inv, 'auxiliary': aux_inv})
-    print('GSI: 57 topics, distribution 10/16/15/16, 8 canonical documents, full notes and summaries.')
+    # Fork: temas sustituidos de forma declarada (content/topic-overrides.json).
+    # Se aplican después de generar el corpus para que una regeneración no los revierta.
+    from topic_overrides import apply_overrides
+    overridden = apply_overrides(ROOT)
+    print('GSI: 57 topics, distribution 10/16/15/16, 8 canonical documents, full notes and summaries.'
+          + (f' Fork overrides: {", ".join(overridden)}.' if overridden else ''))
 
 if __name__ == '__main__':
     main()

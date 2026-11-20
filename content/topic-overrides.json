@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "topics": {
+    "B2-T01": {
+      "markdown": "content/fork-topics/B2-T01.md",
+      "sha256": "a01d3ae5d6fc29f8321f7778e3b0e5522812dc815d57d058126c37e505723809",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-20",
+      "notice": "Revisión del fork del 20/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.01), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.01",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.01 · sustituido por la revisión del fork del 20/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "5. Computación en la nube",
+          "src": "assets/diagrams/b2/b2-t01-maquina-cloud.svg",
+          "title": "De la máquina física al servicio cloud",
+          "alt": "Cadena por capas desde CPU, memoria y almacenamiento hasta virtualización, infraestructura cloud y los modelos IaaS, PaaS y SaaS, indicando cómo cambia la responsabilidad del cliente.",
+          "description": "Conecta la base física con la abstracción cloud y sitúa el reparto de gestión en IaaS, PaaS y SaaS.",
+          "takeaway": "Cloud no elimina la infraestructura: añade abstracción y cambia quién administra hardware, sistema operativo, plataforma y aplicación."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 052, 053, 054 y 055 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "NIST SP 800-145, The NIST Definition of Cloud Computing",
+          "url": "https://csrc.nist.gov/pubs/sp/800/145/final"
+        },
+        {
+          "title": "NIST SP 500-292, NIST Cloud Computing Reference Architecture",
+          "url": "https://www.nist.gov/publications/nist-cloud-computing-reference-architecture"
+        },
+        {
+          "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad (medida op.nub.1)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+        },
+        {
+          "title": "Guía CCN-STIC 823, utilización de servicios en la nube (Centro Criptológico Nacional)"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2022, 2024 y 2025 clasificadas en el tema"
+        }
+      ]
+    }
+  }
+}

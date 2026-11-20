@@ -72,7 +72,9 @@ await test("los 57 temas tienen cobertura completa", () => {
   assert(index.topics.length === 57 && index.topics.every((t) => t.status === "complete"), "Queda cobertura parcial.");
 });
 
-await test("cada tema revisado remite al corpus de 23/09/2026", () => assert(index.topics.every((t) => t.reviewStatus === "reviewed" && t.sections.some((s) => s.sourceRefs.some((r) => r.sourceId === `SRC-GSI-${t.topicId.split("-")[0]}-REV20260923`))), "Revisión sin fuente canónica."));
+// Las sustituciones declaradas del fork conservan la referencia canónica y su propio estado editorial.
+const forkOverrides = (await fetchJson("../content/topic-overrides.json")).topics;
+await test("cada tema revisado remite al corpus de 23/09/2026", () => assert(index.topics.every((t) => t.reviewStatus === (forkOverrides[t.topicId]?.reviewStatus ?? "reviewed") && t.sections.some((s) => s.sourceRefs.some((r) => r.sourceId === `SRC-GSI-${t.topicId.split("-")[0]}-REV20260923`))), "Revisión sin fuente canónica."));
 
 await test("el modo demo no duplica el índice editorial", () => assert(!serviceSource.includes("demo/questions") && !serviceSource.includes("isDemo"), "El servicio editorial depende del banco demo."));
 await test("la ruta #temario muestra el listado", () => assert(parseRoute("#temario").route === "temario" && !parseRoute("#temario").topicId, "No se resolvió el listado."));

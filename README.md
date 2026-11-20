@@ -54,6 +54,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 - Avisos de vigencia separados de los apuntes originales.
 - Diseño adaptable y navegación mediante teclado.
 - *(Fork)* Modo oscuro automático según la preferencia del sistema.
+- *(Fork)* Tema B2-T01 reescrito y declarado como sustitución en `content/topic-overrides.json`, pendiente de revisión humana. Los apuntes originales se conservan en el corpus.
 
 ## Cómo está construido
 

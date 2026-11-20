@@ -162,7 +162,8 @@ try {
       await page.goto(`${base}#examen`); await page.reload();
       await page.locator("#exam-mode").selectOption("gsi");
       await page.locator('#exam-config-form button[type="submit"]').click();
-      assert.match(await page.locator("#app-status").innerText(), /La sesión empezará en cuanto estén listas/);
+      // El envío anticipado se retiene: la página no navega con los campos en la URL.
+      assert.doesNotMatch(page.url(), /\?/, "El envío nativo recargó la página antes de cargar los bancos.");
       await page.locator("#exam-active").waitFor({ state: "visible", timeout: 60000 });
       assert.doesNotMatch(page.url(), /\?/, "El envío nativo recargó la página con los campos en la URL.");
       await page.getByRole("button", { name: "Finalizar examen", exact: true }).click();
