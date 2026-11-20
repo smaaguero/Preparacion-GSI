@@ -5,7 +5,7 @@
   "banks_sha256": {
     "manual": "711309c37abb1dfcb280dcaf03054cb783a81f8f60260be14cc4194ee80cfbdb",
     "ai": "c1c024271a64ed92773351791353daac8df6f8d034104ef24ae4a367ac81d937",
-    "official": "edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab"
+    "official": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05"
   },
   "original_ai_findings": [
     "AI-GSI-B2-T06-012",
@@ -1941,6 +1941,12 @@
       "previous_sha256": "ce2e5b8d84c4b38ac8577bf9e55137212aaaa8fc86e6dc926df0769ec6f24c56",
       "sha256": "edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab",
       "reason": "Fork: explicaciones razonadas (no oficiales) añadidas al feedback de las preguntas oficiales de 2024; enunciados, opciones y claves sin cambios."
+    },
+    {
+      "date": "2026-11-20",
+      "previous_sha256": "edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab",
+      "sha256": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05",
+      "reason": "Fork: explicaciones razonadas (no oficiales) añadidas al feedback de las preguntas oficiales de 2022; enunciados, opciones y claves sin cambios."
     }
   ]
 }

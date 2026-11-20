@@ -4,6 +4,410 @@
   "scope": "Fork smaaguero/Preparacion-GSI. Explicaciones razonadas de las preguntas oficiales INAP; no forman parte de la plantilla oficial.",
   "method": "Redacción asistida por IA. Cada explicación justifica la clave oficial y cita la norma o documentación de referencia; los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si la clave oficial ha quedado desfasada, se indica expresamente.",
   "explanations": {
+    "OFF-GSI-INAP-2022-Q001": {
+      "ref": "CE, art. 55.1",
+      "text": "En el estado de excepción o de sitio el art. 55.1 CE permite suspender, entre otros, el derecho de huelga (art. 28.2). La asistencia de abogado al detenido (art. 17.3) está expresamente exceptuada en el estado de excepción. La intimidad del art. 18.1 y la asociación del art. 22 no figuran en la lista: del art. 18 solo se suspenden los apartados 2 y 3."
+    },
+    "OFF-GSI-INAP-2022-Q002": {
+      "ref": "CE, art. 113",
+      "text": "La moción de censura la proponen al menos la décima parte de los diputados y debe incluir un candidato a la Presidencia (moción constructiva, art. 113.2). Para aprobarla hace falta mayoría absoluta del Congreso (art. 113.1), no simple. El Senado no interviene."
+    },
+    "OFF-GSI-INAP-2022-Q003": {
+      "ref": "CE, art. 97",
+      "text": "El art. 97 CE atribuye al Gobierno la función ejecutiva y la potestad reglamentaria, que ejerce «de acuerdo con la Constitución y las leyes». Las Cortes ejercen la potestad legislativa y el Consejo de Estado es un órgano consultivo (art. 107)."
+    },
+    "OFF-GSI-INAP-2022-Q004": {
+      "ref": "Ley 19/2013, art. 12; CE, art. 105.b)",
+      "text": "Según el art. 12 de la Ley 19/2013, todas las personas tienen derecho a acceder a la información pública en los términos del art. 105.b) CE. La condición del solicitante no determina el acceso, aunque existen límites tasados (art. 14) y la protección de datos (art. 15), no solo la seguridad y la defensa."
+    },
+    "OFF-GSI-INAP-2022-Q005": {
+      "ref": "Ley 39/2006, arts. 5 y 6",
+      "text": "Según el art. 6.2, integrarse en el Sistema para la Autonomía y Atención a la Dependencia (SAAD) no altera el régimen jurídico de titularidad, administración, gestión y dependencia orgánica de los centros. El SAAD es una red de utilización pública con centros públicos y privados, el Gobierno puede proteger a españoles no residentes y el acceso de los retornados se fija previo acuerdo del Consejo Territorial."
+    },
+    "OFF-GSI-INAP-2022-Q006": {
+      "ref": "Plan de Digitalización de las Administraciones Públicas 2021-2025",
+      "text": "El Plan se estructura en tres ejes: transformación digital de la AGE, proyectos de alto impacto en la digitalización del sector público y transformación digital y modernización del Ministerio de Política Territorial, las comunidades autónomas y las entidades locales. Regla mnemotécnica: AGE → alto impacto → territorio."
+    },
+    "OFF-GSI-INAP-2022-Q007": {
+      "ref": "LOPDGDD, arts. 13 a 18",
+      "text": "El Capítulo II del Título III de la LO 3/2018 regula los derechos de acceso (art. 13), rectificación (14), supresión (15), limitación del tratamiento (16), portabilidad (17) y oposición (18). La transparencia e información está en el Capítulo I (arts. 11 y 12). La corresponsabilidad no es un derecho del interesado."
+    },
+    "OFF-GSI-INAP-2022-Q008": {
+      "ref": "Ley 39/2015, arts. 9 a 12",
+      "text": "El art. 10.1 permite a los interesados firmar por cualquier medio que acredite la autenticidad de su voluntad y consentimiento y la integridad e inalterabilidad del documento. La identificación admite varios sistemas, no solo certificados cualificados (art. 9.2), y la firma solo se exige para ciertos actos, no para consultas (art. 11). Además, el art. 12 dice que las Administraciones «deberán garantizar» la relación electrónica, no que «procurarán»."
+    },
+    "OFF-GSI-INAP-2022-Q009": {
+      "ref": "Ley 39/2015, art. 14",
+      "text": "Las personas físicas pueden elegir si se relacionan electrónicamente o no con las Administraciones (art. 14.1), salvo que estén obligadas por otro motivo. Están obligados (art. 14.2) las personas jurídicas, las entidades sin personalidad jurídica, quienes ejercen una actividad profesional con colegiación obligatoria (incluidos notarios y registradores), sus representantes y los empleados públicos en lo relativo a su condición."
+    },
+    "OFF-GSI-INAP-2022-Q010": {
+      "ref": "Red SARA (Sistemas de Aplicaciones y Redes para las Administraciones)",
+      "text": "La Red SARA interconecta las Administraciones Públicas españolas (AGE, comunidades autónomas, entidades locales y otros organismos) y da acceso a servicios comunes. También enlaza con la red europea TESTA para el intercambio con instituciones de la UE. TESTA es, por tanto, la red transeuropea y no la española."
+    },
+    "OFF-GSI-INAP-2022-Q011": {
+      "ref": "Arquitectura de computadores: clasificación de Tanenbaum",
+      "text": "Tanenbaum refinó la categoría MIMD de Flynn según el acoplamiento: multiprocesadores con memoria compartida (fuertemente acoplados) y multicomputadores con memoria distribuida y paso de mensajes (débilmente acoplados). Su clasificación es posterior a la de Flynn y se basa en el acoplamiento."
+    },
+    "OFF-GSI-INAP-2022-Q012": {
+      "ref": "Formatos físicos de servidores",
+      "text": "Los servidores se clasifican por formato en torre, rack y blade. Los HPC son una categoría de altas prestaciones, no un formato, pero el «servidor grain mill» simplemente no existe, por eso es la respuesta."
+    },
+    "OFF-GSI-INAP-2022-Q013": {
+      "ref": "Sistemas operativos UNIX: modos de ejecución",
+      "text": "UNIX, como la mayoría de sistemas operativos modernos, funciona en dos modos del procesador: modo usuario, con instrucciones y acceso limitados, y modo núcleo o kernel, privilegiado. Se pasa de uno a otro mediante llamadas al sistema e interrupciones. «Modo proceso» y «modo microkernel» no son modos de ejecución."
+    },
+    "OFF-GSI-INAP-2022-Q014": {
+      "ref": "Windows Internals: planificación en Windows",
+      "text": "El código de planificación de Windows está repartido por el núcleo (el dispatcher) y se ejecuta cuando hay eventos de planificación, como el fin de quantum, una espera o un cambio de prioridad. No existe un hilo de planificación central siempre en ejecución."
+    },
+    "OFF-GSI-INAP-2022-Q016": {
+      "ref": "Inteligencia de negocio (BI)",
+      "text": "La BI es el conjunto de estrategias, metodologías y tecnologías que transforman datos en información y conocimiento para mejorar la toma de decisiones. «Dispositivo software que proporciona servicios de aplicación a computadoras clientes» es la definición de un servidor de aplicaciones."
+    },
+    "OFF-GSI-INAP-2022-Q017": {
+      "ref": "Tecnologías de BI",
+      "text": "Data warehouse, OLAP, cuadros de mando, minería de datos y dashboards forman parte de la BI. OLTP es el procesamiento transaccional de las operaciones diarias, fuente de datos de la BI pero no BI, y DNS es el sistema de resolución de nombres de Internet."
+    },
+    "OFF-GSI-INAP-2022-Q018": {
+      "ref": "Arquitectura de un SGBD (Silberschatz)",
+      "text": "Los componentes de procesamiento de consultas de un SGBD son el compilador DML, el precompilador DML (para DML incrustado en lenguajes anfitriones), el intérprete DDL y el motor de ejecución o evaluación de consultas. El gestor de ficheros y el gestor de transacciones pertenecen al gestor de almacenamiento."
+    },
+    "OFF-GSI-INAP-2022-Q019": {
+      "ref": "Reglas de Codd, regla 2",
+      "text": "La regla 2 de Codd (acceso garantizado) exige poder acceder a cada dato de forma unívoca combinando el nombre de la tabla, el valor de la clave primaria y el nombre de la columna. La regla 1 es la de la información (todo se representa en tablas), la regla 0 es la fundamental y la regla 3 trata los nulos."
+    },
+    "OFF-GSI-INAP-2022-Q020": {
+      "ref": "Arquitectura de tres capas",
+      "text": "La arquitectura de tres capas separa la presentación (interfaz), la lógica de negocio (aplicación) y el almacenamiento o datos. Cada capa puede desplegarse, escalarse y mantenerse por separado."
+    },
+    "OFF-GSI-INAP-2022-Q022": {
+      "ref": "DevOps: CI/CD",
+      "text": "CI/CD significa Continuous Integration / Continuous Delivery, o Continuous Deployment si el despliegue en producción también es automático. Integración continua es integrar y probar los cambios con frecuencia, y entrega continua es tener siempre un artefacto listo para desplegar."
+    },
+    "OFF-GSI-INAP-2022-Q023": {
+      "ref": "Registros de imágenes de contenedores",
+      "text": "Los registros públicos, como Docker Hub o el GitHub Container Registry público, encajan con proyectos pequeños o de código abierto que quieren distribuir sus imágenes. Si la seguridad, el cumplimiento o el control son prioritarios, se usa un registro privado, alojado por un tercero o en las propias instalaciones."
+    },
+    "OFF-GSI-INAP-2022-Q024": {
+      "ref": "ISO/IEC 7498-1 (modelo OSI): capa de sesión",
+      "text": "La capa de sesión (5) controla el diálogo entre aplicaciones (turnos, modo dúplex o semidúplex) y la sincronización con puntos de control, lo que permite recuperar la sesión tras un error. El cifrado y la compresión son de la capa de presentación, la segmentación y multiplexación de la de transporte y el encaminamiento de la de red."
+    },
+    "OFF-GSI-INAP-2022-Q025": {
+      "ref": "Modelo OSI",
+      "text": "El orden de abajo arriba es: 1 física, 2 enlace, 3 red, 4 transporte, 5 sesión, 6 presentación y 7 aplicación. Regla mnemotécnica: «Fíjate En Rojo: Te Sigo Para Algo»."
+    },
+    "OFF-GSI-INAP-2022-Q026": {
+      "ref": "W3C XML 1.0: documento bien formado y válido",
+      "text": "Un XML que cumple las reglas sintácticas está bien formado. Es además válido solo si se ajusta a una DTD o a un esquema. Sin esquema puede estar bien formado, pero no puede declararse válido. Un documento que no está bien formado nunca es válido."
+    },
+    "OFF-GSI-INAP-2022-Q027": {
+      "ref": "W3C XLink",
+      "text": "XLink permite insertar en documentos XML elementos que crean enlaces, simples o extendidos, entre recursos como documentos, imágenes o ficheros. La opción A describe XPath, la C XPointer, que se basa en XPath, y la D se parece a XQuery."
+    },
+    "OFF-GSI-INAP-2022-Q028": {
+      "ref": "MAGERIT v3, Libro I: tratamiento del riesgo",
+      "text": "MAGERIT contempla varias opciones de tratamiento del riesgo: eliminarlo, mitigarlo (reducir probabilidad o impacto), compartirlo o transferirlo y asumirlo o aceptarlo, con la financiación correspondiente. Mitigar, asumir y compartir son todas estrategias válidas, por eso la respuesta es «todas»."
+    },
+    "OFF-GSI-INAP-2022-Q029": {
+      "ref": "Real Decreto 311/2022, disposición transitoria única",
+      "text": "Los sistemas preexistentes, incluidos los de los contratistas del sector privado en los términos del art. 2, tuvieron veinticuatro meses desde la entrada en vigor del ENS (mayo de 2022) para adecuarse plenamente, acreditándolo con el distintivo de conformidad. Las opciones que excluyen a los contratistas o dan otro plazo son incorrectas."
+    },
+    "OFF-GSI-INAP-2022-Q030": {
+      "ref": "Real Decreto 311/2022, art. 31.1",
+      "text": "Según el art. 31.1, la auditoría regular ordinaria se hace al menos cada dos años. Ese plazo puede extenderse durante tres meses si hay impedimentos de fuerza mayor no imputables a la entidad. Además, hay auditoría extraordinaria cuando hay modificaciones sustanciales, y desde ella se vuelven a contar los dos años."
+    },
+    "OFF-GSI-INAP-2022-Q031": {
+      "ref": "Sistemas de gestión empresarial",
+      "text": "ERP significa Enterprise Resource Planning: un sistema integrado que gestiona los recursos y procesos de la organización (finanzas, compras, inventario, recursos humanos, producción) sobre una base de datos común."
+    },
+    "OFF-GSI-INAP-2022-Q032": {
+      "ref": "ERP y CRM",
+      "text": "El ERP planifica y gestiona los recursos internos de la empresa y el CRM (Customer Relationship Management) gestiona la relación con los clientes: ventas, marketing y atención. No son lo mismo, y el ERP no se limita a gestionar proveedores."
+    },
+    "OFF-GSI-INAP-2022-Q033": {
+      "ref": "Real Decreto Legislativo 1/1996 (TRLPI), art. 97.4",
+      "text": "Según el art. 97.4, si un trabajador asalariado crea un programa en el ejercicio de sus funciones o siguiendo instrucciones del empresario, los derechos de explotación, tanto del programa fuente como del programa objeto, corresponden exclusivamente al empresario, salvo pacto en contrario. No hay reparto entre código fuente y código objeto."
+    },
+    "OFF-GSI-INAP-2022-Q034": {
+      "ref": "Técnicas de evaluación de alternativas (análisis multicriterio)",
+      "text": "Los métodos para ordenar alternativas incluyen la ponderación lineal (scoring), la utilidad multiatributo y las relaciones de superación (como ELECTRE o PROMETHEE). El método de la entropía sirve para asignar pesos a los criterios según la dispersión de los datos, no para ordenar las alternativas."
+    },
+    "OFF-GSI-INAP-2022-Q035": {
+      "ref": "Análisis multicriterio: normalización de puntuaciones",
+      "text": "Para hacer comparables puntuaciones con escalas distintas se usan, entre otros, la fracción del ideal, la fracción del máximo, la fracción del rango y la fracción de la suma. La «fracción del mínimo» no es uno de los métodos habituales."
+    },
+    "OFF-GSI-INAP-2022-Q036": {
+      "ref": "Normas de gestión documental: ISO 30300, ISO 14721 (OAIS), OASIS CMIS",
+      "text": "ISO 30300 define los sistemas de gestión para documentos, OAIS (ISO 14721) es el modelo de referencia para archivos digitales a largo plazo y CMIS (OASIS) es el estándar de interoperabilidad entre gestores de contenidos. «Modelo DMS-OAPIS» no es ningún estándar."
+    },
+    "OFF-GSI-INAP-2022-Q037": {
+      "ref": "Ley 39/2015 (arts. 17 y 70) y Ley 40/2015 (art. 46); ENI",
+      "text": "Las Leyes 39/2015 y 40/2015 exigen el expediente y el archivo electrónicos y la conservación de los documentos, y el ENI (con sus NTI de documento, expediente y política de gestión documental) fija los requisitos. Por eso las AAPP utilizan sistemas de gestión documental: está regulado e implantado, no pendiente de ninguna directiva."
+    },
+    "OFF-GSI-INAP-2022-Q038": {
+      "ref": "Sistemas de gestión de contenidos educativos",
+      "text": "Moodle es un sistema de gestión del aprendizaje (LMS) de código abierto, es decir, un CMS orientado a la educación: cursos, actividades, evaluaciones y foros. WordPress y Magnolia son CMS de propósito general y Pixelpost es un gestor de fotoblogs."
+    },
+    "OFF-GSI-INAP-2022-Q039": {
+      "ref": "ISO/IEC/IEEE 12207",
+      "text": "ISO/IEC/IEEE 12207 define los procesos del ciclo de vida del software. ISO 9001 es la norma de sistemas de gestión de la calidad y la serie ISO/IEC 27000 trata de la seguridad de la información (27001 son los requisitos del SGSI)."
+    },
+    "OFF-GSI-INAP-2022-Q040": {
+      "ref": "Modelos de ciclo de vida: cascada",
+      "text": "El modelo en cascada se compone de fases sucesivas (requisitos, análisis, diseño, codificación, pruebas, mantenimiento) y cada una se completa antes de pasar a la siguiente. No tiene fases paralelas y produce entregables, sobre todo documentales, al final de cada fase."
+    },
+    "OFF-GSI-INAP-2022-Q041": {
+      "ref": "Modelo en espiral de Boehm",
+      "text": "Cada vuelta de la espiral recorre cuatro cuadrantes: planificación (objetivos, alternativas y restricciones), análisis de riesgos, ingeniería (desarrollo y prueba) y evaluación por el cliente, que alimenta la siguiente vuelta. Su rasgo distintivo es el análisis explícito de riesgos."
+    },
+    "OFF-GSI-INAP-2022-Q042": {
+      "ref": "Modelo en V",
+      "text": "En la rama descendente de la V se definen los requisitos y el diseño y se preparan las pruebas de cada nivel. En la rama ascendente se ejecutan las pruebas (unitarias, de integración, de sistema y de aceptación), cada una frente al nivel de especificación que tiene enfrente."
+    },
+    "OFF-GSI-INAP-2022-Q043": {
+      "ref": "Métrica v3: estructura principal",
+      "text": "Métrica v3 tiene tres procesos principales: Planificación de Sistemas de Información (PSI), Desarrollo de Sistemas de Información (DSI, que incluye EVS, ASI, DSI, CSI e IAS) y Mantenimiento de Sistemas de Información (MSI). Además tiene interfaces como la gestión de proyectos o la seguridad. «Metodología de Sistemas de Información» no es un proceso."
+    },
+    "OFF-GSI-INAP-2022-Q044": {
+      "ref": "Métrica v3, EVS 1.2 (Identificación del alcance del sistema)",
+      "text": "Según Métrica v3, en la tarea EVS 1.2 participan el Comité de Dirección, el Jefe de Proyecto y los Analistas: la dirección delimita el alcance y los responsables técnicos lo concretan y documentan. Es un dato de la ficha de la tarea que conviene memorizar."
+    },
+    "OFF-GSI-INAP-2022-Q045": {
+      "ref": "Transacciones: propiedades ACID",
+      "text": "ACID significa Atomicidad (todo o nada), Consistencia (de un estado válido a otro), Aislamiento (las transacciones concurrentes no interfieren) y Durabilidad o persistencia (lo confirmado sobrevive a fallos). Confidencialidad, integridad y disponibilidad son dimensiones de seguridad, no propiedades ACID."
+    },
+    "OFF-GSI-INAP-2022-Q046": {
+      "ref": "Arquitectura ANSI/SPARC",
+      "text": "ANSI/SPARC define tres niveles: externo (vistas de los usuarios), conceptual (estructura lógica global) e interno (almacenamiento físico). Sus correspondencias dan la independencia lógica y la independencia física de los datos. MVC es un patrón de aplicaciones, no un modelo de bases de datos."
+    },
+    "OFF-GSI-INAP-2022-Q047": {
+      "ref": "Modelo relacional: restricciones de integridad",
+      "text": "La integridad referencial exige que toda clave foránea no nula apunte a una tupla que exista en la relación referenciada. La integridad de entidad prohíbe nulos en la clave primaria, y la de dominio restringe los valores de cada atributo."
+    },
+    "OFF-GSI-INAP-2022-Q048": {
+      "ref": "Inteligencia artificial distribuida (Bond y Gasser)",
+      "text": "La IAD estudia cómo descomponer, asignar y sintetizar problemas entre agentes, cómo hacer que se comuniquen e interactúen (lenguajes y protocolos) y cómo lograr que actúen de forma coherente y coordinada. Según la clave oficial, «capacitar a los agentes para rebatir los resultados de otros agentes» no es uno de esos problemas: la IAD busca la cooperación."
+    },
+    "OFF-GSI-INAP-2022-Q049": {
+      "ref": "W3C Web Semántica",
+      "text": "La Web Semántica se apoya en XML como sintaxis, RDF y RDFS como modelo de datos y vocabularios, OWL para ontologías y SPARQL para consultas. «OntoFlag» no es un lenguaje de la Web Semántica."
+    },
+    "OFF-GSI-INAP-2022-Q050": {
+      "ref": "Métrica v3, proceso CSI (Construcción del Sistema de Información)",
+      "text": "En la construcción (CSI) participan perfiles técnicos: jefe de proyecto, programadores, administrador de bases de datos, equipo de formación (que prepara los materiales) y responsables de pruebas, entre otros. Según la clave oficial, los usuarios finales no participan en CSI. Su papel principal está en la implantación y aceptación (IAS)."
+    },
+    "OFF-GSI-INAP-2022-Q051": {
+      "ref": "Java RMI: arquitectura",
+      "text": "RMI se organiza en capas: stubs (proxy en el cliente) y skeletons (en el servidor, innecesarios desde JDK 1.2), la capa de referencia remota y la capa de transporte (JRMP sobre TCP). DCE, RPC y COM son otras tecnologías, y OMA, OMG, Broker e IDL pertenecen al mundo CORBA."
+    },
+    "OFF-GSI-INAP-2022-Q052": {
+      "ref": "Métrica v3: documentación",
+      "text": "En Métrica v3 cada proceso y actividad produce documentación como productos de salida (catálogos, especificaciones, manuales, planes), así que la documentación es una tarea transversal a todas las fases y no se concentra en unas pocas."
+    },
+    "OFF-GSI-INAP-2022-Q054": {
+      "ref": "Estrategias de migración de aplicaciones",
+      "text": "Son modalidades de migración, entre otras, la migración a la nube, el rehosting (mover sin cambios) y el refronting (renovar la interfaz manteniendo la lógica), además de replatforming, refactoring o sustitución. «Reprompting» no es una modalidad de migración."
+    },
+    "OFF-GSI-INAP-2022-Q055": {
+      "ref": "UML: relaciones entre clases",
+      "text": "Si Calendario recibe un DescripcionEvento solo como parámetro de una operación y no lo guarda como atributo, depende temporalmente de esa clase: es una relación de dependencia («usa»). La navegabilidad es una propiedad de las asociaciones, la realización se da entre una interfaz y una clase y la herencia es una generalización."
+    },
+    "OFF-GSI-INAP-2022-Q056": {
+      "ref": "Patrones de diseño (GoF)",
+      "text": "Los patrones GoF se clasifican por su propósito en creacionales, estructurales y de comportamiento, y por su ámbito en de clase o de objeto. Builder es un patrón creacional. Un patrón es una solución reutilizable de diseño, mientras que un framework es código ejecutable."
+    },
+    "OFF-GSI-INAP-2022-Q057": {
+      "ref": "Arquitectura Java EE / Jakarta EE",
+      "text": "Los EJB se ejecutan en el contenedor EJB del servidor de aplicaciones Java EE, en el nivel intermedio de lógica de negocio. El navegador ejecuta la presentación del cliente, el contenedor web aloja servlets y JSP o JSF, y el servidor de base de datos guarda los datos."
+    },
+    "OFF-GSI-INAP-2022-Q058": {
+      "ref": "JavaServer Faces (Jakarta Faces)",
+      "text": "La arquitectura de JSF incluye componentes de interfaz, renderizadores (renderers), validadores, conversores, manejadores de eventos, beans gestionados y reglas de navegación. Un depurador es una herramienta de desarrollo, no un componente de JSF."
+    },
+    "OFF-GSI-INAP-2022-Q059": {
+      "ref": "ECMA-335 (Common Language Infrastructure)",
+      "text": "Los lenguajes .NET cumplen la especificación CLI (ECMA-335), que define el sistema de tipos común (CTS), la especificación común de lenguajes (CLS), los metadatos y el código intermedio (CIL). CLR es la implementación de Microsoft y significa Common Language Runtime, no «Custom». BCL es la biblioteca de clases base, no un lenguaje."
+    },
+    "OFF-GSI-INAP-2022-Q060": {
+      "ref": "NuGet",
+      "text": "NuGet es el gestor de paquetes de .NET. Pacman (Arch Linux), Synaptic (interfaz gráfica de APT en Debian y Ubuntu) y YUM (Red Hat y CentOS) gestionan paquetes de sistemas Linux."
+    },
+    "OFF-GSI-INAP-2022-Q061": {
+      "ref": "OASIS UDDI",
+      "text": "UDDI es la especificación de registro para publicar y descubrir servicios web. SOAP es el protocolo de mensajería, WSDL describe la interfaz del servicio y HTML es el lenguaje de marcado de páginas web."
+    },
+    "OFF-GSI-INAP-2022-Q062": {
+      "ref": "ECMA-404 / RFC 8259 (JSON)",
+      "text": "JSON no usa etiquetas ni atributos, eso es propio de XML. Se basa en dos estructuras: objetos (pares nombre/valor) y arrays (listas ordenadas). Surgió de un subconjunto de JavaScript (ECMA-262) y es ligero y rápido de procesar, que es lo que dicen las demás opciones."
+    },
+    "OFF-GSI-INAP-2022-Q063": {
+      "ref": "ISO/IEC 25000 (SQuaRE)",
+      "text": "La familia ISO/IEC 25000 se conoce como SQuaRE (System and Software Quality Requirements and Evaluation). Agrupa la gestión de la calidad (2500n), el modelo de calidad (2501n, como 25010), la medición (2502n), los requisitos (2503n) y la evaluación (2504n). SPICE es la ISO/IEC 15504 (procesos), sustituida por la serie ISO/IEC 33000."
+    },
+    "OFF-GSI-INAP-2022-Q064": {
+      "ref": "Goal-Question-Metric (Basili)",
+      "text": "GQM tiene tres niveles: conceptual (objetivo o goal), operacional (preguntas que caracterizan cómo alcanzarlo) y cuantitativo (métricas que responden a las preguntas). Orgánico, semiacoplado y empotrado son los modos de COCOMO, y básico, intermedio y detallado son sus niveles."
+    },
+    "OFF-GSI-INAP-2022-Q065": {
+      "ref": "Real Decreto 1112/2018, art. 1",
+      "text": "El objeto del Real Decreto 1112/2018, que transpone la Directiva (UE) 2016/2102, es garantizar los requisitos de accesibilidad de los sitios web y las aplicaciones móviles de los organismos del sector público. Las demás opciones añaden restricciones o exclusiones que no recoge el objeto de la norma, que abarca tanto sitios web como aplicaciones móviles."
+    },
+    "OFF-GSI-INAP-2022-Q066": {
+      "ref": "Guía de Comunicación Digital para la AGE",
+      "text": "Según la Guía, el logotipo institucional para web combina la bandera de la Unión Europea, la bandera de España y el escudo de España con la denominación «Gobierno de España» y la del ministerio u organismo responsable. No basta con «Gobierno de España» solo."
+    },
+    "OFF-GSI-INAP-2022-Q067": {
+      "ref": "Documentación de MongoDB: sharding",
+      "text": "MongoDB escala horizontalmente con sharding: reparte los documentos de una colección entre varios shards según una clave de fragmentación (shard key). Los enrutadores mongos dirigen las consultas y los servidores de configuración guardan los metadatos."
+    },
+    "OFF-GSI-INAP-2022-Q068": {
+      "ref": "Databricks",
+      "text": "Databricks, fundada por los creadores de Apache Spark, ofrece la plataforma Lakehouse: analítica de big data, ingeniería de datos e IA sobre Spark con cuadernos colaborativos. Data lake, data mart y data warehouse son tipos de repositorio de datos, no plataformas comerciales «Lakehouse»."
+    },
+    "OFF-GSI-INAP-2022-Q069": {
+      "ref": "Planificación de procesos: apropiativa y no apropiativa",
+      "text": "En la planificación no apropiativa, el proceso que obtiene la CPU la conserva hasta que termina o se bloquea voluntariamente. Si entra en un bucle infinito, puede dejar a los demás aplazados indefinidamente. Las opciones C y D describen la planificación apropiativa, con interrupciones de reloj."
+    },
+    "OFF-GSI-INAP-2022-Q070": {
+      "ref": "Memoria virtual: paginación por demanda",
+      "text": "Con la carga por demanda, una página solo se lleva a RAM cuando se referencia una dirección suya, lo que provoca un fallo de página. Las opciones B, C y D describen la carga anticipada (prepaginación), que intenta predecir las páginas necesarias aprovechando la localidad."
+    },
+    "OFF-GSI-INAP-2022-Q071": {
+      "ref": "Arquitectura ANSI/SPARC: independencia de datos",
+      "text": "La independencia de datos es poder cambiar el esquema de un nivel sin modificar el del nivel superior. La independencia física permite cambiar el nivel interno sin tocar el conceptual, y la lógica permite cambiar el conceptual sin tocar los esquemas externos. La pregunta dice ANSI/SQL, pero se refiere a la arquitectura ANSI/SPARC."
+    },
+    "OFF-GSI-INAP-2022-Q072": {
+      "ref": "SQL: TRUNCATE, DELETE y DROP",
+      "text": "TRUNCATE TABLE vacía la tabla de golpe y mantiene su estructura. DROP TABLE elimina también la estructura. DELETE FROM tabla borra filas, con condición o sin ella, pero «DELETE TABLE» no es una sintaxis válida, y ERASE TABLE no existe."
+    },
+    "OFF-GSI-INAP-2022-Q073": {
+      "ref": "ITIL: matriz de prioridad",
+      "text": "En ITIL, la prioridad de incidentes, solicitudes, problemas y cambios se obtiene combinando el impacto (alcance del efecto en el negocio) y la urgencia (rapidez con que hay que resolver) en una matriz de prioridades."
+    },
+    "OFF-GSI-INAP-2022-Q074": {
+      "ref": "Continuidad de negocio: ROL, RTO, RPO y MTD",
+      "text": "El ROL (Revised Operating Level) es el nivel mínimo de servicio aceptable para considerar recuperada una actividad, aunque no funcione al nivel normal. El RTO es el tiempo objetivo de recuperación, el RPO la pérdida de datos máxima tolerable medida en tiempo y el MTD el tiempo de interrupción máximo tolerable."
+    },
+    "OFF-GSI-INAP-2022-Q075": {
+      "ref": "Evaluación del rendimiento: benchmarking",
+      "text": "Un benchmark es una prueba estandarizada para medir y comparar el rendimiento de un componente o sistema, como CPU o GPU (SPEC, Geekbench, 3DMark). Un KPI es un indicador de gestión, y MIV y SCF no son pruebas de rendimiento de hardware."
+    },
+    "OFF-GSI-INAP-2022-Q076": {
+      "ref": "Guías CCN-STIC serie 800 (nube)",
+      "text": "La familia CCN-STIC 887 está dedicada a Amazon Web Services: configuración segura, monitorización y gestión de cargas de trabajo en AWS, y la 887G en concreto. Otras guías de la serie tratan Azure, Google Cloud u otros servicios en la nube."
+    },
+    "OFF-GSI-INAP-2022-Q077": {
+      "ref": "RAID 0 (striping)",
+      "text": "RAID 0 reparte los datos en franjas entre los discos usando en cada uno la capacidad del más pequeño. Con 1 TB y 500 GB se aprovechan 500 GB × 2 = 1 TB, y los 500 GB restantes del disco grande no se usan en el volumen. No tiene redundancia."
+    },
+    "OFF-GSI-INAP-2022-Q078": {
+      "ref": "Protocolos SAN: iSCSI y FCoE",
+      "text": "iSCSI transporta comandos SCSI sobre TCP/IP, así que es enrutable y funciona en cualquier red IP. FCoE encapsula tramas Fibre Channel directamente en tramas Ethernet (capa 2, sin IP) y necesita una Ethernet sin pérdidas (DCB)."
+    },
+    "OFF-GSI-INAP-2022-Q079": {
+      "ref": "Almacenamiento SAN: LUN",
+      "text": "Un LUN (Logical Unit Number) identifica una unidad lógica de almacenamiento, es decir, un volumen o disco lógico que la cabina presenta a los servidores. Con el enmascaramiento de LUN y la zonificación se controla qué servidor ve cada volumen. Los puertos se identifican por WWN o WWPN."
+    },
+    "OFF-GSI-INAP-2022-Q080": {
+      "ref": "Eficiencia energética de CPD: PUE (The Green Grid; ISO/IEC 30134-2)",
+      "text": "El PUE es la energía total del CPD dividida entre la energía de los equipos TI. Su valor ideal es 1 y nunca puede ser inferior, así que 0,5 es imposible. Cuanto más cerca de 1, más eficiente: entre las opciones posibles, 1,3 es la mejor."
+    },
+    "OFF-GSI-INAP-2022-Q081": {
+      "ref": "Virtualización: tipos de hipervisor",
+      "text": "El hipervisor de tipo 2 (alojado) se ejecuta como aplicación sobre un sistema operativo convencional, como VirtualBox o VMware Workstation. La opción A describe el de tipo 1 (nativo o bare metal). Ambos existen y se usan desde hace décadas."
+    },
+    "OFF-GSI-INAP-2022-Q082": {
+      "ref": "Bluetooth: capa física",
+      "text": "Bluetooth funciona en la banda ISM de 2,4 GHz con salto de frecuencia y usa modulación GFSK: Bluetooth básico y Low Energy. Las versiones EDR añaden π/4-DQPSK y 8DPSK. No usa las bandas de 5 o 6 GHz ni la modulación APSK."
+    },
+    "OFF-GSI-INAP-2022-Q083": {
+      "ref": "Zigbee (Connectivity Standards Alliance)",
+      "text": "Zigbee es un protocolo de comunicación inalámbrica de bajo consumo y baja tasa para redes en malla de sensores y domótica. Está construido sobre IEEE 802.15.4 y lo mantiene la Connectivity Standards Alliance, antes Zigbee Alliance. No es un fabricante, un algoritmo de cifrado ni una versión de Android."
+    },
+    "OFF-GSI-INAP-2022-Q084": {
+      "ref": "Herramientas de seguridad de red: IDS, IPS y SIEM",
+      "text": "Un IPS analiza el tráfico en línea y puede bloquear ataques y accesos no autorizados. Un IDS detecta y alerta pero no bloquea, el SIEM es un software de correlación de eventos y no una persona, y «IGS» no es una categoría estándar."
+    },
+    "OFF-GSI-INAP-2022-Q085": {
+      "ref": "MPLS (RFC 3031)",
+      "text": "Un LSP (Label Switched Path) es el camino predefinido por el que circulan los paquetes etiquetados entre un LER de entrada y uno de salida. Una FEC es la clase de paquetes que reciben el mismo tratamiento. LSR significa Label Switching Router (no «Route») y FER no existe."
+    },
+    "OFF-GSI-INAP-2022-Q086": {
+      "ref": "SNMP: notificaciones",
+      "text": "Un trap es una notificación asíncrona que el agente envía al gestor por iniciativa propia, sin que se la pidan, ante un evento como la caída de un enlace o un umbral superado. Las respuestas síncronas son las de GET y SET. En SNMPv2c y v3 existen además los INFORM, que requieren confirmación."
+    },
+    "OFF-GSI-INAP-2022-Q087": {
+      "ref": "Seguridad perimetral: UTM",
+      "text": "Un UTM (Unified Threat Management) reúne en un solo dispositivo varias funciones de seguridad: cortafuegos, antivirus, IPS, filtrado web y de contenidos, VPN o antispam. Suele orientarse a pymes. Un NGFW se centra en el cortafuegos con inspección de aplicaciones e identidad. Ninguno de los dos es un protocolo."
+    },
+    "OFF-GSI-INAP-2022-Q088": {
+      "ref": "RIPv2 (RFC 2453)",
+      "text": "En RIP, tanto v1 como v2, una ruta es alcanzable hasta 15 saltos. La métrica 16 significa infinito, es decir, inalcanzable. Por eso RIP solo sirve para redes pequeñas."
+    },
+    "OFF-GSI-INAP-2022-Q089": {
+      "ref": "OSPF: áreas stub (RFC 2328)",
+      "text": "Un área stub no recibe rutas externas (LSA tipo 5). Sus routers conocen las redes del propio área y las rutas interárea del resto del dominio OSPF (LSA tipo 3), y el ABR les inyecta una ruta por defecto para lo externo. En un área totally stubby se suprimirían también las interárea."
+    },
+    "OFF-GSI-INAP-2022-Q090": {
+      "ref": "IEEE 802.11: cabecera MAC",
+      "text": "La cabecera 802.11 tiene hasta cuatro campos de dirección, pero el cuarto solo se usa cuando ToDS = 1 y FromDS = 1 (sistema de distribución inalámbrico o WDS, de AP a AP). ToDS = 0 y FromDS = 0 indica tráfico directo entre estaciones (IBSS) o tramas de gestión y control, no ausencia de datos. RTS, CTS y ACK son tramas de control, no de gestión."
+    },
+    "OFF-GSI-INAP-2022-Q092": {
+      "ref": "Autenticación fuerte (multifactor)",
+      "text": "La autenticación fuerte combina al menos dos factores de categorías distintas: algo que se sabe (contraseña), algo que se tiene (token) y algo que se es (biometría). Usuario, contraseña y token suman dos factores distintos. Usuario y código numérico es un solo factor, y la biometría sola también."
+    },
+    "OFF-GSI-INAP-2022-Q093": {
+      "ref": "Diseño de ACL (buenas prácticas de Cisco)",
+      "text": "Las ACL estándar filtran solo por origen y se colocan cerca del destino para no bloquear otros tráficos legítimos. Las extendidas filtran por origen, destino, protocolo y puerto, y se colocan cerca del origen para descartar pronto el tráfico. La opción A invierte la regla."
+    },
+    "OFF-GSI-INAP-2022-Q094": {
+      "ref": "UNE 178104 (plataforma de ciudad inteligente)",
+      "text": "El modelo de plataforma de la UNE 178104 se organiza en capas: adquisición/interconexión (captación de datos de sensores y sistemas), conocimiento, interoperabilidad y servicios inteligentes. La seguridad y el soporte son aspectos transversales. De las opciones, solo «adquisición/interconexión» es una capa del modelo."
+    },
+    "OFF-GSI-INAP-2022-Q095": {
+      "ref": "Internet de las cosas (IoT)",
+      "text": "El IoT (Internet of Things) es la interconexión a través de Internet de todo tipo de objetos y dispositivos (sensores, actuadores, electrodomésticos, vehículos) para recoger datos y actuar. Puede usar 5G, pero no es una red móvil concreta, ni televisión IP, ni una red entre operadores."
+    },
+    "OFF-GSI-INAP-2022-Q096": {
+      "ref": "ETSI TISPAN (NGN): NASS y RACS",
+      "text": "En TISPAN, NASS (Network Attachment Subsystem) gestiona el acceso a la red según el perfil del usuario: autenticación, autorización, localización y asignación dinámica de direcciones IP, no estática. RACS (Resource and Admission Control Subsystem) controla la admisión y la reserva de recursos para la calidad de servicio extremo a extremo."
+    },
+    "OFF-GSI-INAP-2022-Q097": {
+      "ref": "3GPP UMTS: interfaz radio UTRA",
+      "text": "UMTS usa WCDMA (CDMA de banda ancha) en su interfaz radio UTRA-FDD. TDMA es de GSM (2G), y OFDM y OFDMA son de LTE (4G) y 5G."
+    },
+    "OFF-GSI-INAP-2022-Q098": {
+      "ref": "Espectro móvil en España: UMTS",
+      "text": "En España, 3G (UMTS) se desplegó en la banda de 2.100 MHz y después también en 900 MHz (reutilización de espectro GSM). Ojo: la pregunta es histórica. Los operadores españoles han ido apagando sus redes 3G desde 2024 para reutilizar el espectro en 4G y 5G."
+    },
+    "OFF-GSI-INAP-2022-Q099": {
+      "ref": "ITU-T H.265 / ISO/IEC 23008-2 (HEVC)",
+      "text": "H.265 (HEVC) es la codificación de vídeo de alta eficiencia: a igual calidad necesita aproximadamente la mitad de bits que H.264 (AVC). Aunque el enunciado dice ITU-R, H.265 es una Recomendación de la ITU-T. H.323 y H.321 son sistemas de comunicación multimedia, no códecs."
+    },
+    "OFF-GSI-INAP-2022-Q100": {
+      "ref": "RFC 2205 (RSVP)",
+      "text": "RSVP (RFC 2205) es un protocolo de reserva de recursos que funciona sobre IP ocupando el lugar de un protocolo de transporte. Las reservas son unidireccionales (simplex): para un flujo bidireccional hacen falta dos reservas. Por eso es incorrecto que permita reservar recursos para flujos bidireccionales."
+    },
+    "OFF-GSI-INAP-2022-R001": {
+      "ref": "ITU-T Q.24 (DTMF)",
+      "text": "La marcación multifrecuencia (DTMF o MFPT) combina una frecuencia del grupo bajo (697, 770, 852 y 941 Hz) con una del grupo alto (1209, 1336, 1477 y 1633 Hz). Cada grupo tiene cuatro frecuencias, no tres, por eso la C es incorrecta."
+    },
+    "OFF-GSI-INAP-2022-R002": {
+      "ref": "Real Decreto 43/2021, art. 5",
+      "text": "El art. 5 del RD 43/2021 asigna al Consejo de Seguridad Nacional, como punto de contacto único, funciones como comunicar a la Comisión Europea la lista de operadores de servicios esenciales, recabar informes anuales de incidentes de las autoridades competentes y remitir un informe resumido al grupo de cooperación. Según la clave oficial, la comunicación a la Comisión Nacional para la Protección de las Infraestructuras Críticas de la opción B no es una de esas funciones."
+    },
+    "OFF-GSI-INAP-2022-R003": {
+      "ref": "LOPDGDD, Título X (arts. 79 a 97)",
+      "text": "El art. 79 dispone que los derechos y libertades de la Constitución y de los tratados y convenios internacionales en que España sea parte son plenamente aplicables en Internet. El art. 80 exige una oferta transparente sin discriminación por motivos técnicos o económicos, al contrario de lo que dice la C. El art. 87 protege la intimidad en los dispositivos laborales y el art. 83 obliga a incluir la competencia digital en los planes de estudio."
+    },
+    "OFF-GSI-INAP-2022-R004": {
+      "ref": "Teoría de juegos: algoritmo minimax",
+      "text": "Minimax busca la mejor jugada en juegos de suma cero entre dos adversarios: maximiza la ganancia propia suponiendo que el rival minimiza, explorando el árbol de juego. Se suele optimizar con la poda alfa-beta. No es una búsqueda ciega, sino informada por una función de evaluación."
+    },
+    "OFF-GSI-INAP-2022-R005": {
+      "ref": "OASIS WS-Security: perfiles de token",
+      "text": "WS-Security define, mediante perfiles, tokens como UsernameToken, BinarySecurityToken (para certificados X.509 o tickets Kerberos) y los tokens SAML. «Certificate Token» no es un token definido: los certificados viajan dentro del BinarySecurityToken."
+    },
     "OFF-GSI-INAP-2024-Q001": {
       "ref": "CE, art. 63.3",
       "text": "Literal del art. 63.3 CE: «Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz». La autorización es de las Cortes Generales, no solo del Congreso, y quien declara es el Rey, como acto debido refrendado."

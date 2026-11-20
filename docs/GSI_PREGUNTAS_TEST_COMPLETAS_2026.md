@@ -17,7 +17,7 @@ Exportación reproducible de los tres bancos del producto. Los JSON son la fuent
 
 | Archivo | SHA-256 |
 | --- | --- |
-| `data/questions-official.json` | `edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab` |
+| `data/questions-official.json` | `90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05` |
 | `data/questions-manual.json` | `042b7d27de757807e72558f500137b5687a517c4b1f9f9c3316caa1b6fb4e311` |
 | `data/questions-ai.json` | `e71e2d96e789c12b0929779c550b4713fba0d7b64560bbdc179a1158b6354660` |
 | `data/syllabus.json` | `2370e84e3c098dbe89628cdce92e95e9042a390d2dffe8bb48e3627607750d48` |
@@ -206,7 +206,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** El derecho a la huelga de los trabajadores.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («El derecho a la huelga de los trabajadores.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («El derecho a la huelga de los trabajadores.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 55.1): En el estado de excepción o de sitio el art. 55.1 CE permite suspender, entre otros, el derecho de huelga (art. 28.2). La asistencia de abogado al detenido (art. 17.3) está expresamente exceptuada en el estado de excepción. La intimidad del art. 18.1 y la asociación del art. 22 no figuran en la lista: del art. 18 solo se suspenden los apartados 2 y 3.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -1908,7 +1908,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Deberá ser propuesta al menos por la décima parte de los diputados, y habrá de incluir un candidato a la Presidencia del Gobierno.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Deberá ser propuesta al menos por la décima parte de los diputados, y habrá de incluir un candidato a la Presidencia del Gobierno.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Deberá ser propuesta al menos por la décima parte de los diputados, y habrá de incluir un candidato a la Presidencia del Gobierno.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 113): La moción de censura la proponen al menos la décima parte de los diputados y debe incluir un candidato a la Presidencia (moción constructiva, art. 113.2). Para aprobarla hace falta mayoría absoluta del Congreso (art. 113.1), no simple. El Senado no interviene.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -1932,7 +1932,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** El Gobierno, de acuerdo con la Constitución y las leyes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («El Gobierno, de acuerdo con la Constitución y las leyes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («El Gobierno, de acuerdo con la Constitución y las leyes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 97): El art. 97 CE atribuye al Gobierno la función ejecutiva y la potestad reglamentaria, que ejerce «de acuerdo con la Constitución y las leyes». Las Cortes ejercen la potestad legislativa y el Consejo de Estado es un órgano consultivo (art. 107).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -2753,7 +2753,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105. b) de la Constitución Española de 1978.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105. b) de la Constitución Española de 1978.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105. b) de la Constitución Española de 1978.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 19/2013, art. 12; CE, art. 105.b)): Según el art. 12 de la Ley 19/2013, todas las personas tienen derecho a acceder a la información pública en los términos del art. 105.b) CE. La condición del solicitante no determina el acceso, aunque existen límites tasados (art. 14) y la protección de datos (art. 15), no solo la seguridad y la defensa.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -3574,7 +3574,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** La integración en el Sistema para la Autonomía y Atención a la Dependencia de los centros y servicios que formen parte de la red del Sistema, no supondrá alteración alguna en el régimen jurídico de su titularidad.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («La integración en el Sistema para la Autonomía y Atención a la Dependencia de los centros y servicios que formen parte de la red del Sistema, no supondrá alteración alguna en el régimen jurídico de su titularidad.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («La integración en el Sistema para la Autonomía y Atención a la Dependencia de los centros y servicios que formen parte de la red del Sistema, no supondrá alteración alguna en el régimen jurídico de su titularidad.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2006, arts. 5 y 6): Según el art. 6.2, integrarse en el Sistema para la Autonomía y Atención a la Dependencia (SAAD) no altera el régimen jurídico de titularidad, administración, gestión y dependencia orgánica de los centros. El SAAD es una red de utilización pública con centros públicos y privados, el Gobierno puede proteger a españoles no residentes y el acceso de los retornados se fija previo acuerdo del Consejo Territorial.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -4555,7 +4555,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Eje 1. Transformación digital de la Administración General del Estado. Eje 2. Proyectos de alto impacto en la digitalización del Sector Público. Eje 3.Transformación digital y modernización del Ministerio de Política Territorial, Comunidades Autónomas y Entidades Locales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Eje 1. Transformación digital de la Administración General del Estado. Eje 2. Proyectos de alto impacto en la digitalización del Sector Público. Eje 3.Transformación digital y modernización del Ministerio de Política Territorial, Comunidades Autónomas y Entidades Locales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Eje 1. Transformación digital de la Administración General del Estado. Eje 2. Proyectos de alto impacto en la digitalización del Sector Público. Eje 3.Transformación digital y modernización del Ministerio de Política Territorial, Comunidades Autónomas y Entidades Locales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Plan de Digitalización de las Administraciones Públicas 2021-2025): El Plan se estructura en tres ejes: transformación digital de la AGE, proyectos de alto impacto en la digitalización del sector público y transformación digital y modernización del Ministerio de Política Territorial, las comunidades autónomas y las entidades locales. Regla mnemotécnica: AGE → alto impacto → territorio.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -5464,7 +5464,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: LOPDGDD, arts. 13 a 18): El Capítulo II del Título III de la LO 3/2018 regula los derechos de acceso (art. 13), rectificación (14), supresión (15), limitación del tratamiento (16), portabilidad (17) y oposición (18). La transparencia e información está en el Capítulo I (arts. 11 y 12). La corresponsabilidad no es un derecho del interesado.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -5488,7 +5488,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Los derechos y libertades consagrados en la Constitución y en los Tratados y Convenios Internacionales en que España sea parte son plenamente aplicables en Internet.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Los derechos y libertades consagrados en la Constitución y en los Tratados y Convenios Internacionales en que España sea parte son plenamente aplicables en Internet.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Los derechos y libertades consagrados en la Constitución y en los Tratados y Convenios Internacionales en que España sea parte son plenamente aplicables en Internet.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: LOPDGDD, Título X (arts. 79 a 97)): El art. 79 dispone que los derechos y libertades de la Constitución y de los tratados y convenios internacionales en que España sea parte son plenamente aplicables en Internet. El art. 80 exige una oferta transparente sin discriminación por motivos técnicos o económicos, al contrario de lo que dice la C. El art. 87 protege la intimidad en los dispositivos laborales y el art. 83 obliga a incluir la competencia digital en los planes de estudio.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -6353,7 +6353,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Los interesados podrán firmar a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Los interesados podrán firmar a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Los interesados podrán firmar a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2015, arts. 9 a 12): El art. 10.1 permite a los interesados firmar por cualquier medio que acredite la autenticidad de su voluntad y consentimiento y la integridad e inalterabilidad del documento. La identificación admite varios sistemas, no solo certificados cualificados (art. 9.2), y la firma solo se exige para ciertos actos, no para consultas (art. 11). Además, el art. 12 dice que las Administraciones «deberán garantizar» la relación electrónica, no que «procurarán».
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -6377,7 +6377,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Las personas físicas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Las personas físicas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Las personas físicas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2015, art. 14): Las personas físicas pueden elegir si se relacionan electrónicamente o no con las Administraciones (art. 14.1), salvo que estén obligadas por otro motivo. Están obligados (art. 14.2) las personas jurídicas, las entidades sin personalidad jurídica, quienes ejercen una actividad profesional con colegiación obligatoria (incluidos notarios y registradores), sus representantes y los empleados públicos en lo relativo a su condición.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -7650,7 +7650,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Veinticuatro meses para alcanzar su plena adecuación al ENS, incluidos aquellos de los que sean titulares los contratistas del sector privado en los términos señalados en el artículo 2.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Veinticuatro meses para alcanzar su plena adecuación al ENS, incluidos aquellos de los que sean titulares los contratistas del sector privado en los términos señalados en el artículo 2.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Veinticuatro meses para alcanzar su plena adecuación al ENS, incluidos aquellos de los que sean titulares los contratistas del sector privado en los términos señalados en el artículo 2.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 311/2022, disposición transitoria única): Los sistemas preexistentes, incluidos los de los contratistas del sector privado en los términos del art. 2, tuvieron veinticuatro meses desde la entrada en vigor del ENS (mayo de 2022) para adecuarse plenamente, acreditándolo con el distintivo de conformidad. Las opciones que excluyen a los contratistas o dan otro plazo son incorrectas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -8491,7 +8491,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Red SARA.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Red SARA.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Red SARA.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Red SARA (Sistemas de Aplicaciones y Redes para las Administraciones)): La Red SARA interconecta las Administraciones Públicas españolas (AGE, comunidades autónomas, entidades locales y otros organismos) y da acceso a servicios comunes. También enlaza con la red europea TESTA para el intercambio con instituciones de la UE. TESTA es, por tanto, la red transeuropea y no la española.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -9568,7 +9568,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Hizo una clasificación más precisa que la de Flynn, basada en el acoplamiento entre procesadores.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Hizo una clasificación más precisa que la de Flynn, basada en el acoplamiento entre procesadores.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Hizo una clasificación más precisa que la de Flynn, basada en el acoplamiento entre procesadores.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura de computadores: clasificación de Tanenbaum): Tanenbaum refinó la categoría MIMD de Flynn según el acoplamiento: multiprocesadores con memoria compartida (fuertemente acoplados) y multicomputadores con memoria distribuida y paso de mensajes (débilmente acoplados). Su clasificación es posterior a la de Flynn y se basa en el acoplamiento.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -9592,7 +9592,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Servidor grain mill.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Servidor grain mill.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Servidor grain mill.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Formatos físicos de servidores): Los servidores se clasifican por formato en torre, rack y blade. Los HPC son una categoría de altas prestaciones, no un formato, pero el «servidor grain mill» simplemente no existe, por eso es la respuesta.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -12707,7 +12707,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Modo usuario y modo kernel.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Modo usuario y modo kernel.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Modo usuario y modo kernel.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas operativos UNIX: modos de ejecución): UNIX, como la mayoría de sistemas operativos modernos, funciona en dos modos del procesador: modo usuario, con instrucciones y acceso limitados, y modo núcleo o kernel, privilegiado. Se pasa de uno a otro mediante llamadas al sistema e interrupciones. «Modo proceso» y «modo microkernel» no son modos de ejecución.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -12731,7 +12731,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** … no tiene ningún hilo de planificación central".
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («… no tiene ningún hilo de planificación central".»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («… no tiene ningún hilo de planificación central".»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Windows Internals: planificación en Windows): El código de planificación de Windows está repartido por el núcleo (el dispatcher) y se ejecuta cuando hay eventos de planificación, como el fin de quantum, una espera o un cambio de prioridad. No existe un hilo de planificación central siempre en ejecución.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -12755,7 +12755,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Aquella en la cual, una vez que a un proceso le toca su turno de ejecución, ya no puede ser suspendido y no se le puede arrebatar la CPU. Este esquema puede ser peligroso, ya que si el proceso contiene ciclos infinitos, el resto de los procesos pueden quedar aplazados indefinidamente.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Aquella en la cual, una vez que a un proceso le toca su turno de ejecución, ya no puede ser suspendido y no se le puede arrebatar la CPU. Este esquema puede ser peligroso, ya que si el proceso contiene ciclos infinitos, el resto de los procesos pueden quedar aplazados indefinidamente.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Aquella en la cual, una vez que a un proceso le toca su turno de ejecución, ya no puede ser suspendido y no se le puede arrebatar la CPU. Este esquema puede ser peligroso, ya que si el proceso contiene ciclos infinitos, el resto de los procesos pueden quedar aplazados indefinidamente.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Planificación de procesos: apropiativa y no apropiativa): En la planificación no apropiativa, el proceso que obtiene la CPU la conserva hasta que termina o se bloquea voluntariamente. Si entra en un bucle infinito, puede dejar a los demás aplazados indefinidamente. Las opciones C y D describen la planificación apropiativa, con interrupciones de reloj.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -12779,7 +12779,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Las páginas solamente son llevadas a RAM si fueron solicitadas, es decir, si se hizo referencia a una dirección situada dentro de ellas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Las páginas solamente son llevadas a RAM si fueron solicitadas, es decir, si se hizo referencia a una dirección situada dentro de ellas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Las páginas solamente son llevadas a RAM si fueron solicitadas, es decir, si se hizo referencia a una dirección situada dentro de ellas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Memoria virtual: paginación por demanda): Con la carga por demanda, una página solo se lleva a RAM cuando se referencia una dirección suya, lo que provoca un fallo de página. Las opciones B, C y D describen la carga anticipada (prepaginación), que intenta predecir las páginas necesarias aprovechando la localidad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -16593,7 +16593,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Dispositivo software que proporciona servicios de aplicación a computadoras clientes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Dispositivo software que proporciona servicios de aplicación a computadoras clientes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Dispositivo software que proporciona servicios de aplicación a computadoras clientes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Inteligencia de negocio (BI)): La BI es el conjunto de estrategias, metodologías y tecnologías que transforman datos en información y conocimiento para mejorar la toma de decisiones. «Dispositivo software que proporciona servicios de aplicación a computadoras clientes» es la definición de un servidor de aplicaciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -16617,7 +16617,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** OLTP y DNS.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («OLTP y DNS.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («OLTP y DNS.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Tecnologías de BI): Data warehouse, OLAP, cuadros de mando, minería de datos y dashboards forman parte de la BI. OLTP es el procesamiento transaccional de las operaciones diarias, fuente de datos de la BI pero no BI, y DNS es el sistema de resolución de nombres de Internet.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -17422,7 +17422,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Compilador DML, precompilador DML, intérprete DDL y motor de ejecución.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Compilador DML, precompilador DML, intérprete DDL y motor de ejecución.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Compilador DML, precompilador DML, intérprete DDL y motor de ejecución.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura de un SGBD (Silberschatz)): Los componentes de procesamiento de consultas de un SGBD son el compilador DML, el precompilador DML (para DML incrustado en lenguajes anfitriones), el intérprete DDL y el motor de ejecución o evaluación de consultas. El gestor de ficheros y el gestor de transacciones pertenecen al gestor de almacenamiento.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -17446,7 +17446,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** La regla del acceso garantizado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («La regla del acceso garantizado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («La regla del acceso garantizado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Reglas de Codd, regla 2): La regla 2 de Codd (acceso garantizado) exige poder acceder a cada dato de forma unívoca combinando el nombre de la tabla, el valor de la clave primaria y el nombre de la columna. La regla 1 es la de la información (todo se representa en tablas), la regla 0 es la fundamental y la regla 3 trata los nulos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -17470,7 +17470,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Externo, Conceptual e Interno.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Externo, Conceptual e Interno.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Externo, Conceptual e Interno.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura ANSI/SPARC): ANSI/SPARC define tres niveles: externo (vistas de los usuarios), conceptual (estructura lógica global) e interno (almacenamiento físico). Sus correspondencias dan la independencia lógica y la independencia física de los datos. MVC es un patrón de aplicaciones, no un modelo de bases de datos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -17494,7 +17494,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Independencia de datos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Independencia de datos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Independencia de datos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura ANSI/SPARC: independencia de datos): La independencia de datos es poder cambiar el esquema de un nivel sin modificar el del nivel superior. La independencia física permite cambiar el nivel interno sin tocar el conceptual, y la lógica permite cambiar el conceptual sin tocar los esquemas externos. La pregunta dice ANSI/SQL, pero se refiere a la arquitectura ANSI/SPARC.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -18331,7 +18331,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Presentación, lógica y almacenamiento.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Presentación, lógica y almacenamiento.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Presentación, lógica y almacenamiento.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura de tres capas): La arquitectura de tres capas separa la presentación (interfaz), la lógica de negocio (aplicación) y el almacenamiento o datos. Cada capa puede desplegarse, escalarse y mantenerse por separado.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -19118,7 +19118,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Para pequeños proyectos open source.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Para pequeños proyectos open source.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Para pequeños proyectos open source.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Registros de imágenes de contenedores): Los registros públicos, como Docker Hub o el GitHub Container Registry público, encajan con proyectos pequeños o de código abierto que quieren distribuir sus imágenes. Si la seguridad, el cumplimiento o el control son prioritarios, se usa un registro privado, alojado por un tercero o en las propias instalaciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -20007,7 +20007,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Control del diálogo y recuperación de errores.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Control del diálogo y recuperación de errores.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Control del diálogo y recuperación de errores.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ISO/IEC 7498-1 (modelo OSI): capa de sesión): La capa de sesión (5) controla el diálogo entre aplicaciones (turnos, modo dúplex o semidúplex) y la sincronización con puntos de control, lo que permite recuperar la sesión tras un error. El cifrado y la compresión son de la capa de presentación, la segmentación y multiplexación de la de transporte y el encaminamiento de la de red.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -20031,7 +20031,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Físico, Enlace, Red, Transporte, Sesión, Presentación, Aplicación.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Físico, Enlace, Red, Transporte, Sesión, Presentación, Aplicación.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Físico, Enlace, Red, Transporte, Sesión, Presentación, Aplicación.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo OSI): El orden de abajo arriba es: 1 física, 2 enlace, 3 red, 4 transporte, 5 sesión, 6 presentación y 7 aplicación. Regla mnemotécnica: «Fíjate En Rojo: Te Sigo Para Algo».
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -20884,7 +20884,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Está bien formado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Está bien formado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Está bien formado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: W3C XML 1.0: documento bien formado y válido): Un XML que cumple las reglas sintácticas está bien formado. Es además válido solo si se ajusta a una DTD o a un esquema. Sin esquema puede estar bien formado, pero no puede declararse válido. Un documento que no está bien formado nunca es válido.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -20908,7 +20908,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Lenguaje que permite crear elementos XML que describen relaciones cruzadas entre documentos, imágenes y archivos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Lenguaje que permite crear elementos XML que describen relaciones cruzadas entre documentos, imágenes y archivos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Lenguaje que permite crear elementos XML que describen relaciones cruzadas entre documentos, imágenes y archivos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: W3C XLink): XLink permite insertar en documentos XML elementos que crean enlaces, simples o extendidos, entre recursos como documentos, imágenes o ficheros. La opción A describe XPath, la C XPointer, que se basa en XPath, y la D se parece a XQuery.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -20932,7 +20932,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** OntoFlag.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («OntoFlag.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («OntoFlag.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: W3C Web Semántica): La Web Semántica se apoya en XML como sintaxis, RDF y RDFS como modelo de datos y vocabularios, OWL para ontologías y SPARQL para consultas. «OntoFlag» no es un lenguaje de la Web Semántica.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -24121,7 +24121,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Todas son estrategias de tratamiento del riesgo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Todas son estrategias de tratamiento del riesgo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Todas son estrategias de tratamiento del riesgo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: MAGERIT v3, Libro I: tratamiento del riesgo): MAGERIT contempla varias opciones de tratamiento del riesgo: eliminarlo, mitigarlo (reducir probabilidad o impacto), compartirlo o transferirlo y asumirlo o aceptarlo, con la financiación correspondiente. Mitigar, asumir y compartir son todas estrategias válidas, por eso la respuesta es «todas».
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -24978,7 +24978,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Al menos cada dos años, pudiendo extenderse durante tres meses cuando concurran impedimentos de fuerza mayor no imputables a la entidad titular del sistema o sistemas de información concernidos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Al menos cada dos años, pudiendo extenderse durante tres meses cuando concurran impedimentos de fuerza mayor no imputables a la entidad titular del sistema o sistemas de información concernidos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Al menos cada dos años, pudiendo extenderse durante tres meses cuando concurran impedimentos de fuerza mayor no imputables a la entidad titular del sistema o sistemas de información concernidos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 311/2022, art. 31.1): Según el art. 31.1, la auditoría regular ordinaria se hace al menos cada dos años. Ese plazo puede extenderse durante tres meses si hay impedimentos de fuerza mayor no imputables a la entidad. Además, hay auditoría extraordinaria cuando hay modificaciones sustanciales, y desde ella se vuelven a contar los dos años.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -25823,7 +25823,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Enterprise Resource Planning.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Enterprise Resource Planning.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Enterprise Resource Planning.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas de gestión empresarial): ERP significa Enterprise Resource Planning: un sistema integrado que gestiona los recursos y procesos de la organización (finanzas, compras, inventario, recursos humanos, producción) sobre una base de datos común.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -25847,7 +25847,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Mientras ERP sirve para planificar los recursos empresariales, CRM se utiliza para gestionar la relación con los clientes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Mientras ERP sirve para planificar los recursos empresariales, CRM se utiliza para gestionar la relación con los clientes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Mientras ERP sirve para planificar los recursos empresariales, CRM se utiliza para gestionar la relación con los clientes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ERP y CRM): El ERP planifica y gestiona los recursos internos de la empresa y el CRM (Customer Relationship Management) gestiona la relación con los clientes: ventas, marketing y atención. No son lo mismo, y el ERP no se limita a gestionar proveedores.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -26826,7 +26826,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** AWS.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («AWS.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («AWS.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Guías CCN-STIC serie 800 (nube)): La familia CCN-STIC 887 está dedicada a Amazon Web Services: configuración segura, monitorización y gestión de cargas de trabajo en AWS, y la 887G en concreto. Otras guías de la serie tratan Azure, Google Cloud u otros servicios en la nube.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -26850,7 +26850,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Comunicar oportunamente a la Comisión Nacional para la Protección de las Infraestructuras Críticas las actualizaciones derivadas de cambios de operadores en la provisión de servicios esenciales básicos, que activarán las correspondientes notificaciones de alta o baja como operadores con incidencia en la Defensa Nacional tanto a los propios operadores como a sus equipos de respuesta a incidentes de seguridad de referencia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Comunicar oportunamente a la Comisión Nacional para la Protección de las Infraestructuras Críticas las actualizaciones derivadas de cambios de operadores en la provisión de servicios esenciales básicos, que activarán las correspondientes notificaciones de alta o baja como operadores con incidencia en la Defensa Nacional tanto a los propios operadores como a sus equipos de respuesta a incidentes de seguridad de referencia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Comunicar oportunamente a la Comisión Nacional para la Protección de las Infraestructuras Críticas las actualizaciones derivadas de cambios de operadores en la provisión de servicios esenciales básicos, que activarán las correspondientes notificaciones de alta o baja como operadores con incidencia en la Defensa Nacional tanto a los propios operadores como a sus equipos de respuesta a incidentes de seguridad de referencia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 43/2021, art. 5): El art. 5 del RD 43/2021 asigna al Consejo de Seguridad Nacional, como punto de contacto único, funciones como comunicar a la Comisión Europea la lista de operadores de servicios esenciales, recabar informes anuales de incidentes de las autoridades competentes y remitir un informe resumido al grupo de cooperación. Según la clave oficial, la comunicación a la Comisión Nacional para la Protección de las Infraestructuras Críticas de la opción B no es una de esas funciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -27705,7 +27705,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Exclusivamente al empresario, salvo pacto en contrario.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Exclusivamente al empresario, salvo pacto en contrario.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Exclusivamente al empresario, salvo pacto en contrario.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto Legislativo 1/1996 (TRLPI), art. 97.4): Según el art. 97.4, si un trabajador asalariado crea un programa en el ejercicio de sus funciones o siguiendo instrucciones del empresario, los derechos de explotación, tanto del programa fuente como del programa objeto, corresponden exclusivamente al empresario, salvo pacto en contrario. No hay reparto entre código fuente y código objeto.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -33606,7 +33606,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Método de la entropía.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Método de la entropía.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Método de la entropía.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Técnicas de evaluación de alternativas (análisis multicriterio)): Los métodos para ordenar alternativas incluyen la ponderación lineal (scoring), la utilidad multiatributo y las relaciones de superación (como ELECTRE o PROMETHEE). El método de la entropía sirve para asignar pesos a los criterios según la dispersión de los datos, no para ordenar las alternativas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -33630,7 +33630,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Fracción del mínimo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Fracción del mínimo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Fracción del mínimo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Análisis multicriterio: normalización de puntuaciones): Para hacer comparables puntuaciones con escalas distintas se usan, entre otros, la fracción del ideal, la fracción del máximo, la fracción del rango y la fracción de la suma. La «fracción del mínimo» no es uno de los métodos habituales.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -34471,7 +34471,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Modelo DMS-OAPIS
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Modelo DMS-OAPIS»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Modelo DMS-OAPIS»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Normas de gestión documental: ISO 30300, ISO 14721 (OAIS), OASIS CMIS): ISO 30300 define los sistemas de gestión para documentos, OAIS (ISO 14721) es el modelo de referencia para archivos digitales a largo plazo y CMIS (OASIS) es el estándar de interoperabilidad entre gestores de contenidos. «Modelo DMS-OAPIS» no es ningún estándar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -34495,7 +34495,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Las AA.PP. pueden utilizar estos sistemas para trabajar con documentos y expedientes administrativos, en aplicación de las leyes 39/2015 y 40/2015.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Las AA.PP. pueden utilizar estos sistemas para trabajar con documentos y expedientes administrativos, en aplicación de las leyes 39/2015 y 40/2015.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Las AA.PP. pueden utilizar estos sistemas para trabajar con documentos y expedientes administrativos, en aplicación de las leyes 39/2015 y 40/2015.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2015 (arts. 17 y 70) y Ley 40/2015 (art. 46); ENI): Las Leyes 39/2015 y 40/2015 exigen el expediente y el archivo electrónicos y la conservación de los documentos, y el ENI (con sus NTI de documento, expediente y política de gestión documental) fija los requisitos. Por eso las AAPP utilizan sistemas de gestión documental: está regulado e implantado, no pendiente de ninguna directiva.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -34519,7 +34519,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Moodle.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Moodle.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Moodle.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas de gestión de contenidos educativos): Moodle es un sistema de gestión del aprendizaje (LMS) de código abierto, es decir, un CMS orientado a la educación: cursos, actividades, evaluaciones y foros. WordPress y Magnolia son CMS de propósito general y Pixelpost es un gestor de fotoblogs.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -37550,7 +37550,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** ISO 12207
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («ISO 12207»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («ISO 12207»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ISO/IEC/IEEE 12207): ISO/IEC/IEEE 12207 define los procesos del ciclo de vida del software. ISO 9001 es la norma de sistemas de gestión de la calidad y la serie ISO/IEC 27000 trata de la seguridad de la información (27001 son los requisitos del SGSI).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -37574,7 +37574,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Se compone de una serie de fases sucesivas, cada una de las cuales es completada antes de avanzar a la siguiente.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Se compone de una serie de fases sucesivas, cada una de las cuales es completada antes de avanzar a la siguiente.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Se compone de una serie de fases sucesivas, cada una de las cuales es completada antes de avanzar a la siguiente.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelos de ciclo de vida: cascada): El modelo en cascada se compone de fases sucesivas (requisitos, análisis, diseño, codificación, pruebas, mantenimiento) y cada una se completa antes de pasar a la siguiente. No tiene fases paralelas y produce entregables, sobre todo documentales, al final de cada fase.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -37598,7 +37598,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Planificación, Análisis de riesgos, Ingeniería y Evaluación.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Planificación, Análisis de riesgos, Ingeniería y Evaluación.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Planificación, Análisis de riesgos, Ingeniería y Evaluación.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo en espiral de Boehm): Cada vuelta de la espiral recorre cuatro cuadrantes: planificación (objetivos, alternativas y restricciones), análisis de riesgos, ingeniería (desarrollo y prueba) y evaluación por el cliente, que alimenta la siguiente vuelta. Su rasgo distintivo es el análisis explícito de riesgos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -37622,7 +37622,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Ejecución de pruebas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Ejecución de pruebas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Ejecución de pruebas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo en V): En la rama descendente de la V se definen los requisitos y el diseño y se preparan las pruebas de cada nivel. En la rama ascendente se ejecutan las pruebas (unitarias, de integración, de sistema y de aceptación), cada una frente al nivel de especificación que tiene enfrente.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -38521,7 +38521,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Metodología de Sistemas de Información.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Metodología de Sistemas de Información.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Metodología de Sistemas de Información.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica v3: estructura principal): Métrica v3 tiene tres procesos principales: Planificación de Sistemas de Información (PSI), Desarrollo de Sistemas de Información (DSI, que incluye EVS, ASI, DSI, CSI e IAS) y Mantenimiento de Sistemas de Información (MSI). Además tiene interfaces como la gestión de proyectos o la seguridad. «Metodología de Sistemas de Información» no es un proceso.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -38545,7 +38545,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Comité de Dirección, Jefe de Proyecto y Analistas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Comité de Dirección, Jefe de Proyecto y Analistas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Comité de Dirección, Jefe de Proyecto y Analistas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica v3, EVS 1.2 (Identificación del alcance del sistema)): Según Métrica v3, en la tarea EVS 1.2 participan el Comité de Dirección, el Jefe de Proyecto y los Analistas: la dirección delimita el alcance y los responsables técnicos lo concretan y documentan. Es un dato de la ficha de la tarea que conviene memorizar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -40253,7 +40253,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Atomicidad, Consistencia, Aislamiento y Duración o persistencia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Atomicidad, Consistencia, Aislamiento y Duración o persistencia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Atomicidad, Consistencia, Aislamiento y Duración o persistencia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Transacciones: propiedades ACID): ACID significa Atomicidad (todo o nada), Consistencia (de un estado válido a otro), Aislamiento (las transacciones concurrentes no interfieren) y Durabilidad o persistencia (lo confirmado sobrevive a fallos). Confidencialidad, integridad y disponibilidad son dimensiones de seguridad, no propiedades ACID.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -40277,7 +40277,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Integridad referencial.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Integridad referencial.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Integridad referencial.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo relacional: restricciones de integridad): La integridad referencial exige que toda clave foránea no nula apunte a una tupla que exista en la relación referenciada. La integridad de entidad prohíbe nulos en la clave primaria, y la de dominio restringe los valores de cada atributo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -41168,7 +41168,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Cómo capacitar a los agentes para razonar y rebatir los resultados obtenidos por otros agentes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Cómo capacitar a los agentes para razonar y rebatir los resultados obtenidos por otros agentes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Cómo capacitar a los agentes para razonar y rebatir los resultados obtenidos por otros agentes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Inteligencia artificial distribuida (Bond y Gasser)): La IAD estudia cómo descomponer, asignar y sintetizar problemas entre agentes, cómo hacer que se comuniquen e interactúen (lenguajes y protocolos) y cómo lograr que actúen de forma coherente y coordinada. Según la clave oficial, «capacitar a los agentes para rebatir los resultados de otros agentes» no es uno de esos problemas: la IAD busca la cooperación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -41192,7 +41192,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Un algoritmo utilizado en teoría de juegos y toma de decisiones para encontrar la estrategia óptima en situaciones de competencia o conflicto entre dos jugadores o agentes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Un algoritmo utilizado en teoría de juegos y toma de decisiones para encontrar la estrategia óptima en situaciones de competencia o conflicto entre dos jugadores o agentes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Un algoritmo utilizado en teoría de juegos y toma de decisiones para encontrar la estrategia óptima en situaciones de competencia o conflicto entre dos jugadores o agentes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Teoría de juegos: algoritmo minimax): Minimax busca la mejor jugada en juegos de suma cero entre dos adversarios: maximiza la ganancia propia suponiendo que el rival minimiza, explorando el árbol de juego. Se suele optimizar con la poda alfa-beta. No es una búsqueda ciega, sino informada por una función de evaluación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -42029,7 +42029,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Continuous Integration/Continuous Delivery.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Continuous Integration/Continuous Delivery.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Continuous Integration/Continuous Delivery.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: DevOps: CI/CD): CI/CD significa Continuous Integration / Continuous Delivery, o Continuous Deployment si el despliegue en producción también es automático. Integración continua es integrar y probar los cambios con frecuencia, y entrega continua es tener siempre un artefacto listo para desplegar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -42053,7 +42053,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Usuarios finales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Usuarios finales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Usuarios finales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica v3, proceso CSI (Construcción del Sistema de Información)): En la construcción (CSI) participan perfiles técnicos: jefe de proyecto, programadores, administrador de bases de datos, equipo de formación (que prepara los materiales) y responsables de pruebas, entre otros. Según la clave oficial, los usuarios finales no participan en CSI. Su papel principal está en la implantación y aceptación (IAS).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -42077,7 +42077,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Es una tarea transversal a todas las fases.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Es una tarea transversal a todas las fases.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Es una tarea transversal a todas las fases.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica v3: documentación): En Métrica v3 cada proceso y actividad produce documentación como productos de salida (catálogos, especificaciones, manuales, planes), así que la documentación es una tarea transversal a todas las fases y no se concentra en unas pocas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -43709,7 +43709,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Reprompting.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Reprompting.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Reprompting.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Estrategias de migración de aplicaciones): Son modalidades de migración, entre otras, la migración a la nube, el rehosting (mover sin cambios) y el refronting (renovar la interfaz manteniendo la lógica), además de replatforming, refactoring o sustitución. «Reprompting» no es una modalidad de migración.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -44592,7 +44592,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Dependencia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Dependencia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Dependencia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: UML: relaciones entre clases): Si Calendario recibe un DescripcionEvento solo como parámetro de una operación y no lo guarda como atributo, depende temporalmente de esa clase: es una relación de dependencia («usa»). La navegabilidad es una propiedad de las asociaciones, la realización se da entre una interfaz y una clase y la herencia es una generalización.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -44616,7 +44616,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Se pueden clasificar como patrones de creación, de estructura y de comportamiento.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Se pueden clasificar como patrones de creación, de estructura y de comportamiento.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Se pueden clasificar como patrones de creación, de estructura y de comportamiento.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Patrones de diseño (GoF)): Los patrones GoF se clasifican por su propósito en creacionales, estructurales y de comportamiento, y por su ámbito en de clase o de objeto. Builder es un patrón creacional. Un patrón es una solución reutilizable de diseño, mientras que un framework es código ejecutable.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -45465,7 +45465,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Skeletons, stubs, capa de referencia remota y transporte.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Skeletons, stubs, capa de referencia remota y transporte.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Skeletons, stubs, capa de referencia remota y transporte.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Java RMI: arquitectura): RMI se organiza en capas: stubs (proxy en el cliente) y skeletons (en el servidor, innecesarios desde JDK 1.2), la capa de referencia remota y la capa de transporte (JRMP sobre TCP). DCE, RPC y COM son otras tecnologías, y OMA, OMG, Broker e IDL pertenecen al mundo CORBA.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -45489,7 +45489,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** En el servidor JEE.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («En el servidor JEE.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («En el servidor JEE.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura Java EE / Jakarta EE): Los EJB se ejecutan en el contenedor EJB del servidor de aplicaciones Java EE, en el nivel intermedio de lógica de negocio. El navegador ejecuta la presentación del cliente, el contenedor web aloja servlets y JSP o JSF, y el servidor de base de datos guarda los datos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -45513,7 +45513,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Depurador.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Depurador.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Depurador.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: JavaServer Faces (Jakarta Faces)): La arquitectura de JSF incluye componentes de interfaz, renderizadores (renderers), validadores, conversores, manejadores de eventos, beans gestionados y reglas de navegación. Un depurador es una herramienta de desarrollo, no un componente de JSF.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -46398,7 +46398,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Common Language Infraestructure (CLI).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Common Language Infraestructure (CLI).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Common Language Infraestructure (CLI).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ECMA-335 (Common Language Infrastructure)): Los lenguajes .NET cumplen la especificación CLI (ECMA-335), que define el sistema de tipos común (CTS), la especificación común de lenguajes (CLS), los metadatos y el código intermedio (CIL). CLR es la implementación de Microsoft y significa Common Language Runtime, no «Custom». BCL es la biblioteca de clases base, no un lenguaje.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -46422,7 +46422,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** NuGet.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («NuGet.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («NuGet.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: NuGet): NuGet es el gestor de paquetes de .NET. Pacman (Arch Linux), Synaptic (interfaz gráfica de APT en Debian y Ubuntu) y YUM (Red Hat y CentOS) gestionan paquetes de sistemas Linux.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -51781,7 +51781,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** UDDI.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («UDDI.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («UDDI.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OASIS UDDI): UDDI es la especificación de registro para publicar y descubrir servicios web. SOAP es el protocolo de mensajería, WSDL describe la interfaz del servicio y HTML es el lenguaje de marcado de páginas web.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -51805,7 +51805,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** JSON se basa en el uso de etiquetas y atributos que permiten definir propiedades.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («JSON se basa en el uso de etiquetas y atributos que permiten definir propiedades.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («JSON se basa en el uso de etiquetas y atributos que permiten definir propiedades.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ECMA-404 / RFC 8259 (JSON)): JSON no usa etiquetas ni atributos, eso es propio de XML. Se basa en dos estructuras: objetos (pares nombre/valor) y arrays (listas ordenadas). Surgió de un subconjunto de JavaScript (ECMA-262) y es ligero y rápido de procesar, que es lo que dicen las demás opciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -51829,7 +51829,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Certificate Token.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Certificate Token.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Certificate Token.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OASIS WS-Security: perfiles de token): WS-Security define, mediante perfiles, tokens como UsernameToken, BinarySecurityToken (para certificados X.509 o tickets Kerberos) y los tokens SAML. «Certificate Token» no es un token definido: los certificados viajan dentro del BinarySecurityToken.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -52734,7 +52734,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** SQuaRE (System and Software Quality Requirements and Evaluation).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («SQuaRE (System and Software Quality Requirements and Evaluation).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («SQuaRE (System and Software Quality Requirements and Evaluation).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ISO/IEC 25000 (SQuaRE)): La familia ISO/IEC 25000 se conoce como SQuaRE (System and Software Quality Requirements and Evaluation). Agrupa la gestión de la calidad (2500n), el modelo de calidad (2501n, como 25010), la medición (2502n), los requisitos (2503n) y la evaluación (2504n). SPICE es la ISO/IEC 15504 (procesos), sustituida por la serie ISO/IEC 33000.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -52758,7 +52758,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Nivel conceptual, nivel operacional, nivel cuantitativo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Nivel conceptual, nivel operacional, nivel cuantitativo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Nivel conceptual, nivel operacional, nivel cuantitativo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Goal-Question-Metric (Basili)): GQM tiene tres niveles: conceptual (objetivo o goal), operacional (preguntas que caracterizan cómo alcanzarlo) y cuantitativo (métricas que responden a las preguntas). Orgánico, semiacoplado y empotrado son los modos de COCOMO, y básico, intermedio y detallado son sus niveles.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -53673,7 +53673,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 1112/2018, art. 1): El objeto del Real Decreto 1112/2018, que transpone la Directiva (UE) 2016/2102, es garantizar los requisitos de accesibilidad de los sitios web y las aplicaciones móviles de los organismos del sector público. Las demás opciones añaden restricciones o exclusiones que no recoge el objeto de la norma, que abarca tanto sitios web como aplicaciones móviles.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -53697,7 +53697,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, con la denominación “Gobierno de España” y la del Departamento Ministerial u Organismo responsable.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, con la denominación “Gobierno de España” y la del Departamento Ministerial u Organismo responsable.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, con la denominación “Gobierno de España” y la del Departamento Ministerial u Organismo responsable.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Guía de Comunicación Digital para la AGE): Según la Guía, el logotipo institucional para web combina la bandera de la Unión Europea, la bandera de España y el escudo de España con la denominación «Gobierno de España» y la del ministerio u organismo responsable. No basta con «Gobierno de España» solo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -54548,7 +54548,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Sharding.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Sharding.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Sharding.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Documentación de MongoDB: sharding): MongoDB escala horizontalmente con sharding: reparte los documentos de una colección entre varios shards según una clave de fragmentación (shard key). Los enrutadores mongos dirigen las consultas y los servidores de configuración guardan los metadatos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -54572,7 +54572,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Databricks Lakehouse Platform.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Databricks Lakehouse Platform.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Databricks Lakehouse Platform.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Databricks): Databricks, fundada por los creadores de Apache Spark, ofrece la plataforma Lakehouse: analítica de big data, ingeniería de datos e IA sobre Spark con cuadernos colaborativos. Data lake, data mart y data warehouse son tipos de repositorio de datos, no plataformas comerciales «Lakehouse».
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -56212,7 +56212,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** TRUNCATE TABLE nombre_tabla
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («TRUNCATE TABLE nombre_tabla»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («TRUNCATE TABLE nombre_tabla»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: SQL: TRUNCATE, DELETE y DROP): TRUNCATE TABLE vacía la tabla de golpe y mantiene su estructura. DROP TABLE elimina también la estructura. DELETE FROM tabla borra filas, con condición o sin ella, pero «DELETE TABLE» no es una sintaxis válida, y ERASE TABLE no existe.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -57057,7 +57057,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Impacto y urgencia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Impacto y urgencia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Impacto y urgencia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITIL: matriz de prioridad): En ITIL, la prioridad de incidentes, solicitudes, problemas y cambios se obtiene combinando el impacto (alcance del efecto en el negocio) y la urgencia (rapidez con que hay que resolver) en una matriz de prioridades.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -57902,7 +57902,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Benchmark.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Benchmark.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Benchmark.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Evaluación del rendimiento: benchmarking): Un benchmark es una prueba estandarizada para medir y comparar el rendimiento de un componente o sistema, como CPU o GPU (SPEC, Geekbench, 3DMark). Un KPI es un indicador de gestión, y MIV y SCF no son pruebas de rendimiento de hardware.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -58745,7 +58745,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** 1 TB.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («1 TB.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («1 TB.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RAID 0 (striping)): RAID 0 reparte los datos en franjas entre los discos usando en cada uno la capacidad del más pequeño. Con 1 TB y 500 GB se aprovechan 500 GB × 2 = 1 TB, y los 500 GB restantes del disco grande no se usan en el volumen. No tiene redundancia.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -58769,7 +58769,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** iSCSI encapsula el tráfico en tramas TCP/IP, FCoE en tramas Ethernet.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («iSCSI encapsula el tráfico en tramas TCP/IP, FCoE en tramas Ethernet.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («iSCSI encapsula el tráfico en tramas TCP/IP, FCoE en tramas Ethernet.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Protocolos SAN: iSCSI y FCoE): iSCSI transporta comandos SCSI sobre TCP/IP, así que es enrutable y funciona en cualquier red IP. FCoE encapsula tramas Fibre Channel directamente en tramas Ethernet (capa 2, sin IP) y necesita una Ethernet sin pérdidas (DCB).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -58793,7 +58793,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Un identificador único de dispositivo de almacenamiento.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Un identificador único de dispositivo de almacenamiento.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Un identificador único de dispositivo de almacenamiento.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Almacenamiento SAN: LUN): Un LUN (Logical Unit Number) identifica una unidad lógica de almacenamiento, es decir, un volumen o disco lógico que la cabina presenta a los servidores. Con el enmascaramiento de LUN y la zonificación se controla qué servidor ve cada volumen. Los puertos se identifican por WWN o WWPN.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -59650,7 +59650,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** ROL (Revised Operating Level).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («ROL (Revised Operating Level).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («ROL (Revised Operating Level).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Continuidad de negocio: ROL, RTO, RPO y MTD): El ROL (Revised Operating Level) es el nivel mínimo de servicio aceptable para considerar recuperada una actividad, aunque no funcione al nivel normal. El RTO es el tiempo objetivo de recuperación, el RPO la pérdida de datos máxima tolerable medida en tiempo y el MTD el tiempo de interrupción máximo tolerable.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -59674,7 +59674,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** PUE de 1,3
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («PUE de 1,3»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («PUE de 1,3»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Eficiencia energética de CPD: PUE (The Green Grid; ISO/IEC 30134-2)): El PUE es la energía total del CPD dividida entre la energía de los equipos TI. Su valor ideal es 1 y nunca puede ser inferior, así que 0,5 es imposible. Cuanto más cerca de 1, más eficiente: entre las opciones posibles, 1,3 es la mejor.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -59698,7 +59698,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Virtualización: tipos de hipervisor): El hipervisor de tipo 2 (alojado) se ejecuta como aplicación sobre un sistema operativo convencional, como VirtualBox o VMware Workstation. La opción A describe el de tipo 1 (nativo o bare metal). Ambos existen y se usan desde hace décadas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -62157,7 +62157,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Una alerta asíncrona, sin solicitud de un agente SNMP.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Una alerta asíncrona, sin solicitud de un agente SNMP.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Una alerta asíncrona, sin solicitud de un agente SNMP.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: SNMP: notificaciones): Un trap es una notificación asíncrona que el agente envía al gestor por iniciativa propia, sin que se la pidan, ante un evento como la caída de un enlace o un umbral superado. Las respuestas síncronas son las de GET y SET. En SNMPv2c y v3 existen además los INFORM, que requieren confirmación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -62996,7 +62996,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** LSP (Label Switched Path).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («LSP (Label Switched Path).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («LSP (Label Switched Path).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: MPLS (RFC 3031)): Un LSP (Label Switched Path) es el camino predefinido por el que circulan los paquetes etiquetados entre un LER de entrada y uno de salida. Una FEC es la clase de paquetes que reciben el mismo tratamiento. LSR significa Label Switching Router (no «Route») y FER no existe.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -63020,7 +63020,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** 15 saltos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («15 saltos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («15 saltos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RIPv2 (RFC 2453)): En RIP, tanto v1 como v2, una ruta es alcanzable hasta 15 saltos. La métrica 16 significa infinito, es decir, inalcanzable. Por eso RIP solo sirve para redes pequeñas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -63044,7 +63044,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Una entrada por cada una de las redes a las que está directamente conectado, una entrada por cada una de las redes que forman parte del resto del sistema OSPF y una ruta por defecto para las rutas externas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Una entrada por cada una de las redes a las que está directamente conectado, una entrada por cada una de las redes que forman parte del resto del sistema OSPF y una ruta por defecto para las rutas externas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Una entrada por cada una de las redes a las que está directamente conectado, una entrada por cada una de las redes que forman parte del resto del sistema OSPF y una ruta por defecto para las rutas externas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OSPF: áreas stub (RFC 2328)): Un área stub no recibe rutas externas (LSA tipo 5). Sus routers conocen las redes del propio área y las rutas interárea del resto del dominio OSPF (LSA tipo 3), y el ABR les inyecta una ruta por defecto para lo externo. En un área totally stubby se suprimirían también las interárea.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -63883,7 +63883,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Usa modulación GFSK.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Usa modulación GFSK.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Usa modulación GFSK.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Bluetooth: capa física): Bluetooth funciona en la banda ISM de 2,4 GHz con salto de frecuencia y usa modulación GFSK: Bluetooth básico y Low Energy. Las versiones EDR añaden π/4-DQPSK y 8DPSK. No usa las bandas de 5 o 6 GHz ni la modulación APSK.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -63907,7 +63907,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Un protocolo de comunicación inalámbrica.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Un protocolo de comunicación inalámbrica.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Un protocolo de comunicación inalámbrica.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Zigbee (Connectivity Standards Alliance)): Zigbee es un protocolo de comunicación inalámbrica de bajo consumo y baja tasa para redes en malla de sensores y domótica. Está construido sobre IEEE 802.15.4 y lo mantiene la Connectivity Standards Alliance, antes Zigbee Alliance. No es un fabricante, un algoritmo de cifrado ni una versión de Android.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -63931,7 +63931,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Las 4 direcciones MAC en una cabecera MAC 802.11 no se utilizan siempre.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Las 4 direcciones MAC en una cabecera MAC 802.11 no se utilizan siempre.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Las 4 direcciones MAC en una cabecera MAC 802.11 no se utilizan siempre.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: IEEE 802.11: cabecera MAC): La cabecera 802.11 tiene hasta cuatro campos de dirección, pero el cuarto solo se usa cuando ToDS = 1 y FromDS = 1 (sistema de distribución inalámbrico o WDS, de AP a AP). ToDS = 0 y FromDS = 0 indica tráfico directo entre estaciones (IBSS) o tramas de gestión y control, no ausencia de datos. RTS, CTS y ACK son tramas de control, no de gestión.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -64796,7 +64796,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** IPS (Intrusion Prevention System) es un software que se utiliza para proteger a los sistemas de ataques y accesos no autorizados.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («IPS (Intrusion Prevention System) es un software que se utiliza para proteger a los sistemas de ataques y accesos no autorizados.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («IPS (Intrusion Prevention System) es un software que se utiliza para proteger a los sistemas de ataques y accesos no autorizados.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Herramientas de seguridad de red: IDS, IPS y SIEM): Un IPS analiza el tráfico en línea y puede bloquear ataques y accesos no autorizados. Un IDS detecta y alerta pero no bloquea, el SIEM es un software de correlación de eventos y no una persona, y «IGS» no es una categoría estándar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -64820,7 +64820,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Un dispositivo que combina múltiples funciones o servicios de seguridad (como firewall, antivirus, filtrado de contenido) en un solo dispositivo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Un dispositivo que combina múltiples funciones o servicios de seguridad (como firewall, antivirus, filtrado de contenido) en un solo dispositivo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Un dispositivo que combina múltiples funciones o servicios de seguridad (como firewall, antivirus, filtrado de contenido) en un solo dispositivo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Seguridad perimetral: UTM): Un UTM (Unified Threat Management) reúne en un solo dispositivo varias funciones de seguridad: cortafuegos, antivirus, IPS, filtrado web y de contenidos, VPN o antispam. Suele orientarse a pymes. Un NGFW se centra en el cortafuegos con inspección de aplicaciones e identidad. Ninguno de los dos es un protocolo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -64844,7 +64844,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Un sistema que utilice usuario, contraseña y token digital.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Un sistema que utilice usuario, contraseña y token digital.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («Un sistema que utilice usuario, contraseña y token digital.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Autenticación fuerte (multifactor)): La autenticación fuerte combina al menos dos factores de categorías distintas: algo que se sabe (contraseña), algo que se tiene (token) y algo que se es (biometría). Usuario, contraseña y token suman dos factores distintos. Usuario y código numérico es un solo factor, y la biometría sola también.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -64868,7 +64868,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Las listas de control de acceso (ACL) se deben colocar cerca del destino si son estándar.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Las listas de control de acceso (ACL) se deben colocar cerca del destino si son estándar.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Las listas de control de acceso (ACL) se deben colocar cerca del destino si son estándar.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Diseño de ACL (buenas prácticas de Cisco)): Las ACL estándar filtran solo por origen y se colocan cerca del destino para no bloquear otros tráficos legítimos. Las extendidas filtran por origen, destino, protocolo y puerto, y se colocan cerca del origen para descartar pronto el tráfico. La opción A invierte la regla.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -65703,7 +65703,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Adquisición/Interconexión.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Adquisición/Interconexión.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción A («Adquisición/Interconexión.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: UNE 178104 (plataforma de ciudad inteligente)): El modelo de plataforma de la UNE 178104 se organiza en capas: adquisición/interconexión (captación de datos de sensores y sistemas), conocimiento, interoperabilidad y servicios inteligentes. La seguridad y el soporte son aspectos transversales. De las opciones, solo «adquisición/interconexión» es una capa del modelo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -65727,7 +65727,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Es una red que interconecta todo tipo de dispositivos y objetos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Es una red que interconecta todo tipo de dispositivos y objetos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Es una red que interconecta todo tipo de dispositivos y objetos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Internet de las cosas (IoT)): El IoT (Internet of Things) es la interconexión a través de Internet de todo tipo de objetos y dispositivos (sensores, actuadores, electrodomésticos, vehículos) para recoger datos y actuar. Puede usar 5G, pero no es una red móvil concreta, ni televisión IP, ni una red entre operadores.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -66568,7 +66568,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** En la arquitectura TISPAN el subsistema NASS es el responsable de la asignación estática de direcciones IP.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («En la arquitectura TISPAN el subsistema NASS es el responsable de la asignación estática de direcciones IP.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («En la arquitectura TISPAN el subsistema NASS es el responsable de la asignación estática de direcciones IP.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ETSI TISPAN (NGN): NASS y RACS): En TISPAN, NASS (Network Attachment Subsystem) gestiona el acceso a la red según el perfil del usuario: autenticación, autorización, localización y asignación dinámica de direcciones IP, no estática. RACS (Resource and Admission Control Subsystem) controla la admisión y la reserva de recursos para la calidad de servicio extremo a extremo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -66592,7 +66592,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Cada señal consiste en dos frecuencias tomadas de dos grupos de frecuencias mutuamente excluyentes (uno de frecuencias superiores y otro de frecuencias inferiores), de tres frecuencias cada uno.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Cada señal consiste en dos frecuencias tomadas de dos grupos de frecuencias mutuamente excluyentes (uno de frecuencias superiores y otro de frecuencias inferiores), de tres frecuencias cada uno.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción C («Cada señal consiste en dos frecuencias tomadas de dos grupos de frecuencias mutuamente excluyentes (uno de frecuencias superiores y otro de frecuencias inferiores), de tres frecuencias cada uno.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITU-T Q.24 (DTMF)): La marcación multifrecuencia (DTMF o MFPT) combina una frecuencia del grupo bajo (697, 770, 852 y 941 Hz) con una del grupo alto (1209, 1336, 1477 y 1633 Hz). Cada grupo tiene cuatro frecuencias, no tres, por eso la C es incorrecta.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -68299,7 +68299,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** WCDMA.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («WCDMA.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («WCDMA.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: 3GPP UMTS: interfaz radio UTRA): UMTS usa WCDMA (CDMA de banda ancha) en su interfaz radio UTRA-FDD. TDMA es de GSM (2G), y OFDM y OFDMA son de LTE (4G) y 5G.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -68323,7 +68323,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** 900 MHz y 2.100 MHz.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («900 MHz y 2.100 MHz.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («900 MHz y 2.100 MHz.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Espectro móvil en España: UMTS): En España, 3G (UMTS) se desplegó en la banda de 2.100 MHz y después también en 900 MHz (reutilización de espectro GSM). Ojo: la pregunta es histórica. Los operadores españoles han ido apagando sus redes 3G desde 2024 para reutilizar el espectro en 4G y 5G.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -70860,7 +70860,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** H.265
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («H.265»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción B («H.265»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITU-T H.265 / ISO/IEC 23008-2 (HEVC)): H.265 (HEVC) es la codificación de vídeo de alta eficiencia: a igual calidad necesita aproximadamente la mitad de bits que H.264 (AVC). Aunque el enunciado dice ITU-R, H.265 es una Recomendación de la ITU-T. H.323 y H.321 son sistemas de comunicación multimedia, no códecs.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 
@@ -70884,7 +70884,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Permite reservar recursos para flujos bidireccionales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Permite reservar recursos para flujos bidireccionales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2022 señala la opción D («Permite reservar recursos para flujos bidireccionales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RFC 2205 (RSVP)): RSVP (RFC 2205) es un protocolo de reserva de recursos que funciona sobre IP ocupando el lugar de un protocolo de transporte. Las reservas son unidireccionales (simplex): para un flujo bidireccional hacen falta dos reservas. Por eso es incorrecto que permita reservar recursos para flujos bidireccionales.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2022](<https://sede.inap.gob.es/documents/59312/2194953/Cuestionario_GSI-L_INAP.pdf/c7f32350-c713-c77a-e5c0-4e5cdda130e5>).
 

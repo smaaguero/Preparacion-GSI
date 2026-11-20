@@ -52,7 +52,8 @@ El INAP solo publica la letra correcta. El fork añade a cada pregunta oficial a
 - Las explicaciones están en `content/official-explanations.json`, separadas de los registros oficiales, que no cambian (enunciado, opciones y clave).
 - `scripts/import_gsi_official.py` las añade al feedback con la etiqueta «Explicación del fork (no oficial; referencia: …)».
 - Se redactaron con ayuda de IA. Los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si una clave oficial ha quedado desfasada, por ejemplo por una fecha de soporte ya vencida, se indica.
-- Cobertura: convocatorias 2025 (102 preguntas) y 2024 (101 preguntas).
+- Cobertura: las 304 preguntas oficiales activas (2022: 101; 2024: 101; 2025: 102).
+- Claves matizadas en la explicación: 2024 Q87 (Nessus ya no es de código abierto), 2024 Q62 (SAR no es formato estándar de Java EE), 2025 Q59 (.NET 8 ya sin soporte), 2022 Q98 (redes 3G en apagado) y 2022 Q99 (H.265 es de la ITU-T, no de la ITU-R).
 
 ## Validación
 
