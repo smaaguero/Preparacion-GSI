@@ -4,6 +4,410 @@
   "scope": "Fork smaaguero/Preparacion-GSI. Explicaciones razonadas de las preguntas oficiales INAP; no forman parte de la plantilla oficial.",
   "method": "Redacción asistida por IA. Cada explicación justifica la clave oficial y cita la norma o documentación de referencia; los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si la clave oficial ha quedado desfasada, se indica expresamente.",
   "explanations": {
+    "OFF-GSI-INAP-2024-Q001": {
+      "ref": "CE, art. 63.3",
+      "text": "Literal del art. 63.3 CE: «Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz». La autorización es de las Cortes Generales, no solo del Congreso, y quien declara es el Rey, como acto debido refrendado."
+    },
+    "OFF-GSI-INAP-2024-Q002": {
+      "ref": "CE, art. 59.2",
+      "text": "Según el art. 59.2 CE, si el Rey se inhabilita y las Cortes Generales reconocen la imposibilidad, entra a ejercer inmediatamente la Regencia el Príncipe heredero, si es mayor de edad. Si no lo es, se sigue el orden del art. 59.1 (padre o madre del Rey y, en su defecto, el pariente de mayor edad más próximo a suceder en la Corona) o, en su defecto, la Regencia la nombran las Cortes (art. 59.3)."
+    },
+    "OFF-GSI-INAP-2024-Q003": {
+      "ref": "CE, art. 99",
+      "text": "El Rey, previa consulta con los representantes de los grupos políticos y a través del Presidente del Congreso, propone un candidato. El Congreso le otorga la confianza por mayoría absoluta en primera votación o por mayoría simple 48 horas después, y el Rey lo nombra. No hay elección directa ni intervención del Senado."
+    },
+    "OFF-GSI-INAP-2024-Q004": {
+      "ref": "CE, art. 134.4",
+      "text": "Según el art. 134.4 CE, si la Ley de Presupuestos no se aprueba antes del primer día del ejercicio, se consideran automáticamente prorrogados los Presupuestos del ejercicio anterior hasta que se aprueben los nuevos. No obliga a dimitir ni disuelve las Cortes."
+    },
+    "OFF-GSI-INAP-2024-Q005": {
+      "ref": "CE, arts. 63.1 y 97",
+      "text": "El art. 97 CE encomienda al Gobierno dirigir la política interior y exterior, la Administración civil y militar y la defensa, y ejercer la función ejecutiva y la potestad reglamentaria. Acreditar a los embajadores corresponde al Rey (art. 63.1 CE: «El Rey acredita a los embajadores y otros representantes diplomáticos»)."
+    },
+    "OFF-GSI-INAP-2024-Q006": {
+      "ref": "Ley 19/2013, arts. 31 y 38",
+      "text": "El art. 38.1 atribuye al Consejo de Transparencia y Buen Gobierno, entre otras funciones, evaluar el grado de aplicación de la ley, promover formación y sensibilización e informar preceptivamente los proyectos normativos estatales. No impone sanciones: su Presidente solo puede instar el inicio del procedimiento sancionador (art. 38.2.e), y la sanción corresponde a los órganos que fija el art. 31."
+    },
+    "OFF-GSI-INAP-2024-Q007": {
+      "ref": "Pacto de Estado contra la Violencia de Género (2017)",
+      "text": "El Pacto se organiza en diez ejes, entre ellos la mejora de la respuesta institucional mediante coordinación y trabajo en red, el impulso de la formación de los agentes y la visibilización y atención de otras formas de violencia (sexual, trata, mutilación genital, matrimonios forzados). El empleo rural y la resiliencia comunitaria no son un eje del Pacto."
+    },
+    "OFF-GSI-INAP-2024-Q008": {
+      "ref": "Ley 39/2006, art. 5",
+      "text": "Son titulares de los derechos de la Ley 39/2006 las personas en situación de dependencia en alguno de sus grados, reconocida según el procedimiento legal, y que cumplan los demás requisitos del art. 5, como la residencia. No basta con ser mayor de edad, no se limita a la edad laboral ni a las enfermedades crónicas."
+    },
+    "OFF-GSI-INAP-2024-Q009": {
+      "ref": "Proyecto europeo STORK (CIP ICT-PSP)",
+      "text": "STORK (Secure idenTity acrOss boRders linKed) fue el proyecto piloto europeo para el reconocimiento transfronterizo de identidades electrónicas: permitía usar el DNIe y medios equivalentes en servicios de administración electrónica de otros Estados. Es el antecedente de los nodos eIDAS. No tiene relación con la verificación de edad, las estafas por SMS ni la sanidad."
+    },
+    "OFF-GSI-INAP-2024-Q010": {
+      "ref": "Reglamento de Ejecución (UE) 2015/1501, art. 9.3",
+      "text": "Los operadores de nodos eIDAS deben conservar, como mínimo, la identificación del nodo, la identificación de los mensajes y la fecha y hora de los mensajes. La «identificación de los interlocutores» que añaden las demás opciones no figura en esa lista mínima."
+    },
+    "OFF-GSI-INAP-2024-Q011": {
+      "ref": "LOPDGDD, art. 7.1",
+      "text": "Según el art. 7.1 de la LO 3/2018, el tratamiento de los datos de un menor solo puede basarse en su propio consentimiento cuando es mayor de catorce años. Por debajo de esa edad hace falta el consentimiento del titular de la patria potestad o tutela. El RGPD permite a los Estados fijar entre 13 y 16 años, y España eligió 14."
+    },
+    "OFF-GSI-INAP-2024-Q012": {
+      "ref": "RGPD, art. 6.1",
+      "text": "El art. 6.1 RGPD exige una base de licitud: consentimiento, contrato, obligación legal, intereses vitales, misión de interés público o ejercicio de poderes públicos e interés legítimo. Informar al interesado es una obligación de transparencia (arts. 13 y 14), no una base de licitud, y no existen los «poderes particulares». Por eso solo la D es correcta."
+    },
+    "OFF-GSI-INAP-2024-Q013": {
+      "ref": "Ley 39/2015, art. 43.2",
+      "text": "Cuando la notificación electrónica es obligatoria o la ha elegido el interesado, se entiende rechazada si pasan diez días naturales desde la puesta a disposición sin acceder a su contenido. Es una excepción al cómputo general en días hábiles: los días son naturales."
+    },
+    "OFF-GSI-INAP-2024-Q014": {
+      "ref": "Ley 40/2015, art. 23.2",
+      "text": "El art. 23.2.b) recoge como motivo de abstención el parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo, no del quinto. Las opciones A, C y D reproducen otros motivos del mismo artículo: interés personal, relación de servicio o servicios profesionales en los dos últimos años y haber sido perito o testigo."
+    },
+    "OFF-GSI-INAP-2024-Q015": {
+      "ref": "Real Decreto 203/2021, art. 8",
+      "text": "La Carpeta Ciudadana es el área personalizada de los interesados en la sede del Punto de Acceso General electrónico (PAGe) de la AGE, no del Portal de Transparencia. El acceso se hace con los sistemas de identificación del art. 9.2 de la Ley 39/2015. Además del interesado pueden acceder sus representantes legales y los apoderados con poder general inscrito, no los herederos."
+    },
+    "OFF-GSI-INAP-2024-Q016": {
+      "ref": "Ley 37/2007, art. 3 ter.2",
+      "text": "Los conjuntos de datos de alto valor estarán disponibles gratuitamente, serán legibles por máquina, se suministrarán mediante API y, cuando proceda, como descarga masiva. Las opciones que hablan de tasa, de ficheros .pfx (contenedores de certificados) o que prohíben la descarga masiva contradicen la norma."
+    },
+    "OFF-GSI-INAP-2024-Q018": {
+      "ref": "Catálogo de Servicios de Administración Digital (PAe), ficha InSiDe",
+      "text": "InSiDe (Infraestructura y Sistemas de Documentación Electrónica) gestiona documentos y expedientes electrónicos conforme al ENI: permite generarlos, validarlos, almacenarlos y obtenerlos con el formato y los metadatos de las NTI. CIRCABC es una plataforma colaborativa de la Comisión Europea y las demás siglas no corresponden a la gestión documental ENI."
+    },
+    "OFF-GSI-INAP-2024-Q019": {
+      "ref": "Escalabilidad de sistemas",
+      "text": "Añadir recursos (memoria, disco, CPU) a una misma máquina es escalabilidad vertical (scale up). La horizontal (scale out) añade más nodos. «Escalabilidad en carga» y «de redundancia» no son categorías estándar."
+    },
+    "OFF-GSI-INAP-2024-Q020": {
+      "ref": "Taxonomía de Flynn",
+      "text": "Los procesadores vectoriales y matriciales aplican una misma instrucción a muchos datos a la vez, así que son SIMD. SISD es el monoprocesador clásico (la opción A lo escribe mal como SSID), MISD es casi teórico y MIMD corresponde a los multiprocesadores y clústeres."
+    },
+    "OFF-GSI-INAP-2024-Q021": {
+      "ref": "Windows Server: directivas de seguridad",
+      "text": "Las directivas de seguridad configuran privilegios, derechos de usuario, auditoría, contraseñas y otras opciones de seguridad. Se aplican de forma local (secpol.msc) o mediante objetos de directiva de grupo (GPO) a nivel de dominio o de controladores de dominio. DNS resuelve nombres, DFS es el sistema de archivos distribuido e IIS es el servidor web."
+    },
+    "OFF-GSI-INAP-2024-Q022": {
+      "ref": "Sistemas operativos GNU/Linux",
+      "text": "Las variantes de GNU/Linux se llaman distribuciones (Debian, Ubuntu, Red Hat Enterprise Linux, SUSE…): combinan el núcleo Linux con herramientas, gestor de paquetes y configuración propia."
+    },
+    "OFF-GSI-INAP-2024-Q023": {
+      "ref": "Paradigmas de programación: PHP",
+      "text": "PHP es multiparadigma: imperativo o procedimental, orientado a objetos basado en clases, funcional (funciones anónimas, closures, funciones de primer orden) y reflexivo (API Reflection). No es lógico ni declarativo, y su orientación a objetos no se basa en prototipos, que es el modelo de JavaScript."
+    },
+    "OFF-GSI-INAP-2024-Q024": {
+      "ref": "Lenguaje C: constantes",
+      "text": "Una constante es una entidad cuyo valor no puede modificar el programa durante la ejecución: literales, macros #define o variables const. El casting es conversión de tipos, y local, global, estática y externa son clases de almacenamiento de variables."
+    },
+    "OFF-GSI-INAP-2024-Q025": {
+      "ref": "Inteligencia de negocio: tipos de OLAP",
+      "text": "Por su almacenamiento, los tipos de OLAP son ROLAP (relacional), MOLAP (multidimensional) y HOLAP (híbrido), además de variantes como DOLAP (escritorio). No existe un «Spiral OLAP». La sigla SOLAP se usa para OLAP espacial, que no es lo que dice la opción."
+    },
+    "OFF-GSI-INAP-2024-Q026": {
+      "ref": "Cuadro de mando: KPI y objetivos SMART",
+      "text": "Un KPI mide el avance hacia un objetivo, que debe ser específico, medible, alcanzable, relevante y acotado en el tiempo (SMART), y el indicador debe poder analizarse periódicamente. Un objetivo «borroso y no delimitado» no puede medirse con un KPI."
+    },
+    "OFF-GSI-INAP-2024-Q028": {
+      "ref": "Modelo relacional: claves",
+      "text": "Una clave candidata es un conjunto mínimo de atributos que identifica de forma única cada tupla: unicidad más irreducibilidad. De entre las candidatas se elige la clave primaria, y las demás son claves alternativas. Las otras denominaciones no son términos del modelo relacional."
+    },
+    "OFF-GSI-INAP-2024-Q029": {
+      "ref": "Sistemas distribuidos (Coulouris)",
+      "text": "Las características típicas de un sistema distribuido son la concurrencia de componentes en distintos nodos, la ausencia de un reloj global y los fallos independientes. Suelen ser además heterogéneos. Por eso «reloj común», «homogeneidad» y «dependencia de fallos» son incorrectas."
+    },
+    "OFF-GSI-INAP-2024-Q030": {
+      "ref": "Arquitectura de servicios web (W3C)",
+      "text": "Los elementos clásicos de la pila de servicios web son SOAP (mensajería), WSDL (descripción) y UDDI (registro). VSDL y UDI son erratas que no existen, y SOA es el estilo arquitectónico, no un elemento de la arquitectura de servicios web."
+    },
+    "OFF-GSI-INAP-2024-Q031": {
+      "ref": "SNMP (RFC 3411 y siguientes)",
+      "text": "SNMP es el protocolo con el que las herramientas de monitorización consultan (GET) y reciben notificaciones (TRAP o INFORM) sobre el estado de los dispositivos a través de la MIB. NMS es el sistema de gestión que usa SNMP, no un protocolo, y NDMP sirve para copias de seguridad de NAS."
+    },
+    "OFF-GSI-INAP-2024-Q032": {
+      "ref": "Direccionamiento IPv4 con clases",
+      "text": "La clase B va de 128.0.0.0 a 191.255.255.255, así que 128.0.0.0 es de clase B. 127.0.0.1 es loopback (rango 127 reservado), y 10.0.0.0 (privada) y 126.255.255.255 son de clase A."
+    },
+    "OFF-GSI-INAP-2024-Q033": {
+      "ref": "Modelos de QoS del IETF",
+      "text": "Los modelos de calidad de servicio son best-effort (sin garantías), IntServ (reserva por flujo con RSVP, RFC 1633) y DiffServ (clases marcadas con DSCP, RFC 2475). «PriServ» no existe."
+    },
+    "OFF-GSI-INAP-2024-Q034": {
+      "ref": "W3C XML Schema y DTD",
+      "text": "XML Schema está fuertemente tipado: tiene tipos predefinidos, permite derivar tipos nuevos y usa espacios de nombres. Se escribe en sintaxis XML. La DTD tiene sintaxis propia, apenas tiene tipos de datos y no es extensible."
+    },
+    "OFF-GSI-INAP-2024-Q035": {
+      "ref": "ENS (RD 311/2022), dimensiones de seguridad",
+      "text": "Las dimensiones de seguridad son confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad. La disponibilidad es una de ellas. «Autenticación» es un mecanismo y no debe confundirse con la dimensión de autenticidad; aislamiento y consistencia no son dimensiones."
+    },
+    "OFF-GSI-INAP-2024-Q036": {
+      "ref": "Seguridad de la información: amenazas y dimensiones",
+      "text": "El ransomware cifra o altera los ficheros: modifica la información sin autorización, por lo que afecta a la integridad (y también a la disponibilidad). Las fugas, la revelación intencionada y la ingeniería social para sonsacar información afectan sobre todo a la confidencialidad."
+    },
+    "OFF-GSI-INAP-2024-Q037": {
+      "ref": "Herramientas del CCN-CERT",
+      "text": "INES (Informe Nacional del Estado de Seguridad) es la herramienta del CCN para la gobernanza de la ciberseguridad: las entidades evalúan regularmente su estado de seguridad y su adecuación al ENS. ATENEA es la plataforma de desafíos de ciberseguridad, CLARA analiza el cumplimiento técnico del ENS en sistemas Windows y CARLA protege y traza la información."
+    },
+    "OFF-GSI-INAP-2024-Q038": {
+      "ref": "Real Decreto 311/2022 (ENS), art. 31.1",
+      "text": "Los sistemas de información del ENS deben someterse a una auditoría regular ordinaria al menos cada dos años, sea cual sea su categoría. Además, hay que hacer una auditoría extraordinaria cuando se producen modificaciones sustanciales que puedan afectar a las medidas de seguridad."
+    },
+    "OFF-GSI-INAP-2024-Q039": {
+      "ref": "Centros de contacto: arquitectura multicanal",
+      "text": "La arquitectura multicanal permite atender a los clientes por varios canales: teléfono, correo, chat, redes sociales, web o aplicaciones. Si además integra los canales con un contexto común, se habla de omnicanalidad. No es una red de servidores, un protocolo ni un tipo de base de datos."
+    },
+    "OFF-GSI-INAP-2024-Q040": {
+      "ref": "Tipos de CRM",
+      "text": "El CRM colaborativo se centra en la interacción con el cliente y la coordinación entre departamentos a través de múltiples canales. El operacional automatiza procesos de ventas, marketing y servicio, y el analítico explota los datos del cliente. «CRM geográfico» no es una tipología estándar."
+    },
+    "OFF-GSI-INAP-2024-Q041": {
+      "ref": "CCN-CERT: Sistemas de Alerta Temprana (SAT)",
+      "text": "SAT-INET detecta en tiempo real amenazas en el tráfico entre la red interna del organismo e Internet y no analiza el contenido que no sea relevante para la detección, que es lo que afirma la B. SAT-ICS vigila las redes de control industrial y sus protocolos. Las opciones A y C intercambian las definiciones."
+    },
+    "OFF-GSI-INAP-2024-Q042": {
+      "ref": "Guía CCN-STIC 817",
+      "text": "La guía asigna a cada ciberincidente uno de cinco niveles de peligrosidad o impacto potencial: bajo, medio, alto, muy alto y crítico. Ese nivel determina, entre otras cosas, la obligación y el plazo de notificación al CCN-CERT."
+    },
+    "OFF-GSI-INAP-2024-Q043": {
+      "ref": "Gestión de Derechos Digitales (DRM)",
+      "text": "El DRM usa técnicas como el cifrado de contenidos, las licencias y claves de uso, la vinculación a dispositivos y las marcas de agua, visibles o invisibles, para identificar y rastrear copias. La compresión o la minimización de código no son técnicas de protección de derechos."
+    },
+    "OFF-GSI-INAP-2024-Q044": {
+      "ref": "Real Decreto Legislativo 1/1996 (TRLPI), arts. 95 a 104",
+      "text": "En España, los programas de ordenador se protegen como obras mediante el derecho de autor, en el Título VII del Libro I del Texto Refundido de la Ley de Propiedad Intelectual (arts. 95 a 104). La Ley de Patentes excluye los programas «como tales», y la LOPDGDD y la Ley de Telecomunicaciones regulan otras materias."
+    },
+    "OFF-GSI-INAP-2024-Q045": {
+      "ref": "Estudio de viabilidad de proyectos",
+      "text": "El análisis de viabilidad reúne criterios técnicos, económicos, legales y operativos para decidir si un proyecto debe seguir adelante o abandonarse, y con qué alternativa. El cronograma detallado se elabora después, en la planificación."
+    },
+    "OFF-GSI-INAP-2024-Q046": {
+      "ref": "PMBOK: monitorear y controlar el trabajo del proyecto",
+      "text": "Monitorizar y controlar permite conocer el estado del proyecto, comparar lo real con la línea base y proyectar alcance, cronograma y costes, adoptando acciones preventivas y correctivas. Se hace durante todo el proyecto y no se limita a los riesgos."
+    },
+    "OFF-GSI-INAP-2024-Q047": {
+      "ref": "Sistemas de gestión documental",
+      "text": "Un gestor documental almacena, indexa, versiona y controla el acceso y el ciclo de vida de los documentos de una organización. Editar multimedia, enviar boletines o llevar la contabilidad son funciones de otras herramientas."
+    },
+    "OFF-GSI-INAP-2024-Q048": {
+      "ref": "Modelos de ciclo de vida: cascada",
+      "text": "La cascada es rígida porque cada fase debe terminarse antes de empezar la siguiente, lo que encaja mal con requisitos cambiantes. Los requisitos se fijan al principio, no a lo largo del proyecto (A). Sus documentos por fase facilitan el seguimiento (C falsa) y no hay versiones funcionales hasta el final (D falsa)."
+    },
+    "OFF-GSI-INAP-2024-Q049": {
+      "ref": "Modelo en cascada puro",
+      "text": "En la cascada pura cada etapa termina con una revisión que actúa de puerta: si no se supera, el proyecto permanece en la etapa actual hasta completarla. Las fases no se solapan. La realimentación hacia etapas anteriores es propia de la cascada con retroalimentación."
+    },
+    "OFF-GSI-INAP-2024-Q050": {
+      "ref": "Métrica versión 3",
+      "text": "Métrica v3 es la metodología de planificación, desarrollo y mantenimiento de sistemas de información de la Administración española. Tiene un enfoque estructurado y orientado a objetos, basado en procesos, y no es ágil. Scrum, XP y Lean sí son enfoques ágiles."
+    },
+    "OFF-GSI-INAP-2024-Q051": {
+      "ref": "PERT",
+      "text": "PERT modela el proyecto como una red de actividades, estima cada duración con tres valores (optimista, más probable y pesimista: te = (o + 4m + p) / 6) e identifica el camino crítico para calcular el tiempo esperado de finalización. No es una técnica de costes ni de rentabilidad."
+    },
+    "OFF-GSI-INAP-2024-Q052": {
+      "ref": "Ingeniería de requisitos: prototipado",
+      "text": "Los prototipos reducen el riesgo porque validan pronto los requisitos y las soluciones con los usuarios, así que afirmar que no lo reducen es incorrecto. Se obtienen antes de terminar el proyecto, no implementan todas las funciones y, si son evolutivos, pueden servir de base del sistema."
+    },
+    "OFF-GSI-INAP-2024-Q053": {
+      "ref": "Ingeniería de requisitos: prototipado",
+      "text": "Las ventajas del prototipado son que facilita a los usuarios evaluar y expresar lo que necesitan y que permite revisar los requisitos de forma continua. Un prototipo hecho con poca calidad no es fácil de evolucionar. Por eso los prototipos desechables se tiran y los evolutivos se construyen con calidad de producción."
+    },
+    "OFF-GSI-INAP-2024-Q054": {
+      "ref": "Fundamentos de IA: procesamiento del lenguaje natural",
+      "text": "Un chatbot es un programa conversacional que usa procesamiento del lenguaje natural, y hoy a menudo modelos de lenguaje, para entender preguntas y responder. El test de Turing es una prueba de inteligencia, la máquina de Turing es un modelo de computación y Deep Blue fue el ordenador de IBM que jugaba al ajedrez."
+    },
+    "OFF-GSI-INAP-2024-Q055": {
+      "ref": "Integración continua: Jenkins",
+      "text": "Jenkins es un servidor de automatización de código abierto escrito en Java para integración y entrega continuas: compila, prueba y despliega mediante pipelines y miles de plugins. No es propietario ni es un servidor web de propósito general."
+    },
+    "OFF-GSI-INAP-2024-Q056": {
+      "ref": "Apache Maven",
+      "text": "Maven gestiona la construcción y las dependencias de proyectos Java a partir del Project Object Model (POM), definido en pom.xml. Octopus Deploy, ElasticBox y ElectricCloud son herramientas de despliegue y automatización, pero no se basan en el POM."
+    },
+    "OFF-GSI-INAP-2024-Q057": {
+      "ref": "Técnicas de prueba: caja blanca",
+      "text": "Las pruebas de caja blanca (estructurales) se diseñan a partir del código y la lógica internos, con criterios de cobertura de sentencias, decisiones y caminos o la complejidad ciclomática. La opción B describe la caja negra y la C, las pruebas dinámicas de seguridad (DAST)."
+    },
+    "OFF-GSI-INAP-2024-Q058": {
+      "ref": "JUnit",
+      "text": "JUnit es el framework de pruebas unitarias de referencia para Java. JUnit 5 se describe como un entorno de pruebas para la JVM con su Platform, Jupiter y Vintage. No sirve para JScript, no es un IDE ni un servidor de aplicaciones."
+    },
+    "OFF-GSI-INAP-2024-Q059": {
+      "ref": "Estrategias de migración y modernización de aplicaciones",
+      "text": "Entre las modalidades de migración están el rehosting (mover sin cambios), el refronting (renovar la interfaz manteniendo la lógica) y el replacement (sustituir por otra solución), junto con replatforming, refactoring y otras. «Reconsidering» no es una de ellas."
+    },
+    "OFF-GSI-INAP-2024-Q060": {
+      "ref": "Métrica v3, proceso MSI (Mantenimiento de Sistemas de Información)",
+      "text": "El proceso de mantenimiento de Métrica v3 contempla los mantenimientos correctivo y evolutivo. El adaptativo y el perfectivo quedan fuera de su ámbito: se tratan como proyectos de desarrollo nuevos o por otras vías. Por eso, de las opciones, solo el evolutivo está dentro del ámbito."
+    },
+    "OFF-GSI-INAP-2024-Q061": {
+      "ref": "Diseño orientado a objetos",
+      "text": "Un buen diseño orientado a objetos busca alta cohesión y bajo acoplamiento, y se apoya en la reutilización, la herencia, el polimorfismo y la encapsulación. La cohesión débil es un defecto de diseño, no una característica deseable."
+    },
+    "OFF-GSI-INAP-2024-Q062": {
+      "ref": "Empaquetado de aplicaciones Java EE / Jakarta EE",
+      "text": "Los formatos estándar de Java EE son JAR, WAR (aplicación web), EAR (aplicación empresarial) y RAR (adaptador de recursos). SAR (Service Archive) es propio de JBoss/WildFly y no del estándar, pero es la única opción que existe: VAR, LAR y CAR son inventadas. Clave oficial C."
+    },
+    "OFF-GSI-INAP-2024-Q063": {
+      "ref": "Servidores de aplicaciones Java EE",
+      "text": "IBM WebSphere Application Server es un servidor de aplicaciones Java EE completo. Apache Tomcat es solo un contenedor de servlets y JSP, sin el perfil completo. JDeveloper es un IDE de Oracle y Exadata, una plataforma de base de datos."
+    },
+    "OFF-GSI-INAP-2024-Q064": {
+      "ref": "Seguridad en .NET: IIdentity e IPrincipal",
+      "text": "En .NET, el objeto Identity (interfaz IIdentity, como WindowsIdentity, GenericIdentity o ClaimsIdentity) encapsula la información del usuario o entidad autenticada: nombre, tipo de autenticación y si está autenticado. El Principal (IPrincipal) añade los roles y representa el contexto de seguridad."
+    },
+    "OFF-GSI-INAP-2024-Q065": {
+      "ref": ".NET: System.Exception",
+      "text": "En .NET las excepciones derivan de la clase System.Exception y se gestionan con try, catch y finally. Error, Fault e Issue no son las clases base de excepciones de .NET."
+    },
+    "OFF-GSI-INAP-2024-Q066": {
+      "ref": "OASIS UDDI",
+      "text": "UDDI (Universal Description, Discovery and Integration) define un registro para publicar y descubrir servicios web. La opción A corresponde a RSS o Atom, la B a WSDL y la C a las WCAG."
+    },
+    "OFF-GSI-INAP-2024-Q067": {
+      "ref": "CMMI, niveles de madurez",
+      "text": "Los niveles de madurez de CMMI son: 1 Inicial, 2 Gestionado, 3 Definido, 4 Gestionado cuantitativamente y 5 En optimización. «Aprobado» no es un nivel."
+    },
+    "OFF-GSI-INAP-2024-Q068": {
+      "ref": "Métricas de software: puntos de función (IFPUG, ISO/IEC 20926)",
+      "text": "Los puntos de función miden el tamaño funcional del software desde el punto de vista del usuario, contando entradas, salidas, consultas y ficheros internos y externos, con independencia de la tecnología. Se usan para estimar esfuerzo y productividad, no para medir rendimiento, seguridad o fiabilidad."
+    },
+    "OFF-GSI-INAP-2024-Q069": {
+      "ref": "Accesibilidad web (W3C WAI)",
+      "text": "La accesibilidad es la capacidad de un sitio de ser usado por todas las personas, con independencia de sus capacidades o discapacidades. La usabilidad se refiere a la facilidad de uso para los usuarios en general, y la navegación intuitiva y la compatibilidad son aspectos parciales."
+    },
+    "OFF-GSI-INAP-2024-Q070": {
+      "ref": "W3C WCAG",
+      "text": "Las WCAG (Web Content Accessibility Guidelines) del W3C son el estándar internacional de pautas para hacer accesible el contenido web, con criterios de éxito de niveles A, AA y AAA. Las WCAG 2.0 son también la norma ISO/IEC 40500. No son un software evaluador, un framework responsive ni una guía de SEO."
+    },
+    "OFF-GSI-INAP-2024-Q071": {
+      "ref": "Apache Spark",
+      "text": "Apache Spark es un motor de procesamiento distribuido de código abierto para cargas de big data. Trabaja en memoria y tiene módulos para SQL, streaming, aprendizaje automático (MLlib) y grafos. Las demás opciones describen otros tipos de servicio: funciones sin servidor, catálogos de datos y bases de datos de registro inmutable."
+    },
+    "OFF-GSI-INAP-2024-Q072": {
+      "ref": "Minería de datos: validación cruzada",
+      "text": "La validación cruzada, por ejemplo k-fold, evalúa la precisión y la capacidad de generalización de un modelo entrenándolo y validándolo en particiones distintas de los datos y promediando los resultados. Sirve precisamente para detectar el sobreajuste, al contrario de lo que dice la C."
+    },
+    "OFF-GSI-INAP-2024-Q073": {
+      "ref": "Planificación de procesos: Round Robin",
+      "text": "Round Robin organiza los procesos en una cola circular y asigna a cada uno un intervalo de tiempo (quantum) por turnos, con expulsión. SJF elige el trabajo más corto, FCFS atiende por orden de llegada y HRN (Highest Response Ratio Next) prioriza según la tasa de respuesta."
+    },
+    "OFF-GSI-INAP-2024-Q074": {
+      "ref": "Sistemas operativos: gestión de E/S",
+      "text": "La aplicación hace una llamada al sistema y el sistema operativo invoca al controlador (driver) del dispositivo, el software que conoce cómo manejar ese hardware concreto. El microkernel es una arquitectura del núcleo, no la pieza que implementa el acceso a un dispositivo."
+    },
+    "OFF-GSI-INAP-2024-Q075": {
+      "ref": "Diseño de bases de datos: normalización",
+      "text": "La normalización organiza las tablas según formas normales (1FN, 2FN, 3FN, FNBC…) para reducir la redundancia y evitar anomalías de inserción, actualización y borrado. Crear índices es optimización física y la opción C describe la transparencia de distribución."
+    },
+    "OFF-GSI-INAP-2024-Q076": {
+      "ref": "Sistemas distribuidos: algoritmo Paxos (Lamport)",
+      "text": "Paxos es un algoritmo de consenso: garantiza que los nodos de un sistema distribuido acuerden un único valor aunque haya fallos de algunos nodos o mensajes perdidos. Sirve de base para replicar con consistencia fuerte, pero en sí no es un protocolo de consistencia eventual ni de gestión de transacciones."
+    },
+    "OFF-GSI-INAP-2024-Q077": {
+      "ref": "Copias de seguridad: regla 3-2-1",
+      "text": "La regla 3-2-1 pide tres copias de los datos (el original y dos copias), en dos tipos de soporte distintos y con una copia fuera de las instalaciones. El 2 se refiere a los soportes o formatos. Variantes actuales como 3-2-1-1-0 añaden una copia inmutable o desconectada y cero errores en la verificación."
+    },
+    "OFF-GSI-INAP-2024-Q078": {
+      "ref": "Control de versiones (Git)",
+      "text": "Un conflicto de fusión aparece en el control de versiones cuando dos ramas modifican las mismas líneas o partes de un fichero y la herramienta no puede combinarlas automáticamente. El desarrollador tiene que resolverlo a mano."
+    },
+    "OFF-GSI-INAP-2024-Q079": {
+      "ref": "Elastic Stack (ELK)",
+      "text": "ELK combina Elasticsearch (motor de búsqueda y análisis), Logstash (ingesta y transformación de datos y registros) y Kibana (visualización y cuadros de mando). Se usa mucho para centralizar logs y para monitorización."
+    },
+    "OFF-GSI-INAP-2024-Q080": {
+      "ref": "RAID 5",
+      "text": "RAID 5 distribuye la paridad entre todos los discos y tolera el fallo de un único disco, sea cual sea el número de discos. Con 5 discos la capacidad útil es de 4. Para tolerar dos fallos hace falta RAID 6."
+    },
+    "OFF-GSI-INAP-2024-Q081": {
+      "ref": "IEEE 802.3ad / 802.1AX (LACP)",
+      "text": "LACP negocia la agregación de varios enlaces físicos en un único enlace lógico (port channel o bond), lo que aumenta el ancho de banda y da redundancia si cae un enlace. Es un estándar IEEE. Crear redes lógicas sobre Ethernet es propio de las VLAN y el modo activo/pasivo es otro tipo de configuración."
+    },
+    "OFF-GSI-INAP-2024-Q082": {
+      "ref": "Virtualización: tipos de hipervisor",
+      "text": "El hipervisor de tipo 1 (nativo o bare metal) se ejecuta directamente sobre el hardware, sin sistema operativo anfitrión, y reparte los recursos entre las máquinas virtuales (ESXi, Hyper-V, KVM, Xen). El de tipo 2 (alojado) se ejecuta sobre un sistema operativo convencional. No tiene que ser de código abierto."
+    },
+    "OFF-GSI-INAP-2024-Q083": {
+      "ref": "Fibra óptica: conectores APC y UPC",
+      "text": "APC (Angled Physical Contact) pule la férula con un ángulo de 8°, lo que reduce mucho la reflexión (pérdida de retorno mayor, unos 60 dB o más). UPC (Ultra Physical Contact) usa un pulido sin ángulo. Ninguno necesita alimentación. Suelen distinguirse por el color: verde para APC y azul para UPC."
+    },
+    "OFF-GSI-INAP-2024-Q084": {
+      "ref": "ANSI/TIA-568 e ISO/IEC 11801: categorías de cable",
+      "text": "CAT6 está especificado hasta 250 MHz y CAT6A hasta 500 MHz. CAT6A soporta 10GBASE-T en 100 m, mientras que CAT6 solo lo hace en distancias cortas (unos 55 m). CAT6A no llega a 100 Gbps y suele resistir mejor la diafonía."
+    },
+    "OFF-GSI-INAP-2024-Q085": {
+      "ref": "Herramientas de seguridad de red",
+      "text": "SIEM (Security Information and Event Management) une la gestión de información de seguridad (SIM) y la de eventos (SEM): centraliza y correlaciona registros y alertas. Un IDS detecta y alerta pero no bloquea, y un IPS bloquea en línea pero no es una herramienta forense. «IGS» no es una categoría estándar."
+    },
+    "OFF-GSI-INAP-2024-Q087": {
+      "ref": "Tenable Nessus; OpenVAS/Greenbone",
+      "text": "Nessus es un escáner de vulnerabilidades, de modo que la D es la única opción que describe su función. Ojo: Nessus fue de código abierto hasta 2005. Desde la versión 3 es privativo (Tenable, con una edición gratuita limitada), y el proyecto libre que siguió la línea original es OpenVAS (Greenbone). Se conserva la clave oficial, pero hoy no es exacto llamarlo código abierto."
+    },
+    "OFF-GSI-INAP-2024-Q088": {
+      "ref": "RIP (RFC 2453)",
+      "text": "Las actualizaciones disparadas (triggered updates) hacen que un router anuncie un cambio de métrica en cuanto se produce, sin esperar al ciclo periódico de 30 segundos, lo que acelera la convergencia. Split horizon y poison reverse evitan bucles en los anuncios, pero no son el mecanismo de aviso inmediato."
+    },
+    "OFF-GSI-INAP-2024-Q089": {
+      "ref": "MPLS (RFC 3031)",
+      "text": "Una FEC (Forwarding Equivalence Class) es el conjunto de paquetes que se reenvían por el mismo camino y con el mismo tratamiento, y por tanto llevan la misma etiqueta. LER y LSR son tipos de routers MPLS, de borde e interno respectivamente, y «LFP» no existe."
+    },
+    "OFF-GSI-INAP-2024-Q091": {
+      "ref": "Principio de mínimo privilegio",
+      "text": "El mínimo privilegio limita los accesos y permisos de usuarios, procesos y administradores a lo estrictamente necesario para sus tareas, lo que reduce la superficie de ataque y el impacto de un compromiso. Los administradores tampoco deben tener accesos ilimitados de forma permanente."
+    },
+    "OFF-GSI-INAP-2024-Q092": {
+      "ref": "Ataques de denegación de servicio",
+      "text": "Un DDoS (denegación de servicio distribuida) usa muchos dispositivos, a menudo una botnet, para saturar un objetivo con tráfico y afectar a su disponibilidad. El ransomware cifra datos, y el phishing y la ingeniería social engañan a personas."
+    },
+    "OFF-GSI-INAP-2024-Q093": {
+      "ref": "ISO/IEC 7498-1 (modelo OSI)",
+      "text": "OSI es el modelo de referencia de ISO para interconectar sistemas abiertos y tiene siete capas: física, enlace, red, transporte, sesión, presentación y aplicación. TCP/IP se suele describir con cuatro o cinco capas."
+    },
+    "OFF-GSI-INAP-2024-Q094": {
+      "ref": "Protocolos IoT",
+      "text": "MQTT (publicación y suscripción sobre TCP, estándar OASIS) y CoAP (tipo REST sobre UDP, RFC 7252) son los protocolos de aplicación más habituales en IoT por su ligereza. SNMP, RTP, SMTP y FTP no están pensados para IoT, y «XMPT» y «AMPP» son erratas de XMPP y AMQP."
+    },
+    "OFF-GSI-INAP-2024-Q095": {
+      "ref": "ITU-T Y.2001 (NGN)",
+      "text": "NGN (Next Generation Network) es, según la ITU-T, una red basada en paquetes que separa servicios y transporte y ofrece servicios convergentes (voz, datos, vídeo) sobre IP. No es una red de circuitos ni de conmutación de mensajes."
+    },
+    "OFF-GSI-INAP-2024-Q096": {
+      "ref": "ITU-T H.323: MCU",
+      "text": "La MCU (Multipoint Control Unit) coordina las conferencias entre tres o más participantes: su controlador (MC) gestiona la señalización y sus procesadores (MP) mezclan o conmutan el audio y el vídeo. El encaminamiento lo hacen los routers y la seguridad depende de H.235."
+    },
+    "OFF-GSI-INAP-2024-Q097": {
+      "ref": "3GPP LTE: acceso radio",
+      "text": "LTE usa OFDMA en el enlace descendente, repartiendo subportadoras ortogonales y tiempo entre usuarios, y SC-FDMA en el ascendente. Es la base de su eficiencia espectral. FDMA y TDMA son de 1G y 2G, y CDMA es propio de 3G (WCDMA)."
+    },
+    "OFF-GSI-INAP-2024-Q098": {
+      "ref": "3GPP 5G: arquitectura basada en servicios",
+      "text": "El núcleo 5G tiene una arquitectura basada en servicios (SBA), virtualizada (NFV) y programable (SDN). Eso permite crear porciones de red (network slicing) con características distintas sobre la misma infraestructura y desplegar redes privadas. Las frecuencias altas y el mayor ancho de banda dan capacidad, pero no permiten por sí solos el slicing."
+    },
+    "OFF-GSI-INAP-2024-Q099": {
+      "ref": "QoS en tiempo real: jitter",
+      "text": "El jitter es la variación del tiempo de llegada (retardo) entre paquetes consecutivos. En videoconferencia provoca cortes y desincronización si el búfer de reproducción (jitter buffer) no lo compensa. No es una interrupción, una ráfaga de pérdidas ni un tipo de codificación."
+    },
+    "OFF-GSI-INAP-2024-Q100": {
+      "ref": "Recomendaciones ITU-T de la serie H",
+      "text": "H.323 es el sistema de la ITU-T para comunicaciones multimedia, incluida la videoconferencia, sobre redes de paquetes IP. H.320 es videoconferencia sobre RDSI, y H.261 y H.264 son códecs de vídeo, no sistemas de videoconferencia."
+    },
+    "OFF-GSI-INAP-2024-R001": {
+      "ref": "RFC 3720 (iSCSI), nombres IQN",
+      "text": "Un nombre IQN tiene el formato iqn.aaaa-mm.dominio-invertido:identificador; por ejemplo, iqn.2001-04.com.example:storage.disk1. La fecha corresponde a cuando la organización tenía registrado el dominio. El prefijo eui. se usa para otro formato basado en identificadores EUI-64."
+    },
+    "OFF-GSI-INAP-2024-R002": {
+      "ref": "OMG MOF (Meta Object Facility)",
+      "text": "MOF es el estándar de la OMG para definir metamodelos (el nivel M3 de la arquitectura de metamodelado), y XMI es su formato XML de intercambio. No se limita al metamodelo de UML: con MOF se definen también CWM, SysML y otros."
+    },
+    "OFF-GSI-INAP-2024-R003": {
+      "ref": "ITU-T X.690",
+      "text": "La Recomendación ITU-T X.690 define las reglas de codificación de ASN.1 BER (Basic Encoding Rules), CER y DER. DER se usa, por ejemplo, en los certificados X.509. X.660 trata del registro de identificadores de objeto (OID)."
+    },
+    "OFF-GSI-INAP-2024-R004": {
+      "ref": "Bibliotecas de aprendizaje profundo",
+      "text": "Keras, TensorFlow y PyTorch son bibliotecas muy extendidas para construir y entrenar redes neuronales. «AutomaticDL» no es una biblioteca conocida de aprendizaje profundo."
+    },
+    "OFF-GSI-INAP-2024-R005": {
+      "ref": "OASIS WS-Security: perfil X.509 Token",
+      "text": "En WS-Security, los certificados X.509 se incluyen en el mensaje SOAP como un BinarySecurityToken con el ValueType X509v3, según el perfil X.509 Token Profile. UsernameToken transporta usuario y contraseña, y «Certificate Token» y «X.509 Certificate Token» no son los elementos definidos."
+    },
     "OFF-GSI-INAP-2025-Q001": {
       "ref": "CE, arts. 62 y 94.1",
       "text": "El art. 62 CE atribuye al Rey, entre otras funciones, expedir los decretos acordados en Consejo de Ministros, convocar a referéndum y nombrar y separar a los miembros del Gobierno a propuesta de su Presidente. Autorizar tratados que impliquen obligaciones financieras para la Hacienda Pública no es función del Rey: según el art. 94.1.d) CE, requiere autorización previa de las Cortes Generales."

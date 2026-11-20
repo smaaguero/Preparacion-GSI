@@ -17,7 +17,7 @@ Exportación reproducible de los tres bancos del producto. Los JSON son la fuent
 
 | Archivo | SHA-256 |
 | --- | --- |
-| `data/questions-official.json` | `ce2e5b8d84c4b38ac8577bf9e55137212aaaa8fc86e6dc926df0769ec6f24c56` |
+| `data/questions-official.json` | `edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab` |
 | `data/questions-manual.json` | `042b7d27de757807e72558f500137b5687a517c4b1f9f9c3316caa1b6fb4e311` |
 | `data/questions-ai.json` | `e71e2d96e789c12b0929779c550b4713fba0d7b64560bbdc179a1158b6354660` |
 | `data/syllabus.json` | `2370e84e3c098dbe89628cdce92e95e9042a390d2dffe8bb48e3627607750d48` |
@@ -158,7 +158,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Al Rey, previa autorización de las Cortes Generales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Al Rey, previa autorización de las Cortes Generales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Al Rey, previa autorización de las Cortes Generales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 63.3): Literal del art. 63.3 CE: «Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz». La autorización es de las Cortes Generales, no solo del Congreso, y quien declara es el Rey, como acto debido refrendado.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -182,7 +182,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Entrará a ejercer inmediatamente la Regencia el Príncipe heredero de la Corona, si fuere mayor de edad.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Entrará a ejercer inmediatamente la Regencia el Príncipe heredero de la Corona, si fuere mayor de edad.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Entrará a ejercer inmediatamente la Regencia el Príncipe heredero de la Corona, si fuere mayor de edad.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 59.2): Según el art. 59.2 CE, si el Rey se inhabilita y las Cortes Generales reconocen la imposibilidad, entra a ejercer inmediatamente la Regencia el Príncipe heredero, si es mayor de edad. Si no lo es, se sigue el orden del art. 59.1 (padre o madre del Rey y, en su defecto, el pariente de mayor edad más próximo a suceder en la Corona) o, en su defecto, la Regencia la nombran las Cortes (art. 59.3).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -1035,7 +1035,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Se prorrogan automáticamente los Presupuestos del año anterior.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Se prorrogan automáticamente los Presupuestos del año anterior.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Se prorrogan automáticamente los Presupuestos del año anterior.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 134.4): Según el art. 134.4 CE, si la Ley de Presupuestos no se aprueba antes del primer día del ejercicio, se consideran automáticamente prorrogados los Presupuestos del ejercicio anterior hasta que se aprueben los nuevos. No obliga a dimitir ni disuelve las Cortes.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -1860,7 +1860,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Es elegido por el Congreso de los Diputados tras ser propuesto por el Rey.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Es elegido por el Congreso de los Diputados tras ser propuesto por el Rey.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Es elegido por el Congreso de los Diputados tras ser propuesto por el Rey.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, art. 99): El Rey, previa consulta con los representantes de los grupos políticos y a través del Presidente del Congreso, propone un candidato. El Congreso le otorga la confianza por mayoría absoluta en primera votación o por mayoría simple 48 horas después, y el Rey lo nombra. No hay elección directa ni intervención del Senado.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -1884,7 +1884,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Acreditar a los embajadores y otros representantes diplomáticos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Acreditar a los embajadores y otros representantes diplomáticos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Acreditar a los embajadores y otros representantes diplomáticos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CE, arts. 63.1 y 97): El art. 97 CE encomienda al Gobierno dirigir la política interior y exterior, la Administración civil y militar y la defensa, y ejercer la función ejecutiva y la potestad reglamentaria. Acreditar a los embajadores corresponde al Rey (art. 63.1 CE: «El Rey acredita a los embajadores y otros representantes diplomáticos»).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -2729,7 +2729,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Imponer sanciones cuando el responsable de la infracción sea un alto cargo de la Administración General del Estado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Imponer sanciones cuando el responsable de la infracción sea un alto cargo de la Administración General del Estado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Imponer sanciones cuando el responsable de la infracción sea un alto cargo de la Administración General del Estado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 19/2013, arts. 31 y 38): El art. 38.1 atribuye al Consejo de Transparencia y Buen Gobierno, entre otras funciones, evaluar el grado de aplicación de la ley, promover formación y sensibilización e informar preceptivamente los proyectos normativos estatales. No impone sanciones: su Presidente solo puede instar el inicio del procedimiento sancionador (art. 38.2.e), y la sanción corresponde a los órganos que fija el art. 31.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -3526,7 +3526,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** La mejora de las oportunidades de empleo en las zonas rurales, disminuyendo la exclusión social, incrementando la igualdad entre mujeres y hombres y las oportunidades para jóvenes, consolidando la resiliencia comunitaria.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («La mejora de las oportunidades de empleo en las zonas rurales, disminuyendo la exclusión social, incrementando la igualdad entre mujeres y hombres y las oportunidades para jóvenes, consolidando la resiliencia comunitaria.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («La mejora de las oportunidades de empleo en las zonas rurales, disminuyendo la exclusión social, incrementando la igualdad entre mujeres y hombres y las oportunidades para jóvenes, consolidando la resiliencia comunitaria.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Pacto de Estado contra la Violencia de Género (2017)): El Pacto se organiza en diez ejes, entre ellos la mejora de la respuesta institucional mediante coordinación y trabajo en red, el impulso de la formación de los agentes y la visibilización y atención de otras formas de violencia (sexual, trata, mutilación genital, matrimonios forzados). El empleo rural y la resiliencia comunitaria no son un eje del Pacto.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -3550,7 +3550,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Personas en situación de dependencia reconocida en los términos establecidos por la ley.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Personas en situación de dependencia reconocida en los términos establecidos por la ley.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Personas en situación de dependencia reconocida en los términos establecidos por la ley.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2006, art. 5): Son titulares de los derechos de la Ley 39/2006 las personas en situación de dependencia en alguno de sus grados, reconocida según el procedimiento legal, y que cumplan los demás requisitos del art. 5, como la residencia. No basta con ser mayor de edad, no se limita a la edad laboral ni a las enfermedades crónicas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -4507,7 +4507,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** A un proyecto para conseguir el reconocimiento paneuropeo de las identidades electrónicas, y en concreto la aceptación del DNI electrónico e identificadores similares en Servicios de Administración Electrónica de otras administraciones europeas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («A un proyecto para conseguir el reconocimiento paneuropeo de las identidades electrónicas, y en concreto la aceptación del DNI electrónico e identificadores similares en Servicios de Administración Electrónica de otras administraciones europeas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («A un proyecto para conseguir el reconocimiento paneuropeo de las identidades electrónicas, y en concreto la aceptación del DNI electrónico e identificadores similares en Servicios de Administración Electrónica de otras administraciones europeas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Proyecto europeo STORK (CIP ICT-PSP)): STORK (Secure idenTity acrOss boRders linKed) fue el proyecto piloto europeo para el reconocimiento transfronterizo de identidades electrónicas: permitía usar el DNIe y medios equivalentes en servicios de administración electrónica de otros Estados. Es el antecedente de los nodos eIDAS. No tiene relación con la verificación de edad, las estafas por SMS ni la sanidad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -4531,7 +4531,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Identificación del nodo; identificación de los mensajes; fecha y hora de los mensajes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Identificación del nodo; identificación de los mensajes; fecha y hora de los mensajes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Identificación del nodo; identificación de los mensajes; fecha y hora de los mensajes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Reglamento de Ejecución (UE) 2015/1501, art. 9.3): Los operadores de nodos eIDAS deben conservar, como mínimo, la identificación del nodo, la identificación de los mensajes y la fecha y hora de los mensajes. La «identificación de los interlocutores» que añaden las demás opciones no figura en esa lista mínima.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -5416,7 +5416,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: LOPDGDD, art. 7.1): Según el art. 7.1 de la LO 3/2018, el tratamiento de los datos de un menor solo puede basarse en su propio consentimiento cuando es mayor de catorce años. Por debajo de esa edad hace falta el consentimiento del titular de la patria potestad o tutela. El RGPD permite a los Estados fijar entre 13 y 16 años, y España eligió 14.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -5440,7 +5440,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Para realizar un tratamiento de datos personales, hay que contar con una base que lo legitime. Algunas de las posibles opciones que harían el tratamiento lícito pueden ser, al menos, el consentimiento del interesado, el cumplimiento de una obligación legal del responsable, o el cumplimiento de una misión en interés público o en ejercicio de poderes públicos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Para realizar un tratamiento de datos personales, hay que contar con una base que lo legitime. Algunas de las posibles opciones que harían el tratamiento lícito pueden ser, al menos, el consentimiento del interesado, el cumplimiento de una obligación legal del responsable, o el cumplimiento de una misión en interés público o en ejercicio de poderes públicos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla. La plantilla definitiva modificó esta respuesta: se utiliza D.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Para realizar un tratamiento de datos personales, hay que contar con una base que lo legitime. Algunas de las posibles opciones que harían el tratamiento lícito pueden ser, al menos, el consentimiento del interesado, el cumplimiento de una obligación legal del responsable, o el cumplimiento de una misión en interés público o en ejercicio de poderes públicos.»). Esta es la clave oficial de esa convocatoria. La plantilla definitiva modificó esta respuesta: se utiliza D. Explicación del fork (no oficial; referencia: RGPD, art. 6.1): El art. 6.1 RGPD exige una base de licitud: consentimiento, contrato, obligación legal, intereses vitales, misión de interés público o ejercicio de poderes públicos e interés legítimo. Informar al interesado es una obligación de transparencia (arts. 13 y 14), no una base de licitud, y no existen los «poderes particulares». Por eso solo la D es correcta.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -6305,7 +6305,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Diez días naturales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Diez días naturales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Diez días naturales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 39/2015, art. 43.2): Cuando la notificación electrónica es obligatoria o la ha elegido el interesado, se entiende rechazada si pasan diez días naturales desde la puesta a disposición sin acceder a su contenido. Es una excepción al cómputo general en días hábiles: los días son naturales.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -6329,7 +6329,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Tener un vínculo matrimonial o situación de hecho asimilable y el parentesco de consanguinidad dentro del quinto grado o de afinidad dentro del segundo, con cualquiera de los interesados, con los administradores de entidades o sociedades interesadas y también con los asesores, representantes legales o mandatarios que intervengan en el procedimiento, así como compartir despacho profesional o estar asociado con éstos para el asesoramiento, la representación o el mandato.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Tener un vínculo matrimonial o situación de hecho asimilable y el parentesco de consanguinidad dentro del quinto grado o de afinidad dentro del segundo, con cualquiera de los interesados, con los administradores de entidades o sociedades interesadas y también con los asesores, representantes legales o mandatarios que intervengan en el procedimiento, así como compartir despacho profesional o estar asociado con éstos para el asesoramiento, la representación o el mandato.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Tener un vínculo matrimonial o situación de hecho asimilable y el parentesco de consanguinidad dentro del quinto grado o de afinidad dentro del segundo, con cualquiera de los interesados, con los administradores de entidades o sociedades interesadas y también con los asesores, representantes legales o mandatarios que intervengan en el procedimiento, así como compartir despacho profesional o estar asociado con éstos para el asesoramiento, la representación o el mandato.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 40/2015, art. 23.2): El art. 23.2.b) recoge como motivo de abstención el parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo, no del quinto. Las opciones A, C y D reproducen otros motivos del mismo artículo: interés personal, relación de servicio o servicios profesionales en los dos últimos años y haber sido perito o testigo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -7602,7 +7602,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** El interesado accederá a la Carpeta Ciudadana mediante los sistemas de identificación a los que se refiere el artículo 9.2 de la Ley 39/2015, de 1 de octubre.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El interesado accederá a la Carpeta Ciudadana mediante los sistemas de identificación a los que se refiere el artículo 9.2 de la Ley 39/2015, de 1 de octubre.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El interesado accederá a la Carpeta Ciudadana mediante los sistemas de identificación a los que se refiere el artículo 9.2 de la Ley 39/2015, de 1 de octubre.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 203/2021, art. 8): La Carpeta Ciudadana es el área personalizada de los interesados en la sede del Punto de Acceso General electrónico (PAGe) de la AGE, no del Portal de Transparencia. El acceso se hace con los sistemas de identificación del art. 9.2 de la Ley 39/2015. Además del interesado pueden acceder sus representantes legales y los apoderados con poder general inscrito, no los herederos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -7626,7 +7626,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Se suministrarán a través de interfaz de programación de aplicaciones (API).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Se suministrarán a través de interfaz de programación de aplicaciones (API).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Se suministrarán a través de interfaz de programación de aplicaciones (API).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ley 37/2007, art. 3 ter.2): Los conjuntos de datos de alto valor estarán disponibles gratuitamente, serán legibles por máquina, se suministrarán mediante API y, cuando proceda, como descarga masiva. Las opciones que hablan de tasa, de ficheros .pfx (contenedores de certificados) o que prohíben la descarga masiva contradicen la norma.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -8467,7 +8467,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** InSiDe.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («InSiDe.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («InSiDe.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Catálogo de Servicios de Administración Digital (PAe), ficha InSiDe): InSiDe (Infraestructura y Sistemas de Documentación Electrónica) gestiona documentos y expedientes electrónicos conforme al ENI: permite generarlos, validarlos, almacenarlos y obtenerlos con el formato y los metadatos de las NTI. CIRCABC es una plataforma colaborativa de la Comisión Europea y las demás siglas no corresponden a la gestión documental ENI.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -9520,7 +9520,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Escalabilidad vertical.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Escalabilidad vertical.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Escalabilidad vertical.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Escalabilidad de sistemas): Añadir recursos (memoria, disco, CPU) a una misma máquina es escalabilidad vertical (scale up). La horizontal (scale out) añade más nodos. «Escalabilidad en carga» y «de redundancia» no son categorías estándar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -9544,7 +9544,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** SIMD (Single instruction, multiple data).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SIMD (Single instruction, multiple data).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SIMD (Single instruction, multiple data).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Taxonomía de Flynn): Los procesadores vectoriales y matriciales aplican una misma instrucción a muchos datos a la vez, así que son SIMD. SISD es el monoprocesador clásico (la opción A lo escribe mal como SSID), MISD es casi teórico y MIMD corresponde a los multiprocesadores y clústeres.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -12611,7 +12611,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Distribuciones.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Distribuciones.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Distribuciones.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas operativos GNU/Linux): Las variantes de GNU/Linux se llaman distribuciones (Debian, Ubuntu, Red Hat Enterprise Linux, SUSE…): combinan el núcleo Linux con herramientas, gestor de paquetes y configuración propia.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -12635,7 +12635,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Concurrencia global.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Concurrencia global.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Concurrencia global.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas distribuidos (Coulouris)): Las características típicas de un sistema distribuido son la concurrencia de componentes en distintos nodos, la ausencia de un reloj global y los fallos independientes. Suelen ser además heterogéneos. Por eso «reloj común», «homogeneidad» y «dependencia de fallos» son incorrectas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -12659,7 +12659,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Round Robin.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Round Robin.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Round Robin.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Planificación de procesos: Round Robin): Round Robin organiza los procesos en una cola circular y asigna a cada uno un intervalo de tiempo (quantum) por turnos, con expulsión. SJF elige el trabajo más corto, FCFS atiende por orden de llegada y HRN (Highest Response Ratio Next) prioriza según la tasa de respuesta.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -12683,7 +12683,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Controlador o driver.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Controlador o driver.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Controlador o driver.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas operativos: gestión de E/S): La aplicación hace una llamada al sistema y el sistema operativo invoca al controlador (driver) del dispositivo, el software que conoce cómo manejar ese hardware concreto. El microkernel es una arquitectura del núcleo, no la pieza que implementa el acceso a un dispositivo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -15726,7 +15726,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Imperativo, orientado a objetos, funcional y reflexivo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Imperativo, orientado a objetos, funcional y reflexivo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Imperativo, orientado a objetos, funcional y reflexivo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Paradigmas de programación: PHP): PHP es multiparadigma: imperativo o procedimental, orientado a objetos basado en clases, funcional (funciones anónimas, closures, funciones de primer orden) y reflexivo (API Reflection). No es lógico ni declarativo, y su orientación a objetos no se basa en prototipos, que es el modelo de JavaScript.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -15750,7 +15750,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Es una entidad cuyo valor no puede ser modificado por el programa.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Es una entidad cuyo valor no puede ser modificado por el programa.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Es una entidad cuyo valor no puede ser modificado por el programa.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Lenguaje C: constantes): Una constante es una entidad cuyo valor no puede modificar el programa durante la ejecución: literales, macros #define o variables const. El casting es conversión de tipos, y local, global, estática y externa son clases de almacenamiento de variables.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -16545,7 +16545,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** SOLAP (Spiral On Line Analytic Processing).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SOLAP (Spiral On Line Analytic Processing).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SOLAP (Spiral On Line Analytic Processing).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Inteligencia de negocio: tipos de OLAP): Por su almacenamiento, los tipos de OLAP son ROLAP (relacional), MOLAP (multidimensional) y HOLAP (híbrido), además de variantes como DOLAP (escritorio). No existe un «Spiral OLAP». La sigla SOLAP se usa para OLAP espacial, que no es lo que dice la opción.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -16569,7 +16569,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Los objetivos pueden ser borrosos y no estar delimitados.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Los objetivos pueden ser borrosos y no estar delimitados.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Los objetivos pueden ser borrosos y no estar delimitados.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Cuadro de mando: KPI y objetivos SMART): Un KPI mide el avance hacia un objetivo, que debe ser específico, medible, alcanzable, relevante y acotado en el tiempo (SMART), y el indicador debe poder analizarse periódicamente. Un objetivo «borroso y no delimitado» no puede medirse con un KPI.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -18307,7 +18307,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** SOAP.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («SOAP.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («SOAP.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Arquitectura de servicios web (W3C)): Los elementos clásicos de la pila de servicios web son SOAP (mensajería), WSDL (descripción) y UDDI (registro). VSDL y UDI son erratas que no existen, y SOA es el estilo arquitectónico, no un elemento de la arquitectura de servicios web.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -19935,7 +19935,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** 128.0.0.0
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («128.0.0.0»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («128.0.0.0»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Direccionamiento IPv4 con clases): La clase B va de 128.0.0.0 a 191.255.255.255, así que 128.0.0.0 es de clase B. 127.0.0.1 es loopback (rango 127 reservado), y 10.0.0.0 (privada) y 126.255.255.255 son de clase A.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -19959,7 +19959,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Un modelo de referencia para la comunicación en redes con 7 capas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un modelo de referencia para la comunicación en redes con 7 capas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un modelo de referencia para la comunicación en redes con 7 capas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ISO/IEC 7498-1 (modelo OSI)): OSI es el modelo de referencia de ISO para interconectar sistemas abiertos y tiene siete capas: física, enlace, red, transporte, sesión, presentación y aplicación. TCP/IP se suele describir con cuatro o cinco capas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -19983,7 +19983,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Están definidas en el estándar ITU-T X.690
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Están definidas en el estándar ITU-T X.690»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Están definidas en el estándar ITU-T X.690»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITU-T X.690): La Recomendación ITU-T X.690 define las reglas de codificación de ASN.1 BER (Basic Encoding Rules), CER y DER. DER se usa, por ejemplo, en los certificados X.509. X.660 trata del registro de identificadores de objeto (OID).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -20860,7 +20860,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** XML Schema es fuertemente tipado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («XML Schema es fuertemente tipado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («XML Schema es fuertemente tipado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: W3C XML Schema y DTD): XML Schema está fuertemente tipado: tiene tipos predefinidos, permite derivar tipos nuevos y usa espacios de nombres. Se escribe en sintaxis XML. La DTD tiene sintaxis propia, apenas tiene tipos de datos y no es extensible.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -24097,7 +24097,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Disponibilidad.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Disponibilidad.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Disponibilidad.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ENS (RD 311/2022), dimensiones de seguridad): Las dimensiones de seguridad son confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad. La disponibilidad es una de ellas. «Autenticación» es un mecanismo y no debe confundirse con la dimensión de autenticidad; aislamiento y consistencia no son dimensiones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -24930,7 +24930,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** INES.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («INES.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («INES.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Herramientas del CCN-CERT): INES (Informe Nacional del Estado de Seguridad) es la herramienta del CCN para la gobernanza de la ciberseguridad: las entidades evalúan regularmente su estado de seguridad y su adecuación al ENS. ATENEA es la plataforma de desafíos de ciberseguridad, CLARA analiza el cumplimiento técnico del ENS en sistemas Windows y CARLA protege y traza la información.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -24954,7 +24954,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Al menos cada 2 años.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Al menos cada 2 años.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Al menos cada 2 años.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto 311/2022 (ENS), art. 31.1): Los sistemas de información del ENS deben someterse a una auditoría regular ordinaria al menos cada dos años, sea cual sea su categoría. Además, hay que hacer una auditoría extraordinaria cuando se producen modificaciones sustanciales que puedan afectar a las medidas de seguridad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -25775,7 +25775,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** La capacidad de atender a los clientes a través de múltiples canales de comunicación, como teléfono, correo electrónico, chat, redes sociales, entre otros.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («La capacidad de atender a los clientes a través de múltiples canales de comunicación, como teléfono, correo electrónico, chat, redes sociales, entre otros.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («La capacidad de atender a los clientes a través de múltiples canales de comunicación, como teléfono, correo electrónico, chat, redes sociales, entre otros.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Centros de contacto: arquitectura multicanal): La arquitectura multicanal permite atender a los clientes por varios canales: teléfono, correo, chat, redes sociales, web o aplicaciones. Si además integra los canales con un contexto común, se habla de omnicanalidad. No es una red de servidores, un protocolo ni un tipo de base de datos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -25799,7 +25799,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** CRM Colaborativo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («CRM Colaborativo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («CRM Colaborativo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Tipos de CRM): El CRM colaborativo se centra en la interacción con el cliente y la coordinación entre departamentos a través de múltiples canales. El operacional automatiza procesos de ventas, marketing y servicio, y el analítico explota los datos del cliente. «CRM geográfico» no es una tipología estándar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -26730,7 +26730,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Ransomware o criptoataque: un malware ataca nuestro sistema cifrando los archivos de modo que están irrecuperables salvo que se halle la clave para su descifrado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Ransomware o criptoataque: un malware ataca nuestro sistema cifrando los archivos de modo que están irrecuperables salvo que se halle la clave para su descifrado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Ransomware o criptoataque: un malware ataca nuestro sistema cifrando los archivos de modo que están irrecuperables salvo que se halle la clave para su descifrado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Seguridad de la información: amenazas y dimensiones): El ransomware cifra o altera los ficheros: modifica la información sin autorización, por lo que afecta a la integridad (y también a la disponibilidad). Las fugas, la revelación intencionada y la ingeniería social para sonsacar información afectan sobre todo a la confidencialidad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -26754,7 +26754,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** SAT-INET en ningún momento se centra en el análisis del contenido del tráfico, que no sea relevante en la detección de una amenaza.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SAT-INET en ningún momento se centra en el análisis del contenido del tráfico, que no sea relevante en la detección de una amenaza.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SAT-INET en ningún momento se centra en el análisis del contenido del tráfico, que no sea relevante en la detección de una amenaza.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CCN-CERT: Sistemas de Alerta Temprana (SAT)): SAT-INET detecta en tiempo real amenazas en el tráfico entre la red interna del organismo e Internet y no analiza el contenido que no sea relevante para la detección, que es lo que afirma la B. SAT-ICS vigila las redes de control industrial y sus protocolos. Las opciones A y C intercambian las definiciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -26778,7 +26778,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Son 5 niveles: bajo, medio, alto, muy alto y crítico.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Son 5 niveles: bajo, medio, alto, muy alto y crítico.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Son 5 niveles: bajo, medio, alto, muy alto y crítico.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Guía CCN-STIC 817): La guía asigna a cada ciberincidente uno de cinco niveles de peligrosidad o impacto potencial: bajo, medio, alto, muy alto y crítico. Ese nivel determina, entre otras cosas, la obligación y el plazo de notificación al CCN-CERT.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -26802,7 +26802,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Una herramienta de código abierto para escaneo de vulnerabilidades y pentesting.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Una herramienta de código abierto para escaneo de vulnerabilidades y pentesting.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla. Atención editorial: la descripción de la licencia de Nessus en la opción D requiere contraste de vigencia; se conserva literalmente la clave oficial, sin presentarla como información tecnológica actual.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Una herramienta de código abierto para escaneo de vulnerabilidades y pentesting.»). Esta es la clave oficial de esa convocatoria. Atención editorial: la descripción de la licencia de Nessus en la opción D requiere contraste de vigencia; se conserva literalmente la clave oficial, sin presentarla como información tecnológica actual. Explicación del fork (no oficial; referencia: Tenable Nessus; OpenVAS/Greenbone): Nessus es un escáner de vulnerabilidades, de modo que la D es la única opción que describe su función. Ojo: Nessus fue de código abierto hasta 2005. Desde la versión 3 es privativo (Tenable, con una edición gratuita limitada), y el proyecto libre que siguió la línea original es OpenVAS (Greenbone). Se conserva la clave oficial, pero hoy no es exacto llamarlo código abierto.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -27657,7 +27657,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Marcas de agua.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Marcas de agua.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Marcas de agua.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Gestión de Derechos Digitales (DRM)): El DRM usa técnicas como el cifrado de contenidos, las licencias y claves de uso, la vinculación a dispositivos y las marcas de agua, visibles o invisibles, para identificar y rastrear copias. La compresión o la minimización de código no son técnicas de protección de derechos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -27681,7 +27681,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Real Decreto Legislativo 1/1996 (TRLPI), arts. 95 a 104): En España, los programas de ordenador se protegen como obras mediante el derecho de autor, en el Título VII del Libro I del Texto Refundido de la Ley de Propiedad Intelectual (arts. 95 a 104). La Ley de Patentes excluye los programas «como tales», y la LOPDGDD y la Ley de Telecomunicaciones regulan otras materias.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -33558,7 +33558,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Disponer de criterios económicos, técnicos, legales y operativos que nos permitan decidir si seguir adelante con un proyecto o abandonar.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Disponer de criterios económicos, técnicos, legales y operativos que nos permitan decidir si seguir adelante con un proyecto o abandonar.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Disponer de criterios económicos, técnicos, legales y operativos que nos permitan decidir si seguir adelante con un proyecto o abandonar.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Estudio de viabilidad de proyectos): El análisis de viabilidad reúne criterios técnicos, económicos, legales y operativos para decidir si un proyecto debe seguir adelante o abandonarse, y con qué alternativa. El cronograma detallado se elabora después, en la planificación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -33582,7 +33582,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Nos permite comprender el estado actual del proyecto, las medidas adoptadas y las proyecciones del presupuesto, el cronograma y el alcance.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Nos permite comprender el estado actual del proyecto, las medidas adoptadas y las proyecciones del presupuesto, el cronograma y el alcance.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Nos permite comprender el estado actual del proyecto, las medidas adoptadas y las proyecciones del presupuesto, el cronograma y el alcance.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: PMBOK: monitorear y controlar el trabajo del proyecto): Monitorizar y controlar permite conocer el estado del proyecto, comparar lo real con la línea base y proyectar alcance, cronograma y costes, adoptando acciones preventivas y correctivas. Se hace durante todo el proyecto y no se limita a los riesgos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -34447,7 +34447,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Almacenar, gestionar y controlar el acceso a documentos digitales dentro de una organización.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Almacenar, gestionar y controlar el acceso a documentos digitales dentro de una organización.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Almacenar, gestionar y controlar el acceso a documentos digitales dentro de una organización.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas de gestión documental): Un gestor documental almacena, indexa, versiona y controla el acceso y el ciclo de vida de los documentos de una organización. Editar multimedia, enviar boletines o llevar la contabilidad son funciones de otras herramientas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -37502,7 +37502,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** El modelo es muy rígido, dado que es necesario finalizar cada actividad para iniciar la siguiente, lo que dificulta su adecuación a escenarios reales.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («El modelo es muy rígido, dado que es necesario finalizar cada actividad para iniciar la siguiente, lo que dificulta su adecuación a escenarios reales.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («El modelo es muy rígido, dado que es necesario finalizar cada actividad para iniciar la siguiente, lo que dificulta su adecuación a escenarios reales.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelos de ciclo de vida: cascada): La cascada es rígida porque cada fase debe terminarse antes de empezar la siguiente, lo que encaja mal con requisitos cambiantes. Los requisitos se fijan al principio, no a lo largo del proyecto (A). Sus documentos por fase facilitan el seguimiento (C falsa) y no hay versiones funcionales hasta el final (D falsa).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -37526,7 +37526,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Se permanece en la etapa actual hasta que esté preparada.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Se permanece en la etapa actual hasta que esté preparada.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Se permanece en la etapa actual hasta que esté preparada.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo en cascada puro): En la cascada pura cada etapa termina con una revisión que actúa de puerta: si no se supera, el proyecto permanece en la etapa actual hasta completarla. Las fases no se solapan. La realimentación hacia etapas anteriores es propia de la cascada con retroalimentación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -38473,7 +38473,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Métrica v3.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Métrica v3.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Métrica v3.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica versión 3): Métrica v3 es la metodología de planificación, desarrollo y mantenimiento de sistemas de información de la Administración española. Tiene un enfoque estructurado y orientado a objetos, basado en procesos, y no es ágil. Scrum, XP y Lean sí son enfoques ágiles.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -38497,7 +38497,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Identificar las rutas críticas y calcular el tiempo esperado de finalización del proyecto.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Identificar las rutas críticas y calcular el tiempo esperado de finalización del proyecto.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Identificar las rutas críticas y calcular el tiempo esperado de finalización del proyecto.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: PERT): PERT modela el proyecto como una red de actividades, estima cada duración con tres valores (optimista, más probable y pesimista: te = (o + 4m + p) / 6) e identifica el camino crítico para calcular el tiempo esperado de finalización. No es una técnica de costes ni de rentabilidad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -39332,7 +39332,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** El uso de prototipos no va a reducir el riesgo del proyecto.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («El uso de prototipos no va a reducir el riesgo del proyecto.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («El uso de prototipos no va a reducir el riesgo del proyecto.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ingeniería de requisitos: prototipado): Los prototipos reducen el riesgo porque validan pronto los requisitos y las soluciones con los usuarios, así que afirmar que no lo reducen es incorrecto. Se obtienen antes de terminar el proyecto, no implementan todas las funciones y, si son evolutivos, pueden servir de base del sistema.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -39356,7 +39356,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Siempre es sencillo evolucionar el prototipo si se ha desarrollado con poca calidad.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Siempre es sencillo evolucionar el prototipo si se ha desarrollado con poca calidad.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Siempre es sencillo evolucionar el prototipo si se ha desarrollado con poca calidad.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ingeniería de requisitos: prototipado): Las ventajas del prototipado son que facilita a los usuarios evaluar y expresar lo que necesitan y que permite revisar los requisitos de forma continua. Un prototipo hecho con poca calidad no es fácil de evolucionar. Por eso los prototipos desechables se tiran y los evolutivos se construyen con calidad de producción.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -40205,7 +40205,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Clave candidata.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Clave candidata.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Clave candidata.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelo relacional: claves): Una clave candidata es un conjunto mínimo de atributos que identifica de forma única cada tupla: unicidad más irreducibilidad. De entre las candidatas se elige la clave primaria, y las demás son claves alternativas. Las otras denominaciones no son términos del modelo relacional.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -40229,7 +40229,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** El proceso de organizar los datos para reducir la redundancia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El proceso de organizar los datos para reducir la redundancia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El proceso de organizar los datos para reducir la redundancia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Diseño de bases de datos: normalización): La normalización organiza las tablas según formas normales (1FN, 2FN, 3FN, FNBC…) para reducir la redundancia y evitar anomalías de inserción, actualización y borrado. Crear índices es optimización física y la opción C describe la transparencia de distribución.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -41120,7 +41120,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Chatbot.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Chatbot.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Chatbot.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Fundamentos de IA: procesamiento del lenguaje natural): Un chatbot es un programa conversacional que usa procesamiento del lenguaje natural, y hoy a menudo modelos de lenguaje, para entender preguntas y responder. El test de Turing es una prueba de inteligencia, la máquina de Turing es un modelo de computación y Deep Blue fue el ordenador de IBM que jugaba al ajedrez.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -41144,7 +41144,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** AutomaticDL.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («AutomaticDL.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («AutomaticDL.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Bibliotecas de aprendizaje profundo): Keras, TensorFlow y PyTorch son bibliotecas muy extendidas para construir y entrenar redes neuronales. «AutomaticDL» no es una biblioteca conocida de aprendizaje profundo.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -41981,7 +41981,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Un servidor de automatización open source escrito en Java para la integración continua de desarrollos software.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Un servidor de automatización open source escrito en Java para la integración continua de desarrollos software.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Un servidor de automatización open source escrito en Java para la integración continua de desarrollos software.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Integración continua: Jenkins): Jenkins es un servidor de automatización de código abierto escrito en Java para integración y entrega continuas: compila, prueba y despliega mediante pipelines y miles de plugins. No es propietario ni es un servidor web de propósito general.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -42005,7 +42005,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Maven.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Maven.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Maven.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Apache Maven): Maven gestiona la construcción y las dependencias de proyectos Java a partir del Project Object Model (POM), definido en pom.xml. Octopus Deploy, ElasticBox y ElectricCloud son herramientas de despliegue y automatización, pero no se basan en el POM.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -42880,7 +42880,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Pruebas que se centran en evaluar el código fuente interno de una aplicación.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Pruebas que se centran en evaluar el código fuente interno de una aplicación.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Pruebas que se centran en evaluar el código fuente interno de una aplicación.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Técnicas de prueba: caja blanca): Las pruebas de caja blanca (estructurales) se diseñan a partir del código y la lógica internos, con criterios de cobertura de sentencias, decisiones y caminos o la complejidad ciclomática. La opción B describe la caja negra y la C, las pruebas dinámicas de seguridad (DAST).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -42904,7 +42904,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Un entorno para pruebas en la JVM.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un entorno para pruebas en la JVM.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un entorno para pruebas en la JVM.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: JUnit): JUnit es el framework de pruebas unitarias de referencia para Java. JUnit 5 se describe como un entorno de pruebas para la JVM con su Platform, Jupiter y Vintage. No sirve para JScript, no es un IDE ni un servidor de aplicaciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -43661,7 +43661,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Reconsidering.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Reconsidering.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Reconsidering.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Estrategias de migración y modernización de aplicaciones): Entre las modalidades de migración están el rehosting (mover sin cambios), el refronting (renovar la interfaz manteniendo la lógica) y el replacement (sustituir por otra solución), junto con replatforming, refactoring y otras. «Reconsidering» no es una de ellas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -43685,7 +43685,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** El mantenimiento evolutivo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El mantenimiento evolutivo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El mantenimiento evolutivo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métrica v3, proceso MSI (Mantenimiento de Sistemas de Información)): El proceso de mantenimiento de Métrica v3 contempla los mantenimientos correctivo y evolutivo. El adaptativo y el perfectivo quedan fuera de su ámbito: se tratan como proyectos de desarrollo nuevos o por otras vías. Por eso, de las opciones, solo el evolutivo está dentro del ámbito.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -44544,7 +44544,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Cohesión débil.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Cohesión débil.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Cohesión débil.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Diseño orientado a objetos): Un buen diseño orientado a objetos busca alta cohesión y bajo acoplamiento, y se apoya en la reutilización, la herencia, el polimorfismo y la encapsulación. La cohesión débil es un defecto de diseño, no una característica deseable.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -44568,7 +44568,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** La definición que incluye se limita al metamodelo UML.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («La definición que incluye se limita al metamodelo UML.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («La definición que incluye se limita al metamodelo UML.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OMG MOF (Meta Object Facility)): MOF es el estándar de la OMG para definir metamodelos (el nivel M3 de la arquitectura de metamodelado), y XMI es su formato XML de intercambio. No se limita al metamodelo de UML: con MOF se definen también CWM, SysML y otros.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -45417,7 +45417,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** SAR (Service Archive).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («SAR (Service Archive).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («SAR (Service Archive).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Empaquetado de aplicaciones Java EE / Jakarta EE): Los formatos estándar de Java EE son JAR, WAR (aplicación web), EAR (aplicación empresarial) y RAR (adaptador de recursos). SAR (Service Archive) es propio de JBoss/WildFly y no del estándar, pero es la única opción que existe: VAR, LAR y CAR son inventadas. Clave oficial C.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -45441,7 +45441,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** IBM WebSphere.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («IBM WebSphere.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («IBM WebSphere.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Servidores de aplicaciones Java EE): IBM WebSphere Application Server es un servidor de aplicaciones Java EE completo. Apache Tomcat es solo un contenedor de servlets y JSP, sin el perfil completo. JDeveloper es un IDE de Oracle y Exadata, una plataforma de base de datos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -46350,7 +46350,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Objeto Identity.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Objeto Identity.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Objeto Identity.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Seguridad en .NET: IIdentity e IPrincipal): En .NET, el objeto Identity (interfaz IIdentity, como WindowsIdentity, GenericIdentity o ClaimsIdentity) encapsula la información del usuario o entidad autenticada: nombre, tipo de autenticación y si está autenticado. El Principal (IPrincipal) añade los roles y representa el contexto de seguridad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -46374,7 +46374,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Exception.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Exception.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Exception.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: .NET: System.Exception): En .NET las excepciones derivan de la clase System.Exception y se gestionan con try, catch y finally. Error, Fault e Issue no son las clases base de excepciones de .NET.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -51733,7 +51733,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** UDDI describe un protocolo para el registro y publicación de servicios web.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («UDDI describe un protocolo para el registro y publicación de servicios web.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («UDDI describe un protocolo para el registro y publicación de servicios web.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OASIS UDDI): UDDI (Universal Description, Discovery and Integration) define un registro para publicar y descubrir servicios web. La opción A corresponde a RSS o Atom, la B a WSDL y la C a las WCAG.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -51757,7 +51757,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Binary Security Token.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Binary Security Token.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Binary Security Token.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: OASIS WS-Security: perfil X.509 Token): En WS-Security, los certificados X.509 se incluyen en el mensaje SOAP como un BinarySecurityToken con el ValueType X509v3, según el perfil X.509 Token Profile. UsernameToken transporta usuario y contraseña, y «Certificate Token» y «X.509 Certificate Token» no son los elementos definidos.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -52686,7 +52686,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Aprobado.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Aprobado.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Aprobado.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: CMMI, niveles de madurez): Los niveles de madurez de CMMI son: 1 Inicial, 2 Gestionado, 3 Definido, 4 Gestionado cuantitativamente y 5 En optimización. «Aprobado» no es un nivel.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -52710,7 +52710,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** El tamaño del sistema.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El tamaño del sistema.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («El tamaño del sistema.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Métricas de software: puntos de función (IFPUG, ISO/IEC 20926)): Los puntos de función miden el tamaño funcional del software desde el punto de vista del usuario, contando entradas, salidas, consultas y ficheros internos y externos, con independencia de la tecnología. Se usan para estimar esfuerzo y productividad, no para medir rendimiento, seguridad o fiabilidad.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -53625,7 +53625,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Accesibilidad.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Accesibilidad.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Accesibilidad.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Accesibilidad web (W3C WAI)): La accesibilidad es la capacidad de un sitio de ser usado por todas las personas, con independencia de sus capacidades o discapacidades. La usabilidad se refiere a la facilidad de uso para los usuarios en general, y la navegación intuitiva y la compatibilidad son aspectos parciales.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -53649,7 +53649,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Un estándar que define las pautas para hacer que el contenido web sea accesible.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Un estándar que define las pautas para hacer que el contenido web sea accesible.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Un estándar que define las pautas para hacer que el contenido web sea accesible.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: W3C WCAG): Las WCAG (Web Content Accessibility Guidelines) del W3C son el estándar internacional de pautas para hacer accesible el contenido web, con criterios de éxito de niveles A, AA y AAA. Las WCAG 2.0 son también la norma ISO/IEC 40500. No son un software evaluador, un framework responsive ni una guía de SEO.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -54500,7 +54500,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Un sistema de procesamiento distribuido de código abierto que se utiliza para cargas de trabajo de macrodatos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Un sistema de procesamiento distribuido de código abierto que se utiliza para cargas de trabajo de macrodatos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Un sistema de procesamiento distribuido de código abierto que se utiliza para cargas de trabajo de macrodatos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Apache Spark): Apache Spark es un motor de procesamiento distribuido de código abierto para cargas de big data. Trabaja en memoria y tiene módulos para SQL, streaming, aprendizaje automático (MLlib) y grafos. Las demás opciones describen otros tipos de servicio: funciones sin servidor, catálogos de datos y bases de datos de registro inmutable.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -54524,7 +54524,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Un método para evaluar la precisión de un modelo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un método para evaluar la precisión de un modelo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un método para evaluar la precisión de un modelo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Minería de datos: validación cruzada): La validación cruzada, por ejemplo k-fold, evalúa la precisión y la capacidad de generalización de un modelo entrenándolo y validándolo en particiones distintas de los datos y promediando los resultados. Sirve precisamente para detectar el sobreajuste, al contrario de lo que dice la C.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -55369,7 +55369,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Windows Server: directivas de seguridad): Las directivas de seguridad configuran privilegios, derechos de usuario, auditoría, contraseñas y otras opciones de seguridad. Se aplican de forma local (secpol.msc) o mediante objetos de directiva de grupo (GPO) a nivel de dominio o de controladores de dominio. DNS resuelve nombres, DFS es el sistema de archivos distribuido e IIS es el servidor web.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -56188,7 +56188,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Un algoritmo de consenso para asegurar que múltiples nodos en un sistema distribuido acuerden un valor único.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Un algoritmo de consenso para asegurar que múltiples nodos en un sistema distribuido acuerden un valor único.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Un algoritmo de consenso para asegurar que múltiples nodos en un sistema distribuido acuerden un valor único.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Sistemas distribuidos: algoritmo Paxos (Lamport)): Paxos es un algoritmo de consenso: garantiza que los nodos de un sistema distribuido acuerden un único valor aunque haya fallos de algunos nodos o mensajes perdidos. Sirve de base para replicar con consistencia fuerte, pero en sí no es un protocolo de consistencia eventual ni de gestión de transacciones.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -57033,7 +57033,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Deben utilizarse 2 formatos o soportes distintos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Deben utilizarse 2 formatos o soportes distintos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Deben utilizarse 2 formatos o soportes distintos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Copias de seguridad: regla 3-2-1): La regla 3-2-1 pide tres copias de los datos (el original y dos copias), en dos tipos de soporte distintos y con una copia fuera de las instalaciones. El 2 se refiere a los soportes o formatos. Variantes actuales como 3-2-1-1-0 añaden una copia inmutable o desconectada y cero errores en la verificación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -57854,7 +57854,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** El control de versiones en el desarrollo software.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («El control de versiones en el desarrollo software.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («El control de versiones en el desarrollo software.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Control de versiones (Git)): Un conflicto de fusión aparece en el control de versiones cuando dos ramas modifican las mismas líneas o partes de un fichero y la herramienta no puede combinarlas automáticamente. El desarrollador tiene que resolverlo a mano.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -57878,7 +57878,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Un conjunto de herramientas para la búsqueda, análisis y visualización de datos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un conjunto de herramientas para la búsqueda, análisis y visualización de datos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Un conjunto de herramientas para la búsqueda, análisis y visualización de datos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Elastic Stack (ELK)): ELK combina Elasticsearch (motor de búsqueda y análisis), Logstash (ingesta y transformación de datos y registros) y Kibana (visualización y cuadros de mando). Se usa mucho para centralizar logs y para monitorización.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -58697,7 +58697,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Muestra una tolerancia de fallo de 1 disco.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Muestra una tolerancia de fallo de 1 disco.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Muestra una tolerancia de fallo de 1 disco.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RAID 5): RAID 5 distribuye la paridad entre todos los discos y tolera el fallo de un único disco, sea cual sea el número de discos. Con 5 discos la capacidad útil es de 4. Para tolerar dos fallos hace falta RAID 6.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -58721,7 +58721,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** iqn.aaaa-mm.naming-authority:nombre-único
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («iqn.aaaa-mm.naming-authority:nombre-único»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («iqn.aaaa-mm.naming-authority:nombre-único»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RFC 3720 (iSCSI), nombres IQN): Un nombre IQN tiene el formato iqn.aaaa-mm.dominio-invertido:identificador; por ejemplo, iqn.2001-04.com.example:storage.disk1. La fecha corresponde a cuando la organización tenía registrado el dominio. El prefijo eui. se usa para otro formato basado en identificadores EUI-64.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -59626,7 +59626,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **A.** Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción A («Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Virtualización: tipos de hipervisor): El hipervisor de tipo 1 (nativo o bare metal) se ejecuta directamente sobre el hardware, sin sistema operativo anfitrión, y reparte los recursos entre las máquinas virtuales (ESXi, Hyper-V, KVM, Xen). El de tipo 2 (alojado) se ejecuta sobre un sistema operativo convencional. No tiene que ser de código abierto.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -60473,7 +60473,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** APC está pulido en ángulo de 8 grados y UPC está pulido sin ángulo.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («APC está pulido en ángulo de 8 grados y UPC está pulido sin ángulo.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («APC está pulido en ángulo de 8 grados y UPC está pulido sin ángulo.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Fibra óptica: conectores APC y UPC): APC (Angled Physical Contact) pule la férula con un ángulo de 8°, lo que reduce mucho la reflexión (pérdida de retorno mayor, unos 60 dB o más). UPC (Ultra Physical Contact) usa un pulido sin ángulo. Ninguno necesita alimentación. Suelen distinguirse por el color: verde para APC y azul para UPC.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -60497,7 +60497,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** CAT6 soporta anchos de banda hasta 250 MHz y CAT6a hasta 500 MHz.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («CAT6 soporta anchos de banda hasta 250 MHz y CAT6a hasta 500 MHz.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («CAT6 soporta anchos de banda hasta 250 MHz y CAT6a hasta 500 MHz.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ANSI/TIA-568 e ISO/IEC 11801: categorías de cable): CAT6 está especificado hasta 250 MHz y CAT6A hasta 500 MHz. CAT6A soporta 10GBASE-T en 100 m, mientras que CAT6 solo lo hace en distancias cortas (unos 55 m). CAT6A no llega a 100 Gbps y suele resistir mejor la diafonía.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -61320,7 +61320,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Permite combinar varias conexiones de red físicas en una sola conexión lógica para aumentar el rendimiento y proporcionar redundancia.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Permite combinar varias conexiones de red físicas en una sola conexión lógica para aumentar el rendimiento y proporcionar redundancia.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Permite combinar varias conexiones de red físicas en una sola conexión lógica para aumentar el rendimiento y proporcionar redundancia.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: IEEE 802.3ad / 802.1AX (LACP)): LACP negocia la agregación de varios enlaces físicos en un único enlace lógico (port channel o bond), lo que aumenta el ancho de banda y da redundancia si cae un enlace. Es un estándar IEEE. Crear redes lógicas sobre Ethernet es propio de las VLAN y el modo activo/pasivo es otro tipo de configuración.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -62133,7 +62133,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** SNMP (Simple Network Management Protocol).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SNMP (Simple Network Management Protocol).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («SNMP (Simple Network Management Protocol).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: SNMP (RFC 3411 y siguientes)): SNMP es el protocolo con el que las herramientas de monitorización consultan (GET) y reciben notificaciones (TRAP o INFORM) sobre el estado de los dispositivos a través de la MIB. NMS es el sistema de gestión que usa SNMP, no un protocolo, y NDMP sirve para copias de seguridad de NAS.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -62948,7 +62948,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Triggered Updates.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Triggered Updates.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Triggered Updates.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: RIP (RFC 2453)): Las actualizaciones disparadas (triggered updates) hacen que un router anuncie un cambio de métrica en cuanto se produce, sin esperar al ciclo periódico de 30 segundos, lo que acelera la convergencia. Split horizon y poison reverse evitan bucles en los anuncios, pero no son el mecanismo de aviso inmediato.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -62972,7 +62972,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** FEC (Forwarding Equivalence Class).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («FEC (Forwarding Equivalence Class).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («FEC (Forwarding Equivalence Class).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: MPLS (RFC 3031)): Una FEC (Forwarding Equivalence Class) es el conjunto de paquetes que se reenvían por el mismo camino y con el mismo tratamiento, y por tanto llevan la misma etiqueta. LER y LSR son tipos de routers MPLS, de borde e interno respectivamente, y «LFP» no existe.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -64724,7 +64724,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** SIEM (Security Information and Event Management) es un software que engloba la gestión de información de seguridad y la gestión de eventos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («SIEM (Security Information and Event Management) es un software que engloba la gestión de información de seguridad y la gestión de eventos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («SIEM (Security Information and Event Management) es un software que engloba la gestión de información de seguridad y la gestión de eventos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Herramientas de seguridad de red): SIEM (Security Information and Event Management) une la gestión de información de seguridad (SIM) y la de eventos (SEM): centraliza y correlaciona registros y alertas. Un IDS detecta y alerta pero no bloquea, y un IPS bloquea en línea pero no es una herramienta forense. «IGS» no es una categoría estándar.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -64748,7 +64748,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Limitar el acceso de los usuarios solo a lo necesario para sus tareas.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Limitar el acceso de los usuarios solo a lo necesario para sus tareas.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Limitar el acceso de los usuarios solo a lo necesario para sus tareas.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Principio de mínimo privilegio): El mínimo privilegio limita los accesos y permisos de usuarios, procesos y administradores a lo estrictamente necesario para sus tareas, lo que reduce la superficie de ataque y el impacto de un compromiso. Los administradores tampoco deben tener accesos ilimitados de forma permanente.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -64772,7 +64772,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Ataque DDoS.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Ataque DDoS.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Ataque DDoS.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Ataques de denegación de servicio): Un DDoS (denegación de servicio distribuida) usa muchos dispositivos, a menudo una botnet, para saturar un objetivo con tráfico y afectar a su disponibilidad. El ransomware cifra datos, y el phishing y la ingeniería social engañan a personas.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -65679,7 +65679,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** MQTT y CoAP.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («MQTT y CoAP.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («MQTT y CoAP.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Protocolos IoT): MQTT (publicación y suscripción sobre TCP, estándar OASIS) y CoAP (tipo REST sobre UDP, RFC 7252) son los protocolos de aplicación más habituales en IoT por su ligereza. SNMP, RTP, SMTP y FTP no están pensados para IoT, y «XMPT» y «AMPP» son erratas de XMPP y AMQP.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -66544,7 +66544,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** Next Generation Network, que es una red basada en paquetes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Next Generation Network, que es una red basada en paquetes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («Next Generation Network, que es una red basada en paquetes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITU-T Y.2001 (NGN)): NGN (Next Generation Network) es, según la ITU-T, una red basada en paquetes que separa servicios y transporte y ofrece servicios convergentes (voz, datos, vídeo) sobre IP. No es una red de circuitos ni de conmutación de mensajes.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -68251,7 +68251,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** OFDMA (Orthogonal Frequency Division Multiple Access).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («OFDMA (Orthogonal Frequency Division Multiple Access).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («OFDMA (Orthogonal Frequency Division Multiple Access).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: 3GPP LTE: acceso radio): LTE usa OFDMA en el enlace descendente, repartiendo subportadoras ortogonales y tiempo entre usuarios, y SC-FDMA en el ascendente. Es la base de su eficiencia espectral. FDMA y TDMA son de 1G y 2G, y CDMA es propio de 3G (WCDMA).
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -68275,7 +68275,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Una arquitectura basada en software y virtualización.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Una arquitectura basada en software y virtualización.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Una arquitectura basada en software y virtualización.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: 3GPP 5G: arquitectura basada en servicios): El núcleo 5G tiene una arquitectura basada en servicios (SBA), virtualizada (NFV) y programable (SDN). Eso permite crear porciones de red (network slicing) con características distintas sobre la misma infraestructura y desplegar redes privadas. Las frecuencias altas y el mayor ancho de banda dan capacidad, pero no permiten por sí solos el slicing.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -70764,7 +70764,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **D.** PriServ (Priority Services).
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («PriServ (Priority Services).»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción D («PriServ (Priority Services).»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Modelos de QoS del IETF): Los modelos de calidad de servicio son best-effort (sin garantías), IntServ (reserva por flujo con RSVP, RFC 1633) y DiffServ (clases marcadas con DSCP, RFC 2475). «PriServ» no existe.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -70788,7 +70788,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **B.** Coordinar y gestionar conferencias de video y audio entre múltiples participantes.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Coordinar y gestionar conferencias de video y audio entre múltiples participantes.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción B («Coordinar y gestionar conferencias de video y audio entre múltiples participantes.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: ITU-T H.323: MCU): La MCU (Multipoint Control Unit) coordina las conferencias entre tres o más participantes: su controlador (MC) gestiona la señalización y sus procesadores (MP) mezclan o conmutan el audio y el vídeo. El encaminamiento lo hacen los routers y la seguridad depende de H.235.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -70812,7 +70812,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** Una variabilidad en el tiempo de llegada de los paquetes de datos.
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Una variabilidad en el tiempo de llegada de los paquetes de datos.»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («Una variabilidad en el tiempo de llegada de los paquetes de datos.»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: QoS en tiempo real: jitter): El jitter es la variación del tiempo de llegada (retardo) entre paquetes consecutivos. En videoconferencia provoca cortes y desincronización si el búfer de reproducción (jitter buffer) no lo compensa. No es una interrupción, una ráfaga de pérdidas ni un tipo de codificación.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
@@ -70836,7 +70836,7 @@ Para regenerar: `python scripts/export_gsi_questions.py --force`. Para comprobar
 
 **Respuesta correcta:** **C.** H.323
 
-**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («H.323»). Esta es la clave oficial de esa convocatoria; el INAP no aporta una explicación razonada en la plantilla. Consulta los apuntes del tema para repasarla.
+**Explicación:** La plantilla definitiva del INAP para la convocatoria 2024 señala la opción C («H.323»). Esta es la clave oficial de esa convocatoria. Explicación del fork (no oficial; referencia: Recomendaciones ITU-T de la serie H): H.323 es el sistema de la ITU-T para comunicaciones multimedia, incluida la videoconferencia, sobre redes de paquetes IP. H.320 es videoconferencia sobre RDSI, y H.261 y H.264 son códecs de vídeo, no sistemas de videoconferencia.
 
 **Fuente:** [INAP · GSI ingreso libre · convocatoria 2024](<https://sede.inap.gob.es/documents/59312/2364375/Cuestionario_GSI-L_vimprenta_NDPDSFW8UX_154AB89SD658.pdf/dbde4789-2b34-3dfd-cd68-a232e1918a76>).
 
