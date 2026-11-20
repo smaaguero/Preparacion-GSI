@@ -126,6 +126,10 @@
         <h1 id="syllabus-title">Temario</h1>
         <div id="syllabus-list">
           <p class="lead" id="syllabus-summary">Cargando bloques y temas…</p>
+          <section id="syllabus-weights" class="syllabus-weights" aria-labelledby="syllabus-weights-title">
+            <h2 id="syllabus-weights-title">Qué cae en el examen</h2>
+            <p id="syllabus-weights-status" class="form-help">Cargando los exámenes INAP…</p>
+          </section>
           <form id="syllabus-filters" class="syllabus-filters" aria-label="Filtrar temario">
             <div class="form-grid">
               <div class="field">
@@ -139,21 +143,16 @@
                 </select>
               </div>
               <div class="field">
-                <label for="syllabus-filter-coverage">Cobertura</label>
-                <select id="syllabus-filter-coverage">
-                  <option value="">Toda la cobertura</option>
-                  <option value="pending">Pendiente</option>
-                  <option value="partial">Parcial</option>
-                  <option value="complete">Completa</option>
+                <label for="syllabus-filter-study">Estado de estudio</label>
+                <select id="syllabus-filter-study">
+                  <option value="">Todos los estados</option>
                 </select>
               </div>
               <div class="field">
-                <label for="syllabus-filter-review">Revisión</label>
-                <select id="syllabus-filter-review">
-                  <option value="">Todos los estados</option>
-                  <option value="not-reviewed">Sin revisión</option>
-                  <option value="needs-review">Pendiente de revisión</option>
-                  <option value="reviewed">Revisado</option>
+                <label for="syllabus-sort">Orden</label>
+                <select id="syllabus-sort">
+                  <option value="">Orden del programa</option>
+                  <option value="inap">Más preguntado en INAP</option>
                 </select>
               </div>
               <div class="field">
@@ -161,6 +160,30 @@
                 <input id="syllabus-search" type="search" autocomplete="off" placeholder="Ej.: Corona">
               </div>
             </div>
+            <details class="syllabus-editorial-filters">
+              <summary>Filtros editoriales</summary>
+              <p id="syllabus-editorial-help" class="form-help">Describen el material, no tu estudio.</p>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="syllabus-filter-coverage">Cobertura</label>
+                  <select id="syllabus-filter-coverage">
+                    <option value="">Toda la cobertura</option>
+                    <option value="pending">Pendiente</option>
+                    <option value="partial">Parcial</option>
+                    <option value="complete">Completa</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="syllabus-filter-review">Revisión</label>
+                  <select id="syllabus-filter-review">
+                    <option value="">Todos los estados</option>
+                    <option value="not-reviewed">Sin revisión</option>
+                    <option value="needs-review">Pendiente de revisión</option>
+                    <option value="reviewed">Revisado</option>
+                  </select>
+                </div>
+              </div>
+            </details>
           </form>
           <div id="syllabus-blocks" class="block-list" aria-live="polite"></div>
         </div>
@@ -753,6 +776,6 @@
     <noscript>
       <p class="noscript-message">Esta aplicación necesita JavaScript para cargar los datos y mostrar el entrenamiento.</p>
     </noscript>
-    <script type="module" src="assets/js/app.js?gsi6"></script>
+    <script type="module" src="assets/js/app.js?gsi7"></script>
   </body>
 </html>

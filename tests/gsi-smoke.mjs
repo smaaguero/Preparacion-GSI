@@ -542,6 +542,24 @@ try {
       await checkEditorialBatch(selectedBatches[index]);
     }
   }));
+  await check("syllabus INAP weights, ranking and practice this topic", async () => {
+    await page.setViewportSize({ width: 1365, height: 900 });
+    await page.goto(`${base}#temario`);
+    await page.locator(".syllabus-weights__table").waitFor();
+    assert.match(await page.locator(".syllabus-weights__table tfoot").innerText(), /57\s+300\s+100 %\s+2066/);
+    await page.locator("#syllabus-sort").selectOption("inap");
+    assert.equal(await page.locator("#syllabus-blocks .topic-list__item").first().getAttribute("data-topic-id"), "B2-T02");
+    assert.equal(await page.locator("#syllabus-blocks .topic-list__item").count(), 57);
+    await page.locator("#syllabus-sort").selectOption("");
+    await page.goto(`${base}#temario/B2-T02`);
+    await page.locator('.topic-content[data-topic-id="B2-T02"]').waitFor();
+    await page.locator("#topic-detail .pill--inap:not([hidden])").waitFor();
+    assert.match(await page.locator("#topic-detail .pill--inap").innerText(), /11 preguntas \(2022: 4 · 2024: 4 · 2025: 3\)/);
+    await page.getByRole("link", { name: "Practicar este tema", exact: true }).click();
+    await page.waitForURL(/#entrenamiento\/B2-T02$/);
+    await page.waitForFunction(() => document.querySelector("#training-topic")?.value === "B2-T02", null, { timeout: 60000 });
+    assert.equal(await page.locator("#training-block").inputValue(), "B2");
+  });
   await check("basic accessibility across main views", async () => {
     const routes = ["inicio", "temario/B1-T01", "plan", "progreso", "entrenamiento", "examen", "practica", "refuerzo", "estadisticas"];
     for (const route of routes) {

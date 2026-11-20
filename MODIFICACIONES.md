@@ -80,6 +80,17 @@ En el original, los formularios de Entrenamiento, Examen y la sesión de Refuerz
 - `assets/js/app.js` retiene ese envío (escucha en fase de captura), muestra «Cargando las preguntas… La sesión empezará en cuanto estén listas» y lo repite al terminar la carga. Si mientras tanto se cambia de vista, no inicia nada.
 - `tests/gsi-smoke.mjs` añade una prueba determinista: retrasa los bancos, pulsa «Iniciar examen» antes de tiempo y comprueba el aviso, que el examen empieza y que la página no se recarga. Este fallo era también la causa de que «complete GSI exam / correction» fallara de forma intermitente.
 
+### 9. Temario: qué cae en el examen, «Practicar este tema» y filtros de estudio
+
+- **Qué cae en el examen.** El Temario muestra, por bloque, cuántas de las 300 preguntas evaluables de las convocatorias INAP 2022, 2024 y 2025 corresponden a sus temas, su peso en el examen y las preguntas activas del banco. Cada tema indica sus preguntas INAP (en la ficha, con el desglose por año) y las del banco, y la lista se puede ordenar por «Más preguntado en INAP».
+  - Se cuentan las 100 preguntas evaluables de cada convocatoria, con las reservas que sustituyeron a las anuladas.
+  - El tema de cada pregunta sale del mapa editorial del proyecto original (`data/gsi-official-topic-map.json`). La aplicación lo presenta como clasificación editorial, no oficial del INAP.
+  - Solo se cargan `data/gsi-official-exams.json` y ese mapa (unos 32 KB), no los bancos de preguntas.
+  - Resultado actual: B1 49 (16 %), B2 85 (28 %), B3 88 (29 %) y B4 78 (26 %). El tema más preguntado es B2-T02 (sistemas operativos), con 11.
+- **Practicar este tema.** La ficha de cada tema y la lista tienen un botón que abre Entrenamiento con el bloque y el tema ya elegidos (ruta `#entrenamiento/B2-T02`), sin iniciar la sesión.
+- **Filtros pensados para estudiar.** Junto a Bloque y Buscar, el Temario filtra por estado de estudio (el de Mi progreso de estudio, con la opción «Con repaso pendiente») y ordena por programa o por peso INAP. Cobertura y Revisión pasan a «Filtros editoriales», plegados: ahora los 57 temas tienen cobertura completa y están revisados, así que esos filtros no distinguían nada. Sus etiquetas solo aparecen en un tema que se salga de ese estado.
+- Ficheros afectados: `assets/js/inap-weight.js` (nuevo), `assets/js/syllabus-view.js`, `assets/js/router.js`, `assets/js/training.js`, `assets/js/app.js`, `index.html`, `assets/css/styles.css`, la guía de estudio, `tests/gsi-unit.mjs` (4 pruebas nuevas) y `tests/gsi-smoke.mjs` (1 prueba nueva).
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -89,3 +100,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Los registros `logs/gsi-suite.json`, `logs/gsi-regression.json` y `logs/gsi-browser-smoke.json` se conservan tal como los dejó el proyecto original. No se sustituyen por ejecuciones con fallos intermitentes del entorno.
 - Tras los cambios 7 y 8 se repitió la suite completa en el mismo entorno. Pasan JSON y esquemas, referencias, preguntas, encabezados, documentación, calidad y circuito editorial, pruebas unitarias (104/104), regresión en navegador y el recorrido funcional HTTP completo (84/84, con la prueba nueva del cambio 8). La etapa de integridad (20.111 controles, 0 errores) se ejecutó aparte con un entorno que incluye `markitdown` y `rg`, porque el Python del sistema no los tiene instalados.
 - Antes del cambio 8, «complete GSI exam / correction» fallaba también con el recorrido aislado: es el fallo que corrige ese cambio. Se reprodujo sobre el código anterior a los cambios 7 y 8 (falló 1 de 2 ejecuciones).
+- Tras el cambio 9, la suite completa pasa en una sola ejecución (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.117 controles), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85).

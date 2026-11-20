@@ -15,6 +15,7 @@ import { createTrainingOptionOrders, orderedTrainingOptions, trainingOptionLette
 import { feedbackFor } from '../assets/js/question-feedback.js';
 import { createAnalyticsStore } from '../assets/js/analytics-engine.js?gsi2';
 import { saveTrainingShufflePreference } from '../assets/js/analytics-storage.js?gsi2';
+import { computeInapWeights } from '../assets/js/inap-weight.js?gsi3';
 
 const read = async (name) => JSON.parse(await fs.readFile(new URL('../data/'+name+'.json',import.meta.url),'utf8'));
 const syllabus=await read('syllabus'), practice=await read('gsi-practice'), studyPlan=await read('study-plan'), studyTrackerPlan=await read('study-tracker-plan');
@@ -206,6 +207,33 @@ test('Plantilla modificada 2024 pregunta 12 y definitiva 2025 con tres anuladas'
   assert.deepEqual(officialCatalog.exams.find(e=>e.id==='GSI-INAP-2025').annulled_numbers,[32,33,89]);
   assert.equal(questions.some(q=>q.exam?.year===2025&&!q.exam.is_reserve&&[32,33,89].includes(q.exam.number)),false);
   assert.equal(selectExamQuestions(questions,{...config,mode:EXAM_MODES.BOE,officialExamId:'GSI-INAP-2025',shuffleQuestions:false,shuffleOptions:false}).errors,undefined);
+});
+const officialExamsCatalog=await read('gsi-official-exams'), officialTopicMap=await read('gsi-official-topic-map');
+const syllabusTopicIds=new Set(syllabus.blocks.flatMap(block=>block.topics.map(topic=>topic.id)));
+test('Peso INAP: 100 preguntas evaluables por convocatoria repartidas entre los 57 temas',()=>{
+  const weights=computeInapWeights(officialExamsCatalog,officialTopicMap,syllabusTopicIds);
+  assert.deepEqual(weights.years,['2022','2024','2025']);
+  assert.equal(weights.total,300);
+  assert.equal(weights.byTopic.size,57);
+  for(const year of weights.years)assert.equal([...weights.byTopic.values()].reduce((sum,entry)=>sum+(entry.byYear[year]??0),0),100);
+  assert.deepEqual(weights.byTopic.get('B2-T02'),{total:11,byYear:{'2022':4,'2024':4,'2025':3}});
+});
+test('Peso INAP: el mapa editorial coincide con el tema de cada pregunta evaluable del banco oficial',()=>{
+  const official=new Map(questions.filter(q=>q.collection==='official').map(q=>[q.id,q]));
+  for(const exam of officialExamsCatalog.exams)for(const id of exam.question_ids){
+    const match=/-(Q|R)(\d{3})$/.exec(id);const position=match[1]==='Q'?String(Number(match[2])):`R${Number(match[2])}`;
+    assert.equal(official.get(id)?.topic_id,officialTopicMap.exams[String(exam.year)][position],id);
+  }
+});
+test('Peso INAP: rechaza un mapa con temas ajenos al programa',()=>{
+  const broken={...officialTopicMap,exams:{...officialTopicMap.exams,'2025':{...officialTopicMap.exams['2025'],'1':'B9-T99'}}};
+  assert.throws(()=>computeInapWeights(officialExamsCatalog,broken,syllabusTopicIds),/no tiene un tema válido/);
+});
+test('Ruta «Practicar este tema»: #entrenamiento/<tema>',()=>{
+  assert.deepEqual(parseRoute('#entrenamiento/B2-T02'),{route:'entrenamiento',topicId:'B2-T02',sectionId:null,error:null});
+  assert.equal(parseRoute('#entrenamiento/XX').topicId,null);
+  assert.equal(parseRoute('#entrenamiento/XX').route,'entrenamiento');
+  assert.equal(parseRoute('#entrenamiento').topicId,null);
 });
 await fs.writeFile(new URL('../logs/gsi-unit.json',import.meta.url),JSON.stringify({date:new Date().toISOString(),passed:results.filter(r=>r.ok).length,failed:results.filter(r=>!r.ok).length,results},null,2)+'\n');
 console.log(`GSI unit: ${results.filter(r=>r.ok).length} passed, ${results.filter(r=>!r.ok).length} failed.`);

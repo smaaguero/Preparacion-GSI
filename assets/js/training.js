@@ -23,6 +23,7 @@ import {
   saveActiveTrainingSession,
 } from "./analytics-storage.js?gsi4";
 import { appendEditorialReferences, createElement, setStatus } from "./ui.js?gsi4";
+import { parseRoute } from "./router.js?gsi4";
 
 function originLabel(question) {
   if (question.isDemo) {
@@ -591,9 +592,26 @@ export function initTraining(data) {
     setStatus(removed ? "Todas las respuestas locales se han eliminado." : "No se pudieron borrar las respuestas locales.", removed ? "success" : "error");
     updateProgressSummary();
   });
+  // «Practicar este tema» llega como #entrenamiento/B2-T02: deja elegidos el
+  // bloque y el tema, sin iniciar la sesión.
+  function presetTopicFromRoute(routeState) {
+    if (routeState?.route !== "entrenamiento" || !routeState.topicId) return;
+    const topic = data.indexes.topicsById.get(routeState.topicId);
+    if (!topic) return;
+    if (mixScope.checked) {
+      mixScope.checked = false;
+      mixScope.dispatchEvent(new Event("change"));
+    }
+    blockSelect.value = topic.blockId;
+    renderTopics();
+    topicSelect.value = topic.id;
+    updateAvailability();
+  }
   updateProgressSummary();
   renderMixTopics();
   updateAvailability();
   recoverTrainingContext();
+  window.addEventListener("gsi:routechange", (event) => presetTopicFromRoute(event.detail));
+  presetTopicFromRoute(parseRoute());
 }
 import { describeOfficialQuestion } from "./official-exams.js?gsi2";

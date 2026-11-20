@@ -45,7 +45,7 @@ El menú superior agrupa los apartados en cuatro secciones: **Inicio**, **Estudi
 | Apartado | Para qué lo vas a usar |
 | --- | --- |
 | Inicio | Ver qué toca hoy: tema actual, repasos pendientes, actividad de los últimos 30 días y examen sin terminar. |
-| Temario | Leer los apuntes completos y el resumen de cada tema. |
+| Temario | Leer los apuntes completos y el resumen de cada tema, ver cuánto ha caído en los exámenes INAP y practicarlo. |
 | Plan de estudio | Seguir una propuesta semanal de orden y carga de trabajo. |
 | Mi progreso de estudio | Marcar lectura, resumen, test y repaso por tema; guardar fecha y notas. |
 | Entrenamiento | Hacer test con explicación después de cada respuesta. |
@@ -60,7 +60,7 @@ El menú superior agrupa los apartados en cuatro secciones: **Inicio**, **Estudi
 
 1. Pulsa **Estudiar** en el menú superior y después **Temario**.
 2. En **Bloque**, elige **B1**. Es el bloque I.
-3. Deja **Cobertura** en **Toda la cobertura** y **Revisión** en **Todos los estados**.
+3. Deja **Estado de estudio** en **Todos los estados** y **Orden** en **Orden del programa**. Con **Más preguntado en INAP** verás primero los temas que más han caído en los exámenes.
 4. Abre el tema **B1-T01**. Ese código significa «bloque 1, tema 1».
 5. Lee un apartado de los apuntes, sin intentar terminar todo el tema de una vez.
 6. Aparta la vista e intenta explicar con tus palabras lo que acabas de leer.
@@ -69,7 +69,7 @@ El menú superior agrupa los apartados en cuatro secciones: **Inicio**, **Estudi
 
 Puedes usar **Buscar por título o sección** para localizar un asunto concreto. Los enlaces de procedencia permiten consultar el documento del que salen los apuntes; si aparece un aviso de actualización, léelo también.
 
-Los estados de **Cobertura** y **Revisión** describen el material, no cuánto has estudiado tú. La aplicación no marca automáticamente un tema como aprendido por abrirlo: el registro de **Mi progreso de estudio** es deliberadamente manual y se guarda en este navegador.
+Los estados de **Cobertura** y **Revisión**, dentro de **Filtros editoriales**, describen el material, no cuánto has estudiado tú. La aplicación no marca automáticamente un tema como aprendido por abrirlo: el registro de **Mi progreso de estudio** es deliberadamente manual y se guarda en este navegador.
 
 Si aún no hay test para tu tema, escribe tres preguntas sobre el apartado, intenta responderlas sin mirar y contrasta las respuestas con los apuntes. Es un ejercicio personal; no se añade al banco de la aplicación.
 
@@ -78,7 +78,7 @@ Si aún no hay test para tu tema, escribe tres preguntas sobre el apartado, inte
 Para probar el proceso completo, utiliza B1-T01, que ya tiene preguntas activas.
 
 1. Entra en **Entrenamiento**.
-2. En **Bloque**, selecciona **B1**; después, en **Tema**, selecciona **B1-T01**.
+2. En **Bloque**, selecciona **B1**; después, en **Tema**, selecciona **B1-T01**. Si vienes de la ficha del tema, el botón **Practicar este tema** los deja ya elegidos.
 3. Deja **Origen** en **Todos los orígenes** y **Selección** en **Todas · test mixto**. El filtro de tema sigue aplicándose aunque esa selección incluya la palabra «mixto».
 4. En **Cantidad**, escribe **5** y pulsa **Iniciar entrenamiento**.
 5. Lee la pregunta y pulsa una respuesta. Se corregirá inmediatamente.
@@ -245,7 +245,7 @@ Si todavía no tienes preguntas del tema, dedica esos 10 minutos a explicarlo po
 | La dirección local no abre | Comprueba que PowerShell sigue abierto y que has ejecutado las dos líneas del apartado opcional del paso 1. |
 | PowerShell indica que el puerto está en uso | Abre la dirección habitual: puede que la aplicación ya estuviera funcionando. Si no aparece GSI, conserva el mensaje para resolverlo; cambiar de puerto cambia también dónde busca el navegador tu progreso. |
 | Aparece un error al abrir `index.html` | Utiliza la dirección HTTP del paso 1. |
-| No encuentro un tema | Vacía la búsqueda y deja todos los bloques, toda la cobertura y todos los estados. |
+| No encuentro un tema | Vacía la búsqueda, deja todos los bloques y todos los estados de estudio, y comprueba que **Filtros editoriales** no tenga nada seleccionado. |
 | No hay preguntas para el entrenamiento | Revisa tema, origen y selección. Puede faltar banco activo o no quedar preguntas nuevas/falladas con esos filtros. |
 | Hay preguntas en Refuerzo pero no puedo empezar | Comprueba si tienen una revisión futura y revisa los filtros del formulario **Iniciar sesión**. |
 | Mi progreso parece vacío | Comprueba navegador, perfil y dirección exacta. Si los cambiaste, vuelve al anterior para exportar la copia e impórtala en el nuevo. |

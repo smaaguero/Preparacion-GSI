@@ -209,6 +209,30 @@ code { padding: 0.1em 0.25em; border-radius: 0.2rem; background: #e9edf3; color:
 .pill--coverage-complete, .pill--review-reviewed { background: var(--color-success-bg); color: #0f5132; }
 .pill--review-needs-review { background: #f5eafe; color: #5d247d; }
 .pill--review-not-reviewed, .pill--count { background: #e8edf5; color: #26364e; }
+.pill--study { background: #ede7fb; color: #4c2a85; font-weight: 700; }
+.pill--inap { background: #dceafa; color: var(--color-primary-dark); font-weight: 700; }
+
+/* Temario: qué cae en el examen y filtros editoriales plegados. */
+.syllabus-weights { margin-block: var(--space-4); padding: var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); box-shadow: var(--shadow-card); }
+.syllabus-weights h2 { margin-top: 0; font-size: 1.2rem; }
+.syllabus-weights__scroll { max-width: 100%; overflow-x: auto; }
+.syllabus-weights__table { width: 100%; border-collapse: collapse; }
+.syllabus-weights__table th, .syllabus-weights__table td { padding: var(--space-2); border: 1px solid var(--color-border); vertical-align: top; }
+.syllabus-weights__table th { text-align: left; }
+.syllabus-weights__table thead th:not(:first-child) { text-align: right; }
+.syllabus-weights__table thead th { background: #e8edf5; }
+.syllabus-weights__table td { text-align: right; font-variant-numeric: tabular-nums; }
+.syllabus-weights__table tfoot th, .syllabus-weights__table tfoot td { background: #f1f5fb; font-weight: 800; }
+.syllabus-weights__table .label-short { display: none; }
+@media (max-width: 42rem) {
+  .syllabus-weights { padding: var(--space-3); }
+  .syllabus-weights__table { font-size: 0.92rem; }
+  .syllabus-weights__table th, .syllabus-weights__table td { padding: 0.4rem 0.35rem; }
+  .syllabus-weights__table .label-long { display: none; }
+  .syllabus-weights__table .label-short { display: inline; }
+}
+.syllabus-editorial-filters { margin-top: var(--space-3); }
+.syllabus-editorial-filters summary { cursor: pointer; color: var(--color-primary); font-weight: 700; }
 
 .syllabus-filters, .topic-detail__content { margin-block: var(--space-4); padding: var(--space-4); }
 

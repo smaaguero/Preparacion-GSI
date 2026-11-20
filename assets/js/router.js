@@ -10,6 +10,10 @@ export function parseRoute(hash = window.location.hash) {
   const raw = String(hash || "").replace(/^#/, "").trim();
   if (!raw) return { route: "inicio", topicId: null, sectionId: null, error: null };
   const parts = raw.split("/");
+  // «Practicar este tema»: Entrenamiento con el tema ya elegido.
+  if (parts[0] === "entrenamiento" && parts.length === 2) {
+    return { route: "entrenamiento", topicId: TOPIC_ID_RE.test(parts[1]) ? parts[1] : null, sectionId: null, error: null };
+  }
   if (parts[0] !== "temario") {
     return { route: VALID_ROUTES.has(raw) ? raw : "inicio", topicId: null, sectionId: null, error: null };
   }

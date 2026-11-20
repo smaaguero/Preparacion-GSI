@@ -38,6 +38,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 
 - *(Fork)* Menú agrupado en Estudiar, Practicar y Progreso, y portada con lo que toca hoy: tema actual, repasos pendientes, actividad reciente y examen sin terminar.
 - Temario navegable con los 57 temas completos.
+- *(Fork)* Qué cae en el examen: preguntas INAP 2022-2025 por bloque y por tema (clasificación editorial), orden por peso INAP, filtro por estado de estudio y botón «Practicar este tema».
 - Búsqueda y filtros por bloque, cobertura y estado editorial.
 - Entrenamiento por uno o varios bloques y temas, preguntas no vistas y últimos errores.
 - Corrección inmediata con explicación y procedencia.

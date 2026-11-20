@@ -1,6 +1,9 @@
 import { loadTopicFragment } from "./topic-content-service.js?gsi2";
 import { resolveTopicReference } from "./catalog-service.js?gsi2";
-import { parseRoute } from "./router.js?gsi2";
+import { parseRoute } from "./router.js?gsi4";
+import { STUDY_STATUSES, topicNeedsReview, topicProgress } from "./study-progress-engine.js?gsi2";
+import { loadStudyProgress } from "./study-progress-storage.js?gsi2";
+import { describeTopicWeight, loadInapWeights, topicWeight } from "./inap-weight.js?gsi3";
 
 let viewState = null;
 let requestVersion = 0;
@@ -58,12 +61,54 @@ function createPill(className, text) {
   return element("span", `pill ${className}`, text);
 }
 
-function matchesFilters(topic, entry) {
+// El seguimiento manual de «Mi progreso de estudio» usa códigos como «II.02».
+function loadStudyStore() {
+  const loaded = loadStudyProgress([...viewState.studyCodes.values()]);
+  return loaded.error ? null : loaded.store;
+}
+
+function studyRecord(store, topicId) {
+  const code = viewState.studyCodes.get(topicId);
+  return store && code ? topicProgress(store, code) : null;
+}
+
+function studyPill(record) {
+  if (!record) return null;
+  const due = topicNeedsReview(record);
+  if (record.status === "pending" && !due) return null;
+  const label = STUDY_STATUSES.find((item) => item.value === record.status)?.label ?? record.status;
+  return createPill("pill--study", due && record.status !== "needs-reinforcement" ? `${label} · repaso pendiente` : label);
+}
+
+function bankLabel(topicId) {
+  const active = viewState.bankByTopic.get(topicId) ?? 0;
+  return `${active} ${active === 1 ? "pregunta" : "preguntas"} en el banco`;
+}
+
+function inapLabel(topicId) {
+  const total = topicWeight(viewState.weights, topicId).total;
+  return `${total} ${total === 1 ? "pregunta" : "preguntas"} en exámenes INAP`;
+}
+
+// Las etiquetas editoriales solo se muestran cuando el tema se sale de lo normal.
+function editorialPills(entry) {
+  const pills = [];
+  if (entry.status !== "complete") pills.push(createPill(`pill--coverage-${entry.status}`, statusLabel(entry.status)));
+  if (entry.reviewStatus !== "reviewed") pills.push(createPill(`pill--review-${entry.reviewStatus}`, reviewLabel(entry.reviewStatus)));
+  return pills;
+}
+
+function matchesFilters(topic, entry, store) {
   const block = document.querySelector("#syllabus-filter-block")?.value || "";
+  const study = document.querySelector("#syllabus-filter-study")?.value || "";
   const coverage = document.querySelector("#syllabus-filter-coverage")?.value || "";
   const review = document.querySelector("#syllabus-filter-review")?.value || "";
   const search = (document.querySelector("#syllabus-search")?.value || "").trim().toLocaleLowerCase("es");
   if (block && topic.blockId !== block) return false;
+  if (study) {
+    const record = studyRecord(store, topic.id);
+    if (study === "due" ? !(record && topicNeedsReview(record)) : (record?.status ?? "pending") !== study) return false;
+  }
   if (coverage && entry.status !== coverage) return false;
   if (review && entry.reviewStatus !== review) return false;
   if (!search) return true;
@@ -71,51 +116,119 @@ function matchesFilters(topic, entry) {
   return searchable.includes(search);
 }
 
+function createTopicItem(topic, store, showBlock) {
+  const entry = getEntry(topic.id);
+  const item = element("li", "topic-list__item");
+  item.dataset.topicId = topic.id;
+  const title = element("p", "topic-title", `${showBlock ? `${topic.blockId} · ` : ""}Tema ${topic.number}. ${topic.title}`);
+  const meta = element("div", "topic-meta");
+  const studyBadge = studyPill(studyRecord(store, topic.id));
+  if (studyBadge) meta.append(studyBadge);
+  if (viewState.weights) meta.append(createPill("pill--inap", inapLabel(topic.id)));
+  meta.append(createPill("pill--count", bankLabel(topic.id)), ...editorialPills(entry), createPill("pill--count", `${entry.sections.length} secciones`));
+  const actions = element("div", "action-row topic-actions");
+  const study = element("a", "button", "Estudiar tema");
+  study.href = `#temario/${topic.id}`;
+  const practice = element("a", "button button--secondary", "Practicar");
+  practice.href = `#entrenamiento/${topic.id}`;
+  practice.setAttribute("aria-label", `Practicar el tema ${topic.number} de ${topic.blockId} en Entrenamiento`);
+  actions.append(study, practice);
+  const source = sourceLink(getOfficialSource(topic));
+  if (source) actions.append(source);
+  item.append(title, meta, actions);
+  return item;
+}
+
 function renderList() {
   const summary = document.querySelector("#syllabus-summary");
   const container = document.querySelector("#syllabus-blocks");
   if (!summary || !container || !viewState) return;
+  const store = loadStudyStore();
   const topics = [...viewState.data.indexes.topicsById.values()];
-  const visible = topics.filter((topic) => matchesFilters(topic, getEntry(topic.id)));
-  summary.textContent = `${visible.length} de ${topics.length} temas oficiales. El contenido editorial indica su cobertura y revisión.`;
+  const visible = topics.filter((topic) => matchesFilters(topic, getEntry(topic.id), store));
+  summary.textContent = `${visible.length} de ${topics.length} temas oficiales.`;
   container.replaceChildren();
 
-  for (const block of viewState.data.syllabus.blocks) {
+  const byInap = document.querySelector("#syllabus-sort")?.value === "inap" && viewState.weights;
+  if (byInap && visible.length) {
+    const ranked = [...visible].sort((left, right) => topicWeight(viewState.weights, right.id).total - topicWeight(viewState.weights, left.id).total
+      || left.blockId.localeCompare(right.blockId) || left.number - right.number);
+    const card = element("details", "block-card");
+    card.open = true;
+    const list = element("ol", "topic-list");
+    for (const topic of ranked) list.append(createTopicItem(topic, store, true));
+    card.append(element("summary", "", `Temas de más a menos preguntados en INAP (${ranked.length} visibles)`), list);
+    container.append(card);
+  }
+
+  for (const block of byInap ? [] : viewState.data.syllabus.blocks) {
     const blockTopics = block.topics
       .map((topic) => viewState.data.indexes.topicsById.get(topic.id))
-      .filter((topic) => matchesFilters(topic, getEntry(topic.id)));
+      .filter((topic) => matchesFilters(topic, getEntry(topic.id), store));
     if (!blockTopics.length) continue;
     const card = element("details", "block-card");
     card.open = Boolean(visible.length !== topics.length);
     const summaryNode = element("summary", "", `${block.id} · ${block.title} (${blockTopics.length} temas visibles)`);
     const list = element("ol", "topic-list");
     list.start = 1;
-    for (const topic of blockTopics) {
-      const entry = getEntry(topic.id);
-      const item = element("li", "topic-list__item");
-      const title = element("p", "topic-title", `Tema ${topic.number}. ${topic.title}`);
-      const meta = element("div", "topic-meta");
-      meta.append(
-        createPill(`pill--coverage-${entry.status}`, statusLabel(entry.status)),
-        createPill(`pill--review-${entry.reviewStatus}`, reviewLabel(entry.reviewStatus)),
-        createPill("pill--count", `${entry.sections.length} secciones`),
-        createPill("pill--count", `${new Set(entry.sections.flatMap((section) => section.sourceRefs.map((ref) => ref.sourceId))).size} fuentes`)
-      );
-      const actions = element("div", "action-row topic-actions");
-      const study = element("a", "button", "Estudiar tema");
-      study.href = `#temario/${topic.id}`;
-      actions.append(study);
-      const source = sourceLink(getOfficialSource(topic));
-      if (source) actions.append(source);
-      item.append(title, meta, actions);
-      list.append(item);
-    }
+    for (const topic of blockTopics) list.append(createTopicItem(topic, store, false));
     card.append(summaryNode, list);
     container.append(card);
   }
   if (!container.childElementCount) {
     container.append(element("p", "notice", "No hay temas que coincidan con los filtros seleccionados."));
   }
+}
+
+function renderWeights() {
+  const root = document.querySelector("#syllabus-weights");
+  const status = document.querySelector("#syllabus-weights-status");
+  if (!root || !status || !viewState) return;
+  root.querySelector(".syllabus-weights__scroll")?.remove();
+  if (viewState.weightsError) {
+    status.textContent = `No se pudo calcular qué cae en el examen: ${viewState.weightsError}`;
+    return;
+  }
+  const { weights } = viewState;
+  if (!weights) return;
+  status.textContent = `Preguntas evaluables de las convocatorias INAP ${weights.years.join(", ")}: ${weights.total} en total, 100 por convocatoria e incluidas las reservas que sustituyeron a las anuladas. El tema de cada pregunta es una clasificación editorial, no oficial del INAP.`;
+  const table = element("table", "syllabus-weights__table");
+  const head = element("thead");
+  const headRow = element("tr");
+  // En pantallas estrechas se muestran las etiquetas cortas (CSS).
+  const headers = [["Bloque", "Bloque"], ["Temas", "Temas"], ["Preguntas INAP", "INAP"], ["Peso en el examen", "Peso"], ["Preguntas en el banco", "Banco"]];
+  for (const [long, short] of headers) {
+    const cell = element("th");
+    cell.append(element("span", "label-long", long), element("span", "label-short", short));
+    cell.scope = "col";
+    headRow.append(cell);
+  }
+  head.append(headRow);
+  const body = element("tbody");
+  let bankTotal = 0;
+  for (const block of viewState.data.syllabus.blocks) {
+    const inap = block.topics.reduce((sum, topic) => sum + topicWeight(weights, topic.id).total, 0);
+    const bank = block.topics.reduce((sum, topic) => sum + (viewState.bankByTopic.get(topic.id) ?? 0), 0);
+    bankTotal += bank;
+    const row = element("tr");
+    const name = element("th", "", block.id);
+    name.append(element("span", "label-long", ` · ${block.title}`));
+    name.scope = "row";
+    row.append(name, element("td", "", String(block.topics.length)), element("td", "", String(inap)),
+      element("td", "", weights.total ? `${Math.round((inap / weights.total) * 100)} %` : "—"), element("td", "", String(bank)));
+    body.append(row);
+  }
+  const foot = element("tfoot");
+  const totalRow = element("tr");
+  const totalName = element("th", "", "Total");
+  totalName.scope = "row";
+  const topicCount = viewState.data.syllabus.blocks.reduce((sum, block) => sum + block.topics.length, 0);
+  totalRow.append(totalName, element("td", "", String(topicCount)), element("td", "", String(weights.total)), element("td", "", "100 %"), element("td", "", String(bankTotal)));
+  foot.append(totalRow);
+  table.append(head, body, foot);
+  const scroll = element("div", "syllabus-weights__scroll");
+  scroll.append(table);
+  root.append(scroll);
 }
 
 function createBreadcrumbs(topic) {
@@ -212,11 +325,22 @@ async function renderDetail(routeState) {
   const official = element("p", "lead", `Texto oficial del programa: ${topic.title}`);
   const meta = element("div", "topic-meta");
   const topicUpdates = viewState.data.updates.updates.filter((update) => update.topic_ids.includes(operationalTopicId));
+  const studyBadge = studyPill(studyRecord(loadStudyStore(), operationalTopicId));
+  if (studyBadge) meta.append(studyBadge);
+  // El peso INAP llega con su propia carga: se reserva su sitio y se rellena después.
+  const inapPill = createPill("pill--inap", "");
+  inapPill.hidden = true;
   meta.append(
-    createPill(`pill--coverage-${entry.status}`, statusLabel(entry.status)),
-    createPill(`pill--review-${entry.reviewStatus}`, reviewLabel(entry.reviewStatus)),
+    inapPill,
+    createPill("pill--count", bankLabel(operationalTopicId)),
+    ...editorialPills(entry),
     createPill("pill--count", `Revisado: ${formatDate(entry.updatedAt)}`)
   );
+  viewState.weightsPromise.then(() => {
+    if (version !== requestVersion || !viewState.weights) return;
+    inapPill.textContent = describeTopicWeight(viewState.weights, operationalTopicId);
+    inapPill.hidden = false;
+  });
   for (const update of topicUpdates) {
     const presentation = validityPresentation(update.validity_status);
     meta.append(createPill(presentation.className, presentation.label));
@@ -229,7 +353,9 @@ async function renderDetail(routeState) {
   content.append(element("p", "muted", "Cargando contenido editorial…"));
   const officialSource = sourceLink(getOfficialSource(topic), "Fuente oficial");
   const actions = element("div", "action-row topic-actions");
-  actions.append(back);
+  const practice = element("a", "button", "Practicar este tema");
+  practice.href = `#entrenamiento/${operationalTopicId}`;
+  actions.append(back, practice);
   if (officialSource) actions.append(officialSource);
   detail.append(createBreadcrumbs(topic), actions, official, meta, message, content);
   document.title = `Tema ${topic.number} · Preparación GSI`;
@@ -267,6 +393,13 @@ function renderRouteState(routeState) {
 }
 
 function setupFilters() {
+  const studyFilter = document.querySelector("#syllabus-filter-study");
+  for (const status of STUDY_STATUSES) studyFilter?.add(new Option(status.label, status.value));
+  studyFilter?.add(new Option("Con repaso pendiente", "due"));
+  const topicIds = [...viewState.data.indexes.topicsById.keys()];
+  const standard = topicIds.filter((topicId) => getEntry(topicId)?.status === "complete" && getEntry(topicId)?.reviewStatus === "reviewed").length;
+  const help = document.querySelector("#syllabus-editorial-help");
+  if (help) help.textContent = `Describen el material, no tu estudio. Ahora ${standard} de ${topicIds.length} temas tienen cobertura completa y están revisados.`;
   document.querySelector("#syllabus-filters")?.addEventListener("submit", (event) => event.preventDefault());
   for (const control of document.querySelectorAll("#syllabus-filters select, #syllabus-search")) {
     control.addEventListener(control.matches("input") ? "input" : "change", renderList);
@@ -274,7 +407,20 @@ function setupFilters() {
 }
 
 export function initSyllabusView(data, index) {
-  viewState = { data, index };
+  viewState = {
+    data,
+    index,
+    studyCodes: new Map(data.studyTrackerPlan.topics.map((topic) => [topic.topic_id, topic.code])),
+    bankByTopic: new Map(data.coverage.topics.map((topic) => [topic.topic_id, topic.active])),
+    weights: null,
+    weightsError: null,
+    weightsPromise: null,
+  };
+  // Dos ficheros ligeros (unos 32 KB); no descarga los bancos de preguntas.
+  viewState.weightsPromise = loadInapWeights(new Set(data.indexes.topicsById.keys()))
+    .then((weights) => { viewState.weights = weights; })
+    .catch((error) => { viewState.weightsError = error instanceof Error ? error.message : String(error); })
+    .finally(() => { renderWeights(); renderList(); });
   setupFilters();
   window.addEventListener("gsi:routechange", (event) => renderRouteState(event.detail));
   renderList();
