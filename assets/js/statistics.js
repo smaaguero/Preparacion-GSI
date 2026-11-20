@@ -397,32 +397,15 @@ function updateCustomRangeVisibility() {
   element("analytics-custom-range")?.toggleAttribute("hidden", !custom);
 }
 
-function renderHome(data, summary, reinforcement, priority) {
+// Actividad de los últimos 30 días en la portada. Solo usa el historial local,
+// así que funciona sin descargar los bancos de preguntas.
+export function renderAnalyticsHome(data) {
+  const summary = getAnalyticsSummary(Boolean(data.demoEnabled), getPeriodRange("30"));
   const responded = element("home-answered-count");
   const accuracy = element("home-recent-accuracy");
-  const overdue = element("home-overdue-count");
-  const priorityNode = element("home-priority-topic");
   if (responded) responded.textContent = String(summary.metric.answered);
   if (accuracy) accuracy.textContent = percentage(summary.metric.responseAccuracy);
-  if (overdue) overdue.textContent = String(reinforcement.overdue);
-  if (priorityNode) priorityNode.textContent = priority ? labelFor(priority.id, topicMap(data)) : "Sin datos suficientes";
-}
-
-export function renderAnalyticsHome(data) {
-  const isDemo = Boolean(data.demoEnabled);
-  const summary = getAnalyticsSummary(isDemo, getPeriodRange("30"));
-  const reinforcement = reinforcementSummary(isDemo);
-  const filter = { ...getPeriodRange("30") };
-  const priority = summary.byTopic.map((row) => {
-    const questions = summary.questions.filter((question) => isLearningEligible(question, data.questions, reinforcement.store.records) && question.topicId === row.id);
-    return {
-      ...row,
-      ...calculateWeakness(metricFromQuestions(questions), recentMetric(summary.store, filter, row.id, data, reinforcement.store.records), questions, 0),
-    };
-  })
-    .sort((left, right) => Number(right.score ?? -1) - Number(left.score ?? -1))
-    .find((row) => Number.isFinite(row.score));
-  renderHome(data, summary, reinforcement, priority);
+  return summary.metric;
 }
 
 export function initStatistics(data) {
@@ -493,7 +476,6 @@ export function renderStatistics(data, migrationReport = null) {
   renderSessions(element("analytics-sessions"), summary);
   renderTimeline(element("analytics-timeline"), buildTimeline(summary.store, filter, filter.period === "all" ? "week" : "day"));
   renderStorage(element("analytics-storage"), summary, reinforcement, migrationReport);
-  renderHome(data, getAnalyticsSummary(isDemo, getPeriodRange("30")), reinforcement, priority);
   const label = element("analytics-active-period");
   if (label) label.textContent = PERIOD_LABELS[filter.period] || "Periodo seleccionado";
   if (summary.precisionLimited) setStorageMessage("El rango seleccionado toca datos mensuales consolidados: no se muestra una precisión parcial inventada.", "warning");

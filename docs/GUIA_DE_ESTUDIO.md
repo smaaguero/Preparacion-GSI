@@ -40,9 +40,11 @@ No abras `index.html` con doble clic: la copia local necesita el servidor HTTP a
 
 ## 2. Saber para qué sirve cada apartado
 
+El menú superior agrupa los apartados en cuatro secciones: **Inicio**, **Estudiar** (Temario y Plan de estudio), **Practicar** (Entrenamiento, Examen, Práctica escrita y Refuerzo) y **Progreso** (Mi progreso de estudio y Estadísticas). Al abrir una sección, sus apartados aparecen como pestañas debajo del menú.
+
 | Apartado | Para qué lo vas a usar |
 | --- | --- |
-| Inicio | Ver un resumen de la aplicación y de tu actividad reciente. |
+| Inicio | Ver qué toca hoy: tema actual, repasos pendientes, actividad de los últimos 30 días y examen sin terminar. |
 | Temario | Leer los apuntes completos y el resumen de cada tema. |
 | Plan de estudio | Seguir una propuesta semanal de orden y carga de trabajo. |
 | Mi progreso de estudio | Marcar lectura, resumen, test y repaso por tema; guardar fecha y notas. |
@@ -56,7 +58,7 @@ No abras `index.html` con doble clic: la copia local necesita el servidor HTTP a
 
 ## 3. Estudiar tu primer tema
 
-1. Pulsa **Temario** en el menú superior.
+1. Pulsa **Estudiar** en el menú superior y después **Temario**.
 2. En **Bloque**, elige **B1**. Es el bloque I.
 3. Deja **Cobertura** en **Toda la cobertura** y **Revisión** en **Todos los estados**.
 4. Abre el tema **B1-T01**. Ese código significa «bloque 1, tema 1».
@@ -201,13 +203,13 @@ El guardado normal es automático y local: se conserva en ese navegador, perfil 
 
 **Para crear una copia:**
 
-1. Baja al final de la página hasta **Tu progreso GSI**. Este apartado aparece debajo de las vistas de estudio.
+1. Abre **Progreso** en el menú superior y baja hasta **Copia de seguridad del progreso**. Aparece al final de **Mi progreso de estudio** y de **Estadísticas**.
 2. Pulsa **Exportar progreso**.
 3. Guarda el archivo descargado en una carpeta que recuerdes, por ejemplo Documentos → Copias GSI. La extensión será `.json`; no necesitas abrirlo ni editarlo.
 
 **Para recuperar una copia:**
 
-1. Abre la aplicación y baja a **Tu progreso GSI**.
+1. Abre la aplicación, entra en **Progreso** y baja a **Copia de seguridad del progreso**.
 2. Si ya tienes progreso en ese navegador, expórtalo primero para conservarlo.
 3. Pulsa **Importar copia GSI** y selecciona el archivo guardado.
 4. Confirma cuando la aplicación te lo pida y comprueba tus resultados después de la recarga. La copia sustituye los datos guardados que contiene; no combina historiales de varios dispositivos.

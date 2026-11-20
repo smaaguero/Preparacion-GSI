@@ -84,7 +84,34 @@ a:hover { color: var(--color-primary-dark); }
 
 .primary-nav a { display: inline-block; padding: 0.45rem 0.6rem; border-radius: 0.35rem; font-weight: 700; text-decoration: none; }
 
-.primary-nav a[aria-current="page"] { background: #dceafa; color: var(--color-primary-dark); }
+.primary-nav a[aria-current="page"],
+.primary-nav a[aria-current="true"] { background: #dceafa; color: var(--color-primary-dark); }
+
+/* Segundo nivel del menú: apartados del grupo activo. */
+.section-nav-bar:has(> .section-nav:not([hidden])) { border-top: 1px solid var(--color-border); background: #f1f5fb; }
+.section-nav ul { display: flex; flex-wrap: wrap; gap: 0 var(--space-4); margin: 0; padding: 0; list-style: none; }
+.section-nav a { display: inline-block; padding: 0.6rem 0.1rem 0.45rem; border-bottom: 3px solid transparent; font-weight: 700; text-decoration: none; }
+.section-nav a[aria-current="page"] { border-bottom-color: var(--color-primary); color: var(--color-ink); }
+
+/* Portada: tu estudio de hoy. */
+.home-exam-pending { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2); }
+.home-exam-pending p { margin: 0; }
+.today-grid { display: grid; gap: var(--space-3); margin-block: var(--space-4); }
+.today-card { display: flex; flex-direction: column; min-width: 0; padding: var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); box-shadow: var(--shadow-card); }
+.today-card h2 { margin: 0; color: var(--color-muted); font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.today-card__value { margin: var(--space-1) 0 0; font-size: 1.35rem; font-weight: 800; line-height: 1.3; overflow-wrap: anywhere; }
+.today-card__value--topic { font-size: 1.1rem; }
+.today-card__unit { color: var(--color-muted); font-size: 1rem; font-weight: 600; }
+.today-card .action-row { margin-top: auto; padding-top: var(--space-2); }
+.home-cycle { margin-block: var(--space-5); }
+.home-cycle h2 { font-size: 1.2rem; }
+.study-cycle { display: grid; gap: var(--space-2); margin: 0; padding: 0; list-style: none; counter-reset: cycle; }
+.study-cycle li { counter-increment: cycle; }
+.study-cycle a { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.15rem var(--space-2); height: 100%; padding: var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); color: var(--color-ink); text-decoration: none; }
+.study-cycle a::before { content: counter(cycle); display: grid; grid-row: span 2; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: #dceafa; color: var(--color-primary-dark); font-weight: 800; }
+.study-cycle a:hover { border-color: var(--color-primary); }
+.study-cycle strong { color: var(--color-primary); }
+.study-cycle span { color: var(--color-muted); font-size: 0.95rem; }
 
 main { padding-bottom: var(--space-5); }
 
@@ -695,6 +722,9 @@ dialog::backdrop { background: rgb(23 32 51 / 55%); }
 
 @media (min-width: 42rem) {
   .summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .today-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .today-grid > :first-child { grid-column: 1 / -1; }
+  .study-cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .form-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .checkbox-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .study-plan-intro-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -713,6 +743,9 @@ dialog::backdrop { background: rgb(23 32 51 / 55%); }
 
 @media (min-width: 64rem) {
   .form-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .today-grid { grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, 1fr)); }
+  .today-grid > :first-child { grid-column: auto; }
+  .study-cycle { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -749,6 +782,9 @@ dialog::backdrop { background: rgb(23 32 51 / 55%); }
 .topic-study-supplement__table td:first-child { white-space: nowrap; }
 .topic-study-supplement__note { margin-bottom: 0; padding: .8rem 1rem; border-left: .3rem solid #8a5b00; background: #fff6dc; }
 @media (max-width: 42rem) {
+  /* Los cuatro grupos del menú caben en una fila en un móvil de 360-390 px. */
+  .primary-nav { gap: 0.25rem; }
+  .primary-nav a { padding-inline: 0.4rem; }
   .study-progress-map-section { margin-inline: calc(var(--space-2) * -1); padding: var(--space-3); }
   .study-progress-roadmap-topics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .study-progress-topic__state { grid-column: 2 / -1; justify-self: start; }

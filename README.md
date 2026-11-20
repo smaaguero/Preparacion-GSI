@@ -36,6 +36,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 
 ## Funcionalidades
 
+- *(Fork)* Menú agrupado en Estudiar, Practicar y Progreso, y portada con lo que toca hoy: tema actual, repasos pendientes, actividad reciente y examen sin terminar.
 - Temario navegable con los 57 temas completos.
 - Búsqueda y filtros por bloque, cobertura y estado editorial.
 - Entrenamiento por uno o varios bloques y temas, preguntas no vistas y últimos errores.

@@ -63,6 +63,16 @@ Los apuntes del Bloque I son esquemáticos y el INAP pregunta datos concretos: p
 - Los 5 datos restantes (Agenda 2030, eIDAS art. 25.2, Plan de Digitalización 2021-2025 y Década Digital 2030) citan su documento oficial, que no forma parte de ese código.
 - Los apuntes originales no cambian, y los validadores de integridad y de encabezados del proyecto siguen pasando.
 
+### 7. Navegación agrupada y portada «Tu estudio de hoy»
+
+El menú tenía nueve entradas y la portada abría con cifras del catálogo. Se reorganizan sin cambiar las rutas (`#temario`, `#examen`…), así que los enlaces y el progreso guardado siguen funcionando:
+
+- **Menú en dos niveles.** Arriba hay cuatro grupos: Inicio, Estudiar (Temario y Plan de estudio), Practicar (Entrenamiento, Examen, Práctica escrita y Refuerzo) y Progreso (Mi progreso de estudio y Estadísticas). Debajo aparecen como pestañas los apartados del grupo activo. El título de la pestaña del navegador usa el nombre real del apartado (por ejemplo, «Estadísticas» en lugar de «Estadisticas»).
+- **Portada «Tu estudio de hoy».** Muestra el tema actual según el seguimiento (o la sugerencia del plan), las preguntas de refuerzo pendientes hoy, la actividad de los últimos 30 días y, si existe, el examen sin terminar con las respuestas dadas y el tiempo restante. Añade el ciclo de estudio (estudia el tema, haz un test, mira dónde fallas y repasa) y un acceso para empezar desde cero. Se recalcula al volver a Inicio y sigue sin descargar los bancos de preguntas. Se retiran las tarjetas «actualizaciones catalogadas» y «tema prioritario»: esta última casi siempre mostraba «Sin datos suficientes», porque su cálculo necesita los bancos. Los temas débiles siguen en Estadísticas.
+- **Cada bloque en su sitio.** La copia de seguridad (exportar, importar y reiniciar), que aparecía al pie de todas las vistas, se muestra solo en Mi progreso de estudio y en Estadísticas, con el título «Copia de seguridad del progreso». El aviso de versión provisional se muestra solo en Inicio. El aviso de modo demostración sigue en todas las vistas.
+- Ficheros afectados: `index.html`, `assets/css/styles.css`, `assets/js/router.js`, `assets/js/app.js`, `assets/js/home.js` (nuevo), `assets/js/statistics.js` (la portada ya no calcula el tema prioritario), `assets/js/study-progress.js` (exporta `planWithOfficialTitles`) y la guía de estudio (`docs/GUIA_DE_ESTUDIO.md` y `docs/guia-de-estudio.html`).
+- Se suben los sufijos de caché (`?gsi3`, `app.js?gsi6`) de los módulos modificados para que el navegador no combine versiones antiguas y nuevas.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

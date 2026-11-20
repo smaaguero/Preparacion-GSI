@@ -1,29 +1,21 @@
 import { isDemoMode, loadAppData, loadQuestionData } from "./data-service.js?gsi3";
-import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi2";
+import { initRouter, resolveRoute, syncRouter } from "./router.js?gsi3";
 import { loadTopicContentIndex } from "./topic-content-service.js?gsi2";
 import { initSyllabusView } from "./syllabus-view.js?gsi2";
 import { initStudyPlan } from "./study-plan.js?gsi2";
-import { initStudyProgress } from "./study-progress.js?gsi2";
+import { initStudyProgress } from "./study-progress.js?gsi3";
 import { configurePersistenceV2 } from "./persistence-v2.js?gsi2";
 import { migrateV1ToV2 } from "./persistence-migration-v2.js?gsi2";
 import { initWrittenPractice } from "./written-practice.js?gsi2";
 import { initProgressBackup } from "./progress-backup.js?gsi4";
-import { initStatistics, renderAnalyticsHome } from "./statistics.js?gsi2";
-import { clearStatus, setStatus, setText } from "./ui.js?gsi2";
+import { initStatistics } from "./statistics.js?gsi3";
+import { renderHome } from "./home.js?gsi3";
+import { clearStatus, setStatus } from "./ui.js?gsi2";
 
 const QUESTION_ROUTES = new Set(["entrenamiento", "examen", "refuerzo", "estadisticas"]);
 let coreData = null;
 let fullDataPromise = null;
 let questionFeaturesPromise = null;
-
-function renderHomeSummary(data) {
-  const topicCount = data.syllabus.blocks.reduce((total, block) => total + block.topics.length, 0);
-  const activeRealQuestions = data.coverage.question_totals.active;
-  setText("#home-block-count", data.syllabus.blocks.length);
-  setText("#home-topic-count", topicCount);
-  setText("#home-question-count", activeRealQuestions);
-  setText("#home-update-count", data.updates.updates.length);
-}
 
 function getFullData() {
   if (!fullDataPromise) {
@@ -58,7 +50,6 @@ async function initQuestionFeatures() {
     examModule.initExam(data);
     reinforcementModule.initReinforcement(data);
     initStatistics(data);
-    renderAnalyticsHome(data);
     clearStatus();
     return data;
   })().catch((error) => {
@@ -93,14 +84,17 @@ async function start() {
       setStatus(persistenceMigration.error || "No se pudo migrar el historial local a persistencia v2.", "error");
       return;
     }
-    renderHomeSummary(data);
     initSyllabusView(data, topicContentIndex);
     await initWrittenPractice(data);
     initStudyPlan(data);
     initStudyProgress(data);
     initProgressBackup(data, getFullData);
-    renderAnalyticsHome({ ...data, questions: [] });
-    window.addEventListener("gsi:routechange", (event) => loadQuestionsForRoute(event.detail?.route));
+    renderHome(data);
+    window.addEventListener("gsi:routechange", (event) => {
+      // La portada resume datos que cambian en otras vistas: se recalcula al volver.
+      if (event.detail?.route === "inicio") renderHome(coreData);
+      loadQuestionsForRoute(event.detail?.route);
+    });
     // Las vistas se resuelven exclusivamente desde el hash. Esta segunda
     // sincronización mantiene la ruta inicial si cualquier módulo de carga
     // ha actualizado el DOM durante la inicialización asíncrona.

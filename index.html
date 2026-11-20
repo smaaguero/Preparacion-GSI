@@ -19,13 +19,30 @@
         <nav aria-label="Navegación principal">
           <ul class="primary-nav">
             <li><a href="#inicio" data-route="inicio">Inicio</a></li>
+            <li><a href="#temario" data-nav-group="estudiar">Estudiar</a></li>
+            <li><a href="#entrenamiento" data-nav-group="practicar">Practicar</a></li>
+            <li><a href="#progreso" data-nav-group="progreso">Progreso</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="section-nav-bar">
+        <nav class="shell section-nav" data-nav-section="estudiar" aria-label="Apartados de Estudiar" hidden>
+          <ul>
             <li><a href="#temario" data-route="temario">Temario</a></li>
             <li><a href="#plan" data-route="plan">Plan de estudio</a></li>
-            <li><a href="#progreso" data-route="progreso">Mi progreso de estudio</a></li>
+          </ul>
+        </nav>
+        <nav class="shell section-nav" data-nav-section="practicar" aria-label="Apartados de Practicar" hidden>
+          <ul>
             <li><a href="#entrenamiento" data-route="entrenamiento">Entrenamiento</a></li>
             <li><a href="#examen" data-route="examen">Examen</a></li>
             <li><a href="#practica" data-route="practica">Práctica escrita</a></li>
             <li><a href="#refuerzo" data-route="refuerzo">Refuerzo</a></li>
+          </ul>
+        </nav>
+        <nav class="shell section-nav" data-nav-section="progreso" aria-label="Apartados de Progreso" hidden>
+          <ul>
+            <li><a href="#progreso" data-route="progreso">Mi progreso de estudio</a></li>
             <li><a href="#estadisticas" data-route="estadisticas">Estadísticas</a></li>
           </ul>
         </nav>
@@ -35,7 +52,7 @@
     <main id="main-content" class="shell" tabindex="-1">
       <div id="app-status" class="status-message" role="status" aria-live="polite"></div>
 
-      <aside id="gsi-provisional-release" class="notice" aria-label="Estado editorial del banco">
+      <aside id="gsi-provisional-release" class="notice" aria-label="Estado editorial del banco" data-views="inicio">
         <strong>Versión provisional de estudio · 9 de noviembre de 2026.</strong>
         La auditoría editorial independiente sigue pendiente. La pregunta NUMA <code>MAN-GSI-P17-026</code> está señalada por una posible ambigüedad.
         <a href="docs/GSI_VERSION_PROVISIONAL.md">Alcance y límites de esta versión</a>.
@@ -47,41 +64,59 @@
       </aside>
 
       <section data-view="inicio" aria-labelledby="home-title">
-        <p class="eyebrow">Aplicación estática</p>
-        <h1 id="home-title">Gestión de Sistemas e Informática de la Administración del Estado — GSI A2</h1>
-        <p class="lead">Consulta el programa oficial catalogado y entrena con las preguntas disponibles, manteniendo siempre visible su procedencia.</p>
-        <p><a class="button button--secondary" href="docs/guia-de-estudio.html">Guía paso a paso para estudiar</a></p>
-        <div class="summary-grid" aria-label="Resumen de datos cargados">
-          <article class="summary-card">
-            <p class="summary-card__value" id="home-block-count">—</p>
-            <p class="summary-card__label">bloques</p>
+        <p class="eyebrow">GSI A2 · ingreso libre</p>
+        <h1 id="home-title">Tu estudio de hoy</h1>
+        <p class="lead"><span id="home-topic-count">—</span> temas en <span id="home-block-count">—</span> bloques y <span id="home-question-count">—</span> preguntas de estudio activas, siempre con su procedencia visible.</p>
+
+        <aside id="home-exam-pending" class="notice home-exam-pending" aria-label="Examen sin terminar" hidden>
+          <p><strong>Tienes un examen sin terminar.</strong> <span id="home-exam-pending-detail"></span></p>
+          <a class="button" href="#examen">Reanudar en Examen</a>
+        </aside>
+
+        <div class="today-grid">
+          <article class="today-card" aria-labelledby="home-current-title">
+            <h2 id="home-current-title">Tema actual</h2>
+            <p id="home-current-topic" class="today-card__value today-card__value--topic">—</p>
+            <p id="home-current-detail" class="form-help"></p>
+            <div class="action-row">
+              <a id="home-current-link" class="button" href="#temario">Abrir apuntes</a>
+              <a class="button button--secondary" href="#progreso">Ver seguimiento</a>
+            </div>
           </article>
-          <article class="summary-card">
-            <p class="summary-card__value" id="home-topic-count">—</p>
-            <p class="summary-card__label">temas</p>
+          <article class="today-card" aria-labelledby="home-reviews-title">
+            <h2 id="home-reviews-title">Repasos de hoy</h2>
+            <p class="today-card__value"><span id="home-due-count">—</span> <span id="home-due-unit" class="today-card__unit">preguntas de refuerzo</span></p>
+            <p id="home-reviews-detail" class="form-help"></p>
+            <div class="action-row">
+              <a class="button" href="#refuerzo">Ir a Refuerzo</a>
+            </div>
           </article>
-          <article class="summary-card">
-            <p class="summary-card__value" id="home-question-count">—</p>
-            <p class="summary-card__label">preguntas de estudio activas</p>
-          </article>
-          <article class="summary-card">
-            <p class="summary-card__value" id="home-update-count">—</p>
-            <p class="summary-card__label">actualizaciones catalogadas</p>
+          <article class="today-card" aria-labelledby="home-activity-title">
+            <h2 id="home-activity-title">Últimos 30 días</h2>
+            <p class="today-card__value"><span id="home-answered-count">—</span> <span id="home-answered-unit" class="today-card__unit">respondidas</span></p>
+            <p class="form-help">Acierto: <span id="home-recent-accuracy">—</span></p>
+            <div class="action-row">
+              <a id="home-activity-link" class="button" href="#estadisticas">Ver estadísticas</a>
+            </div>
           </article>
         </div>
-        <div class="action-row">
-          <a class="button" href="#plan">Empezar desde cero</a>
-          <a class="button button--secondary" href="#temario">Consultar temario</a>
-          <a class="button button--secondary" href="#entrenamiento">Ir a entrenamiento</a>
-          <a class="button button--secondary" href="#estadisticas">Ver estadísticas</a>
-        </div>
-        <section class="local-progress" aria-labelledby="home-analytics-title">
-          <h2 id="home-analytics-title">Progreso reciente</h2>
-          <div class="summary-grid" aria-label="Resumen de progreso reciente">
-            <article class="summary-card"><p id="home-answered-count" class="summary-card__value">—</p><p class="summary-card__label">respondidas</p></article>
-            <article class="summary-card"><p id="home-recent-accuracy" class="summary-card__value">—</p><p class="summary-card__label">precisión reciente</p></article>
-            <article class="summary-card"><p id="home-overdue-count" class="summary-card__value">—</p><p class="summary-card__label">refuerzos vencidos</p></article>
-            <article class="summary-card"><p id="home-priority-topic" class="summary-card__value">—</p><p class="summary-card__label">tema prioritario</p></article>
+
+        <section class="home-cycle" aria-labelledby="home-cycle-title">
+          <h2 id="home-cycle-title">Cómo estudiar con la aplicación</h2>
+          <ol class="study-cycle">
+            <li><a href="#temario"><strong>Estudia el tema</strong><span>Apuntes completos y resumen de repaso en Temario.</span></a></li>
+            <li><a href="#entrenamiento"><strong>Haz un test</strong><span>Entrenamiento con corrección inmediata o un simulacro en Examen.</span></a></li>
+            <li><a href="#estadisticas"><strong>Mira dónde fallas</strong><span>Temas débiles y errores recurrentes en Estadísticas.</span></a></li>
+            <li><a href="#refuerzo"><strong>Repasa hasta dominarlo</strong><span>Las falladas y dudosas vuelven a Refuerzo cuando toca.</span></a></li>
+          </ol>
+        </section>
+
+        <section class="local-progress" aria-labelledby="home-start-title">
+          <h2 id="home-start-title">¿Empiezas desde cero?</h2>
+          <p>El plan orientativo propone un orden de temas y una semana tipo. La guía explica cada apartado con un primer ejercicio.</p>
+          <div class="action-row">
+            <a class="button" href="#plan">Empezar desde cero</a>
+            <a class="button button--secondary" href="docs/guia-de-estudio.html">Guía paso a paso</a>
           </div>
         </section>
       </section>
@@ -251,7 +286,7 @@
         <p class="eyebrow">Seguimiento personal</p>
         <h1 id="study-progress-title">Mi progreso de estudio</h1>
         <p class="lead">Registra el trabajo real de cada tema. Las semanas del plan solo orientan el orden: nunca activan estados ni casillas automáticamente.</p>
-        <p class="notice">El seguimiento se guarda únicamente en este navegador. La copia general de progreso situada al final de la página incluye también estas casillas, fechas y notas.</p>
+        <p class="notice">El seguimiento se guarda únicamente en este navegador. La copia de seguridad del progreso, al final de esta página, incluye también estas casillas, fechas y notas.</p>
         <p id="study-progress-status" class="analytics-storage-status" role="status" aria-live="polite"></p>
 
         <section aria-labelledby="study-progress-dashboard-title">
@@ -700,9 +735,9 @@
 <h1 id="practice-title">Supuestos prácticos GSI A2</h1>
 <p class="lead">Elige un supuesto entre dos, con cinco preguntas y 180 minutos. Autoevalúa conocimientos técnicos (30 puntos), análisis (10), sistemática (5) y expresión escrita (5).</p>
 <div id="practice-app"></div></section>
-<section class="local-progress" aria-labelledby="backup-title">
-<h2 id="backup-title">Tu progreso GSI</h2>
-<p>Guardado en este navegador. Descarga una copia para conservarlo o trasladarlo a otro dispositivo.</p>
+<section class="local-progress" aria-labelledby="backup-title" data-views="progreso estadisticas">
+<h2 id="backup-title">Copia de seguridad del progreso</h2>
+<p>Todo tu progreso GSI (respuestas, refuerzo, estadísticas, seguimiento por tema, examen en curso y práctica escrita) se guarda en este navegador. Descarga una copia para conservarlo o trasladarlo a otro dispositivo.</p>
 <div class="action-row">
 <button id="progress-export" class="button button--secondary" type="button">Exportar progreso</button>
 <label class="button button--secondary" for="progress-import">Importar copia GSI</label>
@@ -718,6 +753,6 @@
     <noscript>
       <p class="noscript-message">Esta aplicación necesita JavaScript para cargar los datos y mostrar el entrenamiento.</p>
     </noscript>
-    <script type="module" src="assets/js/app.js?gsi5"></script>
+    <script type="module" src="assets/js/app.js?gsi6"></script>
   </body>
 </html>

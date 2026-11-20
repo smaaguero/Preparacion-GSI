@@ -27,10 +27,28 @@ export function resolveRoute(hash = window.location.hash) {
   return parseRoute(hash).route;
 }
 
+// Menú en dos niveles: cada [data-nav-section] agrupa enlaces [data-route] y
+// el enlace principal [data-nav-group] del mismo nombre abre ese apartado.
+function renderNavigation(root, resolvedRoute) {
+  const activeLink = root.querySelector(`[data-nav-section] [data-route="${resolvedRoute}"]`);
+  const activeGroup = activeLink?.closest("[data-nav-section]")?.dataset.navSection ?? null;
+  for (const section of root.querySelectorAll("[data-nav-section]")) {
+    section.hidden = section.dataset.navSection !== activeGroup;
+  }
+  for (const link of root.querySelectorAll("[data-nav-group]")) {
+    if (link.dataset.navGroup === activeGroup) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
+  }
+}
+
 export function renderRoute(route, shouldFocus = false, root = document, routeState = null) {
   const resolvedRoute = VALID_ROUTES.has(route) ? route : "inicio";
   for (const view of root.querySelectorAll("[data-view]")) {
     view.hidden = view.dataset.view !== resolvedRoute;
+  }
+  // Bloques compartidos que solo se muestran en algunas vistas.
+  for (const node of root.querySelectorAll("[data-views]")) {
+    node.hidden = !node.dataset.views.split(/\s+/).includes(resolvedRoute);
   }
   for (const link of root.querySelectorAll("[data-route]")) {
     const active = link.dataset.route === resolvedRoute;
@@ -39,8 +57,11 @@ export function renderRoute(route, shouldFocus = false, root = document, routeSt
       link.setAttribute("aria-current", "page");
     }
   }
+  renderNavigation(root, resolvedRoute);
   if (root === document) {
-    document.title = `${resolvedRoute[0].toUpperCase()}${resolvedRoute.slice(1)} · Preparación GSI`;
+    const label = root.querySelector(`[data-route="${resolvedRoute}"]`)?.textContent.trim()
+      || `${resolvedRoute[0].toUpperCase()}${resolvedRoute.slice(1)}`;
+    document.title = `${label} · Preparación GSI`;
     window.dispatchEvent(new CustomEvent("gsi:routechange", { detail: routeState || { route: resolvedRoute, topicId: null, sectionId: null, error: null } }));
   }
   if (shouldFocus) {

@@ -12,7 +12,7 @@ import { createElement } from "./ui.js?gsi2";
 
 const DATE_FORMAT = new Intl.DateTimeFormat("es-ES", { dateStyle: "medium" });
 
-function planWithOfficialTitles(data) {
+export function planWithOfficialTitles(data) {
   const supportByBlock = new Map(data.studyTrackerPlan.blocks.map((block) => [block.block_id, block.support_url]));
   return {
     ...data.studyTrackerPlan,
