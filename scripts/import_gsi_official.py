@@ -88,7 +88,7 @@ def main():
                 'provenance':provenance,'difficulty':'medium','tags':['oficial','convocatoria-'+str(year),'dificultad-no-calibrada','historico'],
                 'is_active':True,'created_at':old['created_at'] if old else DATE,
                 'updated_at':old['updated_at'] if unchanged else DATE})
-        kinds={'questionnaire':'exam_questionnaire','answer_key':'answer_key','written':'exam_questionnaire','criteria':'exam_criteria'}
+        kinds={'questionnaire':'exam_questionnaire','answer_key':'answer_key','written':'exam_questionnaire','criteria':'exam_criteria','criteria_written':'exam_criteria'}
         source_docs=[]
         for d in exam['documents']:
             source_docs.append({'id':f"DOC-INAP-GSI-{year}-{d['kind'].upper().replace('_', '-')}",'path':d['markdown'],
@@ -106,7 +106,9 @@ def main():
              'mapping_status':'mapped' if records else 'pending_review','documents':source_docs})
         catalog.append({'id':eid,'year':year,'title':f'Convocatoria {year} · GSI ingreso libre',
             'page_url':exam['page'],'key_status':exam['key_status'],'duration_seconds':5400,'question_count':100,
-            'reserve_count':5,'written_question_count':5,'written_duration_seconds':10800,
+            'reserve_count':5,'written_question_count':5,
+            # 2019 (OEP 2019): segundo ejercicio de 210 minutos; desde 2022, 180 minutos.
+            'written_duration_seconds':exam.get('written_duration_seconds',10800),
             'documents':exam['documents'],'question_ids':[qid(year,q) for q in paper],
             'annulled_numbers':[q['number'] for q in annulled],
             'used_reserve_numbers':[q['number'] for q in paper if q['reserve']],

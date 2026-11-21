@@ -53,10 +53,10 @@
     },
     "B2-T02": {
       "markdown": "content/fork-topics/B2-T02.md",
-      "sha256": "9098aac7dd67a3ced33d8fa9b70e80517de11f9f57e8cd44264922a9ae493fbe",
+      "sha256": "7107c7d041352acaaf5cdb5f533127882cde268c2d2805d9dc868e781502a82e",
       "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
       "reviewStatus": "needs-review",
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "notice": "Revisión del fork del 20/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.02), que se conservan en el corpus. No es documento oficial.",
       "replacesLocator": "II.02",
       "studyRef": {

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09T12:59:40.486Z",
-  "passed": 101,
+  "date": "2026-11-21T12:52:17.489Z",
+  "passed": 111,
   "failed": 0,
   "results": [
     {
@@ -380,6 +380,18 @@
       "ok": true
     },
     {
+      "name": "Oficial 2025: plantilla, orden, reservas y exclusión de anuladas",
+      "ok": true
+    },
+    {
+      "name": "Oficial 2025: rechaza configuración alterada",
+      "ok": true
+    },
+    {
+      "name": "Oficial 2025: copia de progreso conserva convocatoria y rechaza reordenación",
+      "ok": true
+    },
+    {
       "name": "Oficial 2024: plantilla, orden, reservas y exclusión de anuladas",
       "ok": true
     },
@@ -404,7 +416,35 @@
       "ok": true
     },
     {
-      "name": "Plantilla modificada 2024 pregunta 12 y provisional 2025 excluida",
+      "name": "Oficial 2019: plantilla, orden, reservas y exclusión de anuladas",
+      "ok": true
+    },
+    {
+      "name": "Oficial 2019: rechaza configuración alterada",
+      "ok": true
+    },
+    {
+      "name": "Oficial 2019: copia de progreso conserva convocatoria y rechaza reordenación",
+      "ok": true
+    },
+    {
+      "name": "Plantilla modificada 2024 pregunta 12, definitiva 2025 con tres anuladas y 2019 con una",
+      "ok": true
+    },
+    {
+      "name": "Peso INAP: 100 preguntas evaluables por convocatoria repartidas entre los 57 temas",
+      "ok": true
+    },
+    {
+      "name": "Peso INAP: el mapa editorial coincide con el tema de cada pregunta evaluable del banco oficial",
+      "ok": true
+    },
+    {
+      "name": "Peso INAP: rechaza un mapa con temas ajenos al programa",
+      "ok": true
+    },
+    {
+      "name": "Ruta «Practicar este tema»: #entrenamiento/<tema>",
       "ok": true
     }
   ]

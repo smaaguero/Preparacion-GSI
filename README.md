@@ -1,6 +1,6 @@
 # Preparación GSI
 
-> **Fork modificado.** Este repositorio es una versión modificada de [Preparación GSI](https://github.com/AngeldelaCalleFernandez/Preparacion-GSI), creado por [AngeldelaCalleFernandez](https://github.com/AngeldelaCalleFernandez), y lo mantiene [smaaguero](https://github.com/smaaguero) para estudio personal. No está respaldado por el creador original. Añade el examen INAP 2025 con su plantilla definitiva y suplementos sobre NIS2 y el Reglamento europeo de IA. Consulta [MODIFICACIONES.md](MODIFICACIONES.md). Versión publicada del fork: **[smaaguero.github.io/Preparacion-GSI](https://smaaguero.github.io/Preparacion-GSI/)**. Los enlaces de este README a la web y al repositorio originales se conservan.
+> **Fork modificado.** Este repositorio es una versión modificada de [Preparación GSI](https://github.com/AngeldelaCalleFernandez/Preparacion-GSI), creado por [AngeldelaCalleFernandez](https://github.com/AngeldelaCalleFernandez), y lo mantiene [smaaguero](https://github.com/smaaguero) para estudio personal. No está respaldado por el creador original. Añade los exámenes INAP 2025 y 2019 con su plantilla definitiva y suplementos sobre NIS2 y el Reglamento europeo de IA. Consulta [MODIFICACIONES.md](MODIFICACIONES.md). Versión publicada del fork: **[smaaguero.github.io/Preparacion-GSI](https://smaaguero.github.io/Preparacion-GSI/)**. Los enlaces de este README a la web y al repositorio originales se conservan.
 
 Aplicación web estática y repositorio de contenidos para preparar el **Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado, ingreso libre, subgrupo A2**.
 
@@ -24,11 +24,11 @@ La aplicación funciona y los 57 temas tienen apuntes completos, resumen y proce
 | --- | ---: | ---: |
 | Material curado del corpus | 959 | 0 |
 | Preguntas generadas revisadas | 803 | 0 |
-| Preguntas oficiales INAP | 304 | 0 |
+| Preguntas oficiales INAP | 408 | 0 |
 
-La aplicación contiene **2.066 preguntas activas** y los **57 temas tienen al menos 20 preguntas revisadas**. Las 803 generadas se activaron tras la confirmación del propietario de que los test estaban revisados; conservan su origen IA y la aceptación asociada a sus hashes. La confirmación no se presenta como una revisión humana realizada por el agente.
+La aplicación contiene **2.170 preguntas activas** y los **57 temas tienen al menos 20 preguntas revisadas**. Las 803 generadas se activaron tras la confirmación del propietario de que los test estaban revisados; conservan su origen IA y la aceptación asociada a sus hashes. La confirmación no se presenta como una revisión humana realizada por el agente.
 
-En **Examen → Exámenes oficiales INAP**, abre **2022**, **2024** o **2025**, pulsa **Preparar este examen** y después **Iniciar examen**. Cada convocatoria ofrece 100 preguntas evaluables en 90 minutos, con plantilla definitiva y sustitución de anuladas por reservas. Hay 12 enlaces oficiales a cuestionarios, plantillas, supuestos escritos y criterios de 2022, 2024 y 2025. *(Fork)* La convocatoria **2025** se corrige con la plantilla definitiva publicada por el INAP en septiembre de 2026 (anuladas 32, 33 y 89). [Detalle de la importación](docs/GSI_EXAMENES_OFICIALES.md).
+En **Examen → Exámenes oficiales INAP**, abre **2019**, **2022**, **2024** o **2025**, pulsa **Preparar este examen** y después **Iniciar examen**. Cada convocatoria ofrece 100 preguntas evaluables en 90 minutos, con plantilla definitiva y sustitución de anuladas por reservas. Hay 17 enlaces oficiales a cuestionarios, plantillas, supuestos escritos y criterios de 2019, 2022, 2024 y 2025. *(Fork)* La convocatoria **2025** se corrige con la plantilla definitiva publicada por el INAP en septiembre de 2026 (anuladas 32, 33 y 89). *(Fork)* La convocatoria **2019** (OEP 2019, examen del 12 de febrero de 2022) se corrige con su plantilla definitiva (anulada la 79). [Detalle de la importación](docs/GSI_EXAMENES_OFICIALES.md).
 
 La edición inicial se autorizó el 17 de septiembre de 2026. El propietario autorizó el 9 de noviembre de 2026 la publicación provisional del banco mejorado.
 
@@ -38,7 +38,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 
 - *(Fork)* Menú agrupado en Estudiar, Practicar y Progreso, y portada con lo que toca hoy: tema actual, repasos pendientes, actividad reciente y examen sin terminar.
 - Temario navegable con los 57 temas completos.
-- *(Fork)* Qué cae en el examen: preguntas INAP 2022-2025 por bloque y por tema (clasificación editorial), orden por peso INAP, filtro por estado de estudio y botón «Practicar este tema».
+- *(Fork)* Qué cae en el examen: preguntas INAP 2019-2025 por bloque y por tema (clasificación editorial), orden por peso INAP, filtro por estado de estudio y botón «Practicar este tema».
 - Búsqueda y filtros por bloque, cobertura y estado editorial.
 - Entrenamiento por uno o varios bloques y temas, preguntas no vistas y últimos errores.
 - Corrección inmediata con explicación y procedencia.
@@ -46,7 +46,7 @@ Consulta la [auditoría completa](docs/FINAL_GSI_AUDIT.md), la [cobertura por te
 - Resumen final con aciertos, fallos, porcentaje, temas que reforzar y repetición de las falladas.
 - Simulacro GSI de 100 preguntas y 90 minutos, con penalización de un tercio por error.
 - Test configurable con selección de bloques, cantidad y duración.
-- Exámenes oficiales de 2022 y 2024, y biblioteca de PDF del INAP de tres convocatorias.
+- Exámenes oficiales de 2019, 2022, 2024 y 2025, y biblioteca de PDF del INAP de cuatro convocatorias.
 - Práctica escrita: elección entre dos supuestos, cinco respuestas y 180 minutos.
 - Refuerzo programado de errores y dudas.
 - Estadísticas de actividad, evolución y temas débiles.
@@ -181,7 +181,7 @@ consulta en [`logs/gsi-suite.json`](logs/gsi-suite.json), que es la evidencia
 vigente y evita mantener una segunda copia manual de cifras que cambia al
 ampliar la suite.
 
-La validación cubre los 57 temas y sus referencias, las 2.066 preguntas, los
+La validación cubre los 57 temas y sus referencias, las 2.170 preguntas, los
 contratos JSON, la sintaxis JavaScript, las pruebas unitarias y de regresión y
 el recorrido funcional en escritorio, móvil y una subruta de GitHub Pages.
 

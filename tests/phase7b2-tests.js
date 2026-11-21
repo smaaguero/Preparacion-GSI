@@ -48,7 +48,8 @@ await test("el adaptador conserva fuentes BOE y canónicas GSI", () => {
   assert(getSourceDisplayData(historical).documents.length === historical.documents.length, "Documentos históricos perdidos");
   assert(getSourceDisplayData(technicalPublic).documents.length === 1 && getSourceDisplayData(technicalPublic).url?.startsWith("https://"), "Fuente pública no normalizada");
   assert(getSourceDisplayData(technicalPrivate).documents.length === 1 && getSourceDisplayData(technicalPrivate).url?.startsWith("https://"), "Fuente privada no segura");
-  assert(sourceIndexes.documentsById.size === 38, "Los 21 documentos previos, 4 revisados, 12 oficiales y la plantilla provisional 2025 sustituida deben indexarse exactamente una vez");
+  assert(sourceIndexes.documentsById.size === 44, "Los 21 documentos previos, 4 revisados, 17 oficiales y las plantillas provisionales 2025 y 2019 sustituidas deben indexarse exactamente una vez");
+  assert(sourceIndexes.documentsById.has("DOC-INAP-GSI-2019-CRITERIA-WRITTEN") && sourceIndexes.documentsById.has("DOC-INAP-GSI-2019-ANSWER-KEY-PROVISIONAL"), "Faltan los criterios del segundo ejercicio 2019 o su plantilla provisional sustituida");
   assert(sourceIndexes.documentsById.has("DOC-INAP-GSI-2024-ANSWER-KEY"), "Falta la plantilla definitiva oficial");
   assert(sourceIndexes.documentsById.has("DOC-INAP-GSI-2025-ANSWER-KEY") && sourceIndexes.documentsById.has("DOC-INAP-GSI-2025-ANSWER-KEY-PROVISIONAL"), "Falta la plantilla definitiva 2025 o su provisional sustituida");
 });

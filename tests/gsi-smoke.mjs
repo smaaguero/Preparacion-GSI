@@ -290,11 +290,12 @@ try {
     await page.setViewportSize({width:1365,height:900});
   });
 
-  await check("official library: three convocations, twelve PDFs and definitive 2025", async () => {
+  await check("official library: four convocations, seventeen PDFs and definitive 2025 and 2019", async () => {
     await page.goto(`${base}#examen`);
     await page.locator('#official-exam-library details').first().waitFor({state:'attached'});
-    assert.equal(await page.locator('#official-exam-library details').count(),3);
-    assert.equal(await page.locator('#official-exam-library a[href^="https://sede.inap.gob.es/"]').count(),12);
+    assert.equal(await page.locator('#official-exam-library details').count(),4);
+    assert.equal(await page.locator('#official-exam-library a[href^="https://sede.inap.gob.es/"]').count(),17);
+    assert.equal(await page.locator('[data-exam-id="GSI-INAP-2019"] button').count(),1);
     assert.equal(await page.locator('[data-exam-id="GSI-INAP-2025"] button').count(),1);
     await page.locator('[data-exam-id="GSI-INAP-2025"] summary').click();
     assert.match(await page.locator('[data-exam-id="GSI-INAP-2025"]').innerText(),/definitiva/);
@@ -386,7 +387,7 @@ try {
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true);
     await page.setViewportSize({width:1365,height:900});
   });
-  for(const year of [2025,2024,2022]) await check(`official ${year}: prepare, answer, resume and correct`, async () => {
+  for(const year of [2025,2024,2022,2019]) await check(`official ${year}: prepare, answer, resume and correct`, async () => {
     await page.goto(`${base}#examen`);
     const card=page.locator(`[data-exam-id="GSI-INAP-${year}"]`);
     await card.locator('summary').click();await card.getByRole('button').click();
@@ -547,7 +548,7 @@ try {
     await page.setViewportSize({ width: 1365, height: 900 });
     await page.goto(`${base}#temario`);
     await page.locator(".syllabus-weights__table").waitFor();
-    assert.match(await page.locator(".syllabus-weights__table tfoot").innerText(), /57\s+300\s+100 %\s+2066/);
+    assert.match(await page.locator(".syllabus-weights__table tfoot").innerText(), /57\s+400\s+100 %\s+2170/);
     await page.locator("#syllabus-sort").selectOption("inap");
     assert.equal(await page.locator("#syllabus-blocks .topic-list__item").first().getAttribute("data-topic-id"), "B2-T02");
     assert.equal(await page.locator("#syllabus-blocks .topic-list__item").count(), 57);
@@ -555,7 +556,7 @@ try {
     await page.goto(`${base}#temario/B2-T02`);
     await page.locator('.topic-content[data-topic-id="B2-T02"]').waitFor();
     await page.locator("#topic-detail .pill--inap:not([hidden])").waitFor();
-    assert.match(await page.locator("#topic-detail .pill--inap").innerText(), /11 preguntas \(2022: 4 · 2024: 4 · 2025: 3\)/);
+    assert.match(await page.locator("#topic-detail .pill--inap").innerText(), /13 preguntas \(2019: 2 · 2022: 4 · 2024: 4 · 2025: 3\)/);
     await page.getByRole("link", { name: "Practicar este tema", exact: true }).click();
     await page.waitForURL(/#entrenamiento\/B2-T02$/);
     await page.waitForFunction(() => document.querySelector("#training-topic")?.value === "B2-T02", null, { timeout: 60000 });

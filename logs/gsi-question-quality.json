@@ -4,9 +4,9 @@
   "source_files": [
     {
       "path": "data/questions-official.json",
-      "sha256": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05",
+      "sha256": "b9b69625fd73a46b812f2aab2c966040d1b819e88785c375f2ca4df4066b5748",
       "data_version": "2.2.0",
-      "updated_at": "2026-11-20"
+      "updated_at": "2026-11-21"
     },
     {
       "path": "data/questions-manual.json",
@@ -22,46 +22,46 @@
     }
   ],
   "summary": {
-    "questions": 2066,
-    "questions_with_findings": 304,
+    "questions": 2170,
+    "questions_with_findings": 408,
     "by_bank": {
       "official": {
         "quality_metrics": {
-          "questions": 304,
+          "questions": 408,
           "absolute_wording_cluster": 1,
-          "correct_unique_longest": 109,
+          "correct_unique_longest": 131,
           "duplicate_options": 0,
-          "first_longest_correct": 127,
-          "identical_feedback": 304,
-          "length_ratio_1_5_to_2": 17,
-          "length_ratio_at_least_2": 10,
-          "longest_ties": 43,
+          "first_longest_correct": 152,
+          "identical_feedback": 408,
+          "length_ratio_1_5_to_2": 18,
+          "length_ratio_at_least_2": 11,
+          "longest_ties": 61,
           "short_correct_feedback": 0,
-          "first_longest_accuracy": 41.78
+          "first_longest_accuracy": 37.25
         },
         "label": "Oficiales INAP",
-        "questions": 304,
-        "active_validated": 304,
+        "questions": 408,
+        "active_validated": 408,
         "difficulty": {
-          "medium": 304
+          "medium": 408
         },
         "correct_positions": {
-          "A": 73,
-          "B": 90,
-          "C": 89,
-          "D": 52
+          "A": 107,
+          "B": 112,
+          "C": 118,
+          "D": 71
         },
-        "questions_with_findings": 304,
+        "questions_with_findings": 408,
         "priority_counts": {
-          "P2": 11,
-          "P3": 293
+          "P2": 12,
+          "P3": 396
         },
         "rule_counts": {
           "absolute-wording-cluster": 1,
           "correct-length-dominance": 6,
-          "identical-feedback": 304,
-          "length-ratio-high": 10,
-          "length-ratio-moderate": 17
+          "identical-feedback": 408,
+          "length-ratio-high": 11,
+          "length-ratio-moderate": 18
         }
       },
       "manual": {
@@ -131,91 +131,90 @@
   },
   "topic_distribution": {
     "topics": 57,
-    "minimum": 22,
-    "maximum": 164,
-    "median": 26,
+    "minimum": 23,
+    "maximum": 165,
+    "median": 28,
     "minimum_topics": [
       "B2-T07",
-      "B4-T01",
-      "B4-T07"
+      "B4-T01"
     ],
     "maximum_topics": [
       "B2-T14"
     ],
     "counts": {
-      "B1-T01": 27,
-      "B1-T02": 24,
-      "B1-T03": 26,
-      "B1-T04": 24,
-      "B1-T05": 28,
-      "B1-T06": 25,
-      "B1-T07": 26,
-      "B1-T08": 39,
-      "B1-T09": 25,
-      "B1-T10": 28,
-      "B2-T01": 86,
-      "B2-T02": 91,
-      "B2-T03": 24,
-      "B2-T04": 25,
-      "B2-T05": 26,
-      "B2-T06": 24,
-      "B2-T07": 22,
-      "B2-T08": 26,
-      "B2-T09": 86,
-      "B2-T10": 24,
-      "B2-T11": 24,
-      "B2-T12": 25,
-      "B2-T13": 30,
-      "B2-T14": 164,
-      "B2-T15": 24,
-      "B2-T16": 86,
-      "B3-T01": 27,
-      "B3-T02": 27,
-      "B3-T03": 23,
-      "B3-T04": 27,
-      "B3-T05": 27,
-      "B3-T06": 26,
-      "B3-T07": 24,
-      "B3-T08": 23,
-      "B3-T09": 27,
-      "B3-T10": 27,
-      "B3-T11": 146,
-      "B3-T12": 27,
-      "B3-T13": 26,
-      "B3-T14": 27,
-      "B3-T15": 25,
-      "B4-T01": 22,
-      "B4-T02": 24,
-      "B4-T03": 24,
-      "B4-T04": 24,
-      "B4-T05": 26,
-      "B4-T06": 26,
-      "B4-T07": 22,
-      "B4-T08": 23,
-      "B4-T09": 24,
-      "B4-T10": 26,
-      "B4-T11": 26,
+      "B1-T01": 28,
+      "B1-T02": 27,
+      "B1-T03": 27,
+      "B1-T04": 26,
+      "B1-T05": 29,
+      "B1-T06": 27,
+      "B1-T07": 27,
+      "B1-T08": 41,
+      "B1-T09": 30,
+      "B1-T10": 30,
+      "B2-T01": 87,
+      "B2-T02": 94,
+      "B2-T03": 25,
+      "B2-T04": 26,
+      "B2-T05": 27,
+      "B2-T06": 25,
+      "B2-T07": 23,
+      "B2-T08": 30,
+      "B2-T09": 87,
+      "B2-T10": 25,
+      "B2-T11": 25,
+      "B2-T12": 26,
+      "B2-T13": 33,
+      "B2-T14": 165,
+      "B2-T15": 25,
+      "B2-T16": 87,
+      "B3-T01": 28,
+      "B3-T02": 31,
+      "B3-T03": 25,
+      "B3-T04": 31,
+      "B3-T05": 29,
+      "B3-T06": 28,
+      "B3-T07": 26,
+      "B3-T08": 24,
+      "B3-T09": 29,
+      "B3-T10": 29,
+      "B3-T11": 148,
+      "B3-T12": 29,
+      "B3-T13": 27,
+      "B3-T14": 29,
+      "B3-T15": 28,
+      "B4-T01": 23,
+      "B4-T02": 25,
+      "B4-T03": 25,
+      "B4-T04": 26,
+      "B4-T05": 27,
+      "B4-T06": 29,
+      "B4-T07": 24,
+      "B4-T08": 26,
+      "B4-T09": 26,
+      "B4-T10": 28,
+      "B4-T11": 28,
       "B4-T12": 28,
-      "B4-T13": 25,
-      "B4-T14": 49,
-      "B4-T15": 69,
-      "B4-T16": 60
+      "B4-T13": 27,
+      "B4-T14": 52,
+      "B4-T15": 71,
+      "B4-T16": 62
     }
   },
   "topic_metrics": {
     "B1-T01": {
       "official": {
-        "questions": 5,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 5,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 20.0
+        "first_longest_accuracy": 16.67
       },
       "manual": {
         "questions": 22,
@@ -237,17 +236,17 @@
     },
     "B1-T02": {
       "official": {
-        "questions": 3,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 3,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 66.67
+        "first_longest_accuracy": 33.33
       },
       "manual": {
         "questions": 21,
@@ -269,17 +268,17 @@
     },
     "B1-T03": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 2,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 66.67
+        "first_longest_accuracy": 57.14
       },
       "manual": {
         "questions": 17,
@@ -310,17 +309,17 @@
     },
     "B1-T04": {
       "official": {
-        "questions": 4,
+        "questions": 6,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 1,
+        "correct_unique_longest": 2,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 4,
+        "first_longest_correct": 2,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 25.0
+        "first_longest_accuracy": 33.33
       },
       "manual": {
         "questions": 20,
@@ -342,17 +341,17 @@
     },
     "B1-T05": {
       "official": {
-        "questions": 5,
+        "questions": 6,
         "absolute_wording_cluster": 1,
         "correct_unique_longest": 3,
         "duplicate_options": 0,
         "first_longest_correct": 3,
-        "identical_feedback": 5,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 2,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 60.0
+        "first_longest_accuracy": 50.0
       },
       "manual": {
         "questions": 23,
@@ -374,17 +373,17 @@
     },
     "B1-T06": {
       "official": {
-        "questions": 5,
+        "questions": 7,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 3,
+        "correct_unique_longest": 5,
         "duplicate_options": 0,
-        "first_longest_correct": 3,
-        "identical_feedback": 5,
+        "first_longest_correct": 5,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 60.0
+        "first_longest_accuracy": 71.43
       },
       "manual": {
         "questions": 0,
@@ -406,12 +405,12 @@
     },
     "B1-T07": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 0,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
@@ -438,17 +437,17 @@
     },
     "B1-T08": {
       "official": {
-        "questions": 6,
+        "questions": 8,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 3,
         "duplicate_options": 0,
         "first_longest_correct": 3,
-        "identical_feedback": 6,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 1,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 37.5
       },
       "manual": {
         "questions": 33,
@@ -470,17 +469,17 @@
     },
     "B1-T09": {
       "official": {
-        "questions": 5,
+        "questions": 10,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 6,
         "duplicate_options": 0,
-        "first_longest_correct": 2,
-        "identical_feedback": 5,
+        "first_longest_correct": 6,
+        "identical_feedback": 10,
         "length_ratio_1_5_to_2": 1,
-        "length_ratio_at_least_2": 0,
-        "longest_ties": 2,
+        "length_ratio_at_least_2": 1,
+        "longest_ties": 3,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 40.0
+        "first_longest_accuracy": 60.0
       },
       "manual": {
         "questions": 0,
@@ -502,17 +501,17 @@
     },
     "B1-T10": {
       "official": {
-        "questions": 4,
+        "questions": 6,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 1,
+        "correct_unique_longest": 2,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 4,
+        "first_longest_correct": 2,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 25.0
+        "first_longest_accuracy": 33.33
       },
       "manual": {
         "questions": 24,
@@ -534,17 +533,17 @@
     },
     "B2-T01": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 16.67
+        "first_longest_accuracy": 14.29
       },
       "manual": {
         "questions": 80,
@@ -566,17 +565,17 @@
     },
     "B2-T02": {
       "official": {
-        "questions": 11,
+        "questions": 14,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 11,
+        "identical_feedback": 14,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 2,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 36.36
+        "first_longest_accuracy": 28.57
       },
       "manual": {
         "questions": 80,
@@ -598,17 +597,17 @@
     },
     "B2-T03": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 3,
         "duplicate_options": 0,
-        "first_longest_correct": 2,
-        "identical_feedback": 4,
+        "first_longest_correct": 3,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 60.0
       },
       "manual": {
         "questions": 0,
@@ -630,17 +629,17 @@
     },
     "B2-T04": {
       "official": {
-        "questions": 5,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 5,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 40.0
+        "first_longest_accuracy": 33.33
       },
       "manual": {
         "questions": 0,
@@ -662,17 +661,17 @@
     },
     "B2-T05": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 3,
         "duplicate_options": 0,
-        "first_longest_correct": 3,
-        "identical_feedback": 6,
-        "length_ratio_1_5_to_2": 0,
+        "first_longest_correct": 4,
+        "identical_feedback": 7,
+        "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 57.14
       },
       "manual": {
         "questions": 0,
@@ -694,17 +693,17 @@
     },
     "B2-T06": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 3,
-        "identical_feedback": 4,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 2,
+        "longest_ties": 3,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 75.0
+        "first_longest_accuracy": 60.0
       },
       "manual": {
         "questions": 0,
@@ -726,12 +725,12 @@
     },
     "B2-T07": {
       "official": {
-        "questions": 2,
+        "questions": 3,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 0,
-        "identical_feedback": 2,
+        "identical_feedback": 3,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
@@ -758,17 +757,17 @@
     },
     "B2-T08": {
       "official": {
-        "questions": 6,
+        "questions": 10,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 6,
+        "identical_feedback": 10,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 3,
+        "longest_ties": 4,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 16.67
+        "first_longest_accuracy": 10.0
       },
       "manual": {
         "questions": 0,
@@ -790,17 +789,17 @@
     },
     "B2-T09": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 1,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 66.67
+        "first_longest_accuracy": 57.14
       },
       "manual": {
         "questions": 80,
@@ -822,17 +821,17 @@
     },
     "B2-T10": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 3,
         "duplicate_options": 0,
         "first_longest_correct": 3,
-        "identical_feedback": 4,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 1,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 75.0
+        "first_longest_accuracy": 60.0
       },
       "manual": {
         "questions": 0,
@@ -854,12 +853,12 @@
     },
     "B2-T11": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 0,
-        "identical_feedback": 4,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
@@ -886,17 +885,17 @@
     },
     "B2-T12": {
       "official": {
-        "questions": 5,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 5,
         "duplicate_options": 0,
         "first_longest_correct": 5,
-        "identical_feedback": 5,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 1,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 100.0
+        "first_longest_accuracy": 83.33
       },
       "manual": {
         "questions": 0,
@@ -918,17 +917,17 @@
     },
     "B2-T13": {
       "official": {
-        "questions": 10,
+        "questions": 13,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 4,
+        "correct_unique_longest": 5,
         "duplicate_options": 0,
-        "first_longest_correct": 4,
-        "identical_feedback": 10,
+        "first_longest_correct": 5,
+        "identical_feedback": 13,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 40.0
+        "first_longest_accuracy": 38.46
       },
       "manual": {
         "questions": 0,
@@ -950,17 +949,17 @@
     },
     "B2-T14": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 1,
+        "correct_unique_longest": 2,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 4,
+        "first_longest_correct": 2,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 3,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 25.0
+        "first_longest_accuracy": 40.0
       },
       "manual": {
         "questions": 160,
@@ -982,17 +981,17 @@
     },
     "B2-T15": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 3,
         "duplicate_options": 0,
-        "first_longest_correct": 2,
-        "identical_feedback": 4,
+        "first_longest_correct": 3,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 1,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 60.0
       },
       "manual": {
         "questions": 0,
@@ -1014,17 +1013,17 @@
     },
     "B2-T16": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 5,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 2,
         "length_ratio_at_least_2": 0,
         "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 83.33
+        "first_longest_accuracy": 71.43
       },
       "manual": {
         "questions": 80,
@@ -1046,17 +1045,17 @@
     },
     "B3-T01": {
       "official": {
-        "questions": 7,
+        "questions": 8,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 3,
         "duplicate_options": 0,
-        "first_longest_correct": 4,
-        "identical_feedback": 7,
+        "first_longest_correct": 5,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 57.14
+        "first_longest_accuracy": 62.5
       },
       "manual": {
         "questions": 0,
@@ -1078,17 +1077,17 @@
     },
     "B3-T02": {
       "official": {
-        "questions": 7,
+        "questions": 11,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 3,
-        "identical_feedback": 7,
+        "identical_feedback": 11,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 42.86
+        "first_longest_accuracy": 27.27
       },
       "manual": {
         "questions": 0,
@@ -1110,17 +1109,17 @@
     },
     "B3-T03": {
       "official": {
-        "questions": 3,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 3,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 33.33
+        "first_longest_accuracy": 20.0
       },
       "manual": {
         "questions": 0,
@@ -1142,17 +1141,17 @@
     },
     "B3-T04": {
       "official": {
-        "questions": 7,
+        "questions": 11,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 1,
+        "correct_unique_longest": 2,
         "duplicate_options": 0,
-        "first_longest_correct": 2,
-        "identical_feedback": 7,
+        "first_longest_correct": 3,
+        "identical_feedback": 11,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 28.57
+        "first_longest_accuracy": 27.27
       },
       "manual": {
         "questions": 0,
@@ -1174,17 +1173,17 @@
     },
     "B3-T05": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 3,
+        "correct_unique_longest": 5,
         "duplicate_options": 0,
-        "first_longest_correct": 3,
-        "identical_feedback": 7,
+        "first_longest_correct": 5,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 1,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 42.86
+        "first_longest_accuracy": 55.56
       },
       "manual": {
         "questions": 0,
@@ -1206,17 +1205,17 @@
     },
     "B3-T06": {
       "official": {
-        "questions": 6,
+        "questions": 8,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 6,
+        "first_longest_correct": 2,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 1,
+        "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 16.67
+        "first_longest_accuracy": 25.0
       },
       "manual": {
         "questions": 0,
@@ -1238,15 +1237,15 @@
     },
     "B3-T07": {
       "official": {
-        "questions": 4,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 0,
-        "identical_feedback": 4,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
         "first_longest_accuracy": 0.0
       },
@@ -1270,17 +1269,17 @@
     },
     "B3-T08": {
       "official": {
-        "questions": 3,
+        "questions": 4,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 3,
+        "identical_feedback": 4,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 1,
+        "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 33.33
+        "first_longest_accuracy": 25.0
       },
       "manual": {
         "questions": 0,
@@ -1302,17 +1301,17 @@
     },
     "B3-T09": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 7,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 2,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 57.14
+        "first_longest_accuracy": 44.44
       },
       "manual": {
         "questions": 0,
@@ -1334,17 +1333,17 @@
     },
     "B3-T10": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 7,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 14.29
+        "first_longest_accuracy": 11.11
       },
       "manual": {
         "questions": 20,
@@ -1366,17 +1365,17 @@
     },
     "B3-T11": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 5,
-        "identical_feedback": 7,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 71.43
+        "first_longest_accuracy": 55.56
       },
       "manual": {
         "questions": 139,
@@ -1398,17 +1397,17 @@
     },
     "B3-T12": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 7,
+        "first_longest_correct": 2,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 1,
+        "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 14.29
+        "first_longest_accuracy": 22.22
       },
       "manual": {
         "questions": 0,
@@ -1430,17 +1429,17 @@
     },
     "B3-T13": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 16.67
+        "first_longest_accuracy": 14.29
       },
       "manual": {
         "questions": 0,
@@ -1462,17 +1461,17 @@
     },
     "B3-T14": {
       "official": {
-        "questions": 7,
+        "questions": 9,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 7,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 28.57
+        "first_longest_accuracy": 22.22
       },
       "manual": {
         "questions": 0,
@@ -1494,17 +1493,17 @@
     },
     "B3-T15": {
       "official": {
-        "questions": 5,
+        "questions": 8,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 0,
+        "correct_unique_longest": 1,
         "duplicate_options": 0,
-        "first_longest_correct": 0,
-        "identical_feedback": 5,
+        "first_longest_correct": 1,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 0.0
+        "first_longest_accuracy": 12.5
       },
       "manual": {
         "questions": 0,
@@ -1526,17 +1525,17 @@
     },
     "B4-T01": {
       "official": {
-        "questions": 2,
+        "questions": 3,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 2,
+        "identical_feedback": 3,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 33.33
       },
       "manual": {
         "questions": 0,
@@ -1558,17 +1557,17 @@
     },
     "B4-T02": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 4,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 4,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 100.0
+        "first_longest_accuracy": 80.0
       },
       "manual": {
         "questions": 0,
@@ -1590,17 +1589,17 @@
     },
     "B4-T03": {
       "official": {
-        "questions": 4,
+        "questions": 5,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 4,
+        "identical_feedback": 5,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 25.0
+        "first_longest_accuracy": 20.0
       },
       "manual": {
         "questions": 0,
@@ -1622,12 +1621,12 @@
     },
     "B4-T04": {
       "official": {
-        "questions": 4,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 0,
-        "identical_feedback": 4,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
@@ -1654,17 +1653,17 @@
     },
     "B4-T05": {
       "official": {
-        "questions": 6,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 6,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 3,
+        "longest_ties": 4,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 33.33
+        "first_longest_accuracy": 28.57
       },
       "manual": {
         "questions": 0,
@@ -1686,17 +1685,17 @@
     },
     "B4-T06": {
       "official": {
-        "questions": 6,
+        "questions": 9,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 2,
+        "correct_unique_longest": 3,
         "duplicate_options": 0,
-        "first_longest_correct": 3,
-        "identical_feedback": 6,
+        "first_longest_correct": 4,
+        "identical_feedback": 9,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 50.0
+        "first_longest_accuracy": 44.44
       },
       "manual": {
         "questions": 0,
@@ -1718,15 +1717,15 @@
     },
     "B4-T07": {
       "official": {
-        "questions": 2,
+        "questions": 4,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 1,
+        "correct_unique_longest": 2,
         "duplicate_options": 0,
-        "first_longest_correct": 1,
-        "identical_feedback": 2,
+        "first_longest_correct": 2,
+        "identical_feedback": 4,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 0,
+        "longest_ties": 1,
         "short_correct_feedback": 0,
         "first_longest_accuracy": 50.0
       },
@@ -1750,17 +1749,17 @@
     },
     "B4-T08": {
       "official": {
-        "questions": 3,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 0,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 3,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 33.33
+        "first_longest_accuracy": 16.67
       },
       "manual": {
         "questions": 0,
@@ -1782,17 +1781,17 @@
     },
     "B4-T09": {
       "official": {
-        "questions": 4,
+        "questions": 6,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 1,
         "duplicate_options": 0,
         "first_longest_correct": 1,
-        "identical_feedback": 4,
+        "identical_feedback": 6,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 1,
+        "longest_ties": 3,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 25.0
+        "first_longest_accuracy": 16.67
       },
       "manual": {
         "questions": 0,
@@ -1814,17 +1813,17 @@
     },
     "B4-T10": {
       "official": {
-        "questions": 6,
+        "questions": 8,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 3,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 6,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 1,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 66.67
+        "first_longest_accuracy": 50.0
       },
       "manual": {
         "questions": 0,
@@ -1846,17 +1845,17 @@
     },
     "B4-T11": {
       "official": {
-        "questions": 6,
+        "questions": 8,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 6,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 2,
+        "longest_ties": 3,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 33.33
+        "first_longest_accuracy": 25.0
       },
       "manual": {
         "questions": 0,
@@ -1910,15 +1909,15 @@
     },
     "B4-T13": {
       "official": {
-        "questions": 5,
+        "questions": 7,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 3,
+        "correct_unique_longest": 4,
         "duplicate_options": 0,
-        "first_longest_correct": 5,
-        "identical_feedback": 5,
+        "first_longest_correct": 7,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 1,
-        "longest_ties": 2,
+        "longest_ties": 3,
         "short_correct_feedback": 0,
         "first_longest_accuracy": 100.0
       },
@@ -1942,17 +1941,17 @@
     },
     "B4-T14": {
       "official": {
-        "questions": 5,
+        "questions": 8,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 2,
         "duplicate_options": 0,
         "first_longest_correct": 2,
-        "identical_feedback": 5,
+        "identical_feedback": 8,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
         "longest_ties": 0,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 40.0
+        "first_longest_accuracy": 25.0
       },
       "manual": {
         "questions": 44,
@@ -1974,17 +1973,17 @@
     },
     "B4-T15": {
       "official": {
-        "questions": 5,
+        "questions": 7,
         "absolute_wording_cluster": 0,
         "correct_unique_longest": 3,
         "duplicate_options": 0,
         "first_longest_correct": 4,
-        "identical_feedback": 5,
+        "identical_feedback": 7,
         "length_ratio_1_5_to_2": 0,
         "length_ratio_at_least_2": 0,
-        "longest_ties": 1,
+        "longest_ties": 2,
         "short_correct_feedback": 0,
-        "first_longest_accuracy": 80.0
+        "first_longest_accuracy": 57.14
       },
       "manual": {
         "questions": 64,
@@ -2006,12 +2005,12 @@
     },
     "B4-T16": {
       "official": {
-        "questions": 8,
+        "questions": 10,
         "absolute_wording_cluster": 0,
-        "correct_unique_longest": 4,
+        "correct_unique_longest": 5,
         "duplicate_options": 0,
-        "first_longest_correct": 4,
-        "identical_feedback": 8,
+        "first_longest_correct": 5,
+        "identical_feedback": 10,
         "length_ratio_1_5_to_2": 1,
         "length_ratio_at_least_2": 0,
         "longest_ties": 2,
@@ -2274,6 +2273,31 @@
       ]
     },
     {
+      "id": "OFF-GSI-INAP-2019-Q072",
+      "bank": "official",
+      "topic_id": "B1-T09",
+      "priority": "P2",
+      "score": 4,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "length-ratio-high",
+          "severity": "warning",
+          "message": "Posible pista por longitud; requiere valorar el contenido y justificar la decisión.",
+          "evidence": {
+            "ratio": 2.6,
+            "correct_length": 13,
+            "max_distractor_length": 5
+          }
+        },
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
       "id": "OFF-GSI-INAP-2022-Q049",
       "bank": "official",
       "topic_id": "B2-T09",
@@ -2396,6 +2420,31 @@
           "evidence": {
             "ratio": 2.0,
             "correct_length": 10,
+            "max_distractor_length": 5
+          }
+        },
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q025",
+      "bank": "official",
+      "topic_id": "B2-T05",
+      "priority": "P3",
+      "score": 2,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "length-ratio-moderate",
+          "severity": "warning",
+          "message": "Posible pista por longitud; requiere valorar el contenido y justificar la decisión.",
+          "evidence": {
+            "ratio": 1.6,
+            "correct_length": 8,
             "max_distractor_length": 5
           }
         },
@@ -2799,6 +2848,1536 @@
             "max_distractor_length": 4
           }
         },
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q001",
+      "bank": "official",
+      "topic_id": "B1-T01",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q002",
+      "bank": "official",
+      "topic_id": "B1-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q003",
+      "bank": "official",
+      "topic_id": "B1-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q004",
+      "bank": "official",
+      "topic_id": "B1-T03",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q005",
+      "bank": "official",
+      "topic_id": "B1-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q006",
+      "bank": "official",
+      "topic_id": "B1-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q007",
+      "bank": "official",
+      "topic_id": "B1-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q008",
+      "bank": "official",
+      "topic_id": "B1-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q009",
+      "bank": "official",
+      "topic_id": "B1-T05",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q010",
+      "bank": "official",
+      "topic_id": "B1-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q011",
+      "bank": "official",
+      "topic_id": "B1-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q012",
+      "bank": "official",
+      "topic_id": "B1-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q013",
+      "bank": "official",
+      "topic_id": "B1-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q014",
+      "bank": "official",
+      "topic_id": "B1-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q015",
+      "bank": "official",
+      "topic_id": "B1-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q016",
+      "bank": "official",
+      "topic_id": "B1-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q017",
+      "bank": "official",
+      "topic_id": "B1-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q018",
+      "bank": "official",
+      "topic_id": "B1-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q019",
+      "bank": "official",
+      "topic_id": "B1-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q020",
+      "bank": "official",
+      "topic_id": "B2-T01",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q021",
+      "bank": "official",
+      "topic_id": "B2-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q022",
+      "bank": "official",
+      "topic_id": "B2-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q023",
+      "bank": "official",
+      "topic_id": "B2-T03",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q024",
+      "bank": "official",
+      "topic_id": "B2-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q026",
+      "bank": "official",
+      "topic_id": "B2-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q027",
+      "bank": "official",
+      "topic_id": "B2-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q028",
+      "bank": "official",
+      "topic_id": "B2-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q029",
+      "bank": "official",
+      "topic_id": "B2-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q030",
+      "bank": "official",
+      "topic_id": "B2-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q031",
+      "bank": "official",
+      "topic_id": "B2-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q032",
+      "bank": "official",
+      "topic_id": "B2-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q033",
+      "bank": "official",
+      "topic_id": "B2-T11",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q034",
+      "bank": "official",
+      "topic_id": "B2-T12",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q035",
+      "bank": "official",
+      "topic_id": "B2-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q036",
+      "bank": "official",
+      "topic_id": "B2-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q037",
+      "bank": "official",
+      "topic_id": "B2-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q038",
+      "bank": "official",
+      "topic_id": "B2-T16",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q039",
+      "bank": "official",
+      "topic_id": "B3-T01",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q040",
+      "bank": "official",
+      "topic_id": "B3-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q041",
+      "bank": "official",
+      "topic_id": "B3-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q042",
+      "bank": "official",
+      "topic_id": "B3-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q043",
+      "bank": "official",
+      "topic_id": "B3-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q044",
+      "bank": "official",
+      "topic_id": "B3-T03",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q045",
+      "bank": "official",
+      "topic_id": "B3-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q046",
+      "bank": "official",
+      "topic_id": "B3-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q047",
+      "bank": "official",
+      "topic_id": "B3-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q048",
+      "bank": "official",
+      "topic_id": "B3-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q049",
+      "bank": "official",
+      "topic_id": "B3-T05",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q050",
+      "bank": "official",
+      "topic_id": "B3-T05",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q051",
+      "bank": "official",
+      "topic_id": "B3-T03",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q052",
+      "bank": "official",
+      "topic_id": "B3-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q053",
+      "bank": "official",
+      "topic_id": "B4-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q054",
+      "bank": "official",
+      "topic_id": "B3-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q055",
+      "bank": "official",
+      "topic_id": "B3-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q056",
+      "bank": "official",
+      "topic_id": "B3-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q057",
+      "bank": "official",
+      "topic_id": "B3-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q058",
+      "bank": "official",
+      "topic_id": "B3-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q059",
+      "bank": "official",
+      "topic_id": "B3-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q060",
+      "bank": "official",
+      "topic_id": "B3-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q061",
+      "bank": "official",
+      "topic_id": "B3-T11",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q062",
+      "bank": "official",
+      "topic_id": "B3-T11",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q063",
+      "bank": "official",
+      "topic_id": "B3-T12",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q064",
+      "bank": "official",
+      "topic_id": "B3-T12",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q065",
+      "bank": "official",
+      "topic_id": "B3-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q066",
+      "bank": "official",
+      "topic_id": "B3-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q067",
+      "bank": "official",
+      "topic_id": "B3-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q068",
+      "bank": "official",
+      "topic_id": "B3-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q069",
+      "bank": "official",
+      "topic_id": "B3-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q070",
+      "bank": "official",
+      "topic_id": "B4-T01",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q071",
+      "bank": "official",
+      "topic_id": "B4-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q073",
+      "bank": "official",
+      "topic_id": "B4-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q074",
+      "bank": "official",
+      "topic_id": "B4-T04",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q075",
+      "bank": "official",
+      "topic_id": "B4-T03",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q076",
+      "bank": "official",
+      "topic_id": "B3-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q077",
+      "bank": "official",
+      "topic_id": "B4-T05",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q078",
+      "bank": "official",
+      "topic_id": "B4-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q080",
+      "bank": "official",
+      "topic_id": "B2-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q081",
+      "bank": "official",
+      "topic_id": "B4-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q082",
+      "bank": "official",
+      "topic_id": "B4-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q083",
+      "bank": "official",
+      "topic_id": "B4-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q084",
+      "bank": "official",
+      "topic_id": "B4-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q085",
+      "bank": "official",
+      "topic_id": "B4-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q086",
+      "bank": "official",
+      "topic_id": "B4-T10",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q087",
+      "bank": "official",
+      "topic_id": "B2-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q088",
+      "bank": "official",
+      "topic_id": "B2-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q089",
+      "bank": "official",
+      "topic_id": "B4-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q090",
+      "bank": "official",
+      "topic_id": "B4-T13",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q091",
+      "bank": "official",
+      "topic_id": "B4-T07",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q092",
+      "bank": "official",
+      "topic_id": "B4-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q093",
+      "bank": "official",
+      "topic_id": "B4-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q094",
+      "bank": "official",
+      "topic_id": "B4-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q095",
+      "bank": "official",
+      "topic_id": "B4-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q096",
+      "bank": "official",
+      "topic_id": "B4-T15",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q097",
+      "bank": "official",
+      "topic_id": "B4-T11",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q098",
+      "bank": "official",
+      "topic_id": "B4-T11",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q099",
+      "bank": "official",
+      "topic_id": "B4-T16",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-Q100",
+      "bank": "official",
+      "topic_id": "B4-T14",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-R001",
+      "bank": "official",
+      "topic_id": "B4-T16",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "D",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-R002",
+      "bank": "official",
+      "topic_id": "B2-T02",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "B",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-R003",
+      "bank": "official",
+      "topic_id": "B4-T09",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-R004",
+      "bank": "official",
+      "topic_id": "B3-T06",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "A",
+      "findings": [
+        {
+          "rule": "identical-feedback",
+          "severity": "info",
+          "message": "Acierto y error comparten texto; comprobar explicación de las confusiones."
+        }
+      ]
+    },
+    {
+      "id": "OFF-GSI-INAP-2019-R005",
+      "bank": "official",
+      "topic_id": "B4-T08",
+      "priority": "P3",
+      "score": 0,
+      "correct_option": "C",
+      "findings": [
         {
           "rule": "identical-feedback",
           "severity": "info",

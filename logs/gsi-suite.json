@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09T13:00:37.473248+00:00",
+  "date": "2026-11-21T12:54:39.033014+00:00",
   "browser_channel": "chrome",
   "exit_code": 0,
   "technical_pass": true,
@@ -10,692 +10,714 @@
     {
       "name": "Integridad y cobertura GSI",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_gsi_final.py"
       ],
       "exit_code": 0,
-      "seconds": 5.9,
-      "output": "GSI: 19260 controles de integridad correctos; 0 errores técnicos; 0 bloqueos de cierre."
+      "seconds": 8.74,
+      "output": "GSI: 20975 controles de integridad correctos; 0 errores técnicos; 0 bloqueos de cierre."
     },
     {
       "name": "JSON y esquemas",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_json.py"
       ],
       "exit_code": 0,
-      "seconds": 3.32,
+      "seconds": 3.51,
       "output": "OK: 111 archivos de datos y 21 esquemas validados."
     },
     {
       "name": "Referencias",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_references.py"
       ],
       "exit_code": 0,
-      "seconds": 0.22,
-      "output": "OK: 4 bloques, 57 temas y 37 Markdown con rutas y referencias válidas."
+      "seconds": 0.14,
+      "output": "OK: 4 bloques, 57 temas y 44 Markdown con rutas y referencias válidas."
     },
     {
       "name": "Preguntas",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_questions.py"
       ],
       "exit_code": 0,
-      "seconds": 0.21,
-      "output": "OK: 1964 preguntas con estructura válida; no se modifica su estado de revisión editorial."
+      "seconds": 0.14,
+      "output": "OK: 2170 preguntas con estructura válida; no se modifica su estado de revisión editorial."
     },
     {
       "name": "Jerarquía editorial del temario",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_topic_headings.py"
       ],
       "exit_code": 0,
-      "seconds": 0.25,
+      "seconds": 0.23,
       "output": "OK: 57 Markdown con un único H1 y 57 HTML sin encabezados-frase ni saltos de jerarquía."
     },
     {
       "name": "Documentación vigente",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/validate_documentation.py"
       ],
       "exit_code": 0,
-      "seconds": 0.43,
-      "output": "OK: documentación sincronizada con 1964 preguntas (1964 activas y validadas)."
+      "seconds": 0.37,
+      "output": "OK: documentación sincronizada con 2170 preguntas (2170 activas y validadas)."
     },
     {
       "name": "Calidad editorial de preguntas",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/analyze_question_quality.py",
         "--check"
       ],
       "exit_code": 0,
-      "seconds": 0.74,
+      "seconds": 0.72,
       "output": "OK: informe editorial sincronizado; 0 preguntas manuales en la cola principal."
     },
     {
       "name": "Pruebas del analizador editorial",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "tests/question_quality_tests.py"
       ],
       "exit_code": 0,
-      "seconds": 0.77,
-      "output": "Question quality: 8 passed, 0 failed.\n----------------------------------------------------------------------\nRan 8 tests in 0.556s\n\nOK"
+      "seconds": 0.82,
+      "output": "Question quality: 9 passed, 0 failed.\n----------------------------------------------------------------------\nRan 9 tests in 0.652s\n\nOK"
     },
     {
       "name": "Versiones y propuestas editoriales",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/editorial_batches.py"
       ],
       "exit_code": 0,
-      "seconds": 52.98,
+      "seconds": 31.55,
       "output": "OK: historial y propuestas editoriales íntegros. La aceptación editorial pendiente se informa por separado."
     },
     {
       "name": "Pruebas del circuito editorial",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "tests/editorial_batch_tests.py"
       ],
       "exit_code": 0,
-      "seconds": 3.57,
-      "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 2.880s\n\nOK"
+      "seconds": 1.3,
+      "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 1.097s\n\nOK"
     },
     {
       "name": "Progreso de revisión editorial",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "scripts/editorial_progress.py"
       ],
       "exit_code": 0,
-      "seconds": 7.42,
+      "seconds": 3.66,
       "output": "Editorial: 1762/1762 revisadas; 0 propuestas; 0 pendientes de aceptación. Cierre editorial: True."
     },
     {
       "name": "Pruebas de jerarquía del temario",
       "command": [
-        "C:\\TAI-proyecto\\.venv\\Scripts\\python.exe",
+        "/tmp/claude-1000/-home-saguero-dev-portal-estudio/bc2a127d-dda2-4548-bfd2-4f39ad611614/scratchpad/venv/bin/python",
         "tests/topic_heading_tests.py"
       ],
       "exit_code": 0,
-      "seconds": 0.51,
+      "seconds": 0.06,
       "output": "Topic headings: 5 passed, 0 failed.\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK"
     },
     {
       "name": "Sintaxis assets/js/analytics-engine.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\analytics-engine.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.3,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/analytics-events.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\analytics-events.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.39,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/analytics-migration.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\analytics-migration.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.18,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/analytics-storage.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\analytics-storage.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.14,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/app.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\app.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.16,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/catalog-service.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\catalog-service.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.15,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/data-service.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\data-service.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.19,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/editorial-review.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\editorial-review.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.12,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/exam-engine.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\exam-engine.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.16,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/exam-storage.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\exam-storage.js"
-      ],
-      "exit_code": 0,
-      "seconds": 0.15,
-      "output": ""
-    },
-    {
-      "name": "Sintaxis assets/js/exam.js",
-      "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
-        "--check",
-        "C:\\TAI-proyecto\\assets\\js\\exam.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/analytics-engine.js"
       ],
       "exit_code": 0,
       "seconds": 0.13,
       "output": ""
     },
     {
-      "name": "Sintaxis assets/js/official-exams.js",
+      "name": "Sintaxis assets/js/analytics-events.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\official-exams.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/analytics-events.js"
       ],
       "exit_code": 0,
-      "seconds": 0.09,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/analytics-migration.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/analytics-migration.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/analytics-storage.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/analytics-storage.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/app.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/app.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/catalog-service.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/catalog-service.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/data-service.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/data-service.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/editorial-review.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/editorial-review.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/exam-engine.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/exam-engine.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/exam-storage.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/exam-storage.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/exam.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/exam.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/home.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/home.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/inap-weight.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/inap-weight.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02,
+      "output": ""
+    },
+    {
+      "name": "Sintaxis assets/js/official-exams.js",
+      "command": [
+        "/usr/bin/node",
+        "--check",
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/official-exams.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/persistence-migration-v2.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\persistence-migration-v2.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/persistence-migration-v2.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/persistence-v2.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\persistence-v2.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/persistence-v2.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/progress-backup.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\progress-backup.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/progress-backup.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/question-feedback.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\question-feedback.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/question-feedback.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/question-review-status.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\question-review-status.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/question-review-status.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/reinforcement-engine.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\reinforcement-engine.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/reinforcement-engine.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/reinforcement-migration.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\reinforcement-migration.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/reinforcement-migration.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/reinforcement-storage.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\reinforcement-storage.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/reinforcement-storage.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/reinforcement.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\reinforcement.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/reinforcement.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/router.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\router.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/router.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/statistics.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\statistics.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/statistics.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/storage.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\storage.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/storage.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/study-plan.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\study-plan.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/study-plan.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/study-progress-engine.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\study-progress-engine.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/study-progress-engine.js"
       ],
       "exit_code": 0,
-      "seconds": 0.06,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/study-progress-storage.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\study-progress-storage.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/study-progress-storage.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/study-progress.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\study-progress.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/study-progress.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/syllabus-view.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\syllabus-view.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/syllabus-view.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/topic-content-service.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\topic-content-service.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/topic-content-service.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/training-engine.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\training-engine.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/training-engine.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/training-options.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\training-options.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/training-options.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/training.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\training.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/training.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/ui.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\ui.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/ui.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis assets/js/written-practice.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\assets\\js\\written-practice.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/assets/js/written-practice.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/b1-visual-smoke.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\b1-visual-smoke.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/b1-visual-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis tests/b2-visual-smoke.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\b2-visual-smoke.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/b2-visual-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/b3-visual-smoke.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\b3-visual-smoke.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/b3-visual-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis tests/b4-visual-smoke.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\b4-visual-smoke.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/b4-visual-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/gsi-regression.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\gsi-regression.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/gsi-regression.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.06,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis tests/gsi-smoke.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\gsi-smoke.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/gsi-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/gsi-unit.mjs",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\gsi-unit.mjs"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/gsi-unit.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/m2-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\m2-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/m2-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/m3-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\m3-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/m3-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.08,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/phase4-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\phase4-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/phase4-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/phase5-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\phase5-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/phase5-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/phase6-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\phase6-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/phase6-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.02,
       "output": ""
     },
     {
       "name": "Sintaxis tests/phase7-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\phase7-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/phase7-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Sintaxis tests/phase7b2-tests.js",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "--check",
-        "C:\\TAI-proyecto\\tests\\phase7b2-tests.js"
+        "/home/saguero/dev/portal_estudio/Preparacion-GSI/tests/phase7b2-tests.js"
       ],
       "exit_code": 0,
-      "seconds": 0.07,
+      "seconds": 0.03,
       "output": ""
     },
     {
       "name": "Unitarias GSI",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "tests/gsi-unit.mjs"
       ],
       "exit_code": 0,
-      "seconds": 0.83,
-      "output": "GSI unit: 101 passed, 0 failed."
+      "seconds": 1.06,
+      "output": "GSI unit: 111 passed, 0 failed."
     },
     {
       "name": "Regresión en navegador",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "tests/gsi-regression.mjs"
       ],
       "exit_code": 0,
-      "seconds": 5.95,
+      "seconds": 5.88,
       "output": "{\"suite\":\"phase4\",\"summary\":\"9 pruebas aprobadas; 0 fallidas.\",\"failures\":[],\"total\":9,\"errors\":[]}\n{\"suite\":\"phase5\",\"summary\":\"24 pruebas aprobadas; 0 fallidas.\",\"failures\":[],\"total\":24,\"errors\":[]}\n{\"suite\":\"phase6\",\"summary\":\"64 pruebas aprobadas; 0 fallidas.\",\"failures\":[],\"total\":64,\"errors\":[]}\n{\"suite\":\"phase7\",\"summary\":\"45 pruebas aprobadas y 0 fallidas.\",\"failures\":[],\"total\":45,\"errors\":[]}\n{\"suite\":\"phase7b2\",\"summary\":\"51 pruebas aprobadas y 0 fallidas.\",\"failures\":[],\"total\":51,\"errors\":[]}\n{\"suite\":\"m2\",\"summary\":\"35 pruebas aprobadas y 0 fallidas.\",\"failures\":[],\"total\":35,\"errors\":[]}\n{\"suite\":\"m3\",\"summary\":\"Runner M3: 61 aprobadas, 0 fallidas.\",\"failures\":[],\"total\":61,\"errors\":[]}"
     },
     {
       "name": "Recorrido funcional HTTP",
       "command": [
-        "C:\\Program Files\\nodejs\\node.EXE",
+        "/usr/bin/node",
         "tests/gsi-smoke.mjs"
       ],
       "exit_code": 0,
-      "seconds": 50.96,
-      "output": "PASS startup\nPASS currency controls are visible and labelled\nPASS study plan route, dynamic topics and interactive controls\nPASS study checklist: 57 empty topics, recommendations, filters and persistence\nPASS topic B1-T01\nPASS topic B1-T02\nPASS topic B1-T03\nPASS topic B1-T04\nPASS topic B1-T05\nPASS topic B1-T06\nPASS topic B1-T07\nPASS topic B1-T08\nPASS topic B1-T09\nPASS topic B1-T10\nPASS topic B2-T01\nPASS topic B2-T02\nPASS topic B2-T03\nPASS topic B2-T04\nPASS topic B2-T05\nPASS topic B2-T06\nPASS topic B2-T07\nPASS topic B2-T08\nPASS topic B2-T09\nPASS topic B2-T10\nPASS topic B2-T11\nPASS topic B2-T12\nPASS topic B2-T13\nPASS topic B2-T14\nPASS topic B2-T15\nPASS topic B2-T16\nPASS topic B3-T01\nPASS topic B3-T02\nPASS topic B3-T03\nPASS topic B3-T04\nPASS topic B3-T05\nPASS topic B3-T06\nPASS topic B3-T07\nPASS topic B3-T08\nPASS topic B3-T09\nPASS topic B3-T10\nPASS topic B3-T11\nPASS topic B3-T12\nPASS topic B3-T13\nPASS topic B3-T14\nPASS topic B3-T15\nPASS topic B4-T01\nPASS topic B4-T02\nPASS topic B4-T03\nPASS topic B4-T04\nPASS topic B4-T05\nPASS topic B4-T06\nPASS topic B4-T07\nPASS topic B4-T08\nPASS topic B4-T09\nPASS topic B4-T10\nPASS topic B4-T11\nPASS topic B4-T12\nPASS topic B4-T13\nPASS topic B4-T14\nPASS topic B4-T15\nPASS topic B4-T16\nPASS mobile layout\nPASS training and persistent response\nPASS complete GSI exam / correction\nPASS written selection / five answers / persistence\nPASS statistics / reinforcement views\nTopic training: 57 answered, 0 safely unavailable pending review.\nPASS training through every topic filter\nPASS training each block, mixed, failed and unseen\nPASS exam deadline survives reload and expires\nPASS written marking, rubric and saved score\nPASS export reset import restores all GSI progress and preserves old data\nPASS written timeout persists and makes answers read only\nPASS mobile main views and keyboard navigation\nPASS official library: three convocations, twelve PDFs and provisional excluded\nPASS training shuffle preserves visible letters, recovery, preference and failed summary\nPASS training mixes selected blocks and topics, reports failures and repeats them\nPASS official 2024: prepare, answer, resume and correct\nPASS official 2022: prepare, answer, resume and correct\nPASS editorial review exposes confirmed status without writing progress\nPASS approved batch GSI-EDITORIAL-089: all feedback, statistics and reinforcement\nPASS basic accessibility across main views\nPASS no console errors or broken HTTP routes"
+      "seconds": 135.6,
+      "output": "PASS startup\nPASS currency controls are visible and labelled\nPASS study plan route, dynamic topics and interactive controls\nPASS study checklist: 57 empty topics, recommendations, filters and persistence\nPASS topic B1-T01\nPASS topic B1-T02\nPASS topic B1-T03\nPASS topic B1-T04\nPASS topic B1-T05\nPASS topic B1-T06\nPASS topic B1-T07\nPASS topic B1-T08\nPASS topic B1-T09\nPASS topic B1-T10\nPASS topic B2-T01\nPASS topic B2-T02\nPASS topic B2-T03\nPASS topic B2-T04\nPASS topic B2-T05\nPASS topic B2-T06\nPASS topic B2-T07\nPASS topic B2-T08\nPASS topic B2-T09\nPASS topic B2-T10\nPASS topic B2-T11\nPASS topic B2-T12\nPASS topic B2-T13\nPASS topic B2-T14\nPASS topic B2-T15\nPASS topic B2-T16\nPASS topic B3-T01\nPASS topic B3-T02\nPASS topic B3-T03\nPASS topic B3-T04\nPASS topic B3-T05\nPASS topic B3-T06\nPASS topic B3-T07\nPASS topic B3-T08\nPASS topic B3-T09\nPASS topic B3-T10\nPASS topic B3-T11\nPASS topic B3-T12\nPASS topic B3-T13\nPASS topic B3-T14\nPASS topic B3-T15\nPASS topic B4-T01\nPASS topic B4-T02\nPASS topic B4-T03\nPASS topic B4-T04\nPASS topic B4-T05\nPASS topic B4-T06\nPASS topic B4-T07\nPASS topic B4-T08\nPASS topic B4-T09\nPASS topic B4-T10\nPASS topic B4-T11\nPASS topic B4-T12\nPASS topic B4-T13\nPASS topic B4-T14\nPASS topic B4-T15\nPASS topic B4-T16\nPASS mobile layout\nPASS training and persistent response\nPASS complete GSI exam / correction\nPASS exam started before the banks load waits instead of reloading\nPASS written selection / five answers / persistence\nPASS statistics / reinforcement views\nTopic training: 57 answered, 0 safely unavailable pending review.\nPASS training through every topic filter\nPASS training each block, mixed, failed and unseen\nPASS exam deadline survives reload and expires\nPASS written marking, rubric and saved score\nPASS export reset import restores all GSI progress and preserves old data\nPASS written timeout persists and makes answers read only\nPASS mobile main views and keyboard navigation\nPASS official library: four convocations, seventeen PDFs and definitive 2025 and 2019\nPASS training shuffle preserves visible letters, recovery, preference and failed summary\nPASS training mixes selected blocks and topics, reports failures and repeats them\nPASS official 2025: prepare, answer, resume and correct\nPASS official 2024: prepare, answer, resume and correct\nPASS official 2022: prepare, answer, resume and correct\nPASS official 2019: prepare, answer, resume and correct\nPASS editorial review exposes confirmed status without writing progress\nPASS approved batch GSI-EDITORIAL-089: all feedback, statistics and reinforcement\nPASS syllabus INAP weights, ranking and practice this topic\nPASS basic accessibility across main views\nPASS no console errors or broken HTTP routes"
     }
   ]
 }

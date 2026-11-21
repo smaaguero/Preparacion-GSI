@@ -52,7 +52,7 @@ El INAP solo publica la letra correcta. El fork añade a cada pregunta oficial a
 - Las explicaciones están en `content/official-explanations.json`, separadas de los registros oficiales, que no cambian (enunciado, opciones y clave).
 - `scripts/import_gsi_official.py` las añade al feedback con la etiqueta «Explicación del fork (no oficial; referencia: …)».
 - Se redactaron con ayuda de IA. Los artículos legales se cotejaron con el código BOE incluido en el repositorio y con los textos oficiales cuando fue posible. Si una clave oficial ha quedado desfasada, por ejemplo por una fecha de soporte ya vencida, se indica.
-- Cobertura: las 304 preguntas oficiales activas (2022: 101; 2024: 101; 2025: 102).
+- Cobertura: las 408 preguntas oficiales activas (2019: 104; 2022: 101; 2024: 101; 2025: 102). Las de 2019 se añadieron el 21/11/2026 con el cambio 15.
 - Claves matizadas en la explicación: 2024 Q87 (Nessus ya no es de código abierto), 2024 Q62 (SAR no es formato estándar de Java EE), 2025 Q59 (.NET 8 ya sin soporte), 2022 Q98 (redes 3G en apagado) y 2022 Q99 (H.265 es de la ITU-T, no de la ITU-R).
 
 ### 6. Fichas de datos para el test del Bloque I
@@ -165,6 +165,23 @@ El tema 2 del Bloque II era una lista de términos, sin errores graves pero sin 
   - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
 - **Validación.** `scripts/validate_gsi_final.py` añade tres comprobaciones del contenido de B2-T02: las 11 preguntas INAP en el apartado 14, POSIX y el origen de Linux sin los errores de la fuente, y Windows como núcleo híbrido sin hilo central de planificación.
 - Los apuntes V2.1 originales (II.02) siguen intactos en el corpus. Las preguntas del banco no cambian. El diagnóstico anota cuatro preguntas del banco que convendría reclasificar en otro tema.
+
+## 21 de noviembre de 2026
+
+### 15. Examen oficial INAP 2019 (OEP 2019)
+
+El original empezaba en la convocatoria 2022. Este fork añade la [OEP 2019](https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-gestion-de-sistemas-e-informatica-de-la-administracion-del-estado/cgseiae-ingreso-libre-oferta-de-empleo-publico-2019), cuyo primer ejercicio se celebró el 12 de febrero de 2022 con el mismo formato: 100 preguntas, 5 de reserva, 90 minutos y penalización de un tercio.
+
+- Se extrajeron las 105 preguntas del cuestionario por posiciones (pdfplumber) y se cotejaron palabra a palabra con la conversión MarkItDown, sin diferencias salvo pies de página.
+- La clave sale de la plantilla definitiva y se cotejó con su conversión MarkItDown. Solo se anula la 79, que se sustituye por la reserva 1. La plantilla provisional, que solo difería en la 79, se conserva como documento sustituido.
+- El mapa pregunta → tema de 2019 sigue el criterio editorial de 2022-2025. No es una clasificación oficial.
+- El banco oficial pasa de 304 a 408 preguntas, y el total activo, de 2.066 a 2.170. Las preguntas de 2022, 2024 y 2025 no cambian. `content/question-reviews/baseline.json` registra el nuevo hash del banco oficial en `official_rebaselines`.
+- El segundo ejercicio de 2019 duraba 210 minutos y tiene criterios propios en un PDF aparte. El esquema `gsi-official-exams` admite ahora 12.600 s de duración del escrito y un quinto documento `criteria_written`, que la interfaz muestra como «Criterios del segundo ejercicio (PDF)». El importador lee la duración de la extracción.
+- `scripts/validate_gsi_final.py` ya no trata como iguales opciones que solo difieren en un operador entre caracteres. Antes daba «N/2» y «N-2» (pregunta 77, RAID 5) por la misma opción.
+- «Qué cae en el examen» cuenta ahora 400 preguntas evaluables: B1 69 (17 %), B2 107 (27 %), B3 119 (30 %) y B4 105 (26 %). B2-T02 sigue siendo el tema más preguntado, con 13.
+- Las 104 preguntas activas de 2019 tienen explicación razonada del fork, con el mismo formato que el cambio 5. Los artículos legales (CE, Ley 19/2013, LO 3/2007, Ley 39/2015, RD 203/2021, Ley 37/2007, RD 1112/2018, ENI y NTI de expediente) se cotejaron con el código BOE del repositorio, y la lista de aspectos de la pregunta 67, con el fascículo 1 de la Guía de Comunicación Digital. Se matizan claves que el tiempo ha dejado atrás: España Digital 2025 (Q10), ENS vigente (Q33), VoiceXML 3.0 (Q34), Xamarin (Q61), recolector de .NET (Q62), ISO/IEC 25010:2023 (Q65) y Ley 9/2014 (Q92).
+- El tema B2-T02 reescrito por el fork (cambio 14) incorpora las dos preguntas INAP 2019 del tema: algoritmos de reemplazo de páginas (Q21, apartado 5.6) y el directorio /etc (Q22, apartado 10.5). La tabla del apartado 14 pasa de 11 a 13 preguntas y el validador comprueba ahora las 13.
+- Pruebas: `tests/gsi-unit.mjs` comprueba el recuento, la anulada y su reserva, la pregunta 77 y el examen 2019. `tests/gsi-smoke.mjs` espera cuatro convocatorias y 17 PDF y recorre también el examen 2019. `tests/phase7b2-tests.js` espera 44 documentos de fuente.
 
 ## Validación
 

@@ -5,7 +5,7 @@
   "banks_sha256": {
     "manual": "711309c37abb1dfcb280dcaf03054cb783a81f8f60260be14cc4194ee80cfbdb",
     "ai": "c1c024271a64ed92773351791353daac8df6f8d034104ef24ae4a367ac81d937",
-    "official": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05"
+    "official": "b9b69625fd73a46b812f2aab2c966040d1b819e88785c375f2ca4df4066b5748"
   },
   "original_ai_findings": [
     "AI-GSI-B2-T06-012",
@@ -1947,6 +1947,12 @@
       "previous_sha256": "edc826a411f289857dd4714674721e229eda26a0e155add54f4e4eef8f97a9ab",
       "sha256": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05",
       "reason": "Fork: explicaciones razonadas (no oficiales) añadidas al feedback de las preguntas oficiales de 2022; enunciados, opciones y claves sin cambios."
+    },
+    {
+      "date": "2026-11-21",
+      "previous_sha256": "90857537cbc4fe31fe44a95a828b639d79ea7fd4eaf98740732365e47f1efc05",
+      "sha256": "b9b69625fd73a46b812f2aab2c966040d1b819e88785c375f2ca4df4066b5748",
+      "reason": "Fork smaaguero/Preparacion-GSI: se incorpora la convocatoria OEP 2019 del INAP (primer ejercicio celebrado el 12 de febrero de 2022) con su plantilla definitiva (104 preguntas oficiales nuevas; anulada la 79) y sus explicaciones razonadas del fork. Las 304 preguntas oficiales de 2022, 2024 y 2025 no cambian; las colas editoriales manual e IA no se alteran."
     }
   ]
 }

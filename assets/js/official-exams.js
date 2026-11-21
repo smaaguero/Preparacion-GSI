@@ -28,7 +28,7 @@ export async function renderOfficialExamLibrary(container, onChoose) {
       docs.append(createElement("summary", "", `Documentos oficiales (${exam.documents.length} PDF)`));
       docs.append(createElement("p", "form-help", exam.note));
       const links = createElement("ul");
-      const labels = { questionnaire: "Primer ejercicio (PDF)", answer_key: `Plantilla ${definitive ? "definitiva" : "provisional"} (PDF)`, written: "Segundo ejercicio: supuestos oficiales (PDF)", criteria: "Criterios de corrección (PDF)" };
+      const labels = { questionnaire: "Primer ejercicio (PDF)", answer_key: `Plantilla ${definitive ? "definitiva" : "provisional"} (PDF)`, written: "Segundo ejercicio: supuestos oficiales (PDF)", criteria: "Criterios de corrección (PDF)", criteria_written: "Criterios del segundo ejercicio (PDF)" };
       for (const document of exam.documents) {
         const url = new URL(document.url);
         if (url.protocol !== "https:" || url.hostname !== "sede.inap.gob.es") throw new Error("Fuente oficial no reconocida");

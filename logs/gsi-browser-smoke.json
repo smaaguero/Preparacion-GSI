@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09T13:00:37.148Z",
+  "date": "2026-11-21T12:54:38.790Z",
   "browserChannel": "chrome",
   "basePath": "/gsi-test/",
   "checks": [
@@ -67,6 +67,7 @@
     "mobile layout",
     "training and persistent response",
     "complete GSI exam / correction",
+    "exam started before the banks load waits instead of reloading",
     "written selection / five answers / persistence",
     "statistics / reinforcement views",
     "training through every topic filter",
@@ -76,13 +77,16 @@
     "export reset import restores all GSI progress and preserves old data",
     "written timeout persists and makes answers read only",
     "mobile main views and keyboard navigation",
-    "official library: three convocations, twelve PDFs and provisional excluded",
+    "official library: four convocations, seventeen PDFs and definitive 2025 and 2019",
     "training shuffle preserves visible letters, recovery, preference and failed summary",
     "training mixes selected blocks and topics, reports failures and repeats them",
+    "official 2025: prepare, answer, resume and correct",
     "official 2024: prepare, answer, resume and correct",
     "official 2022: prepare, answer, resume and correct",
+    "official 2019: prepare, answer, resume and correct",
     "editorial review exposes confirmed status without writing progress",
     "approved batch GSI-EDITORIAL-089: all feedback, statistics and reinforcement",
+    "syllabus INAP weights, ranking and practice this topic",
     "basic accessibility across main views",
     "no console errors or broken HTTP routes"
   ],

@@ -200,23 +200,30 @@ for(const exam of officialCatalog.exams.filter(e=>e.key_status==='definitive')) 
     backup.entries[key].payload.questionRefs.reverse();assert.throws(()=>validateProgressBackup(backup,data));
   });
 }
-test('Plantilla modificada 2024 pregunta 12 y definitiva 2025 con tres anuladas',()=>{
+test('Plantilla modificada 2024 pregunta 12, definitiva 2025 con tres anuladas y 2019 con una',()=>{
   assert.equal(questions.find(q=>q.id==='OFF-GSI-INAP-2024-Q012').correct_option,'D');
-  assert.equal(questions.filter(q=>q.origin==='official').length,304);
+  assert.equal(questions.filter(q=>q.origin==='official').length,408);
   assert.equal(questions.filter(q=>q.exam?.year===2025).length,102);
   assert.deepEqual(officialCatalog.exams.find(e=>e.id==='GSI-INAP-2025').annulled_numbers,[32,33,89]);
   assert.equal(questions.some(q=>q.exam?.year===2025&&!q.exam.is_reserve&&[32,33,89].includes(q.exam.number)),false);
   assert.equal(selectExamQuestions(questions,{...config,mode:EXAM_MODES.BOE,officialExamId:'GSI-INAP-2025',shuffleQuestions:false,shuffleOptions:false}).errors,undefined);
+  assert.equal(questions.filter(q=>q.exam?.year===2019).length,104);
+  const exam2019=officialCatalog.exams.find(e=>e.id==='GSI-INAP-2019');
+  assert.deepEqual(exam2019.annulled_numbers,[79]);
+  assert.deepEqual(exam2019.used_reserve_numbers,[1]);
+  assert.equal(exam2019.question_ids[78],'OFF-GSI-INAP-2019-R001');
+  assert.equal(questions.find(q=>q.id==='OFF-GSI-INAP-2019-Q077').correct_option,'C');
+  assert.equal(selectExamQuestions(questions,{...config,mode:EXAM_MODES.BOE,officialExamId:'GSI-INAP-2019',shuffleQuestions:false,shuffleOptions:false}).errors,undefined);
 });
 const officialExamsCatalog=await read('gsi-official-exams'), officialTopicMap=await read('gsi-official-topic-map');
 const syllabusTopicIds=new Set(syllabus.blocks.flatMap(block=>block.topics.map(topic=>topic.id)));
 test('Peso INAP: 100 preguntas evaluables por convocatoria repartidas entre los 57 temas',()=>{
   const weights=computeInapWeights(officialExamsCatalog,officialTopicMap,syllabusTopicIds);
-  assert.deepEqual(weights.years,['2022','2024','2025']);
-  assert.equal(weights.total,300);
+  assert.deepEqual(weights.years,['2019','2022','2024','2025']);
+  assert.equal(weights.total,400);
   assert.equal(weights.byTopic.size,57);
   for(const year of weights.years)assert.equal([...weights.byTopic.values()].reduce((sum,entry)=>sum+(entry.byYear[year]??0),0),100);
-  assert.deepEqual(weights.byTopic.get('B2-T02'),{total:11,byYear:{'2022':4,'2024':4,'2025':3}});
+  assert.deepEqual(weights.byTopic.get('B2-T02'),{total:13,byYear:{'2019':2,'2022':4,'2024':4,'2025':3}});
 });
 test('Peso INAP: el mapa editorial coincide con el tema de cada pregunta evaluable del banco oficial',()=>{
   const official=new Map(questions.filter(q=>q.collection==='official').map(q=>[q.id,q]));

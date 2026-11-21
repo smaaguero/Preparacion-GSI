@@ -2,13 +2,13 @@
 
 Este informe se genera de forma determinista desde los tres bancos JSON. Es una **criba heurística no mutante**: señala preguntas que merecen revisión, pero no declara errores, no cambia respuestas y no modifica estados editoriales.
 
-Versión del análisis: `2.0.0`. Preguntas examinadas: **2066**.
+Versión del análisis: `2.0.0`. Preguntas examinadas: **2170**.
 
 ## Resultado
 
 | Banco | Preguntas | Con algún indicio | Respuesta correcta ≥2× distractor más largo | Distractores absolutos | Redacción dependiente de la fuente |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Oficiales INAP | 304 | 304 | 6 | 1 | 0 |
+| Oficiales INAP | 408 | 408 | 6 | 1 | 0 |
 | Manuales/curadas | 959 | 0 | 0 | 0 | 0 |
 | Generadas por IA | 803 | 0 | 0 | 0 | 0 |
 
@@ -18,7 +18,7 @@ Se conserva la regla histórica de 40 caracteres y ratio ≥2. Las señales nuev
 
 | Banco | Correcta única más larga | Primera máxima: aciertos | Acierto % | Ratio 1,5–<2 | Ratio ≥2 | Feedback <15 palabras | Feedback idéntico |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Oficiales INAP | 109 | 127 | 41.78 | 17 | 10 | 0 | 304 |
+| Oficiales INAP | 131 | 152 | 37.25 | 18 | 11 | 0 | 408 |
 | Manuales/curadas | 261 | 294 | 30.66 | 0 | 0 | 0 | 0 |
 | Generadas por IA | 171 | 210 | 26.15 | 0 | 0 | 0 | 0 |
 
@@ -52,7 +52,7 @@ El registro conserva la confirmación del propietario, las decisiones aceptadas 
 
 ## Equilibrio del banco
 
-Los temas contienen entre **22** y **164** preguntas, con mediana **26**. El máximo corresponde a B2-T14; los mínimos, a B2-T07, B4-T01, B4-T07. Este desequilibrio se debe considerar al definir una selección general de entrenamiento.
+Los temas contienen entre **23** y **165** preguntas, con mediana **28**. El máximo corresponde a B2-T14; los mínimos, a B2-T07, B4-T01. Este desequilibrio se debe considerar al definir una selección general de entrenamiento.
 
 ## Procedimiento de revisión
 
