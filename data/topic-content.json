@@ -4598,9 +4598,9 @@
       "topicId": "B2-T05",
       "contentPath": "content/generated/B2-T05.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "b28c2de4582008aa7f5b3e2eeb2a13999206213948ed70cbef5e217507cff457",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-21",
+      "checksum": "c5f025b0bd34d953b80d4a88c197a86c4bc3d970adc91061a5dbcc282a2e06aa",
       "sections": [
         {
           "sectionId": "estudio",
@@ -4609,259 +4609,139 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 1. Alcance del tema",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Base de datos, metadatos y SGBD",
+          "title": "1. Bases de datos y SGBD",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 2. Base de datos, metadatos y SGBD",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 1. Bases de datos y SGBD",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Lenguajes",
+          "title": "2. La arquitectura ANSI/SPARC",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 3. Lenguajes",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 2. La arquitectura ANSI/SPARC",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Arquitectura ANSI/X3/SPARC",
+          "title": "3. El modelo relacional",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 4. Arquitectura ANSI/X3/SPARC",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 3. El modelo relacional",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Modelo relacional",
+          "title": "4. El lenguaje SQL",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 5. Modelo relacional",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 4. El lenguaje SQL",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Álgebra relacional: conceptos",
+          "title": "5. Transacciones, concurrencia y recuperación",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 6. Álgebra relacional: conceptos",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 5. Transacciones, concurrencia y recuperación",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. SQL de consulta",
+          "title": "6. Arquitectura interna del SGBD",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 7. SQL de consulta",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 6. Arquitectura interna del SGBD",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "7.1 Joins",
+          "title": "7. Normas y estándares para la interoperabilidad",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 7.1 Joins",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 7. Normas y estándares para la interoperabilidad",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "7.2 Agregación y subconsultas",
+          "title": "8. Seguridad de las bases de datos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 7.2 Agregación y subconsultas",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 8. Seguridad de las bases de datos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "8. Vistas, índices y objetos",
+          "title": "9. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 8. Vistas, índices y objetos",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 9. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "9. Transacciones y ACID",
+          "title": "10. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 9. Transacciones y ACID",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-12",
-          "title": "10. Anomalías de concurrencia",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 10. Anomalías de concurrencia",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "11. Bloqueos, 2PL y deadlock",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 11. Bloqueos, 2PL y deadlock",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "12. Arquitectura interna del SGBD",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 12. Arquitectura interna del SGBD",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "13. Optimización",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 13. Optimización",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "14. Interoperabilidad entre SGBD relacionales",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 14. Interoperabilidad entre SGBD relacionales",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "15. CAP: dónde encaja",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 15. CAP: dónde encaja",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-18",
-          "title": "16. Seguridad",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 16. Seguridad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-19",
-          "title": "17. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 17. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-20",
-          "title": "18. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 18. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-21",
-          "title": "19. Resumen II.05",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.05 / 19. Resumen II.05",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / 10. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -4873,7 +4753,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.05",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -4885,7 +4765,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.05 / Núcleo de estudio",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -4897,31 +4777,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.05 / Claves de test",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.05 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.05 / Fuentes base del material",
+              "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

@@ -207,6 +207,40 @@ El tema 4 del Bloque II (inteligencia de negocio, CMI, DSS, EIS, almacenes de da
 - **Pruebas.** B2-T04 es uno de los tres temas piloto de `tests/phase7b2-tests.js`, que exigía el estado «revisado» y dos enlaces a las fuentes canónicas de estudio y repaso. Para los temas del manifiesto de sustituciones, la prueba acepta ahora el estado declarado en él y exige el enlace «Sustituye a» a la fuente canónica sustituida. Es la misma excepción que ya tenía la prueba de fechas. Para los demás pilotos sigue igual de estricta.
 - Los apuntes V2.1 originales (II.04) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 17. Tema B2-T05 reescrito por el fork
+
+El tema 5 del Bloque II (ANSI/SPARC, SGBD relacionales, SQL e interoperabilidad) era correcto pero escueto. Las 7 preguntas INAP del tema se podían responder, aunque tres solo con frases añadidas al final de una viñeta. Una de ellas en el sitio equivocado: los componentes de proceso del SGBD (compilador y precompilador DML, intérprete DDL y motor de ejecución) figuraban dentro del gestor de almacenamiento, cuando son del procesador de consultas. Las normas de interoperabilidad ocupaban siete viñetas.
+
+El diagnóstico completo está en `docs/propuestas/B2-T05-diagnostico.md`, con 23 errores o datos caducados de las fuentes PreparaTIC 063 (2022) y 064 (2023) que no se trasladan. Por ejemplo:
+
+- Llamar «lógico» al nivel externo.
+- Hablar de «12» reglas de Codd, cuando son 13.
+- Presentar el 2PL estricto como si fuera el básico.
+- Definir el join natural como una theta-combinación.
+- Dar SQL2 como versión de la norma.
+- Afirmar que TRUNCATE nunca admite ROLLBACK.
+- Decir que CONSTRAINT crea índices.
+- Dar OLE DB por obsoleto.
+
+- **Nuevo texto** (`content/fork-topics/B2-T05.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - Bases de datos y SGBD, con diccionario, lenguajes y tipos de SGBD.
+    - Arquitectura ANSI/SPARC: niveles, correspondencias, independencia y modelo DAFTG.
+    - Modelo relacional: claves, integridad, acciones referenciales, las 13 reglas de Codd y álgebra y cálculo relacional.
+    - SQL: tipos, DDL, consultas, combinaciones, agregación, subconsultas, nulos, MERGE, DELETE frente a TRUNCATE frente a DROP, vistas, privilegios, SQL procedimental e inyección SQL.
+    - Transacciones, concurrencia y recuperación.
+    - Arquitectura interna del SGBD.
+    - Normas de interoperabilidad: versiones y partes de ISO/IEC 9075, SQL/CLI, ODBC, JDBC con sus cuatro tipos de driver, OLE DB, ADO.NET, PDO, DB-API, ORM, XA, DRDA, SQL/MED y diferencias de dialecto.
+  - Explica las 7 preguntas INAP del tema y las 10 relacionadas que el INAP clasificó en B3-T04 y B3-T15 (ACID, aislamiento, claves, integridad referencial, normalización y BASE), y las resume en el apartado 9.
+  - Conserva el diagrama ANSI/SPARC, ahora tras el apartado «2. La arquitectura ANSI/SPARC».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cuatro comprobaciones del contenido de B2-T05:
+  - Las 7 preguntas INAP en el apartado 9.
+  - El nivel externo sin la denominación «lógico».
+  - Las 13 reglas de Codd con el acceso garantizado.
+  - Los componentes del SGBD separados en procesador de consultas y gestor de almacenamiento.
+- Los apuntes V2.1 originales (II.05) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -221,3 +255,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras los cambios 11 y 12, la suite completa vuelve a pasar (código 0): integridad (20.117 controles), pruebas unitarias (108/108) y recorrido funcional HTTP (85/85), incluida la prueba de revisión editorial ya ajustada.
 - Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.
 - Tras el cambio 16, la suite completa pasa (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.986 controles, con las cuatro comprobaciones nuevas de B2-T04), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
+- Tras el cambio 17, la suite completa pasa (código 0) en el mismo entorno: integridad (20.987 controles, con las cuatro comprobaciones nuevas de B2-T05), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86), incluida la prueba de diseño móvil, que abre precisamente B2-T05.

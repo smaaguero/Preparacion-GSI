@@ -171,6 +171,61 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T05": {
+      "markdown": "content/fork-topics/B2-T05.md",
+      "sha256": "ce5668914ac962f292fb89905fb5eaa1f307bb7cc7b9a64708aa7c25b66eb8ae",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-21",
+      "notice": "Revisión del fork del 21/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.05), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.05",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.05 · sustituido por la revisión del fork del 21/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "2. La arquitectura ANSI/SPARC",
+          "src": "assets/diagrams/b2/b2-t05-ansi-sparc.svg",
+          "title": "ANSI/SPARC e independencia de datos",
+          "alt": "Arquitectura en tres niveles con vistas externas, esquema conceptual global y nivel interno físico, mostrando independencia lógica entre externo y conceptual e independencia física entre conceptual e interno.",
+          "description": "Relaciona los tres esquemas con los dos tipos de independencia que suelen intercambiarse en test.",
+          "takeaway": "La independencia física protege el modelo conceptual frente a cambios de almacenamiento; la lógica protege vistas y aplicaciones frente a cambios conceptuales."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 063 y 064 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "ISO/IEC 9075:2023, Information technology — Database languages — SQL",
+          "url": "https://www.iso.org/standard/76583.html"
+        },
+        {
+          "title": "E. F. Codd, A Relational Model of Data for Large Shared Data Banks (Communications of the ACM, 1970)",
+          "url": "https://dl.acm.org/doi/10.1145/362384.362685"
+        },
+        {
+          "title": "Microsoft Learn, Open Database Connectivity (ODBC)",
+          "url": "https://learn.microsoft.com/sql/odbc/microsoft-open-database-connectivity-odbc"
+        },
+        {
+          "title": "Oracle, JDBC API (paquete java.sql)",
+          "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.sql/java/sql/package-summary.html"
+        },
+        {
+          "title": "Microsoft Learn, ADO.NET",
+          "url": "https://learn.microsoft.com/dotnet/framework/data/adonet/"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

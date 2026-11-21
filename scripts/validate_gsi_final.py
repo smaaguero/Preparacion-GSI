@@ -165,6 +165,13 @@ def main():
             check('**KGI** (*Key Goal Indicator*' in text and 'Key Global Indicator' not in text,tid+': KGI como Key Goal Indicator, sin el error de la fuente')
             check('No existe un OLAP «espiral»' in text and '**«satélite»**, que pertenece a Data Vault' in text,tid+': SOLAP espacial y satélite de Data Vault explicados')
             check('**No es lo mismo que la constelación**' in text,tid+': starflake diferenciado de la constelación de hechos')
+        if tid=='B2-T05' and tid in overrides:
+            inap=re.search(r'(?ms)^## 9\. Lo que ha preguntado el INAP\s*\n(.*?)(?=^### Preguntas relacionadas)',text)
+            rows=re.findall(r'(?m)^\| 20(?:19|22|24|25) · \d+ \|',inap.group(1) if inap else '')
+            check(len(rows)==7,tid+': las 7 preguntas INAP del tema, con respuesta y apartado')
+            check('El nivel externo **no se llama «lógico»**' in text,tid+': nivel externo sin la denominación errónea de la fuente')
+            check('son **13 reglas**, numeradas del 0 al 12' in text and '**Regla 2 · Acceso garantizado:**' in text,tid+': las 13 reglas de Codd con el acceso garantizado')
+            check('**Procesador de consultas:**' in text and '**Precompilador DML:**' in text and '**Gestor de almacenamiento:**' in text,tid+': componentes del SGBD separados en procesador de consultas y gestor de almacenamiento')
         check(digest(m['html_path'])==imap[tid]['checksum'],tid+': HTML íntegro')
         check(m['drive_id'] in known and m['url']==source['url'] and m['version']=='V2.1',tid+': fuente canónica inventariada')
         check(not frag.unsafe and len(frag.ids)==len(set(frag.ids)),tid+': HTML seguro, anclas únicas')
