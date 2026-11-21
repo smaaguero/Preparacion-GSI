@@ -158,6 +158,13 @@ def main():
             check(len(rows)==13,tid+': las 13 preguntas INAP del tema, con respuesta y apartado')
             check('*Portable Operating System Interface*' in text and '**no contiene código de MINIX**' in text,tid+': POSIX y origen de Linux sin los errores de la fuente')
             check('Windows NT tiene un **núcleo híbrido**' in text and '**El kernel de Windows no tiene un hilo central de planificación (INAP 2022).**' in text,tid+': Windows como núcleo híbrido y sin hilo central de planificación')
+        if tid=='B2-T04' and tid in overrides:
+            inap=re.search(r'(?ms)^## 12\. Lo que ha preguntado el INAP\s*\n(.*?)(?=^### Preguntas relacionadas)',text)
+            rows=re.findall(r'(?m)^\| 20(?:19|22|24|25) · \d+ \|',inap.group(1) if inap else '')
+            check(len(rows)==6,tid+': las 6 preguntas INAP del tema, con respuesta y apartado')
+            check('**KGI** (*Key Goal Indicator*' in text and 'Key Global Indicator' not in text,tid+': KGI como Key Goal Indicator, sin el error de la fuente')
+            check('No existe un OLAP «espiral»' in text and '**«satélite»**, que pertenece a Data Vault' in text,tid+': SOLAP espacial y satélite de Data Vault explicados')
+            check('**No es lo mismo que la constelación**' in text,tid+': starflake diferenciado de la constelación de hechos')
         check(digest(m['html_path'])==imap[tid]['checksum'],tid+': HTML íntegro')
         check(m['drive_id'] in known and m['url']==source['url'] and m['version']=='V2.1',tid+': fuente canónica inventariada')
         check(not frag.unsafe and len(frag.ids)==len(set(frag.ids)),tid+': HTML seguro, anclas únicas')

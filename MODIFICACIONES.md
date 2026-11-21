@@ -183,6 +183,30 @@ El original empezaba en la convocatoria 2022. Este fork añade la [OEP 2019](htt
 - El tema B2-T02 reescrito por el fork (cambio 14) incorpora las dos preguntas INAP 2019 del tema: algoritmos de reemplazo de páginas (Q21, apartado 5.6) y el directorio /etc (Q22, apartado 10.5). La tabla del apartado 14 pasa de 11 a 13 preguntas y el validador comprueba ahora las 13.
 - Pruebas: `tests/gsi-unit.mjs` comprueba el recuento, la anulada y su reserva, la pregunta 77 y el examen 2019. `tests/gsi-smoke.mjs` espera cuatro convocatorias y 17 PDF y recorre también el examen 2019. `tests/phase7b2-tests.js` espera 44 documentos de fuente.
 
+### 16. Tema B2-T04 reescrito por el fork
+
+El tema 4 del Bloque II (inteligencia de negocio, CMI, DSS, EIS, almacenes de datos, OLTP y OLAP) era un esquema correcto pero escueto. Permitía responder las 6 preguntas INAP del tema, dos de ellas a duras penas: «satélite» como término ajeno a los cubos OLAP (2019) y «Spiral OLAP» (2024). En cambio, despachaba en una línea tres de los cinco conceptos del enunciado: CMI, DSS y EIS. El diagnóstico completo está en `docs/propuestas/B2-T04-diagnostico.md`, con 21 errores o datos caducados de las fuentes PreparaTIC 072 (2019) y 075 (2023) que no se trasladan. Por ejemplo, KGI como «Key Global Indicator», constelación igual a *starflake*, HBase como base OLAP, IVR como «Interactive Voice Recognition» o el *up-selling* confundido con la venta cruzada.
+
+- **Nuevo texto** (`content/fork-topics/B2-T04.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - BI.
+    - Sistemas para decidir (TPS, MIS, DSS y EIS), con ERP y CRM como fuentes.
+    - Indicadores y cuadros de mando (KPI, KGI, SMART y UNE 66175).
+    - CMI de Kaplan y Norton, con su adaptación al sector público.
+    - Almacén de datos (Inmon, Kimball y Data Vault), ETL y ELT, y modelo dimensional (tipos de hechos y medidas, SCD, estrella, copo, constelación y *starflake*).
+    - OLTP y OLAP (reglas de Codd, FASMI, cubo, operaciones, tipos y lenguajes).
+  - Como contexto, explica Data Lake, Lakehouse, Data Fabric, Data Mesh, PET y espacios de datos, con el marco europeo vigente.
+  - Explica las 6 preguntas INAP del tema y las 5 relacionadas que el INAP clasificó en B2-T12 y B3-T15 (ERP, CRM colaborativo, Data Lake y Lakehouse), y las resume en el apartado 12.
+  - Conserva el diagrama de la cadena BI, ahora tras el apartado «1. Inteligencia de negocio».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cuatro comprobaciones del contenido de B2-T04:
+  - Las 6 preguntas INAP en el apartado 12.
+  - KGI como *Key Goal Indicator*.
+  - SOLAP espacial y el satélite de Data Vault.
+  - *Starflake* diferenciado de la constelación.
+- **Pruebas.** B2-T04 es uno de los tres temas piloto de `tests/phase7b2-tests.js`, que exigía el estado «revisado» y dos enlaces a las fuentes canónicas de estudio y repaso. Para los temas del manifiesto de sustituciones, la prueba acepta ahora el estado declarado en él y exige el enlace «Sustituye a» a la fuente canónica sustituida. Es la misma excepción que ya tenía la prueba de fechas. Para los demás pilotos sigue igual de estricta.
+- Los apuntes V2.1 originales (II.04) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -196,3 +220,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 13, la suite completa pasa (código 0): integridad (20.116 controles, con las nuevas comprobaciones de la sustitución), pruebas unitarias (108/108), regresión en navegador y recorrido funcional HTTP (85/85). Se comprobó además que el validador detecta un tema sustituido modificado sin registrar.
 - Tras los cambios 11 y 12, la suite completa vuelve a pasar (código 0): integridad (20.117 controles), pruebas unitarias (108/108) y recorrido funcional HTTP (85/85), incluida la prueba de revisión editorial ya ajustada.
 - Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.
+- Tras el cambio 16, la suite completa pasa (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.986 controles, con las cuatro comprobaciones nuevas de B2-T04), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).

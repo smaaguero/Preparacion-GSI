@@ -4360,9 +4360,9 @@
       "topicId": "B2-T04",
       "contentPath": "content/generated/B2-T04.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "d4708682675c67fd1b8ef4596326a6179989cee7bcb9f34b051f6260f773e441",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-21",
+      "checksum": "d605d121c6b5e005d6a16249bf8c514ff99d108158901627562ade634b511a7d",
       "sections": [
         {
           "sectionId": "estudio",
@@ -4371,175 +4371,175 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 1. Alcance del tema",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. De datos a decisión",
+          "title": "1. Inteligencia de negocio",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 2. De datos a decisión",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 1. Inteligencia de negocio",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Sistemas de soporte",
+          "title": "2. Sistemas de información para la toma de decisiones",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 3. Sistemas de soporte",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 2. Sistemas de información para la toma de decisiones",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Data Warehouse",
+          "title": "3. Indicadores y cuadros de mando",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 4. Data Warehouse",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 3. Indicadores y cuadros de mando",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Aprovisionamiento: ETL/ELT, staging y ODS",
+          "title": "4. Cuadro de mando integral (CMI)",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 5. Aprovisionamiento: ETL/ELT, staging y ODS",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 4. Cuadro de mando integral (CMI)",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Modelo dimensional",
+          "title": "5. Almacenes de datos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 6. Modelo dimensional",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 5. Almacenes de datos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. OLTP vs OLAP",
+          "title": "6. Aprovisionamiento: ETL y ELT",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 7. OLTP vs OLAP",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 6. Aprovisionamiento: ETL y ELT",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. KPI, KGI y cuadro de mando",
+          "title": "7. Modelo dimensional",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 8. KPI, KGI y cuadro de mando",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 7. Modelo dimensional",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. Conceptos modernos, sin desplazar el epígrafe",
+          "title": "8. OLTP y OLAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 9. Conceptos modernos, sin desplazar el epígrafe",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 8. OLTP y OLAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. Gobierno, seguridad y privacidad",
+          "title": "9. Explotación de la información",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 10. Gobierno, seguridad y privacidad",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 9. Explotación de la información",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Test",
+          "title": "10. Arquitecturas actuales: Data Lake, Lakehouse, Data Fabric y Data Mesh",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 11. Test",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 10. Arquitecturas actuales: Data Lake, Lakehouse, Data Fabric y Data Mesh",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "12. Supuesto",
+          "title": "11. Gobierno, seguridad, privacidad y compartición de datos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 12. Supuesto",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 11. Gobierno, seguridad, privacidad y compartición de datos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-13",
-          "title": "13. Resumen II.04",
+          "title": "12. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / 13. Resumen II.04",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 12. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-14",
-          "title": "Microdatos oficiales añadidos — OLAP y KPI",
+          "title": "13. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.04 / Microdatos oficiales añadidos — OLAP y KPI",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / 13. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -4551,7 +4551,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.04",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -4563,7 +4563,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.04 / Núcleo de estudio",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -4575,31 +4575,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.04 / Claves de test",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.04 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.04 / Fuentes base del material",
+              "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

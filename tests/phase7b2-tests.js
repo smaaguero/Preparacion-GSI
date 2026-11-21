@@ -37,6 +37,8 @@ const [index, syllabus, sources, updates, report, service, testsSource, ...html]
   fetchText("../tests/phase7b2-tests.js"), ...PILOTS.map((id) => fetchText(`../content/generated/${id}.html`)),
 ]);
 const byId = new Map(index.topics.map((topic) => [topic.topicId, topic]));
+// Las sustituciones declaradas del fork tienen su propio estado de revisión y enlazan una sola fuente canónica: la sustituida.
+const forkOverrides = (await fetchJson("../content/topic-overrides.json")).topics;
 const sourceIndexes = buildIndexes(syllabus, sources);
 const technicalPublic = sources.sources.find((source) => source.id === "SRC-GSI-B3-V21");
 const technicalPrivate = sources.sources.find((source) => source.id === "SRC-GSI-B2-V21");
@@ -76,7 +78,7 @@ await test("no hay iteración directa incompatible de source.documents", async (
 });
 
 for (const id of PILOTS) await test(`${id} carga como complete`, () => assert(byId.get(id)?.status === "complete", `${id} no es partial`));
-for (const id of PILOTS) await test(`${id} muestra revisión del corpus`, () => assert(byId.get(id)?.reviewStatus === "reviewed", `${id} no está pendiente de revisión`));
+for (const id of PILOTS) await test(`${id} muestra revisión del corpus`, () => assert(byId.get(id)?.reviewStatus === (forkOverrides[id]?.reviewStatus ?? "reviewed"), `${id} no muestra el estado de revisión esperado`));
 for (const [position, id] of PILOTS.entries()) await test(`${id} identifica la versión del corpus`, () => assert(html[position].includes("V2.1"), `${id} no avisa`));
 for (const [position, id] of PILOTS.entries()) await test(`${id} tiene tabla de contenidos`, () => assert(html[position].includes("topic-content__toc"), `${id} no tiene índice`));
 await test("cada sección de las tablas resuelve", () => assert(PILOTS.every((id, pos) => byId.get(id).sections.every((section) => html[pos].includes(`id="${section.sectionId}"`))), "Hay anclas ausentes"));
@@ -93,7 +95,7 @@ await test("los controles de vigencia se distinguen de fuentes didácticas", () 
   assert(control?.sourceKind==="currency-control" && control.documents.length===0, "Control externo sin etiqueta diferenciada");
 });
 
-await test("las dos fuentes canónicas de cada tema son identificables", () => assert(html.every((value) => (value.match(/<li><a href="https:\/\/docs.google.com\/document/g) || []).length === 2), "Fuentes de estudio y repaso incorrectas"));
+await test("las dos fuentes canónicas de cada tema son identificables", () => assert(html.every((value, position) => (value.match(/<li><a href="https:\/\/docs.google.com\/document/g) || []).length === (forkOverrides[PILOTS[position]] ? 0 : 2) && (!forkOverrides[PILOTS[position]] || value.includes('<li>Sustituye a: <a href="https://docs.google.com/document/'))), "Fuentes de estudio y repaso incorrectas"));
 
 await test("los ejemplos de código permanecen como texto", () => {
   const fragment = parseSafeTopicFragment("<pre><code>&lt;article&gt;ejemplo&lt;/article&gt;</code></pre>");
@@ -118,7 +120,6 @@ await test("el informe de cobertura coincide", () => { const coverage=JSON.parse
 await test("todos los temas conservan fecha de revisión", async () => {
   const current = new Set(["B2-T07", "B2-T13", "B3-T12"]);
   // Las sustituciones declaradas del fork llevan la fecha registrada en su manifiesto.
-  const forkOverrides = (await fetchJson("../content/topic-overrides.json")).topics;
   assert(index.topics.every((topic) => topic.updatedAt === (forkOverrides[topic.topicId]?.updatedAt ?? (current.has(topic.topicId) ? "2026-10-05" : "2026-09-23"))), "Revisión sin fecha o incoherente");
 });
 await test("el registro de vigencia enlaza fuentes y temas", () => {

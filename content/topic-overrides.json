@@ -113,6 +113,64 @@
           "title": "Preguntas oficiales INAP de 2022, 2024 y 2025 clasificadas en el tema"
         }
       ]
+    },
+    "B2-T04": {
+      "markdown": "content/fork-topics/B2-T04.md",
+      "sha256": "93e7553e8854c381a9bc2f84b112e5991d6d66a70bd35922a2b808c73039b203",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-21",
+      "notice": "Revisión del fork del 21/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.04), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.04",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.04 · sustituido por la revisión del fork del 21/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "1. Inteligencia de negocio",
+          "src": "assets/diagrams/b2/b2-t04-cadena-bi.svg",
+          "title": "Cadena BI: de las fuentes a la decisión",
+          "alt": "Flujo desde sistemas operacionales y fuentes externas hacia staging y ETL o ELT, Data Warehouse, modelo dimensional u OLAP y finalmente informes, cuadros de mando, DSS y EIS.",
+          "description": "Sitúa integración, almacén, modelo analítico y consumo en el orden correcto.",
+          "takeaway": "BI no es solo el dashboard: sin integración, calidad, linaje y modelo analítico, la visualización no produce información fiable."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 072 y 075 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "Norma UNE 66175:2003, guía para la implantación de sistemas de indicadores"
+        },
+        {
+          "title": "OCDE, Emerging privacy-enhancing technologies (Digital Economy Papers, n.º 351, 2023)",
+          "url": "https://www.oecd.org/en/publications/emerging-privacy-enhancing-technologies_bf121be4-en.html"
+        },
+        {
+          "title": "Reglamento (UE) 2022/868, de Gobernanza de Datos",
+          "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj?locale=es"
+        },
+        {
+          "title": "Reglamento (UE) 2023/2854, de Datos",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj?locale=es"
+        },
+        {
+          "title": "Reglamento (UE) 2025/327, del Espacio Europeo de Datos de Salud",
+          "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj?locale=es"
+        },
+        {
+          "title": "Reglamento (UE) 2016/679 (RGPD)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }
