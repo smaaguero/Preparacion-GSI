@@ -5466,9 +5466,9 @@
       "topicId": "B2-T09",
       "contentPath": "content/generated/B2-T09.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "f833b95f2fcc7fca93a7f16ce5b4808400f9c9e47a1df33a9438b146c1787b04",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "9b24923c9b7672df5b9ed57c59423c8db5d85563d997175ad962f7f453b45d53",
       "sections": [
         {
           "sectionId": "estudio",
@@ -5477,247 +5477,151 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance y distinción principal",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 1. Alcance y distinción principal",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Lenguajes de marcas y SGML",
+          "title": "1. Los lenguajes de marcas",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 2. Lenguajes de marcas y SGML",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 1. Los lenguajes de marcas",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. HTML",
+          "title": "2. SGML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 3. HTML",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 2. SGML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "3.1 Semántica",
+          "title": "3. HTML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 3.1 Semántica",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 3. HTML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "3.2 Formularios y multimedia",
+          "title": "4. CSS",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 3.2 Formularios y multimedia",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 4. CSS",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "3.3 Metadatos",
+          "title": "5. XML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 3.3 Metadatos",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 5. XML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "4. CSS",
+          "title": "6. Derivaciones de XML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 4. CSS",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 6. Derivaciones de XML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "5. XML",
+          "title": "7. Formatos de datos alternativos a XML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 5. XML",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 7. Formatos de datos alternativos a XML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "6. DTD y XSD",
+          "title": "8. Lenguajes de script",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 6. DTD y XSD",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 8. Lenguajes de script",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "7. Namespaces",
+          "title": "9. Seguridad",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 7. Namespaces",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 9. Seguridad",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "8. XPath, XSLT y XLink",
+          "title": "10. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 8. XPath, XSLT y XLink",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 10. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "9. XHTML",
+          "title": "11. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 9. XHTML",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "10. JSON frente a XML",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 10. JSON frente a XML",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "11. Lenguajes de script",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 11. Lenguajes de script",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "12. JavaScript y seguridad web",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 12. JavaScript y seguridad web",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "13. HTTP como contexto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 13. HTTP como contexto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "14. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 14. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-18",
-          "title": "15. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 15. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-19",
-          "title": "16. Resumen II.09",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / 16. Resumen II.09",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-20",
-          "title": "Microdato oficial añadido — XML Schema",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.09 / Microdato oficial añadido — XML Schema",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / 11. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -5729,7 +5633,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.09",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -5741,7 +5645,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.09 / Núcleo de estudio",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -5753,31 +5657,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.09 / Claves de test",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.09 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.09 / Fuentes base del material",
+              "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

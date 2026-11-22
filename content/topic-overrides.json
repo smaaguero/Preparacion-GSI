@@ -443,6 +443,73 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T09": {
+      "markdown": "content/fork-topics/B2-T09.md",
+      "sha256": "d49b16fbe5d0a05200fca4258ee4cea081c7cf6600f3842e5b38c77a814948d6",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.09), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.09",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.09 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "2. SGML",
+          "src": "assets/diagrams/b2/b2-t09-familia-marcas.svg",
+          "title": "SGML, HTML, XML y XHTML: parentesco sin confusión",
+          "alt": "Árbol conceptual que presenta SGML como antecedente, HTML como lenguaje web con sintaxis propia, XML como metalenguaje extensible y XHTML como vocabulario HTML sujeto a reglas XML.",
+          "description": "Representa la relación histórica y sintáctica sin afirmar que HTML5 sea XML.",
+          "takeaway": "HTML estructura la web con sintaxis propia; XML define vocabularios; XHTML es HTML expresado con reglas XML."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resumen del tema 077 (fuente secundaria; no se redistribuye)"
+        },
+        {
+          "title": "W3C, Extensible Markup Language (XML) 1.0 (Fifth Edition)",
+          "url": "https://www.w3.org/TR/xml/"
+        },
+        {
+          "title": "W3C, XML Schema Definition Language (XSD) 1.1 Part 1: Structures",
+          "url": "https://www.w3.org/TR/xmlschema11-1/"
+        },
+        {
+          "title": "W3C, XML Linking Language (XLink) Version 1.1",
+          "url": "https://www.w3.org/TR/xlink11/"
+        },
+        {
+          "title": "W3C, XSL Transformations (XSLT) Version 3.0",
+          "url": "https://www.w3.org/TR/xslt-30/"
+        },
+        {
+          "title": "WHATWG, HTML Living Standard",
+          "url": "https://html.spec.whatwg.org/"
+        },
+        {
+          "title": "W3C, RDF 1.1 Concepts and Abstract Syntax",
+          "url": "https://www.w3.org/TR/rdf11-concepts/"
+        },
+        {
+          "title": "Ecma International, ECMA-262 ECMAScript Language Specification",
+          "url": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
+        },
+        {
+          "title": "Python, documentación de importlib",
+          "url": "https://docs.python.org/3/library/importlib.html"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

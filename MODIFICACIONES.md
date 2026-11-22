@@ -344,6 +344,26 @@ El diagnóstico completo está en `docs/propuestas/B2-T08-diagnostico.md`, con 2
   - Los niveles de madurez de los RFC y las BER en X.690.
 - Los apuntes V2.1 originales (II.08) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 21. Tema B2-T09 reescrito por el fork
+
+El tema 9 del Bloque II (lenguajes de marcas, SGML, HTML, XML y sus derivaciones, y lenguajes de *script*) acertaba en la idea principal (HTML no es XML), pero era un esquema de unos 8 KB: SGML se despachaba en una frase, los lenguajes de *script* en dos párrafos y las derivaciones de XML no aparecían. Dos de las 7 preguntas INAP del tema (los lenguajes de la Web Semántica, de 2022, y la carga dinámica de módulos en Python, de 2025) no tenían respuesta, y la de XML Schema (2024) solo estaba en un apartado añadido tras el resumen.
+
+El diagnóstico completo está en `docs/propuestas/B2-T09-diagnostico.md`, con 22 errores o datos caducados del resumen PreparaTIC 077 (2023) que no se trasladan. Por ejemplo:
+
+- Afirmar que HTML está basado en XML y que su última versión es HTML5, cuando desde 2019 es un estándar vivo del WHATWG.
+- Exigir la declaración `<?xml?>` para que un documento esté bien formado.
+- Incluir XQuery, XLink y XPointer en la familia XSL, o decir que XSLT genera PDF.
+- Dar `b`, `i`, `u` y `embed` por obsoletos en HTML5.
+- Atribuir a Chrome el motor WebKit y a Java SE los motores Rhino y Nashorn.
+
+- **Nuevo texto** (`content/fork-topics/B2-T09.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado: concepto y tipos de marcado; SGML (ISO 8879, DTD); HTML (historia, estándar vivo, sintaxis propia, elementos, accesibilidad, DOM) con CSS; XML (partes, bien formado y válido, espacios de nombres, DTD frente a XSD, DOM, SAX y StAX, familia XPath, XSLT, XSL-FO, XQuery, XLink y XPointer); derivaciones (XHTML, SVG, ODF y OOXML, RSS y Atom, Web Semántica, formatos de la Administración); JSON y YAML; lenguajes de *script* (JavaScript, Python con `importlib`, PHP, Bash, PowerShell); y seguridad (XSS, CSRF, XXE).
+  - Explica las 7 preguntas INAP del tema y las 7 relacionadas que el INAP clasificó en B2-T16, B3-T05, B3-T12, B3-T14 y B4-T04, y las resume en el apartado 10.
+  - Conserva el diagrama de la familia de lenguajes de marcas, ahora tras el apartado «2. SGML».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T09: las 7 preguntas INAP; HTML con sintaxis propia; las reglas de XML bien formado sin la declaración obligatoria; la familia XSL; y la carga dinámica de módulos en Python.
+- Los apuntes V2.1 originales (II.09) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
