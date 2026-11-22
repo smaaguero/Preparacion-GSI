@@ -301,6 +301,77 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T07": {
+      "markdown": "content/fork-topics/B2-T07.md",
+      "sha256": "b16ec0540a5fb0ea03861e7f0d790accf3da2bcf18983134a90968b9239baa66",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.07), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.07",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.07 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.07 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "4. Kubernetes: arquitectura",
+          "src": "assets/diagrams/b2/b2-t07-kubernetes.svg",
+          "title": "Kubernetes: control plane, nodos y objetos",
+          "alt": "Arquitectura de Kubernetes con API Server, scheduler, controller manager y almacén de estado en el control plane, y nodos con kubelet, runtime, pods y Services que proporcionan acceso estable.",
+          "description": "Separa componentes del clúster de los objetos declarativos que gestiona el usuario.",
+          "takeaway": "El control plane reconcilia estado deseado; el Pod es la unidad de despliegue y el Service ofrece acceso estable, pero no es un microservicio de negocio."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 065, 097, 100 y 132 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "Open Container Initiative, especificaciones de imagen, ejecución y distribución",
+          "url": "https://opencontainers.org/"
+        },
+        {
+          "title": "Kubernetes, documentación: conceptos",
+          "url": "https://kubernetes.io/docs/concepts/"
+        },
+        {
+          "title": "Kubernetes, Pod Security Standards",
+          "url": "https://kubernetes.io/docs/concepts/security/pod-security-standards/"
+        },
+        {
+          "title": "Kubernetes, Horizontal Pod Autoscaling",
+          "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+        },
+        {
+          "title": "Kubernetes, Ingress NGINX Retirement: What You Need to Know (11/11/2025)",
+          "url": "https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/"
+        },
+        {
+          "title": "Docker Docs, Storage: volumes",
+          "url": "https://docs.docker.com/engine/storage/volumes/"
+        },
+        {
+          "title": "J. Lewis y M. Fowler, Microservices (2014)",
+          "url": "https://martinfowler.com/articles/microservices.html"
+        },
+        {
+          "title": "OpenGitOps, GitOps Principles v1.0.0",
+          "url": "https://opengitops.dev/"
+        },
+        {
+          "title": "Google, Site Reliability Engineering, capítulo 6: Monitoring Distributed Systems",
+          "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

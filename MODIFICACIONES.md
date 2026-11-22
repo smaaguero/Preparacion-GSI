@@ -278,6 +278,39 @@ El diagnóstico completo está en `docs/propuestas/B2-T06-diagnostico.md`, con 2
   - El *middleware* y los componentes de RMI.
 - Los apuntes V2.1 originales (II.06) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 19. Tema B2-T07 reescrito por el fork
+
+El tema 7 del Bloque II (contenedores, microservicios, Kubernetes, despliegue, monitorización y escalado) era correcto y actual, pero casi todo eran enumeraciones sin explicación. Las 3 preguntas INAP del tema se podían responder, aunque la de 2025 (`hostPID`) solo con una frase al final del apartado de seguridad. No se explicaban los mecanismos del núcleo que aíslan los contenedores, los estándares OCI, los patrones de microservicios, los tipos de Service, la seguridad de los Pods, las herramientas de monitorización ni el cálculo del HPA. Tampoco recogía que el controlador Ingress NGINX se retiró en marzo de 2026.
+
+El diagnóstico completo está en `docs/propuestas/B2-T07-diagnostico.md`, con 16 errores o datos caducados de las fuentes PreparaTIC 065 (2023), 097 (2022) y 132 (2024) que no se trasladan. Por ejemplo:
+
+- Afirmar que los contenedores se ejecutan «en cualquier sistema operativo» o que deben usar «el mismo sistema operativo» que el anfitrión, cuando comparten el núcleo.
+- Presentar Moby como herramienta de gestión de contenedores.
+- Describir como paravirtualización la traducción binaria de la virtualización completa.
+- Decir que el Jenkinsfile usa YAML (usa un lenguaje basado en Groovy) o que SonarQube ejecuta las pruebas.
+- Atribuir a Red Hat la creación de Ansible.
+- Describir SRE como «el desarrollo controla las operaciones».
+
+- **Nuevo texto** (`content/fork-topics/B2-T07.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - De la virtualización a los contenedores: hipervisores, técnicas y comparación.
+    - Contenedores: espacios de nombres y *cgroups*, imágenes, especificaciones OCI, entornos de ejecución, Docker, Dockerfile, volúmenes y registros.
+    - Microservicios: características, monolito modular, cuándo usarlos, doce factores, datos y patrones.
+    - Kubernetes: plano de control, nodos, interfaces y objetos (Pods, controladores, Service, Gateway API, configuración, almacenamiento, recursos y sondas).
+    - Soluciones: Helm, operadores, distribuciones, servicios gestionados y *serverless*.
+    - Despliegue: DevOps y SRE, CI/CD, entornos, infraestructura como código, estrategias y GitOps.
+    - Monitorización, escalado (con la fórmula del HPA) y seguridad de contenedores.
+  - Explica las 3 preguntas INAP del tema y las 10 relacionadas que el INAP clasificó en B3-T06, B3-T08, B4-T04 y B4-T06 (CI/CD, DevOps, Jenkins, Maven, Ansible, ELK, hipervisores y tipos de migración), y las resume en el apartado 11.
+  - Conserva el diagrama de Kubernetes, ahora tras el apartado «4. Kubernetes: arquitectura».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T07:
+  - Las 3 preguntas INAP en el apartado 11.
+  - `hostPID` explicado frente a `privileged`.
+  - Las tres especificaciones OCI, sin el error del «mismo sistema operativo».
+  - La retirada de Ingress NGINX y Gateway API.
+  - La fórmula del HPA.
+- Los apuntes V2.1 originales (II.07) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -294,3 +327,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 16, la suite completa pasa (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.986 controles, con las cuatro comprobaciones nuevas de B2-T04), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 17, la suite completa pasa (código 0) en el mismo entorno: integridad (20.987 controles, con las cuatro comprobaciones nuevas de B2-T05), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86), incluida la prueba de diseño móvil, que abre precisamente B2-T05.
 - Tras el cambio 18, la suite completa pasa (código 0) en el mismo entorno: integridad (20.998 controles, con las cinco comprobaciones nuevas de B2-T06), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
+- Tras el cambio 19, la suite completa pasa (código 0) en el mismo entorno: integridad (21.008 controles, con las cinco comprobaciones nuevas de B2-T07), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
