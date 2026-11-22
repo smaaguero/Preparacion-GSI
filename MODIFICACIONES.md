@@ -241,6 +241,43 @@ El diagnóstico completo está en `docs/propuestas/B2-T05-diagnostico.md`, con 2
   - Los componentes del SGBD separados en procesador de consultas y gestor de almacenamiento.
 - Los apuntes V2.1 originales (II.05) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 18. Tema B2-T06 reescrito por el fork
+
+El tema 6 del Bloque II (cliente-servidor, multicapa, multidispositivo y servicios web) era correcto pero escueto: unos 10 KB para un enunciado con cinco partes. Las 5 preguntas INAP del tema se podían responder, pero dos (el *middleware* y la ventaja de la multicapa, ambas de 2025) solo con un apartado añadido después del resumen. La tipología y los componentes del cliente-servidor, la interoperabilidad de componentes (RPC, CORBA, RMI, mensajería) y UDDI no aparecían.
+
+El diagnóstico completo está en `docs/propuestas/B2-T06-diagnostico.md`, con 22 errores o datos caducados de las fuentes PreparaTIC 058 (2019 y 2023) y 065 (2023) que no se trasladan. Por ejemplo:
+
+- Definir WSDL como «gramática XML», cuando describe la interfaz del servicio.
+- Dar UDDI como organismo propio y no como estándar de OASIS.
+- Atribuir a WS-SecureConversation la «compartición de contenidos».
+- Llamar «arquitectura monolítica» a la de tres niveles.
+- Definir los microservicios como la separación entre *front-end* y *back-end*.
+- Desarrollar SOAP como *Simple Object Access Protocol*, nombre abandonado en SOAP 1.2.
+- Distinguir «API REST» de «API RESTful» por el uso de los verbos HTTP.
+- Citar «JMI» en lugar de JMS como mensajería.
+
+- **Nuevo texto** (`content/fork-topics/B2-T06.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - Sistemas centralizados y distribuidos: características, transparencias y falacias.
+    - Cliente-servidor: componentes, tipos de cliente y de servidor, tipología de Gartner y comparación con P2P.
+    - Multicapa: capa lógica frente a nivel físico, una, dos, tres y N capas, MVC y monolito.
+    - Multidispositivo: diseño adaptable, apps nativas, híbridas, multiplataforma y PWA, API primero y BFF.
+    - *Middleware* e interoperabilidad de componentes: tipos de *middleware*, RPC, CORBA, DCOM, RMI, EJB, gRPC y mensajería.
+    - SOA: principios, modelo S3, orquestación y coreografía, y ESB.
+    - Arquitectura de servicios web: roles, pila, SOAP, WSDL 1.1 y 2.0, UDDI y WS-*.
+    - REST, métodos HTTP, modelo de Richardson, JSON, OpenAPI, GraphQL, gRPC y pasarelas de API.
+    - Estado, escalabilidad, resiliencia y observabilidad, y tabla final de ventajas e inconvenientes.
+  - Explica las 5 preguntas INAP del tema y las 14 relacionadas que el INAP clasificó en B2-T02, B2-T12, B3-T10, B3-T12 y B4-T06 (UDDI, WSDL, REST, JSON, RMI, capas de Jakarta EE y balanceo), y las resume en el apartado 11.
+  - Conserva el diagrama de capas e integración, ahora tras el apartado «3. Arquitecturas multicapa».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T06:
+  - Las 5 preguntas INAP en el apartado 11.
+  - WSDL como descripción de la interfaz, sin la «gramática XML» de la fuente.
+  - SOAP 1.2 sin acrónimo y UDDI explicado.
+  - Las seis restricciones REST de Fielding.
+  - El *middleware* y los componentes de RMI.
+- Los apuntes V2.1 originales (II.06) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -256,3 +293,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 10 se repitió la suite completa, con el mismo resultado (código 0). El recorrido HTTP (85/85) incluye la comprobación básica de accesibilidad: un único H1 por vista, sin saltos de encabezado y con nombre accesible en todos los controles.
 - Tras el cambio 16, la suite completa pasa (código 0) con un entorno que incluye `markitdown` y `rg`: integridad (20.986 controles, con las cuatro comprobaciones nuevas de B2-T04), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 17, la suite completa pasa (código 0) en el mismo entorno: integridad (20.987 controles, con las cuatro comprobaciones nuevas de B2-T05), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86), incluida la prueba de diseño móvil, que abre precisamente B2-T05.
+- Tras el cambio 18, la suite completa pasa (código 0) en el mismo entorno: integridad (20.998 controles, con las cinco comprobaciones nuevas de B2-T06), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).

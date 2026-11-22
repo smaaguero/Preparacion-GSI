@@ -226,6 +226,81 @@
           "title": "Preguntas oficiales INAP de 2019, 2022 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T06": {
+      "markdown": "content/fork-topics/B2-T06.md",
+      "sha256": "12db40563a830b07989448a4543b722b7294b2551c486d03fc06acb115ce1ea6",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.06), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.06",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "3. Arquitecturas multicapa",
+          "src": "assets/diagrams/b2/b2-t06-capas-integracion.svg",
+          "title": "Capas lógicas y estilos de integración",
+          "alt": "Arquitectura desde clientes web, móvil y máquina a máquina hacia presentación, API Gateway, lógica de negocio y persistencia, con caminos síncronos REST o SOAP y asíncronos mediante colas o eventos.",
+          "description": "Integra multidispositivo, separación por capas y las dos formas principales de comunicación.",
+          "takeaway": "Una capa lógica no equivale a un servidor físico; REST, SOAP y mensajería son mecanismos distintos que se eligen según contrato y acoplamiento."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 058 y 065 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "W3C, Web Services Architecture (Working Group Note, 2004)",
+          "url": "https://www.w3.org/TR/ws-arch/"
+        },
+        {
+          "title": "W3C, SOAP Version 1.2 Part 1: Messaging Framework",
+          "url": "https://www.w3.org/TR/soap12-part1/"
+        },
+        {
+          "title": "W3C, Web Services Description Language (WSDL) Version 2.0 Part 1",
+          "url": "https://www.w3.org/TR/wsdl20/"
+        },
+        {
+          "title": "OASIS, UDDI Version 3.0.2",
+          "url": "https://www.oasis-open.org/committees/uddi-spec/doc/spec/v3/uddi-v3.0.2-20041019.htm"
+        },
+        {
+          "title": "OASIS, Reference Model for Service Oriented Architecture 1.0 (2006)",
+          "url": "https://docs.oasis-open.org/soa-rm/v1.0/soa-rm.html"
+        },
+        {
+          "title": "R. T. Fielding, Architectural Styles and the Design of Network-based Software Architectures (2000), capítulo 5",
+          "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+        },
+        {
+          "title": "IETF, RFC 9110: HTTP Semantics",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        },
+        {
+          "title": "IETF, RFC 8259: The JavaScript Object Notation (JSON) Data Interchange Format",
+          "url": "https://www.rfc-editor.org/rfc/rfc8259"
+        },
+        {
+          "title": "OpenAPI Specification v3.2.0",
+          "url": "https://spec.openapis.org/oas/v3.2"
+        },
+        {
+          "title": "Oracle, Java RMI Specification: System Architecture",
+          "url": "https://docs.oracle.com/en/java/javase/21/docs/specs/rmi/arch.html"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

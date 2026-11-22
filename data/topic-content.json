@@ -4800,9 +4800,9 @@
       "topicId": "B2-T06",
       "contentPath": "content/generated/B2-T06.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "d77f59cf0b0dd0cd164b8c51b4a3e0bf7eb94c146834ec42feaccd8bbe877245",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "a0dc0da401108795e206ba5877e4fe28b6e1f63dec217fa9a6a1fea3e84aaa21",
       "sections": [
         {
           "sectionId": "estudio",
@@ -4811,235 +4811,163 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 1. Alcance del tema",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Centralizado, distribuido y procesamiento cooperativo",
+          "title": "1. Sistemas centralizados y sistemas distribuidos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 2. Centralizado, distribuido y procesamiento cooperativo",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 1. Sistemas centralizados y sistemas distribuidos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Cliente-servidor",
+          "title": "2. La arquitectura cliente-servidor",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 3. Cliente-servidor",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 2. La arquitectura cliente-servidor",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "3.1 Dos capas",
+          "title": "3. Arquitecturas multicapa",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 3.1 Dos capas",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 3. Arquitecturas multicapa",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "3.2 Tres o N capas",
+          "title": "4. Arquitecturas multidispositivo",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 3.2 Tres o N capas",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 4. Arquitecturas multidispositivo",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "4. Multidispositivo",
+          "title": "5. Middleware e interoperabilidad de componentes",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 4. Multidispositivo",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 5. Middleware e interoperabilidad de componentes",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "5. SOA",
+          "title": "6. Arquitectura orientada a servicios (SOA)",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 5. SOA",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 6. Arquitectura orientada a servicios (SOA)",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "6. ESB",
+          "title": "7. Arquitectura de servicios web",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 6. ESB",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 7. Arquitectura de servicios web",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "7. Servicios web clásicos",
+          "title": "8. REST y otras formas de API",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 7. Servicios web clásicos",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 8. REST y otras formas de API",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "8. REST y HTTP",
+          "title": "9. Estado, escalabilidad y resiliencia",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 8. REST y HTTP",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 9. Estado, escalabilidad y resiliencia",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "9. Sincronía y asincronía",
+          "title": "10. Ventajas e inconvenientes: resumen",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 9. Sincronía y asincronía",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 10. Ventajas e inconvenientes: resumen",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "10. API Gateway, balanceo y caché",
+          "title": "11. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 10. API Gateway, balanceo y caché",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 11. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-13",
-          "title": "11. Estado, sesión y escalabilidad",
+          "title": "12. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 11. Estado, sesión y escalabilidad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "12. Interoperabilidad y contratos",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 12. Interoperabilidad y contratos",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "13. Seguridad",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 13. Seguridad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "14. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 14. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "15. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 15. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-18",
-          "title": "16. Resumen II.06",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / 16. Resumen II.06",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-19",
-          "title": "Microdatos oficiales añadidos — middleware y multicapa",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.06 / Microdatos oficiales añadidos — middleware y multicapa",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / 12. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -5051,7 +4979,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.06",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -5063,7 +4991,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.06 / Núcleo de estudio",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -5075,31 +5003,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.06 / Claves de test",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.06 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.06 / Fuentes base del material",
+              "locator": "II.06 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]
