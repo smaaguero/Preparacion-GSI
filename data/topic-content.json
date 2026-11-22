@@ -6108,9 +6108,9 @@
       "topicId": "B2-T12",
       "contentPath": "content/generated/B2-T12.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "fcedf635e18ad9d17b42b85570ef54e5a71c6612ea1dc7262ea07726d6756a7c",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "2589a7d660ba1a3bf7b90c06b7ac7d2558b38f99ae911fbb15dd34fd26b77f82",
       "sections": [
         {
           "sectionId": "estudio",
@@ -6119,247 +6119,139 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 1. Alcance del tema",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. De call center a contact center",
+          "title": "1. La atención a clientes y usuarios",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 2. De call center a contact center",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 1. La atención a clientes y usuarios",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Multicanal vs omnicanal",
+          "title": "2. Centros de contacto",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 3. Multicanal vs omnicanal",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 2. Centros de contacto",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Componentes de voz",
+          "title": "3. CRM",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 4. Componentes de voz",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 3. CRM",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Enrutamiento y colas",
+          "title": "4. Arquitectura multicanal",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 5. Enrutamiento y colas",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 4. Arquitectura multicanal",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. CRM",
+          "title": "5. Sistemas IVR",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 6. CRM",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 5. Sistemas IVR",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. CTI y screen-pop",
+          "title": "6. VoiceXML",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 7. CTI y screen-pop",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 6. VoiceXML",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. IVR",
+          "title": "7. Calidad, privacidad, accesibilidad y regulación",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 8. IVR",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 7. Calidad, privacidad, accesibilidad y regulación",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. VoiceXML",
+          "title": "8. Errores frecuentes",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 9. VoiceXML",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 8. Errores frecuentes",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. Arquitectura multicanal",
+          "title": "9. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 10. Arquitectura multicanal",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 9. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Identificación y autenticación",
+          "title": "10. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 11. Identificación y autenticación",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-12",
-          "title": "12. Privacidad y grabación",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 12. Privacidad y grabación",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "13. Accesibilidad",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 13. Accesibilidad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "14. KPI",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 14. KPI",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "15. Dimensionamiento",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 15. Dimensionamiento",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "16. Continuidad",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 16. Continuidad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "17. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 17. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-18",
-          "title": "18. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 18. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-19",
-          "title": "19. Resumen II.12",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / 19. Resumen II.12",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-20",
-          "title": "Microdatos oficiales añadidos — CRM y multicanal",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.12 / Microdatos oficiales añadidos — CRM y multicanal",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / 10. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -6371,7 +6263,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.12",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -6383,7 +6275,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.12 / Núcleo de estudio",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -6395,31 +6287,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.12 / Claves de test",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.12 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.12 / Fuentes base del material",
+              "locator": "II.12 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

@@ -404,6 +404,38 @@ El diagnóstico completo está en `docs/propuestas/B2-T11-diagnostico.md`, con 1
 - **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T11: las 4 preguntas INAP; la auditoría del ENS cada dos años con prórroga de tres meses; los órganos de auditoría técnica e ISO/IEC 17065; INES; y la auditoría de protección de datos según la responsabilidad proactiva.
 - Los apuntes V2.1 originales (II.11) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+## 22 de noviembre de 2026
+
+### 24. Tema B2-T12 reescrito por el fork
+
+El tema 12 del Bloque II (atención a clientes y usuarios, centros de contacto, CRM, arquitectura multicanal, IVR y VoiceXML) era correcto, pero no explicaba justo lo que pregunta el INAP. Los tipos de CRM estaban en un párrafo añadido al final, el ERP no aparecía (dos preguntas de 2022) y VoiceXML se resolvía en una frase, sin sus versiones (pregunta de 2019). La pregunta de reserva de 2025 sobre el corpus TED-LIUM no tenía respuesta.
+
+El diagnóstico completo está en `docs/propuestas/B2-T12-diagnostico.md`, con 8 errores o datos caducados del resumen PreparaTIC 072 (2019) que no se trasladan. Por ejemplo:
+
+- Desarrollar IVR como *Interactive Voice Recognition* en lugar de *Response*.
+- Confundir *up-selling* con *cross-selling*.
+- Presentar como CRM herramientas de minería de datos (SPSS Clementine, SAS Enterprise Miner).
+- Citar SAP ECC 6.0 como versión actual y una interfaz «SAPUI7» inexistente.
+
+- **Nuevo texto** (`content/fork-topics/B2-T12.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado. Empieza por la atención a clientes y usuarios y su marco en el sector público: Ley 39/2015, canales del RD 203/2021, 060 y RD 951/2005. Añade la Ley 10/2025 para las empresas.
+  - Centros de contacto: componentes, enrutamiento, indicadores, Erlang C y B.
+  - CRM: tipos, funciones y xRM, y su relación con el ERP.
+  - Arquitectura multicanal en capas.
+  - IVR: DTMF, ASR, TTS, NLU, MRCP y corpus de voz.
+  - VoiceXML: versiones, elementos, FIA y especificaciones relacionadas.
+  - Privacidad, accesibilidad, artículo 50 del Reglamento de IA y normas ISO 18295.
+  - Explica las 5 preguntas INAP del tema y la de reserva, y las 2 relacionadas que el INAP clasificó en B4-T14, y las resume en el apartado 9.
+  - Conserva el diagrama del centro de contacto, ahora tras el apartado «4. Arquitectura multicanal».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T12:
+  - Las 5 preguntas INAP.
+  - El CRM colaborativo.
+  - La sigla ERP.
+  - VoiceXML 3.0 como *Working Draft*.
+  - IVR como *Interactive Voice Response* y el corpus TED-LIUM.
+- Los apuntes V2.1 originales (II.12) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
