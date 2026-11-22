@@ -311,6 +311,39 @@ El diagnóstico completo está en `docs/propuestas/B2-T07-diagnostico.md`, con 1
   - La fórmula del HPA.
 - Los apuntes V2.1 originales (II.07) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 20. Tema B2-T08 reescrito por el fork
+
+El tema 8 del Bloque II (modelos OSI y TCP/IP, direccionamiento y encaminamiento) era correcto y práctico, pero escueto: no explicaba los conceptos del modelo de referencia (servicio, interfaz, SAP, primitivas, PDU y SDU), las cabeceras de los protocolos ni el establecimiento de TCP, y pedía calcular subredes sin enseñar a hacerlo. La pregunta INAP de 2025 (máscara, comodín y clase de una dirección /17) solo se respondía con un apartado añadido después del resumen, y la de reserva de 2024 (BER en X.690) no tenía respuesta.
+
+El diagnóstico completo está en `docs/propuestas/B2-T08-diagnostico.md`, con 22 errores o datos caducados de las fuentes PreparaTIC 109, 111 y 115 (2023) que no se trasladan. Por ejemplo:
+
+- Afirmar que la clase TP4 de transporte OSI puede ser sin conexión.
+- Atribuir al servicio confirmado solo las primitivas de respuesta y confirmación.
+- Decir que ARPANET se desarrolló en el MIT o que el IAB aprueba los estándares.
+- Mantener el «borrador estándar» como nivel de los RFC, suprimido en 2011.
+- Invertir el funcionamiento de los modos activo y pasivo de FTP.
+- Presentar NAT64 como técnica «en estudio» y 6to4 como mecanismo vigente.
+
+- **Nuevo texto** (`content/fork-topics/B2-T08.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - Arquitecturas por capas: entidad, protocolo, servicio, interfaz, SAP, unidades de datos y primitivas.
+    - Modelo OSI: norma, las siete capas en detalle, ASN.1 y BER, protocolos OSI y equipos por capa.
+    - Modelo TCP/IP: origen, cuatro capas, comparación con OSI, organismos de Internet y RFC, *sockets*.
+    - Ethernet, VLAN y ARP.
+    - IPv4: cabecera, máscara y comodín, clases, CIDR con cálculos resueltos (incluido el de la pregunta de 2025), VLSM, agregación, direcciones especiales, NAT e ICMP.
+    - IPv6: cabecera, notación, tipos de dirección, NDP, SLAAC y transición.
+    - Transporte (puertos, TCP, UDP, QUIC), DHCP y DNS.
+    - Encaminamiento: prefijo más largo, algoritmos, RIP, OSPF por áreas, IS-IS, EIGRP, BGP, multidifusión y calidad de servicio.
+  - Explica las 9 preguntas INAP del tema y la de reserva, y las 15 relacionadas que el INAP clasificó en B4-T08, B4-T09, B4-T10, B4-T13 y B4-T16 (VLAN, SNMP, RIP, OSPF, IS-IS, CIDR, DHCP *snooping*, calidad de servicio), y las resume en el apartado 10.
+  - Conserva el diagrama OSI-TCP/IP, ahora tras el apartado «2. El modelo de referencia OSI».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cuatro comprobaciones del contenido de B2-T08:
+  - Las 9 preguntas INAP en el apartado 10.
+  - El cálculo resuelto de la subred de la pregunta de 2025.
+  - Las primitivas y las clases de transporte OSI sin los errores de la fuente.
+  - Los niveles de madurez de los RFC y las BER en X.690.
+- Los apuntes V2.1 originales (II.08) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -328,3 +361,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 17, la suite completa pasa (código 0) en el mismo entorno: integridad (20.987 controles, con las cuatro comprobaciones nuevas de B2-T05), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86), incluida la prueba de diseño móvil, que abre precisamente B2-T05.
 - Tras el cambio 18, la suite completa pasa (código 0) en el mismo entorno: integridad (20.998 controles, con las cinco comprobaciones nuevas de B2-T06), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 19, la suite completa pasa (código 0) en el mismo entorno: integridad (21.008 controles, con las cinco comprobaciones nuevas de B2-T07), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
+- Tras el cambio 20, la suite completa pasa (código 0) en el mismo entorno: integridad (21.018 controles, con las cuatro comprobaciones nuevas de B2-T08), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).

@@ -372,6 +372,77 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T08": {
+      "markdown": "content/fork-topics/B2-T08.md",
+      "sha256": "b161eec129561ddfe11351504baf93b8e9c184c294b5feb16dde19fd6394636a",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.08), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.08",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "2. El modelo de referencia OSI",
+          "src": "assets/diagrams/b2/b2-t08-osi-tcpip.svg",
+          "title": "Correspondencia OSI, TCP/IP y encapsulación",
+          "alt": "Comparación vertical de las siete capas OSI con las cuatro capas TCP/IP y la encapsulación datos, segmento o datagrama, paquete IP, trama y bits, incluyendo ejemplos de protocolos y equipos.",
+          "description": "Une función, modelo y PDU en una sola lectura para resolver preguntas de capas.",
+          "takeaway": "TCP/IP agrupa sesión y presentación dentro de aplicación; transporte usa puertos, red usa IP y enlace trabaja con tramas y MAC."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 109, 111 y 115 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "ITU-T X.200 (07/94), Open Systems Interconnection – Basic Reference Model (idéntica a ISO/IEC 7498-1:1994)",
+          "url": "https://www.itu.int/rec/T-REC-X.200-199407-I/en"
+        },
+        {
+          "title": "ITU-T X.690, ASN.1 encoding rules: BER, CER y DER",
+          "url": "https://www.itu.int/rec/T-REC-X.690"
+        },
+        {
+          "title": "IETF, RFC 1122: Requirements for Internet Hosts — Communication Layers",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122"
+        },
+        {
+          "title": "IETF, RFC 791: Internet Protocol (IPv4)",
+          "url": "https://www.rfc-editor.org/rfc/rfc791"
+        },
+        {
+          "title": "IETF, RFC 8200: Internet Protocol, Version 6 (IPv6) Specification",
+          "url": "https://www.rfc-editor.org/rfc/rfc8200"
+        },
+        {
+          "title": "IETF, RFC 9293: Transmission Control Protocol (TCP)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9293"
+        },
+        {
+          "title": "IETF, RFC 4632: Classless Inter-domain Routing (CIDR)",
+          "url": "https://www.rfc-editor.org/rfc/rfc4632"
+        },
+        {
+          "title": "IETF, RFC 6335: procedimientos de la IANA para los números de puerto",
+          "url": "https://www.rfc-editor.org/rfc/rfc6335"
+        },
+        {
+          "title": "IETF, RFC 6410: Reducing the Standards Track to Two Maturity Levels",
+          "url": "https://www.rfc-editor.org/rfc/rfc6410"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

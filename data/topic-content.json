@@ -5252,9 +5252,9 @@
       "topicId": "B2-T08",
       "contentPath": "content/generated/B2-T08.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "74ff91cf2b6161b0996f8dff9b09f9ee64c57851369c756879edd6b7979763ba",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "843b90d61e7efdaa1633b300e69d916bf02f51b06b89381d3311ae0689754194",
       "sections": [
         {
           "sectionId": "estudio",
@@ -5263,211 +5263,151 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 1. Alcance",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Conceptos de red",
+          "title": "1. Arquitecturas de comunicaciones por capas",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 2. Conceptos de red",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 1. Arquitecturas de comunicaciones por capas",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Modelo OSI",
+          "title": "2. El modelo de referencia OSI",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 3. Modelo OSI",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 2. El modelo de referencia OSI",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. TCP/IP",
+          "title": "3. El modelo TCP/IP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 4. TCP/IP",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 3. El modelo TCP/IP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Ethernet, MAC, ARP y NDP",
+          "title": "4. Capa de acceso a red: Ethernet, VLAN y ARP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 5. Ethernet, MAC, ARP y NDP",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 4. Capa de acceso a red: Ethernet, VLAN y ARP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. IPv4",
+          "title": "5. IPv4",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 6. IPv4",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 5. IPv4",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. IPv6",
+          "title": "6. IPv6",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 7. IPv6",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 6. IPv6",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. TCP y UDP",
+          "title": "7. Capa de transporte",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 8. TCP y UDP",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 7. Capa de transporte",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. Puertos y sockets",
+          "title": "8. Servicios esenciales de la pila: DHCP y DNS",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 9. Puertos y sockets",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 8. Servicios esenciales de la pila: DHCP y DNS",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. DNS, DHCP e ICMP",
+          "title": "9. Encaminamiento",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 10. DNS, DHCP e ICMP",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 9. Encaminamiento",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Routing",
+          "title": "10. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 11. Routing",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 10. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "12. Encapsulación y PDU",
+          "title": "11. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 12. Encapsulación y PDU",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "13. MTU y fragmentación",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 13. MTU y fragmentación",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "14. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 14. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "15. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 15. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "16. Resumen II.08",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / 16. Resumen II.08",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "Microdato oficial añadido — wildcard IPv4",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.08 / Microdato oficial añadido — wildcard IPv4",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / 11. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -5479,7 +5419,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.08",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -5491,7 +5431,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.08 / Núcleo de estudio",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -5503,31 +5443,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.08 / Claves de test",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.08 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.08 / Fuentes base del material",
+              "locator": "II.08 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

@@ -2363,19 +2363,19 @@
     },
     {
       "path": "scripts/validate_gsi_final.py",
-      "line": 317,
+      "line": 324,
       "text": "        text=p.read_text('utf-8');check(not re.search(r'\\b(?:TAI|tai|TODO|FIXME)\\b|33 temas',text),p.relative_to(ROOT).as_posix()+': sin TAI ni marcadores pendientes activos')",
       "classification": "control de exclusión o conservación del archivo"
     },
     {
       "path": "scripts/validate_gsi_final.py",
-      "line": 331,
+      "line": 338,
       "text": "    found=subprocess.run(['rg','--json','-i',r'\\bTAI\\b|33 temas','--glob','!logs/**','--glob','!tmp/**','.'],cwd=ROOT,capture_output=True,text=True,encoding='utf-8')",
       "classification": "control de exclusión o conservación del archivo"
     },
     {
       "path": "scripts/validate_gsi_final.py",
-      "line": 348,
+      "line": 355,
       "text": "    save('logs/gsi-legacy-review.json',{'date':DATE,'pattern':r'\\bTAI\\b|33 temas','scope':'Archivos versionados y no ignorados; originales locales preservados fuera del runtime. Se excluyen logs para evitar autorreferencias y tmp.', 'matches':matches,'unclassified':sum(m['classification']=='SIN CLASIFICAR' for m in matches)})",
       "classification": "control de exclusión o conservación del archivo"
     },

@@ -188,6 +188,13 @@ def main():
             check('**Especificación de distribución**' in text and 'Contenedores: «todas deben utilizar el mismo sistema operativo' not in text,tid+': las tres especificaciones OCI y el núcleo compartido')
             check('se **retiró en marzo de 2026**' in text and '**Gateway API** (estable desde 2023)' in text,tid+': retirada de Ingress NGINX y Gateway API')
             check('**réplicas deseadas = ⌈ réplicas actuales × valor actual de la métrica ÷ valor objetivo ⌉**' in text,tid+': fórmula del HPA')
+        if tid=='B2-T08' and tid in overrides:
+            inap=re.search(r'(?ms)^## 10\. Lo que ha preguntado el INAP\s*\n(.*?)(?=^### Preguntas relacionadas)',text)
+            rows=re.findall(r'(?m)^\| 20(?:19|22|24|25) · \d+ \|',inap.group(1) if inap else '')
+            check(len(rows)==9,tid+': las 9 preguntas INAP del tema, con respuesta y apartado')
+            check('Máscara: **255.255.128.0**' in text and '**171.25.0.0/17**' in text,tid+': cálculo resuelto de la subred de la pregunta 2025 · 34')
+            check('Un **servicio confirmado** usa las cuatro' in text and '**todas orientadas a conexión**' in text,tid+': primitivas y clases de transporte OSI sin los errores de la fuente')
+            check('Desde el **RFC 6410 (2011)**' in text and 'definidas en **ITU-T X.690**' in text,tid+': niveles de madurez de los RFC y BER en X.690')
         check(digest(m['html_path'])==imap[tid]['checksum'],tid+': HTML íntegro')
         check(m['drive_id'] in known and m['url']==source['url'] and m['version']=='V2.1',tid+': fuente canónica inventariada')
         check(not frag.unsafe and len(frag.ids)==len(set(frag.ids)),tid+': HTML seguro, anclas únicas')
