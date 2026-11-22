@@ -384,6 +384,26 @@ El diagnóstico completo está en `docs/propuestas/B2-T10-diagnostico.md`, con 8
 - **Validación.** `scripts/validate_gsi_final.py` añade cuatro comprobaciones del contenido de B2-T10: las 5 preguntas INAP; op.pl.1 con el refuerzo R2 para la categoría alta; el cálculo del impacto y el riesgo en MAGERIT; y el distractor de la norma de iluminación.
 - Los apuntes V2.1 originales (II.10) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 23. Tema B2-T11 reescrito por el fork
+
+El tema 11 del Bloque II (auditoría informática, auditoría del ENS, de protección de datos y de seguridad física) era correcto y actual, pero escueto: no explicaba las pruebas de cumplimiento y sustantivas, el riesgo de auditoría, el informe ni las técnicas asistidas por ordenador; las normas se citaban en una línea; y del ENS faltaba la certificación de conformidad (entidades acreditadas por ENAC, órganos de auditoría técnica, instrucciones técnicas, distintivos) e INES. Dos de las preguntas INAP del tema (INES, de 2024, y la de reserva de 2025 sobre los órganos de auditoría técnica) no tenían respuesta.
+
+El diagnóstico completo está en `docs/propuestas/B2-T11-diagnostico.md`, con 11 errores o datos caducados del resumen PreparaTIC 038 (2022) que no se trasladan, contrastados con el texto consolidado del Real Decreto 311/2022. Por ejemplo:
+
+- Intercambiar los Reales Decretos del ENS y del ENI (3/2010 y 4/2010) y citar el ENS derogado.
+- Limitar la auditoría bienal a las categorías media y alta «según el anexo I del RD 3/2010».
+- Decir que ISACA depende del IT Governance Institute, cuando es al revés.
+- Citar como vigente la norma anulada ISO/IEC 13335.
+- Confundir la definición de las pruebas sustantivas.
+
+- **Nuevo texto** (`content/fork-topics/B2-T11.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado: concepto (Weber), objetivos y alcance; control interno y COSO; tipos de auditoría y principios de ISO 19011; órganos de control de la Administración; metodología (riesgo de auditoría, pruebas, evidencias, muestreo, hallazgos, informe y seguimiento); técnicas y herramientas (CAAT, herramientas técnicas, herramientas del CCN); normas y estándares; auditoría del ENS (artículos 31, 32 y 38, anexo III, ITS y guías CCN-STIC); auditoría de protección de datos; y auditoría de seguridad física.
+  - Explica las 4 preguntas INAP del tema y la de reserva, y las 3 relacionadas que el INAP clasificó en B1-T09 y B2-T13, y las resume en el apartado 10.
+  - Conserva el diagrama del ciclo de auditoría, ahora tras el apartado «4. El proceso de auditoría».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T11: las 4 preguntas INAP; la auditoría del ENS cada dos años con prórroga de tres meses; los órganos de auditoría técnica e ISO/IEC 17065; INES; y la auditoría de protección de datos según la responsabilidad proactiva.
+- Los apuntes V2.1 originales (II.11) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -402,3 +422,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 18, la suite completa pasa (código 0) en el mismo entorno: integridad (20.998 controles, con las cinco comprobaciones nuevas de B2-T06), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 19, la suite completa pasa (código 0) en el mismo entorno: integridad (21.008 controles, con las cinco comprobaciones nuevas de B2-T07), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 20, la suite completa pasa (código 0) en el mismo entorno: integridad (21.018 controles, con las cuatro comprobaciones nuevas de B2-T08), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
+- Tras los cambios 21, 22 y 23, la suite completa pasa (código 0) en el mismo entorno: integridad (21.045 controles, con las catorce comprobaciones nuevas de B2-T09, B2-T10 y B2-T11), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86). Los cambios 21 y 22 se comprobaron antes por separado con el validador de integridad y el de documentación.

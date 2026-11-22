@@ -569,6 +569,65 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T11": {
+      "markdown": "content/fork-topics/B2-T11.md",
+      "sha256": "7130ca66d5bcb1c776345dfc3938d067d619430144582271f9694f0e7d1609d8",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.11), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.11",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "4. El proceso de auditoría",
+          "src": "assets/diagrams/b2/b2-t11-ciclo-auditoria.svg",
+          "title": "Auditoría: del criterio al cierre eficaz",
+          "alt": "Flujo de auditoría desde mandato y alcance hacia criterios, planificación por riesgos, trabajo de campo, evidencia, hallazgos, informe, plan de acciones y verificación del cierre.",
+          "description": "Muestra la cadena probatoria completa y evita reducir la auditoría a una búsqueda informal de fallos.",
+          "takeaway": "Un hallazgo necesita condición, criterio y evidencia; una acción no está cerrada hasta comprobar su eficacia."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 038 y 048 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+        },
+        {
+          "title": "Portal de Administración Electrónica, instrucciones técnicas de seguridad del ENS",
+          "url": "https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/Instrucciones-Tecnicas.html"
+        },
+        {
+          "title": "CCN-CERT, guías CCN-STIC de la serie 800 (ENS)",
+          "url": "https://www.ccn-cert.cni.es/es/guias-de-acceso-publico-ccn-stic/"
+        },
+        {
+          "title": "Reglamento (UE) 2016/679 (RGPD)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "title": "ISO 19011:2018, Guidelines for auditing management systems",
+          "url": "https://www.iso.org/standard/70017.html"
+        },
+        {
+          "title": "ISO/IEC 17065:2012, requisitos para organismos que certifican productos, procesos y servicios",
+          "url": "https://www.iso.org/standard/46568.html"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

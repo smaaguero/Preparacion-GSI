@@ -5894,9 +5894,9 @@
       "topicId": "B2-T11",
       "contentPath": "content/generated/B2-T11.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "7b14ca281841447e283cec51f1ac58ba2b2965114d003ef6166aa33b20c5e987",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "e468367054913c35916637f553595c1240d1eb3b3f9e75cfb19726e2c1918ad2",
       "sections": [
         {
           "sectionId": "estudio",
@@ -5905,187 +5905,151 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Concepto y objetivo",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 1. Concepto y objetivo",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Objetivos",
+          "title": "1. Concepto, objetivos y alcance",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 2. Objetivos",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 1. Concepto, objetivos y alcance",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Principios de auditoría",
+          "title": "2. Tipos de auditoría y el auditor",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 3. Principios de auditoría",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 2. Tipos de auditoría y el auditor",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Ciclo de auditoría",
+          "title": "3. Metodología",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 4. Ciclo de auditoría",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 3. Metodología",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Evidencia",
+          "title": "4. El proceso de auditoría",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 5. Evidencia",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 4. El proceso de auditoría",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Técnicas y herramientas",
+          "title": "5. Técnicas y herramientas",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 6. Técnicas y herramientas",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 5. Técnicas y herramientas",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. Tipos",
+          "title": "6. Normas y estándares",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 7. Tipos",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 6. Normas y estándares",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. Normas y marcos",
+          "title": "7. Auditoría del ENS",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 8. Normas y marcos",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 7. Auditoría del ENS",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. Auditoría ENS",
+          "title": "8. Auditoría de protección de datos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 9. Auditoría ENS",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 8. Auditoría de protección de datos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. Auditoría de protección de datos",
+          "title": "9. Auditoría de seguridad física",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 10. Auditoría de protección de datos",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 9. Auditoría de seguridad física",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Auditoría de seguridad física",
+          "title": "10. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 11. Auditoría de seguridad física",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 10. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "12. Hallazgos y criticidad",
+          "title": "11. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 12. Hallazgos y criticidad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "13. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 13. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "14. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 14. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "15. Resumen II.11",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.11 / 15. Resumen II.11",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / 11. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -6097,7 +6061,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.11",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -6109,7 +6073,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.11 / Núcleo de estudio",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -6121,31 +6085,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.11 / Claves de test",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.11 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.11 / Fuentes base del material",
+              "locator": "II.11 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]
