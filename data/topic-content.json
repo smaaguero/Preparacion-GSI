@@ -5680,9 +5680,9 @@
       "topicId": "B2-T10",
       "contentPath": "content/generated/B2-T10.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "27e8ec883026e2553fcdfb7e266a2276e47c9245cf34e9014ed7f2700e098165",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "d0465085181a203fe77a4273afb6b5542a88f63507144588f25b8217a16093d4",
       "sections": [
         {
           "sectionId": "estudio",
@@ -5691,175 +5691,151 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 1. Alcance del tema",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Vocabulario esencial",
+          "title": "1. La seguridad de la información y sus dimensiones",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 2. Vocabulario esencial",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 1. La seguridad de la información y sus dimensiones",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Ciclo de gestión de riesgos",
+          "title": "2. Conceptos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 3. Ciclo de gestión de riesgos",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 2. Conceptos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Análisis cualitativo y cuantitativo",
+          "title": "3. El proceso de gestión de riesgos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 4. Análisis cualitativo y cuantitativo",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 3. El proceso de gestión de riesgos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Tratamiento",
+          "title": "4. Cómo se analiza el riesgo",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 5. Tratamiento",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 4. Cómo se analiza el riesgo",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. MAGERIT v3",
+          "title": "5. Tratamiento del riesgo",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 6. MAGERIT v3",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 5. Tratamiento del riesgo",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "7. PILAR",
+          "title": "6. MAGERIT v3",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 7. PILAR",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 6. MAGERIT v3",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "8. Riesgo de seguridad vs riesgo de proyecto",
+          "title": "7. Otras metodologías y normas",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 8. Riesgo de seguridad vs riesgo de proyecto",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 7. Otras metodologías y normas",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "9. Relación con ENS",
+          "title": "8. El riesgo en el ENS, la protección de datos y NIS2",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 9. Relación con ENS",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 8. El riesgo en el ENS, la protección de datos y NIS2",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "10. Continuidad",
+          "title": "9. Herramientas",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 10. Continuidad",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 9. Herramientas",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "11. Riesgos de terceros",
+          "title": "10. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 11. Riesgos de terceros",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 10. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "12. Test",
+          "title": "11. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 12. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "13. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 13. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "14. Resumen II.10",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.10 / 14. Resumen II.10",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / 11. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -5871,7 +5847,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.10",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -5883,7 +5859,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.10 / Núcleo de estudio",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -5895,31 +5871,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.10 / Claves de test",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.10 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.10 / Fuentes base del material",
+              "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]

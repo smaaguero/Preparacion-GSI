@@ -364,6 +364,26 @@ El diagnóstico completo está en `docs/propuestas/B2-T09-diagnostico.md`, con 2
 - **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T09: las 7 preguntas INAP; HTML con sintaxis propia; las reglas de XML bien formado sin la declaración obligatoria; la familia XSL; y la carga dinámica de módulos en Python.
 - Los apuntes V2.1 originales (II.09) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 22. Tema B2-T10 reescrito por el fork
+
+El tema 10 del Bloque II (análisis y gestión de riesgos y sus herramientas) era correcto y bien orientado, pero no explicaba el método: faltaban los tipos de activos, las escalas de valoración, el catálogo de amenazas, la degradación y la probabilidad de MAGERIT, el cálculo del impacto y el riesgo, los tipos de salvaguardas y su madurez, el análisis cuantitativo, las demás metodologías y la graduación del análisis de riesgos que exige el ENS según la categoría.
+
+El diagnóstico completo está en `docs/propuestas/B2-T10-diagnostico.md`, con 8 errores o datos caducados del resumen PreparaTIC 047 (2023) que no se trasladan, contrastados con el texto consolidado del Real Decreto 311/2022. Por ejemplo:
+
+- Citar el ENS como «RD 311/2010» con la redacción del antiguo Real Decreto 3/2010.
+- Asignar a la categoría ALTA el refuerzo R1 de op.pl.1, cuando le corresponde el R2 (análisis formal).
+- Citar una inexistente ISO/IEC 27001:2018 y dar la 27005:2018 como vigente.
+- Definir el riesgo como la probabilidad de que «se materialice una vulnerabilidad».
+- Atribuir MAGERIT a la Comisión Sectorial de Administración Electrónica en lugar del Consejo Superior.
+
+- **Nuevo texto** (`content/fork-topics/B2-T10.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado: dimensiones de la seguridad; conceptos; proceso de gestión (ISO 31000 e ISO/IEC 27005:2022); análisis cualitativo con mapa de calor, cuantitativo (SLE, ARO, ALE) y semicuantitativo; tratamiento; MAGERIT v3 en detalle (activos, amenazas, degradación, probabilidad, impacto y riesgo acumulados y repercutidos, salvaguardas y madurez, informes); otras metodologías (NIST, OCTAVE, EBIOS RM, MEHARI, FAIR, COSO, COBIT); el riesgo en el ENS (artículos 7 y 14, categorías, op.pl.1), el RGPD, NIS2 y la continuidad; y herramientas (EAR/PILAR, GRC y escáneres de vulnerabilidades).
+  - Explica las 5 preguntas INAP del tema y las 6 relacionadas que el INAP clasificó en B1-T09, B2-T13, B3-T01 y B4-T06, y las resume en el apartado 10.
+  - Conserva el diagrama del ciclo del riesgo, ahora tras el apartado «3. El proceso de gestión de riesgos».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cuatro comprobaciones del contenido de B2-T10: las 5 preguntas INAP; op.pl.1 con el refuerzo R2 para la categoría alta; el cálculo del impacto y el riesgo en MAGERIT; y el distractor de la norma de iluminación.
+- Los apuntes V2.1 originales (II.10) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

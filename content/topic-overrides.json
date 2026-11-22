@@ -510,6 +510,65 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T10": {
+      "markdown": "content/fork-topics/B2-T10.md",
+      "sha256": "0251b8340dae55f25b789721fbb2c2dd2b727ff87f39dedaa94021ce345adff5",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.10), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.10",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.10 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "3. El proceso de gestión de riesgos",
+          "src": "assets/diagrams/b2/b2-t10-ciclo-riesgo.svg",
+          "title": "Del activo al riesgo residual",
+          "alt": "Ciclo que enlaza contexto, activos y dependencias, amenazas y vulnerabilidades, impacto y probabilidad, riesgo inherente, salvaguardas, riesgo residual, tratamiento, aceptación y revisión.",
+          "description": "Ordena el análisis y la gestión y señala dónde actúan los controles.",
+          "takeaway": "El riesgo inherente se valora antes de controles; el residual queda después y debe tratarse o aceptarse por quien tenga competencia."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resumen del tema 047 (fuente secundaria; no se redistribuye)"
+        },
+        {
+          "title": "MAGERIT versión 3.0. Libro I: Método (2012)",
+          "url": "https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html"
+        },
+        {
+          "title": "Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+        },
+        {
+          "title": "CCN-CERT, herramientas EAR/PILAR",
+          "url": "https://www.ccn-cert.cni.es/herramientas-de-ciberseguridad/ear-pilar/pilar.html"
+        },
+        {
+          "title": "ISO/IEC 27005:2022, Guidance on managing information security risks",
+          "url": "https://www.iso.org/standard/80585.html"
+        },
+        {
+          "title": "ISO 31000:2018, Risk management — Guidelines",
+          "url": "https://www.iso.org/standard/65694.html"
+        },
+        {
+          "title": "NIST SP 800-30 Rev. 1, Guide for Conducting Risk Assessments",
+          "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

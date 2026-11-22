@@ -203,6 +203,13 @@ def main():
             check('**Opcional** en XML 1.0' in text and '**Un único elemento raíz** que contenga a todos los demás' in text,tid+': reglas de XML bien formado sin la declaración obligatoria')
             check('La **familia XSL** (*eXtensible Stylesheet Language*) la forman **XSLT, XPath y XSL-FO**' in text,tid+': familia XSL separada de XQuery, XLink y XPointer')
             check('se usa el módulo estándar **`importlib`**' in text,tid+': carga dinámica de módulos en Python')
+        if tid=='B2-T10' and tid in overrides:
+            inap=re.search(r'(?ms)^## 10\. Lo que ha preguntado el INAP\s*\n(.*?)(?=^### Preguntas relacionadas)',text)
+            rows=re.findall(r'(?m)^\| 20(?:19|22|24|25) · \d+ \|',inap.group(1) if inap else '')
+            check(len(rows)==5,tid+': las 5 preguntas INAP del tema, con respuesta y apartado')
+            check('| **ALTA** | Requisito + **R2** |' in text and 'RD 311/2010' not in text,tid+': op.pl.1 del ENS con el refuerzo R2 para la categoría alta')
+            check('**Impacto = valor × degradación.**' in text and '**Riesgo = impacto × probabilidad.**' in text,tid+': cálculo del impacto y el riesgo en MAGERIT')
+            check('**UNE-EN 12464-1:2022**, que es la norma de **iluminación de los lugares de trabajo interiores**' in text,tid+': distractor de metodologías de riesgo explicado')
         check(digest(m['html_path'])==imap[tid]['checksum'],tid+': HTML íntegro')
         check(m['drive_id'] in known and m['url']==source['url'] and m['version']=='V2.1',tid+': fuente canónica inventariada')
         check(not frag.unsafe and len(frag.ids)==len(set(frag.ids)),tid+': HTML seguro, anclas únicas')
