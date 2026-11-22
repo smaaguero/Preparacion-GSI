@@ -436,6 +436,50 @@ El diagnóstico completo está en `docs/propuestas/B2-T12-diagnostico.md`, con 8
   - IVR como *Interactive Voice Response* y el corpus TED-LIUM.
 - Los apuntes V2.1 originales (II.12) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 25. Tema B2-T13 reescrito por el fork
+
+El tema 13 del Bloque II (seguridad física y lógica, herramientas de ciberseguridad, gestión de incidentes e informática forense) tenía buen enfoque y ya incluía las ampliaciones del fork sobre el Reglamento de Ciberresiliencia y NIS2. Pero era un esquema, y varias respuestas de examen eran frases sueltas en negrita. Faltaban:
+
+- Las herramientas y guías del CCN.
+- La peligrosidad y el impacto de los ciberincidentes, y la notificación obligatoria al CCN-CERT.
+- Las medidas mp.if del ENS.
+- Las normas forenses.
+- La gobernanza nacional.
+
+Las 3 preguntas de reserva (2022 y 2025) no tenían respuesta.
+
+El diagnóstico completo está en `docs/propuestas/B2-T13-diagnostico.md`, con 19 errores o datos caducados de los resúmenes PreparaTIC 125 (2024), 126 (2026) y 127 (2022) que no se trasladan. Por ejemplo:
+
+- Fechar ISO/IEC 27005 en 2011 (primera edición) y 2008 (segunda) y atribuir MAGERIT al CCN.
+- Atribuir al artículo 33 del ENS el reparto entre CSIRT de referencia, que es del Real Decreto-ley 12/2018.
+- Afirmar que TLS protege la integridad «desde TLS 1.2» y que IPsec AH aporta no repudio.
+- Decir que ISO/IEC 19790 define factores de autenticación.
+- Dar a las categorías A03 y A04 del OWASP Top 10:2025 los nombres de la edición anterior.
+- Llamar «Estrategia Nacional de Seguridad» a la de Ciberseguridad de 2019.
+
+- **Nuevo texto** (`content/fork-topics/B2-T13.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - Dimensiones y principios del ENS.
+    - Seguridad física, con las medidas mp.if.1 a 7 cotejadas con el BOE.
+    - Seguridad lógica: control de acceso, factores de autenticación, op.exp y op.mon.
+    - Amenazas y ataques.
+    - Herramientas: perímetro, puesto, SIEM y SOAR, gestión de vulnerabilidades, OWASP, herramientas y SAT del CCN, guías 105, 140, 817 y 887.
+    - Gestión de incidentes: precursor e indicador, ciclo de CCN-STIC 817, peligrosidad en cinco niveles, notificación obligatoria y mapa de notificaciones (ENS, RGPD, NIS, NIS2, CRA, DORA).
+    - Marco nacional y europeo.
+    - Informática forense: RFC 3227, ISO/IEC 27037, UNE 71505 y 71506, adquisición, cadena de custodia y LECrim.
+  - Integra en los apartados de notificación y marco europeo el contenido de las ampliaciones sobre el CRA y NIS2. El aviso de vigencia `UPD-2026-002` sigue registrado.
+  - Explica las 10 preguntas INAP del tema y las 3 de reserva, y las 7 relacionadas que el INAP clasificó en B1-T09, B2-T11, B4-T06 y B4-T12, y las resume en el apartado 10.
+  - Conserva el diagrama de respuesta a incidentes y preservación forense, ahora tras el apartado «6. Gestión de incidentes».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade seis comprobaciones del contenido de B2-T13:
+  - Las 10 preguntas INAP.
+  - La peligrosidad en cinco niveles y el umbral de notificación.
+  - El precursor.
+  - Las medidas mp.if del ENS vigente.
+  - Los SAT y la guía 887G.
+  - Nessus y su licencia actual.
+- Los apuntes V2.1 originales (II.13) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:

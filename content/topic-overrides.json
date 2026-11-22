@@ -683,6 +683,65 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T13": {
+      "markdown": "content/fork-topics/B2-T13.md",
+      "sha256": "967daaeccd2fde599cb907033d25e16a6217618ab0cc0e634b3abe39badac8c2",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.13), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.13",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.13 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.13 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "6. Gestión de incidentes",
+          "src": "assets/diagrams/b2/b2-t13-incidente-forense.svg",
+          "title": "Respuesta a incidentes y preservación forense",
+          "alt": "Ciclo desde preparación, detección y análisis hacia contención, erradicación, recuperación y lecciones aprendidas, con una vía paralela de identificación, preservación, adquisición, hash y cadena de custodia.",
+          "description": "Integra la respuesta operativa con la conservación de evidencia, dos objetivos que deben coordinarse.",
+          "takeaway": "Contener no es erradicar; la urgencia operativa debe equilibrarse con preservar evidencia íntegra y trazable."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 125, 126, 127 y 048 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+        },
+        {
+          "title": "Real Decreto-ley 12/2018, de seguridad de las redes y sistemas de información (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12257"
+        },
+        {
+          "title": "Directiva (UE) 2022/2555 (NIS2)",
+          "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+        },
+        {
+          "title": "Reglamento (UE) 2024/2847 (Reglamento de Ciberresiliencia)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj"
+        },
+        {
+          "title": "CCN-CERT, guías CCN-STIC",
+          "url": "https://www.ccn-cert.cni.es/es/guias-de-acceso-publico-ccn-stic/"
+        },
+        {
+          "title": "RFC 3227, Guidelines for Evidence Collection and Archiving",
+          "url": "https://www.rfc-editor.org/rfc/rfc3227"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }
