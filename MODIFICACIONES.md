@@ -480,6 +480,44 @@ El diagnóstico completo está en `docs/propuestas/B2-T13-diagnostico.md`, con 1
   - Nessus y su licencia actual.
 - Los apuntes V2.1 originales (II.13) siguen intactos en el corpus. Las preguntas del banco no cambian.
 
+### 26. Tema B2-T14 reescrito por el fork
+
+El tema 14 del Bloque II (*software* libre y propietario, licencias, protección jurídica de los programas y DRM) era correcto, pero escueto:
+
+- La protección jurídica se reducía a dos párrafos y al artículo 97.4.
+- Las licencias *copyleft* ocupaban una frase cada una.
+- De la EUPL no se listaban los derechos que pregunta el INAP en 2025 (incluidos prestar y alquilar).
+- El DRM no tenía su base legal ni las técnicas explicadas.
+
+El diagnóstico completo está en `docs/propuestas/B2-T14-diagnostico.md`, con 21 errores o datos caducados de los resúmenes PreparaTIC 043 (2022) y 069 (2023) que no se trasladan. Por ejemplo:
+
+- Exigir que la obra esté «plasmada en un medio material» y atribuir a los programas copia privada y derecho de participación.
+- Presentar la OSI como una escisión de la FSF y decir que la FSF solo considera libre la GPL.
+- Fechar la GPL en 1986 y permitir sustituir la copia de la licencia por una URL.
+- Definir CC BY como «Reconocimiento - Sin obra derivada».
+- Incluir en el anexo de la EUPL una CeCILL 3.0 inexistente.
+
+- **Nuevo texto** (`content/fork-topics/B2-T14.md`), con el mismo mecanismo de sustitución declarada que B2-T01 (cambio 13).
+  - Sigue el enunciado:
+    - Conceptos básicos y *software* propietario.
+    - *Software* libre y código abierto: las cuatro libertades y los diez criterios de la OSD.
+    - Licencias: permisivas, *copyleft*, EUPL 1.2 con derechos y obligaciones, compatibilidades, Creative Commons y código disponible.
+    - *Software* libre en la Administración: ENI, Ley 40/2015, CTT y artículo 308 de la LCSP.
+    - Protección jurídica: artículos 95 a 104 del TRLPI, patentes, marcas y secretos.
+    - DRM: base legal, técnicas, lenguajes de expresión de derechos y críticas.
+    - Gestión del *software*.
+  - Los artículos citados del TRLPI, del ENI, de la Ley 40/2015 y de la LCSP se cotejaron con los textos consolidados del BOE. Tras la reforma de 2018, las medidas tecnológicas del TRLPI están en los artículos 196 a 198, y el 196.4 remite los programas a su régimen propio.
+  - Explica las 5 preguntas INAP del tema y la relacionada que el INAP clasificó en B2-T02, y las resume en el apartado 10.
+  - Conserva el diagrama de licencias, ahora tras el apartado «4. Tipos de licencias libres».
+  - Es redacción propia del fork con ayuda de IA y se publica con el estado **«pendiente de revisión»**.
+- **Validación.** `scripts/validate_gsi_final.py` añade cinco comprobaciones del contenido de B2-T14:
+  - Las 5 preguntas INAP.
+  - La titularidad del artículo 97.4.
+  - Los derechos de la EUPL y la recomendación del ENI.
+  - La numeración vigente de las medidas tecnológicas del TRLPI.
+  - Las marcas de agua.
+- Los apuntes V2.1 originales (II.14) siguen intactos en el corpus. Las preguntas del banco no cambian.
+
 ## Validación
 
 El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.py`) en WSL con Chrome, Playwright, Python 3.11 y Node 20:
@@ -499,3 +537,4 @@ El 20/11/2026 se ejecutó la suite del proyecto (`python scripts/run_gsi_suite.p
 - Tras el cambio 19, la suite completa pasa (código 0) en el mismo entorno: integridad (21.008 controles, con las cinco comprobaciones nuevas de B2-T07), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras el cambio 20, la suite completa pasa (código 0) en el mismo entorno: integridad (21.018 controles, con las cuatro comprobaciones nuevas de B2-T08), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86).
 - Tras los cambios 21, 22 y 23, la suite completa pasa (código 0) en el mismo entorno: integridad (21.045 controles, con las catorce comprobaciones nuevas de B2-T09, B2-T10 y B2-T11), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86). Los cambios 21 y 22 se comprobaron antes por separado con el validador de integridad y el de documentación.
+- Tras los cambios 24, 25 y 26, la suite completa pasa (código 0) en el mismo entorno: integridad (21.051 controles, con las dieciséis comprobaciones nuevas de B2-T12, B2-T13 y B2-T14), pruebas unitarias (111/111), regresión en navegador (phase7b2 51/51) y recorrido funcional HTTP (86/86). Se comprobó además que las comprobaciones nuevas fallan si falta el contenido que vigilan.

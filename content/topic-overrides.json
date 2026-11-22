@@ -742,6 +742,65 @@
           "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
         }
       ]
+    },
+    "B2-T14": {
+      "markdown": "content/fork-topics/B2-T14.md",
+      "sha256": "6b1af30a18f722d1dd9aa9467735c765a35c83879eed8f67c0fd3be2f30fd4af",
+      "authoring": "Fork smaaguero/Preparacion-GSI · redacción asistida por IA",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "notice": "Revisión del fork del 22/11/2026, redactada con ayuda de IA y pendiente de revisión humana. Sustituye a los apuntes V2.1 (II.14), que se conservan en el corpus. No es documento oficial.",
+      "replacesLocator": "II.14",
+      "studyRef": {
+        "sourceId": "SRC-GSI-B2-REV20260923",
+        "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "reviewRef": {
+        "sourceId": "SRC-GSI-B2-REPASO",
+        "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026"
+      },
+      "visuals": [
+        {
+          "afterHeading": "4. Tipos de licencias libres",
+          "src": "assets/diagrams/b2/b2-t14-licencias.svg",
+          "title": "Licencias de software: permisos y obligaciones",
+          "alt": "Comparación entre software propietario, licencias permisivas y copyleft, con ejemplos MIT, BSD, Apache, LGPL, GPL, AGPL y EUPL y diferencias frente a dominio público y DRM.",
+          "description": "Ordena las familias por condiciones de reutilización sin confundir licencia jurídica con mecanismo técnico.",
+          "takeaway": "Libre no significa gratis; permisiva no significa sin condiciones; copyleft no es dominio público y DRM no es una licencia."
+        }
+      ],
+      "basis": [
+        {
+          "title": "PreparaTIC, resúmenes de los temas 043 y 069 (fuente secundaria; no se redistribuyen)"
+        },
+        {
+          "title": "Real Decreto Legislativo 1/1996, texto refundido de la Ley de Propiedad Intelectual (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930"
+        },
+        {
+          "title": "Directiva 2009/24/CE sobre la protección jurídica de programas de ordenador",
+          "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj"
+        },
+        {
+          "title": "Real Decreto 4/2010, Esquema Nacional de Interoperabilidad (texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331"
+        },
+        {
+          "title": "Comisión Europea, texto de la EUPL 1.2",
+          "url": "https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12"
+        },
+        {
+          "title": "Free Software Foundation, ¿Qué es el software libre?",
+          "url": "https://www.gnu.org/philosophy/free-sw.es.html"
+        },
+        {
+          "title": "Open Source Initiative, The Open Source Definition",
+          "url": "https://opensource.org/osd"
+        },
+        {
+          "title": "Preguntas oficiales INAP de 2019, 2022, 2024 y 2025 clasificadas en el tema y relacionadas"
+        }
+      ]
     }
   }
 }

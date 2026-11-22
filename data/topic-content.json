@@ -6524,9 +6524,9 @@
       "topicId": "B2-T14",
       "contentPath": "content/generated/B2-T14.html",
       "status": "complete",
-      "reviewStatus": "reviewed",
-      "updatedAt": "2026-09-23",
-      "checksum": "2afca35c4ed30ec35fd92d18420067a2470a8614e191506f2d8416b677d23722",
+      "reviewStatus": "needs-review",
+      "updatedAt": "2026-11-22",
+      "checksum": "a7e3978523fe803f6ccd95a7d7a836c641dcce4755584d42001d38def37179ae",
       "sections": [
         {
           "sectionId": "estudio",
@@ -6535,235 +6535,151 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-01",
-          "title": "1. Alcance del tema",
+          "title": "0. Cómo estudiar este tema",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 1. Alcance del tema",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 0. Cómo estudiar este tema",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-02",
-          "title": "2. Software propietario",
+          "title": "1. Conceptos básicos",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 2. Software propietario",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 1. Conceptos básicos",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-03",
-          "title": "3. Software libre",
+          "title": "2. Software propietario",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 3. Software libre",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 2. Software propietario",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-04",
-          "title": "4. Open Source",
+          "title": "3. Software libre y código abierto",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 4. Open Source",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 3. Software libre y código abierto",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-05",
-          "title": "5. Licencias permisivas",
+          "title": "4. Tipos de licencias libres",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 5. Licencias permisivas",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 4. Tipos de licencias libres",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-06",
-          "title": "6. Copyleft",
+          "title": "5. Software libre en la Administración",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 6. Copyleft",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 5. Software libre en la Administración",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-07",
-          "title": "6.1 EUPL y reutilización en el sector público",
+          "title": "6. La protección jurídica de los programas de ordenador",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 6.1 EUPL y reutilización en el sector público",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 6. La protección jurídica de los programas de ordenador",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-08",
-          "title": "7. Compatibilidad de licencias",
+          "title": "7. Tecnologías de protección de derechos digitales (DRM)",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 7. Compatibilidad de licencias",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 7. Tecnologías de protección de derechos digitales (DRM)",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-09",
-          "title": "8. Dominio público y Creative Commons",
+          "title": "8. Gestión del software en la organización",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 8. Dominio público y Creative Commons",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 8. Gestión del software en la organización",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-10",
-          "title": "9. Protección jurídica del software en España/UE",
+          "title": "9. Errores frecuentes",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 9. Protección jurídica del software en España/UE",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 9. Errores frecuentes",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-11",
-          "title": "10. Titularidad laboral",
+          "title": "10. Lo que ha preguntado el INAP",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 10. Titularidad laboral",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 10. Lo que ha preguntado el INAP",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "estudio-12",
-          "title": "11. Descompilación e interoperabilidad",
+          "title": "11. Aplicación al supuesto práctico",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 11. Descompilación e interoperabilidad",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-13",
-          "title": "12. Patentes, marcas y secretos",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 12. Patentes, marcas y secretos",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-14",
-          "title": "13. DRM",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 13. DRM",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-15",
-          "title": "14. Riesgos de DRM",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 14. Riesgos de DRM",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-16",
-          "title": "15. Gestión de software en una organización",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 15. Gestión de software en una organización",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-17",
-          "title": "16. Test",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 16. Test",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-18",
-          "title": "17. Supuesto",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 17. Supuesto",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "estudio-19",
-          "title": "18. Resumen II.14",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REV20260923",
-              "locator": "II.14 / 18. Resumen II.14",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / 11. Aplicación al supuesto práctico",
               "officialFragmentUrl": null
             }
           ]
@@ -6775,7 +6691,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.14",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026",
               "officialFragmentUrl": null
             }
           ]
@@ -6787,7 +6703,7 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.14 / Núcleo de estudio",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / Núcleo de estudio",
               "officialFragmentUrl": null
             }
           ]
@@ -6799,31 +6715,19 @@
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.14 / Claves de test",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / Claves de test",
               "officialFragmentUrl": null
             }
           ]
         },
         {
           "sectionId": "repaso-03",
-          "title": "Enfoque para supuesto práctico",
-          "level": 3,
-          "sourceRefs": [
-            {
-              "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.14 / Enfoque para supuesto práctico",
-              "officialFragmentUrl": null
-            }
-          ]
-        },
-        {
-          "sectionId": "repaso-04",
           "title": "Fuentes base del material",
           "level": 3,
           "sourceRefs": [
             {
               "sourceId": "SRC-GSI-B2-REPASO",
-              "locator": "II.14 / Fuentes base del material",
+              "locator": "II.14 · sustituido por la revisión del fork del 22/11/2026 / Fuentes base del material",
               "officialFragmentUrl": null
             }
           ]
